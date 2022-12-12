@@ -20,11 +20,11 @@ It plugs into the motherboard and bypasses the unreliable internal PSU all toget
 
 ## Get One / Other Stuff
 
-Click me to get one!
+[Click me to get one!](https://www.tindie.com/products/28754/)
 
-Full-fat ATX4VC
+Also available for Mac SE, Apple II, and more! [Check out the main page](./) for details.
 
-USB4VC
+For more general-purpose diagnostics and retrofitting, check out the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC)!
 
 ## Table of Contents
 

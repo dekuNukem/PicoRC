@@ -1,14 +1,18 @@
 # PicoRC: PicoPSU on Retro Computers
 
-PicoRC is a line of device-specific adaptors that let you use modern **Pico ATX PSU** in retro computers.
+PicoRC is a line of device-specific adaptors for using modern **Pico ATX PSU** in retro computers.
+
+![Alt text](photos/header.jpeg)
 
 ## Features
 
+* Low cost, easy assembly and installation
+
 * **Non-destructive** and reversible
 
-* Easy assembly and installation
+* **PC Fan headers** for added cooling
 
-* **PC Fan headers** for added cooling 
+* **Fused** outputs
 
 * Replaces aging internal PSU that's hot, heavy, unreliable, and (slightly) explosive.
 
@@ -16,21 +20,23 @@ PicoRC is a line of device-specific adaptors that let you use modern **Pico ATX 
 
 For more general-purpose diagnostics and retrofitting, check out the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC)!
 
-Find your device below!
+### Find your device below!
 
-## Macintosh 128K/512K/Plus
+## Macintosh 128K / 512K / Plus
 
 * [Purchase Link](https://www.tindie.com/products/28754/)
 
 * [Instructions](og_mac.md)
 
-## Macintosh SE/SE30
+## Macintosh SE / SE30
 
-Coming soon! [Join our Discord](https://discord.gg/T9uuFudg7j) for updates!
+Coming soon!
 
-## Apple II/II Plus/IIe/IIGS
+(You can actually see it in the photo!)
 
-Coming soon! [Join our Discord](https://discord.gg/T9uuFudg7j) for updates!
+## Apple II / II Plus / IIe / IIGS
+
+Coming soon!
 
 ## Get in Touch
 
