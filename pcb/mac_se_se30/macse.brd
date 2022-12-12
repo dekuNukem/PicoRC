@@ -197,12 +197,12 @@
 <wire x1="51" y1="35.46" x2="48.46" y2="38" width="0" layer="20" curve="90"/>
 <wire x1="48.46" y1="38" x2="2.54" y2="38" width="0" layer="20"/>
 <wire x1="2.54" y1="38" x2="0" y2="35.46" width="0" layer="20" curve="90"/>
-<text x="26.02" y="3.504" size="1.6764" layer="26" distance="35" rot="MR0" align="center">Instructions: atx4vc.com</text>
+<text x="26.02" y="3.504" size="1.6764" layer="26" distance="35" rot="MR0" align="center">Instructions: picoRC.com</text>
 <text x="23.679" y="29.921" size="1.778" layer="25" align="center">G</text>
 <text x="44.323" y="29.845" size="1.778" layer="25" align="center">12</text>
 <text x="41.129" y="29.826" size="1.778" layer="25" align="center">G</text>
 <text x="26.393" y="29.905" size="1.778" layer="25" align="center">5</text>
-<text x="26.003" y="9.567" size="1.9304" layer="26" distance="35" rot="MR0" align="center">Macintosh SE ATX Adaptor</text>
+<text x="26.003" y="9.567" size="1.9304" layer="26" distance="35" rot="MR0" align="center">Macintosh SE PicoPSU Adaptor</text>
 <text x="26.051" y="6.886" size="1.4224" layer="26" distance="30" rot="MR0" align="center">PD2 dekuNukem Dec 2022</text>
 <wire x1="22.225" y1="37.846" x2="22.225" y2="31.496" width="0.254" layer="21"/>
 <wire x1="22.86" y1="31.496" x2="29.972" y2="31.496" width="1.016" layer="21"/>

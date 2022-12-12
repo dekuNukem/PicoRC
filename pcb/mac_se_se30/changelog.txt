@@ -3,3 +3,7 @@ Dec 2 2022
 
 reduced 1mm at right side to clear the capacitor better
 rerouted trace
+
+Dec 12 2022
+
+Updated project name and web link

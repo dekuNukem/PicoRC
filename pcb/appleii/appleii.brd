@@ -197,13 +197,13 @@
 <wire x1="0" y1="2.54" x2="2.54" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="2.54" y1="0" x2="72.46" y2="0" width="0" layer="20"/>
 <wire x1="72.46" y1="0" x2="75" y2="2.54" width="0" layer="20" curve="90"/>
-<text x="30.48" y="6.604" size="1.6764" layer="26" distance="35" rot="MR0" align="center">Instructions: atx4vc.com</text>
+<text x="30.48" y="6.604" size="1.6764" layer="26" distance="35" rot="MR0" align="center">Instructions: picoRC.com</text>
 <text x="57.793" y="9.687" size="1.778" layer="25" rot="R90" align="center">G</text>
 <text x="65.997" y="6.963" size="1.778" layer="25" rot="R90" align="center">12</text>
 <text x="66.016" y="9.611" size="1.778" layer="25" rot="R90" align="center">G</text>
 <text x="57.809" y="7.067" size="1.778" layer="25" rot="R90" align="center">5</text>
-<text x="30.48" y="10.16" size="1.9304" layer="26" distance="35" rot="MR0" align="center">Apple II / II Plus / IIe ATX Adaptor</text>
-<text x="30.48" y="3.81" size="1.4224" layer="26" distance="30" rot="MR0" align="center">PT0 dekuNukem Nov 2022</text>
+<text x="30.48" y="10.16" size="1.9304" layer="26" distance="35" rot="MR0" align="center">Apple II / II Plus / IIe PicoPSU Adaptor</text>
+<text x="30.48" y="3.81" size="1.4224" layer="26" distance="30" rot="MR0" align="center">PT1 dekuNukem DEC 2022</text>
 <text x="43.91" y="43.095" size="1.9304" layer="26" distance="35" rot="MR0" align="center">FUSE
 5A MAX</text>
 <text x="72.041" y="37.6262" size="1.778" layer="25" distance="35" align="center">RED</text>
@@ -213,7 +213,7 @@
 <text x="3.947" y="2.16" size="2.1844" layer="25" distance="35" rot="MR0" align="center">+</text>
 <text x="3.947" y="11.05" size="2.1844" layer="25" distance="35" align="center">+</text>
 <text x="44.069" y="22.987" size="2.1844" layer="25" distance="35" align="center">+</text>
-<text x="55.753" y="22.987" size="2.1844" layer="25" distance="35" align="center">+</text>
+<text x="56.007" y="30.099" size="2.1844" layer="25" distance="35" align="center">+</text>
 <wire x1="74.676" y1="46.736" x2="74.676" y2="39.116" width="1.016" layer="21"/>
 <text x="69.216" y="13.325" size="1.016" layer="25" distance="35" rot="R315" align="center">min 1uF</text>
 <text x="1.389" y="39.843" size="1.778" layer="25" rot="R270" align="center">GND</text>
@@ -225,6 +225,12 @@ Center
 Positive</text>
 <text x="68.485" y="44.4842" size="1.27" layer="26" distance="35" rot="MR0" align="center">GND</text>
 <text x="68.485" y="40.9282" size="1.27" layer="26" distance="35" rot="MR0" align="center">12V</text>
+<text x="59.849" y="12.9882" size="1.778" layer="25" distance="35" align="center">G</text>
+<text x="64.167" y="12.9882" size="1.778" layer="25" distance="35" align="center">G</text>
+<text x="56.547" y="21.3702" size="1.778" layer="25" distance="35" align="center">5</text>
+<text x="67.913" y="21.5558" size="1.778" layer="25" distance="35" rot="R180" align="center">12</text>
+<text x="59.341" y="29.4982" size="1.778" layer="25" distance="35" align="center">-12</text>
+<text x="63.913" y="29.4982" size="1.778" layer="25" distance="35" align="center">-5</text>
 </plain>
 <libraries>
 <library name="atx_power_control">

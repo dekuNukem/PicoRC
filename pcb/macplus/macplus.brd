@@ -199,9 +199,9 @@
 <wire x1="52.46" y1="0" x2="55" y2="2.54" width="0" layer="20" curve="90"/>
 <text x="8.763" y="17.9878" size="1.27" layer="25" rot="R180" align="center">5V</text>
 <text x="8.382" y="27.6398" size="1.27" layer="25" rot="R180" align="center">12V</text>
-<text x="30.099" y="17.526" size="1.778" layer="26" distance="35" rot="MR180" align="center">Macintosh 128K/512K/Plus ATX Adaptor</text>
+<text x="30.099" y="17.526" size="1.778" layer="26" distance="35" rot="MR180" align="center">Mac 128K/512K/Plus PicoPSU Adaptor</text>
 <text x="48.641" y="25.4" size="1.4224" layer="26" distance="30" rot="MR90" align="center">dekuNukem
-PD1 Nov22</text>
+PD2 Dec22</text>
 <text x="28.956" y="4.191" size="1.27" layer="25" distance="30" rot="R180" align="center">LATCH TOWARDS EDGE</text>
 <text x="9.3518" y="30.226" size="1.27" layer="25" rot="R90" align="center">BAT</text>
 <text x="2.5862" y="29.845" size="1.27" layer="25" rot="R270" align="center">GND</text>
@@ -222,7 +222,7 @@ PD1 Nov22</text>
 <wire x1="6.096" y1="27.94" x2="6.096" y2="25.654" width="0.254" layer="21"/>
 <wire x1="6.096" y1="25.4" x2="6.096" y2="18.034" width="0.8128" layer="21"/>
 <text x="44.577" y="12.446" size="1.4224" layer="26" distance="30" rot="MR180" align="center">Instructions
-atx4vc.com</text>
+picoRC.com</text>
 <text x="52.07" y="8.2088" size="2.1844" layer="26" rot="R180" align="center">+</text>
 <text x="23.368" y="12.446" size="1.9304" layer="26" distance="30" rot="MR0" align="center">FUSE
 5A MAX</text>

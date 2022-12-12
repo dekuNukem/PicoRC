@@ -198,11 +198,11 @@
 <wire x1="20.0442375" y1="-0.918428125" x2="14.906890625" y2="54.27156875" width="0" layer="20"/>
 <wire x1="14.906890625" y1="54.27156875" x2="13.010090625" y2="56" width="0" layer="20" curve="84.681981"/>
 <text x="8.763" y="7.493" size="1.778" layer="25" distance="35" rot="R180" align="center">Instructions:
-atx4vc.com</text>
+picoRC.com</text>
 <text x="11.303" y="44.577" size="1.778" layer="25" distance="35" rot="R270" align="center">Macintosh SE ATX
 Power Switch</text>
-<text x="10.541" y="1.27" size="1.4224" layer="25" distance="30" align="center">PT1 dekuNukem
-Nov 2022</text>
+<text x="10.541" y="1.27" size="1.4224" layer="25" distance="30" align="center">PT2 dekuNukem
+Dec 2022</text>
 <wire x1="14.7334" y1="56.8706" x2="20.3722" y2="-3.8862" width="0.1524" layer="51"/>
 </plain>
 <libraries>
