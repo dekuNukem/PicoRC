@@ -1,0 +1,5 @@
+PD2:
+Dec 2 2022
+
+reduced 1mm at right side to clear the capacitor better
+rerouted trace
