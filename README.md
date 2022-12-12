@@ -1,6 +1,8 @@
-# PicoRC: PicoPSU on Retro Computers
+# PicoRC: PicoPSU on Retro Computers!
 
-PicoRC is a line of device-specific adaptors for using modern **Pico ATX PSU** in retro computers.
+PicoRC lets you use modern **Pico ATX PSU** in vintage computers.
+
+They are device-specific and lower cost compared to the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC).
 
 ![Alt text](photos/header.jpeg)
 
@@ -12,13 +14,13 @@ PicoRC is a line of device-specific adaptors for using modern **Pico ATX PSU** i
 
 * **PC Fan headers** for added cooling
 
-* **Fused** outputs
+* Universal voltage with **fused** outputs 
 
 * Replaces aging internal PSU that's hot, heavy, unreliable, and (slightly) explosive.
 
-* Universal voltage
+For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https://github.com/dekuNukem/ATX4VC)!
 
-For more general-purpose diagnostics and retrofitting, check out the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC)!
+----
 
 ### Find your device below!
 
