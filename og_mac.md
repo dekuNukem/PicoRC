@@ -1,5 +1,7 @@
 # PicoPSU adaptor for Macintosh 128K / 512K / Mac Plus
 
+[Get One](https://www.tindie.com/products/28754/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+
 This adaptor lets you use modern **Pico ATX PSU** in Macintosh 128K / 512K / Plus computers.
 
 It plugs into the motherboard and bypasses the unreliable internal PSU all together.
@@ -370,4 +372,4 @@ Flux + new solder should fix it right up, if you find one crack might as well do
 
 ## Questions or Comments?
 
-Feel free to ask in official [Discord Chatroom](https://discord.gg/T9uuFudg7j), raise a [Github issue](https://github.com/dekuNukem/ATX4VC/issues), or email `dekunukem` `gmail.com`!
+Feel free to ask in official [Discord Chatroom](https://discord.gg/T9uuFudg7j), raise a [Github issue](https://github.com/dekuNukem/PicoRC/issues), or email `dekunukem` `gmail.com`!
