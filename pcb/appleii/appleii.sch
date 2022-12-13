@@ -822,14 +822,14 @@ by exp-lbrs.ulp</description>
 <rectangle x1="-2" y1="-4.336" x2="2" y2="-3.336" layer="21"/>
 </package>
 <package name="ROCK_SWITCH">
-<pad name="P$1" x="-4.7" y="0" drill="1.7" shape="long"/>
-<pad name="P$2" x="5.3" y="0" drill="1.7" shape="long"/>
-<pad name="P$3" x="-4.7" y="5" drill="1.7" shape="long"/>
-<pad name="P$4" x="5.3" y="5" drill="1.7" shape="long"/>
-<wire x1="-10.5" y1="0" x2="-10.5" y2="24.5" width="0.1524" layer="21"/>
-<wire x1="10.5" y1="0" x2="10.5" y2="24.5" width="0.1524" layer="21"/>
-<wire x1="-10.5156" y1="24.5364" x2="10.5156" y2="24.5364" width="0.1524" layer="21"/>
-<wire x1="-10.5156" y1="22.5" x2="10.5156" y2="22.5" width="0.1524" layer="21"/>
+<pad name="P$1" x="-5.05" y="0" drill="1.7" shape="long"/>
+<pad name="P$2" x="5.65" y="0" drill="1.7" shape="long"/>
+<pad name="P$3" x="-5.05" y="5" drill="1.7" shape="long"/>
+<pad name="P$4" x="5.65" y="5" drill="1.7" shape="long"/>
+<wire x1="-10.5" y1="0" x2="-10.5" y2="25.5" width="0.1524" layer="21"/>
+<wire x1="10.5" y1="0" x2="10.5" y2="25.5" width="0.1524" layer="21"/>
+<wire x1="-10.5156" y1="25.5364" x2="10.5156" y2="25.5364" width="0.1524" layer="21"/>
+<wire x1="-10.5156" y1="23.5" x2="10.5156" y2="23.5" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
