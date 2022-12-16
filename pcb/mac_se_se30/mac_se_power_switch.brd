@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.000123031496" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -204,6 +204,7 @@ Power Switch</text>
 <text x="10.541" y="1.27" size="1.4224" layer="25" distance="30" align="center">PT2 dekuNukem
 Dec 2022</text>
 <wire x1="14.7334" y1="56.8706" x2="20.3722" y2="-3.8862" width="0.1524" layer="51"/>
+<wire x1="9.44913125" y1="32.508409375" x2="44.948671875" y2="35.83150625" width="0.1524" layer="25"/>
 </plain>
 <libraries>
 <library name="atx_power_control">
@@ -511,7 +512,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="U$2" library="a" package="M3_MOUNTING_HOLE_PACK" value="M3_MOUNTING_HOLE" x="0" y="0" smashed="yes"/>
 <element name="U$3" library="a" package="M3_MOUNTING_HOLE_PACK" value="M3_MOUNTING_HOLE" x="0" y="53" smashed="yes"/>
-<element name="U$1" library="atx4vc" package="ROCK_SWITCH" value="ROCK_SW" x="-2.4638" y="21.336" smashed="yes" rot="R275.4"/>
+<element name="U$1" library="atx4vc" package="ROCK_SWITCH" value="ROCK_SW" x="2.31186875" y="21.302290625" smashed="yes" rot="R275.4"/>
 </elements>
 <signals>
 <signal name="N$2">
@@ -519,7 +520,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="U$1" pad="P$1"/>
 <contactref element="J7" pad="2"/>
 <contactref element="JP2" pad="2"/>
-<wire x1="-2.939046875" y1="26.3635875" x2="1.3832375" y2="26.08751875" width="3.048" layer="16"/>
+<wire x1="1.836621875" y1="26.329878125" x2="6.15890625" y2="26.053809375" width="3.048" layer="16"/>
 <wire x1="-3.302" y1="36.759" x2="-1.778" y2="36.759" width="0.508" layer="16"/>
 <wire x1="-3.302" y1="36.759" x2="-4.572" y2="36.759" width="0.508" layer="16"/>
 <wire x1="-4.572" y1="36.759" x2="-5.842" y2="38.029" width="0.508" layer="16"/>
@@ -528,23 +529,25 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="-1.397" y1="48.133" x2="4.572" y2="48.133" width="0.508" layer="16"/>
 <wire x1="2.04666875" y1="32.93433125" x2="2.038765625" y2="26.834128125" width="0.508" layer="16"/>
 <wire x1="-1.778" y1="36.759" x2="2.04666875" y2="32.93433125" width="0.508" layer="16"/>
-<wire x1="1.3832375" y1="26.08751875" x2="2.038765625" y2="26.834128125" width="0" layer="19" extent="16-16"/>
+<wire x1="6.15890625" y1="26.053809375" x2="6.81443125" y2="26.80041875" width="0" layer="19" extent="16-16"/>
+<wire x1="2.038765625" y1="26.834128125" x2="1.836621875" y2="26.329878125" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$3">
 <contactref element="U$1" pad="P$4"/>
 <contactref element="U$1" pad="P$2"/>
 <contactref element="J7" pad="1"/>
 <contactref element="JP2" pad="1"/>
-<wire x1="-1.9320875" y1="15.711071875" x2="2.254790625" y2="16.125571875" width="3.048" layer="16"/>
+<wire x1="2.84358125" y1="15.6773625" x2="7.030459375" y2="16.0918625" width="3.048" layer="16"/>
 <wire x1="-3.302" y1="40.259" x2="-3.302" y2="42.926" width="0.508" layer="16"/>
 <wire x1="-0.635" y1="45.593" x2="4.572" y2="45.593" width="0.508" layer="16"/>
 <wire x1="-3.302" y1="42.926" x2="-0.635" y2="45.593" width="0.508" layer="16"/>
 <wire x1="4.572" y1="45.593" x2="6.985" y2="45.593" width="0.508" layer="16"/>
 <wire x1="6.985" y1="45.593" x2="9.144" y2="43.434" width="0.508" layer="16"/>
-<wire x1="9.144" y1="22.86" x2="9.144" y2="43.434" width="0.508" layer="16"/>
-<wire x1="3.04571875" y1="16.181615625" x2="3.16299375" y2="16.87899375" width="0.508" layer="16"/>
-<wire x1="3.16299375" y1="16.87899375" x2="9.144" y2="22.86" width="0.508" layer="16"/>
-<wire x1="2.254790625" y1="16.125571875" x2="3.04571875" y2="16.181615625" width="0" layer="19" extent="16-16"/>
+<wire x1="-3.302" y1="40.259" x2="4.318" y2="40.259" width="0.508" layer="16"/>
+<wire x1="4.318" y1="40.259" x2="11.303" y2="33.274" width="0.508" layer="16"/>
+<wire x1="11.303" y1="33.274" x2="11.303" y2="19.62951875" width="0.508" layer="16"/>
+<wire x1="11.303" y1="19.62951875" x2="7.8213875" y2="16.14790625" width="0.508" layer="16"/>
+<wire x1="7.030459375" y1="16.0918625" x2="7.8213875" y2="16.14790625" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
