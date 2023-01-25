@@ -34,11 +34,13 @@ For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https:
 
 * Purchase Link (under construction)
 
-* [Instructions (under construction)](mac_se_se30.md)
+* [Instructions](mac_se_se30.md)
 
-## Apple II / II Plus / IIe / IIGS
+## Apple II / II Plus / IIe / IIgs in IIe case
 
-Coming soon!
+* Purchase Link (under construction)
+
+* [Instructions](appleii.md)
 
 ## Get in Touch
 

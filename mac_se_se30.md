@@ -2,7 +2,7 @@
 
 Purchase Link (Under construction) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
 
-This adaptor lets you use modern **Pico ATX PSU** in Macintosh SE and SE/30.
+This adaptor lets you use **Pico ATX PSU** in Macintosh SE and SE/30.
 
 ![Alt text](photos_macse/three.jpeg)
 
@@ -30,17 +30,19 @@ For more general-purpose diagnostics and retrofitting, check out the [full-fat A
 
 ## Table of Contents
 
+- [Highlights](#highlights)
+
+- [Get One / Other Stuff](#get-one---other-stuff)
+
 - [Getting a Pico PSU](#getting-a-pico-psu)
 
 - [Kit Assembly](#kit-assembly)
 
 - [Board Features](#board-features)
 
-- [Pre-installation Checks](#pre-installation-checks)
+- [Pre-flight Checks](#pre-flight-checks)
 
 - [Installation](#installation)
-
-- [Power Routing](#power-routing)
 
 - [Troubleshooting](#troubleshooting)
 
@@ -63,10 +65,6 @@ PicoPSU are tiny ATX power supplies for small PCs, but are perfect for retro com
 Remember that this solution is **only as good as your PicoPSU and 12V Brick**, so don't skimp on them!
 
 ## Kit Assembly
-
-### Already assembled?
-
-[Click me to jump to next section](#board-features) (Board Features).
 
 ### Required tools
 
@@ -184,7 +182,7 @@ Shorting them together turns on the PSU.
 
 ### Filtering Cap (Optional)
 
-* You can add a filtering cap to 5V and +12V rails, note the polarity if using electrolytic caps.
+* You can add a filtering cap to +5V and +12V rails, note the polarity if using electrolytic caps.
 
 ## Pre-flight Checks
 

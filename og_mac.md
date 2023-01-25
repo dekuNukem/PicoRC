@@ -2,7 +2,7 @@
 
 [Get One](https://www.tindie.com/products/28754/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
 
-This adaptor lets you use modern **Pico ATX PSU** in Macintosh 128K / 512K / Plus computers.
+This adaptor lets you use **Pico ATX PSU** in Macintosh 128K / 512K / Plus computers.
 
 It plugs into the motherboard and bypasses the unreliable internal PSU all together.
 
