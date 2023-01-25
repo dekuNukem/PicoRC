@@ -1,6 +1,6 @@
 # PicoRC: PicoPSU on Retro Computers!
 
-[Get One](https://www.tindie.com/stores/dekunukem/) | [Official Discord](https://discord.gg/HAuuh3pAmB)
+[Purchase Link](https://www.tindie.com/stores/dekunukem/) | [Official Discord](https://discord.gg/HAuuh3pAmB)
 
 ----
 

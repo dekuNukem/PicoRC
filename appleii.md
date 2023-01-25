@@ -1,6 +1,6 @@
 # PicoPSU adaptor for Macintosh SE & SE/30
 
-[Get one](https://www.tindie.com/products/29185/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+[Purchase Link](https://www.tindie.com/products/29185/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
 
 ----
 
