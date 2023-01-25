@@ -250,7 +250,7 @@ If using existing harness, make sure the voltage readings matches the photo exac
 
 ![Alt text](photos_appleii/inside.jpeg)
 
-* Plug in the connector.
+* Connect the power cable
 
 * If using new cable, make sure the **LATCH FACES LEFT** on **BOTH ENDS**.
 
