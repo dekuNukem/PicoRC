@@ -32,9 +32,9 @@ For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https:
 
 ## Macintosh SE / SE30
 
-Coming soon!
+* Purchase Link (under construction)
 
-(You can actually see it in the photo!)
+* [Instructions (under construction)](mac_se_se30.md)
 
 ## Apple II / II Plus / IIe / IIGS
 
