@@ -1,6 +1,8 @@
 # PicoPSU adaptor for Macintosh SE & SE/30
 
-Purchase Link (Under construction) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+[Get one](https://www.tindie.com/products/29184/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+
+----
 
 This adaptor lets you use **Pico ATX PSU** in Macintosh SE and SE/30.
 
@@ -22,7 +24,7 @@ It replaces the original bulky and unreliable PSU, and uses very common 12V powe
 
 ## Get One / Other Stuff
 
-Click me to get one! (Under construction)
+[Click me to get one!](https://www.tindie.com/products/29184/)
 
 Also available for Mac 128K / Plus, Apple II, and more! [Check out the main page](./README.md) for details.
 
