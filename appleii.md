@@ -2,7 +2,7 @@
 
 Purchase Link (Under construction) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
 
-This adaptor lets you use **Pico ATX PSU** in Apple II, II Plus, IIe, and IIe-to-IIGS Upgrades.
+This adaptor lets you use **Pico ATX PSU** in Apple II, II Plus, IIe, and IIGS-in-IIe-case.
 
 ![Alt text](photos_appleii/pcb.jpeg)
 
@@ -106,7 +106,7 @@ You have a choice about motherboard power cable.
 
 You can either:
 
-* Cut the original wires and solder it to the adaptor
+* Cut the wires off old PSU and solder them to the adaptor
 
 * Or use a new 6-pin connector and cable
 
@@ -114,7 +114,7 @@ You can either:
 
 First choice retains the original connector which has a perfect fit.
 
-Second choice you get to keep the old PSU intact, but the new connector is slightly different.
+Second choice keeps the old PSU intact, but new connector is slightly different.
 
 You can also [buy a new connector](https://www.digikey.co.uk/en/products/detail/te-connectivity-amp-connectors/1-640520-0/187722) and [contacts](https://www.digikey.co.uk/en/products/detail/te-connectivity-amp-connectors/641294-1/289717) here.
 
@@ -205,6 +205,8 @@ If re-using harness:
 If all good, plug in Pico ATX PSU, then 12V power, and flip the switch.
 
 The PSU should turn on, **measure the voltage on each rail** and confirm they are within spec.
+
+If using existing harness, make sure the voltage readings matches the photo exactly. Otherwise you might have wired it up wrong. 
 
 ## Installation
 
