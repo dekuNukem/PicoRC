@@ -388,7 +388,7 @@ Almost there! This is the final step!
 
 ## Congratulations!
 
-Put the cover back on, and you're done!
+Put the rear shell back on (**don't forget the paper insulation over the motherboard!**), and you're done!
 
 With the new PSU, a fresh maintenance, and upgraded cooling, your Mac should continue to provide entertainment for years to come!
 
