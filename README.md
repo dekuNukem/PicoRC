@@ -12,7 +12,7 @@ They are device-specific and lower cost compared to the [full-fat ATX4VC](https:
 
 ## Features
 
-* Low cost, easy assembly and installation
+* Low cost and easy assembly
 
 * **Non-destructive** and reversible
 
@@ -40,7 +40,7 @@ For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https:
 
 * [Instructions](mac_se_se30.md)
 
-## Apple II / II Plus / IIe / IIgs in IIe case
+## Apple II / II Plus / IIe / IIGS-in-IIe-Case
 
 * [Purchase Link](https://www.tindie.com/products/29185/)
 
