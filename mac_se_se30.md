@@ -296,7 +296,7 @@ Ideas include:
 
 * Check motherboard for corrosion and cap/battery leakage
 
-* [Re-cap the motherboard](https://www.youtube.com/watch?v=QArvemlZUJY) if not done already
+* [Re-cap the motherboard](https://www.youtube.com/watch?v=QArvemlZUJY) if not already done
 
 * [Check analog board](https://www.youtube.com/watch?v=zC0qi5dQsWs) for cracked solder joints
 
@@ -374,17 +374,29 @@ Make sure the fan is secured, nothing touches the blade, and air flow direction 
 
 ### Blanking Plate
 
-Almost there! This is the final step!
+The plates are secured with either **screws** or **nylon rivets**.
+
+#### Screws
 
 * Put a blanking plate over the mains plug hole, insert two screws.
-
-![Alt text](photos_macse/blank.jpeg)
 
 * Support the whole thing with your hand, and flip it over.
 
 * Install the other plate from inside, and secure it with standoffs.
 
-![Alt text](photos_macse/inside.jpeg)
+![Alt text](photos_macse/screws.png)
+
+#### Nylon Rivets
+
+* Pull the rivet apart
+
+* Insert the "hollow tube" into a blanking plate
+
+* Cover the mains plug hole from outside, then insert the other plate from inside
+
+* Insert the "plunger" into the tube to fasten it together.
+
+![Alt text](photos_macse/rivet.png)
 
 ## Congratulations!
 
