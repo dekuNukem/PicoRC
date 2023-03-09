@@ -1,6 +1,8 @@
-# PicoPSU adaptor for Macintosh SE & SE/30
+# PicoPSU Adaptor for Apple II / II Plus / IIe
 
-Purchase Link (Under construction) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+[Purchase Link](https://www.tindie.com/products/29185/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+
+----
 
 This adaptor lets you use **Pico ATX PSU** in Apple II, II Plus, IIe, and IIGS-in-IIe-case.
 
@@ -22,7 +24,7 @@ It replaces the original bulky and unreliable PSU, and uses very common 12V powe
 
 ## Get One / Other Stuff
 
-Click me to get one! (Under construction)
+[Click me to get one!](https://www.tindie.com/products/29185/)
 
 Also available for Mac 128K / Plus, Mac SE, and more! [Check out the main page](./README.md) for details.
 
@@ -248,7 +250,7 @@ If using existing harness, make sure the voltage readings matches the photo exac
 
 ![Alt text](photos_appleii/inside.jpeg)
 
-* Plug in the connector.
+* Connect the power cable
 
 * If using new cable, make sure the **LATCH FACES LEFT** on **BOTH ENDS**.
 

@@ -1,6 +1,8 @@
-# PicoPSU adaptor for Macintosh 128K / 512K / Mac Plus
+# PicoPSU Adaptor for Macintosh 128K / 512K / Mac Plus
 
-[Get One](https://www.tindie.com/products/28754/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+[Purchase Link](https://www.tindie.com/products/28754/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+
+----
 
 This adaptor lets you use **Pico ATX PSU** in Macintosh 128K / 512K / Plus computers.
 

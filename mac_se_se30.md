@@ -1,6 +1,8 @@
-# PicoPSU adaptor for Macintosh SE & SE/30
+# PicoPSU Adaptor for Macintosh SE & SE/30
 
-Purchase Link (Under construction) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+[Purchase Link](https://www.tindie.com/products/29184/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+
+----
 
 This adaptor lets you use **Pico ATX PSU** in Macintosh SE and SE/30.
 
@@ -22,7 +24,7 @@ It replaces the original bulky and unreliable PSU, and uses very common 12V powe
 
 ## Get One / Other Stuff
 
-Click me to get one! (Under construction)
+[Click me to get one!](https://www.tindie.com/products/29184/)
 
 Also available for Mac 128K / Plus, Apple II, and more! [Check out the main page](./README.md) for details.
 
@@ -294,7 +296,7 @@ Ideas include:
 
 * Check motherboard for corrosion and cap/battery leakage
 
-* [Re-cap the motherboard](https://www.youtube.com/watch?v=QArvemlZUJY) if not done already
+* [Re-cap the motherboard](https://www.youtube.com/watch?v=QArvemlZUJY) if not already done
 
 * [Check analog board](https://www.youtube.com/watch?v=zC0qi5dQsWs) for cracked solder joints
 
@@ -372,21 +374,33 @@ Make sure the fan is secured, nothing touches the blade, and air flow direction 
 
 ### Blanking Plate
 
-Almost there! This is the final step!
+The plates are secured with either **screws** or **nylon rivets**.
+
+#### Screws
 
 * Put a blanking plate over the mains plug hole, insert two screws.
-
-![Alt text](photos_macse/blank.jpeg)
 
 * Support the whole thing with your hand, and flip it over.
 
 * Install the other plate from inside, and secure it with standoffs.
 
-![Alt text](photos_macse/inside.jpeg)
+![Alt text](photos_macse/screws.png)
+
+#### Nylon Rivets
+
+* Pull the rivet apart
+
+* Insert the "hollow tube" into a blanking plate
+
+* Cover the mains plug hole from outside, then insert the other plate from inside
+
+* Insert the "plunger" into the tube to fasten it together.
+
+![Alt text](photos_macse/rivet.png)
 
 ## Congratulations!
 
-Put the cover back on, and you're done!
+Put the rear shell back on (**don't forget the paper insulation over the motherboard!**), and you're done!
 
 With the new PSU, a fresh maintenance, and upgraded cooling, your Mac should continue to provide entertainment for years to come!
 
