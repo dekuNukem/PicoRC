@@ -2620,6 +2620,7 @@ by exp-lbrs.ulp</description>
 <part name="U$11" library="blade" deviceset="BLADE28" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="U$5" library="blade" deviceset="BLADE28" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2693,6 +2694,7 @@ by exp-lbrs.ulp</description>
 <instance part="P+2" gate="1" x="-10.16" y="170.18" smashed="yes">
 <attribute name="VALUE" x="-12.7" y="165.1" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$5" gate="G$1" x="185.42" y="101.6" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -2878,7 +2880,12 @@ by exp-lbrs.ulp</description>
 <pinref part="C3" gate="G$1" pin="1"/>
 <junction x="157.48" y="96.52"/>
 <pinref part="U$2" gate="G$1" pin="P$1"/>
-<wire x1="157.48" y1="96.52" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="96.52" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="P$1"/>
+<wire x1="170.18" y1="96.52" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="101.6" x2="170.18" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="101.6" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
+<junction x="170.18" y="96.52"/>
 </segment>
 </net>
 </nets>
