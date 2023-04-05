@@ -804,9 +804,6 @@ by exp-lbrs.ulp</description>
 <wire x1="-10.5156" y1="25.5364" x2="10.5156" y2="25.5364" width="0.1524" layer="21"/>
 <wire x1="-10.5156" y1="23.5" x2="10.5156" y2="23.5" width="0.1524" layer="21"/>
 </package>
-<package name="EDGEPAD">
-<smd name="P$1" x="0" y="0" dx="3" dy="5" layer="1" thermals="no" cream="no"/>
-</package>
 </packages>
 <symbols>
 <symbol name="APPLEII">
@@ -830,13 +827,6 @@ by exp-lbrs.ulp</description>
 <wire x1="-5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="EDGEPAD">
-<pin name="P$1" x="-5.08" y="0" length="middle"/>
-<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -871,21 +861,6 @@ by exp-lbrs.ulp</description>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 <connect gate="G$1" pin="P$3" pad="P$3"/>
 <connect gate="G$1" pin="P$4" pad="P$4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="EDGEPAD">
-<gates>
-<gate name="G$1" symbol="EDGEPAD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="EDGEPAD">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2674,20 +2649,6 @@ by exp-lbrs.ulp</description>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP3" library="appleii" deviceset="4PIN_FAN" device=""/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="U$7" library="atx4vc" deviceset="EDGEPAD" device=""/>
-<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$8" library="atx4vc" deviceset="EDGEPAD" device=""/>
-<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$9" library="atx4vc" deviceset="EDGEPAD" device=""/>
-<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$10" library="atx4vc" deviceset="EDGEPAD" device=""/>
-<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$11" library="atx4vc" deviceset="EDGEPAD" device=""/>
-<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$12" library="atx4vc" deviceset="EDGEPAD" device=""/>
-<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$13" library="atx4vc" deviceset="EDGEPAD" device=""/>
-<part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2786,34 +2747,6 @@ by exp-lbrs.ulp</description>
 <attribute name="NAME" x="31.75" y="135.255" size="1.778" layer="95"/>
 <attribute name="VALUE" x="31.75" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="U$7" gate="G$1" x="-2.54" y="71.12" smashed="yes"/>
-<instance part="GND4" gate="1" x="-12.7" y="68.58" smashed="yes">
-<attribute name="VALUE" x="-15.24" y="66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="U$8" gate="G$1" x="-2.54" y="58.42" smashed="yes"/>
-<instance part="GND6" gate="1" x="-12.7" y="55.88" smashed="yes">
-<attribute name="VALUE" x="-15.24" y="53.34" size="1.778" layer="96"/>
-</instance>
-<instance part="U$9" gate="G$1" x="-2.54" y="45.72" smashed="yes"/>
-<instance part="GND8" gate="1" x="-12.7" y="43.18" smashed="yes">
-<attribute name="VALUE" x="-15.24" y="40.64" size="1.778" layer="96"/>
-</instance>
-<instance part="U$10" gate="G$1" x="-2.54" y="33.02" smashed="yes"/>
-<instance part="GND12" gate="1" x="-12.7" y="30.48" smashed="yes">
-<attribute name="VALUE" x="-15.24" y="27.94" size="1.778" layer="96"/>
-</instance>
-<instance part="U$11" gate="G$1" x="83.82" y="53.34" smashed="yes"/>
-<instance part="GND13" gate="1" x="73.66" y="50.8" smashed="yes">
-<attribute name="VALUE" x="71.12" y="48.26" size="1.778" layer="96"/>
-</instance>
-<instance part="U$12" gate="G$1" x="83.82" y="40.64" smashed="yes"/>
-<instance part="GND14" gate="1" x="73.66" y="38.1" smashed="yes">
-<attribute name="VALUE" x="71.12" y="35.56" size="1.778" layer="96"/>
-</instance>
-<instance part="U$13" gate="G$1" x="83.82" y="27.94" smashed="yes"/>
-<instance part="GND15" gate="1" x="73.66" y="25.4" smashed="yes">
-<attribute name="VALUE" x="71.12" y="22.86" size="1.778" layer="96"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -2894,41 +2827,6 @@ by exp-lbrs.ulp</description>
 <pinref part="JP3" gate="A" pin="1_GND"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="2.54" y1="134.62" x2="-15.24" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="U$7" gate="G$1" pin="P$1"/>
-<wire x1="-12.7" y1="71.12" x2="-7.62" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="U$8" gate="G$1" pin="P$1"/>
-<wire x1="-12.7" y1="58.42" x2="-7.62" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="U$9" gate="G$1" pin="P$1"/>
-<wire x1="-12.7" y1="45.72" x2="-7.62" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="U$10" gate="G$1" pin="P$1"/>
-<wire x1="-12.7" y1="33.02" x2="-7.62" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND13" gate="1" pin="GND"/>
-<pinref part="U$11" gate="G$1" pin="P$1"/>
-<wire x1="73.66" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND14" gate="1" pin="GND"/>
-<pinref part="U$12" gate="G$1" pin="P$1"/>
-<wire x1="73.66" y1="40.64" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND15" gate="1" pin="GND"/>
-<pinref part="U$13" gate="G$1" pin="P$1"/>
-<wire x1="73.66" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-12V" class="0">
