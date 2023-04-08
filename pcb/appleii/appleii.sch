@@ -2688,6 +2688,20 @@ by exp-lbrs.ulp</description>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$13" library="atx4vc" deviceset="EDGEPAD" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$14" library="atx4vc" deviceset="EDGEPAD" device=""/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$15" library="atx4vc" deviceset="EDGEPAD" device=""/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$16" library="atx4vc" deviceset="EDGEPAD" device=""/>
+<part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$17" library="atx4vc" deviceset="EDGEPAD" device=""/>
+<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$18" library="atx4vc" deviceset="EDGEPAD" device=""/>
+<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$19" library="atx4vc" deviceset="EDGEPAD" device=""/>
+<part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$20" library="atx4vc" deviceset="EDGEPAD" device=""/>
+<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2814,6 +2828,34 @@ by exp-lbrs.ulp</description>
 <instance part="GND15" gate="1" x="73.66" y="25.4" smashed="yes">
 <attribute name="VALUE" x="71.12" y="22.86" size="1.778" layer="96"/>
 </instance>
+<instance part="U$14" gate="G$1" x="175.26" y="53.34" smashed="yes"/>
+<instance part="GND16" gate="1" x="165.1" y="50.8" smashed="yes">
+<attribute name="VALUE" x="162.56" y="48.26" size="1.778" layer="96"/>
+</instance>
+<instance part="U$15" gate="G$1" x="175.26" y="40.64" smashed="yes"/>
+<instance part="GND17" gate="1" x="165.1" y="38.1" smashed="yes">
+<attribute name="VALUE" x="162.56" y="35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="U$16" gate="G$1" x="175.26" y="27.94" smashed="yes"/>
+<instance part="GND18" gate="1" x="165.1" y="25.4" smashed="yes">
+<attribute name="VALUE" x="162.56" y="22.86" size="1.778" layer="96"/>
+</instance>
+<instance part="U$17" gate="G$1" x="175.26" y="15.24" smashed="yes"/>
+<instance part="GND19" gate="1" x="165.1" y="12.7" smashed="yes">
+<attribute name="VALUE" x="162.56" y="10.16" size="1.778" layer="96"/>
+</instance>
+<instance part="U$18" gate="G$1" x="261.62" y="35.56" smashed="yes"/>
+<instance part="GND20" gate="1" x="251.46" y="33.02" smashed="yes">
+<attribute name="VALUE" x="248.92" y="30.48" size="1.778" layer="96"/>
+</instance>
+<instance part="U$19" gate="G$1" x="261.62" y="22.86" smashed="yes"/>
+<instance part="GND21" gate="1" x="251.46" y="20.32" smashed="yes">
+<attribute name="VALUE" x="248.92" y="17.78" size="1.778" layer="96"/>
+</instance>
+<instance part="U$20" gate="G$1" x="261.62" y="10.16" smashed="yes"/>
+<instance part="GND22" gate="1" x="251.46" y="7.62" smashed="yes">
+<attribute name="VALUE" x="248.92" y="5.08" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2929,6 +2971,41 @@ by exp-lbrs.ulp</description>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="U$13" gate="G$1" pin="P$1"/>
 <wire x1="73.66" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND16" gate="1" pin="GND"/>
+<pinref part="U$14" gate="G$1" pin="P$1"/>
+<wire x1="165.1" y1="53.34" x2="170.18" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="U$15" gate="G$1" pin="P$1"/>
+<wire x1="165.1" y1="40.64" x2="170.18" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND18" gate="1" pin="GND"/>
+<pinref part="U$16" gate="G$1" pin="P$1"/>
+<wire x1="165.1" y1="27.94" x2="170.18" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND19" gate="1" pin="GND"/>
+<pinref part="U$17" gate="G$1" pin="P$1"/>
+<wire x1="165.1" y1="15.24" x2="170.18" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND20" gate="1" pin="GND"/>
+<pinref part="U$18" gate="G$1" pin="P$1"/>
+<wire x1="251.46" y1="35.56" x2="256.54" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND21" gate="1" pin="GND"/>
+<pinref part="U$19" gate="G$1" pin="P$1"/>
+<wire x1="251.46" y1="22.86" x2="256.54" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND22" gate="1" pin="GND"/>
+<pinref part="U$20" gate="G$1" pin="P$1"/>
+<wire x1="251.46" y1="10.16" x2="256.54" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-12V" class="0">

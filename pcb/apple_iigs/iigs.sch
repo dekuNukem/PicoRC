@@ -326,72 +326,6 @@ by exp-lbrs.ulp</description>
 <wire x1="-10" y1="3.5" x2="10" y2="3.5" width="0.254" layer="21"/>
 <wire x1="10" y1="-3.5" x2="10" y2="3.5" width="0.254" layer="21"/>
 </package>
-<package name="SCREWTERMINAL-3.5MM-2">
-<description>&lt;h3&gt;Screw Terminal  3.5mm Pitch - 2 Pin PTH&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 3.5mm/138mil&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”https://www.sparkfun.com/datasheets/Prototyping/Screw-Terminal-3.5mm.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_02&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<circle x="2" y="3" radius="0.2828" width="0.127" layer="51"/>
-<wire x1="-1.75" y1="3.4" x2="5.25" y2="3.4" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="3.4" x2="5.25" y2="3.15" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="3.15" x2="5.25" y2="2.15" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="2.15" x2="5.25" y2="-2.8" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="-2.8" x2="5.25" y2="-3.6" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="-3.6" x2="-1.75" y2="-3.6" width="0.2032" layer="51"/>
-<wire x1="-1.75" y1="-3.6" x2="-1.75" y2="-2.8" width="0.2032" layer="51"/>
-<wire x1="-1.75" y1="-2.8" x2="-1.75" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="-1.75" y1="-2.35" x2="-1.75" y2="-1.35" width="0.2032" layer="51"/>
-<wire x1="-1.75" y1="-1.35" x2="-1.75" y2="3.4" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="-2.8" x2="-1.75" y2="-2.8" width="0.2032" layer="51"/>
-<wire x1="-1.75" y1="-1.35" x2="-2.25" y2="-1.35" width="0.2032" layer="51"/>
-<wire x1="-2.25" y1="-1.35" x2="-2.25" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="-2.25" y1="-2.35" x2="-1.75" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="3.15" x2="5.75" y2="3.15" width="0.2032" layer="51"/>
-<wire x1="5.75" y1="3.15" x2="5.75" y2="2.15" width="0.2032" layer="51"/>
-<wire x1="5.75" y1="2.15" x2="5.25" y2="2.15" width="0.2032" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.2" diameter="2.032" shape="square" thermals="no"/>
-<pad name="2" x="3.5" y="0" drill="1.2" diameter="2.032" thermals="no"/>
-<text x="-1.27" y="2.54" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="1.27" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-<package name="SCREWTERMINAL-3.5MM-2-NS">
-<description>&lt;h3&gt;Screw Terminal  3.5mm Pitch - 2 Pin PTH No Silk Outline&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 3.5mm/138mil&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”https://www.sparkfun.com/datasheets/Prototyping/Screw-Terminal-3.5mm.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_02&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<circle x="2" y="3" radius="0.2828" width="0.127" layer="51"/>
-<wire x1="-1.75" y1="3.4" x2="5.25" y2="3.4" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="3.4" x2="5.25" y2="3.15" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="3.15" x2="5.25" y2="2.15" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="2.15" x2="5.25" y2="-2.8" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="-2.8" x2="5.25" y2="-3.6" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="-3.6" x2="-1.75" y2="-3.6" width="0.2032" layer="51"/>
-<wire x1="-1.75" y1="-3.6" x2="-1.75" y2="-2.8" width="0.2032" layer="51"/>
-<wire x1="-1.75" y1="-2.8" x2="-1.75" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="-1.75" y1="-2.35" x2="-1.75" y2="-1.35" width="0.2032" layer="51"/>
-<wire x1="-1.75" y1="-1.35" x2="-1.75" y2="3.4" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="-2.8" x2="-1.75" y2="-2.8" width="0.2032" layer="51"/>
-<wire x1="-1.75" y1="-1.35" x2="-2.15" y2="-1.35" width="0.2032" layer="51"/>
-<wire x1="-2.15" y1="-1.35" x2="-2.15" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="-2.15" y1="-2.35" x2="-1.75" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="3.15" x2="5.65" y2="3.15" width="0.2032" layer="51"/>
-<wire x1="5.65" y1="3.15" x2="5.65" y2="2.15" width="0.2032" layer="51"/>
-<wire x1="5.65" y1="2.15" x2="5.25" y2="2.15" width="0.2032" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.2" diameter="2.032" shape="square"/>
-<pad name="2" x="3.5" y="0" drill="1.2" diameter="2.032"/>
-<text x="-1.27" y="2.54" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="1.27" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="CAR_FUSE_HOLDER">
@@ -403,19 +337,6 @@ by exp-lbrs.ulp</description>
 <pin name="A1" x="-14.986" y="-1.27" length="middle"/>
 <pin name="B0" x="15.494" y="1.27" length="middle" rot="R180"/>
 <pin name="B1" x="15.494" y="-1.27" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CONN_02">
-<description>&lt;h3&gt;2 Pin Connection&lt;/h3&gt;</description>
-<wire x1="3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<pin name="1" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-2.54" y="-4.826" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<text x="-2.54" y="5.588" size="1.778" layer="95" font="vector">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -444,75 +365,6 @@ by exp-lbrs.ulp</description>
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CONN_02" prefix="J" uservalue="yes">
-<description>&lt;h3&gt;Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections&lt;/h3&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;On any of the 0.1 inch spaced packages, you can populate with these:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/116"&gt; Break Away Headers - Straight&lt;/a&gt; (PRT-00116)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/553"&gt; Break Away Male Headers - Right Angle&lt;/a&gt; (PRT-00553)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/115"&gt; Female Headers&lt;/a&gt; (PRT-00115)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/117"&gt; Break Away Headers - Machine Pin&lt;/a&gt; (PRT-00117)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/743"&gt; Break Away Female Headers - Swiss Machine Pin&lt;/a&gt; (PRT-00743)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt; For SCREWTERMINALS and SPRING TERMINALS visit here:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/search/results?term=Screw+Terminals"&gt; Screw Terimnals on SparkFun.com&lt;/a&gt; (5mm/3.5mm/2.54mm spacing)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;This device is also useful as a general connection point to wire up your design to another part of your project. Our various solder wires solder well into these plated through hole pads.&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11375"&gt; Hook-Up Wire - Assortment (Stranded, 22 AWG)&lt;/a&gt; (PRT-11375)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11367"&gt; Hook-Up Wire - Assortment (Solid Core, 22 AWG)&lt;/a&gt; (PRT-11367)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/categories/141"&gt; View the entire wire category on our website here&lt;/a&gt;&lt;/li&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;Special notes:&lt;/b&gt;
-
- Molex polarized connector foot print use with: PRT-08233 with associated crimp pins and housings.&lt;br&gt;&lt;br&gt;
-
-2.54_SCREWTERM for use with  PRT-10571.&lt;br&gt;&lt;br&gt;
-
-3.5mm Screw Terminal footprints for  PRT-08084&lt;br&gt;&lt;br&gt;
-
-5mm Screw Terminal footprints for use with PRT-08432</description>
-<gates>
-<gate name="G$1" symbol="CONN_02" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="3.5MM" package="SCREWTERMINAL-3.5MM-2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-08399"/>
-</technology>
-</technologies>
-</device>
-<device name="3.5MM-NO_SILK" package="SCREWTERMINAL-3.5MM-2-NS">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-13512"/>
-<attribute name="SF_ID" value="PRT-09918" constant="no"/>
-<attribute name="SF_SKU" value="PRT-08432" constant="no"/>
-<attribute name="SKU" value="PRT-09914" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -2513,11 +2365,6 @@ by exp-lbrs.ulp</description>
 <wire x1="5.08" y1="3.048" x2="5.08" y2="-2.286" width="0.2032" layer="21"/>
 <wire x1="1.937" y1="-2.173" x2="-4.888" y2="-2.173" width="0.6096" layer="21"/>
 </package>
-<package name="M3_MOUNTING_HOLE_PACK">
-<circle x="0" y="0" radius="3" width="0" layer="41"/>
-<circle x="0" y="0" radius="3" width="0" layer="42"/>
-<hole x="0" y="0" drill="2.65"/>
-</package>
 <package name="ATX24_RIGHT_ANGLE">
 <wire x1="-25.9" y1="3.4" x2="-25.9" y2="-9.14" width="0.254" layer="21"/>
 <wire x1="-25.9" y1="-9.14" x2="25.9" y2="-9.14" width="0.254" layer="21"/>
@@ -2585,10 +2432,6 @@ by exp-lbrs.ulp</description>
 <wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.2032" layer="94"/>
 <wire x1="10.16" y1="12.7" x2="-5.08" y2="12.7" width="0.2032" layer="94"/>
 </symbol>
-<symbol name="M3_MOUNTING_HOLE_SYM">
-<circle x="0" y="0" radius="3.5921" width="0.254" layer="94"/>
-<text x="5.08" y="0" size="1.778" layer="94">M2.5 hole</text>
-</symbol>
 <symbol name="ATX24-1">
 <wire x1="-12.7" y1="-22.86" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
@@ -2636,18 +2479,6 @@ by exp-lbrs.ulp</description>
 <connect gate="A" pin="3_SEN" pad="3"/>
 <connect gate="A" pin="4_PWM" pad="4"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="M2.5_MOUNTING_HOLE">
-<gates>
-<gate name="G$1" symbol="M3_MOUNTING_HOLE_SYM" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="M3_MOUNTING_HOLE_PACK">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -2714,8 +2545,6 @@ by exp-lbrs.ulp</description>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="appleii" deviceset="ATX24" device="RH"/>
-<part name="U$5" library="appleii" deviceset="M2.5_MOUNTING_HOLE" device=""/>
-<part name="U$4" library="appleii" deviceset="M2.5_MOUNTING_HOLE" device=""/>
 <part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="79XXS" device="" package3d_urn="urn:adsk.eagle:package:30343/1"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P-3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
@@ -2729,7 +2558,6 @@ by exp-lbrs.ulp</description>
 <part name="P-6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-5V" device=""/>
 <part name="P-7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
 <part name="JP4" library="appleii" deviceset="4PIN_FAN" device=""/>
-<part name="J7" library="atx_power_control" deviceset="CONN_02" device="3.5MM-NO_SILK"/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -2765,8 +2593,6 @@ by exp-lbrs.ulp</description>
 <attribute name="NAME" x="83.82" y="195.58" size="1.27" layer="95"/>
 <attribute name="VALUE" x="83.82" y="149.86" size="1.27" layer="96"/>
 </instance>
-<instance part="U$5" gate="G$1" x="88.9" y="121.92" smashed="yes"/>
-<instance part="U$4" gate="G$1" x="66.04" y="121.92" smashed="yes"/>
 <instance part="IC1" gate="1" x="147.32" y="96.52" smashed="yes">
 <attribute name="NAME" x="149.86" y="105.41" size="1.778" layer="95"/>
 <attribute name="VALUE" x="149.86" y="102.87" size="1.778" layer="96"/>
@@ -2804,10 +2630,6 @@ by exp-lbrs.ulp</description>
 <attribute name="VALUE" x="30.48" y="81.28" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="JP4" gate="A" x="-17.78" y="175.26" smashed="yes"/>
-<instance part="J7" gate="G$1" x="200.66" y="162.56" smashed="yes" rot="R180">
-<attribute name="VALUE" x="203.2" y="167.386" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="203.2" y="156.972" size="1.778" layer="95" font="vector" rot="R180"/>
-</instance>
 <instance part="JP2" gate="A" x="0" y="177.8" smashed="yes">
 <attribute name="NAME" x="-6.35" y="183.515" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-6.35" y="170.18" size="1.778" layer="96"/>
@@ -2864,9 +2686,6 @@ by exp-lbrs.ulp</description>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="160.02" x2="177.8" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="160.02" x2="193.04" y2="160.02" width="0.1524" layer="91"/>
-<junction x="177.8" y="160.02"/>
-<pinref part="J7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="1" pin="GND"/>
@@ -2991,9 +2810,6 @@ by exp-lbrs.ulp</description>
 <wire x1="109.22" y1="162.56" x2="177.8" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <pinref part="J1" gate="G$1" pin="PS_ON"/>
-<wire x1="177.8" y1="162.56" x2="193.04" y2="162.56" width="0.1524" layer="91"/>
-<junction x="177.8" y="162.56"/>
-<pinref part="J7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="-5V" class="0">
