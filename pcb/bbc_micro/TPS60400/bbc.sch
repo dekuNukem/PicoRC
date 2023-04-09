@@ -211,6 +211,12 @@
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="-5V" urn="urn:adsk.eagle:symbol:26930/1" library_version="1">
+<wire x1="-1.27" y1="1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="-5V" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND" library_version="1">
@@ -230,6 +236,19 @@
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="-5V" urn="urn:adsk.eagle:component:26958/1" prefix="P-" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="-5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -615,6 +634,139 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="TPS6040x">
+<description>&lt;b&gt;Texas Instruments - 60mA Charge Pump Voltage Inverter&lt;/b&gt;
+&lt;p&gt;Created by Roland van Straten (git@rolandvs) on 23-08-2017, v1.0&lt;/p&gt;</description>
+<packages>
+<package name="SOT23-5">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
+SOT753 - Philips Semiconductors&lt;br&gt;
+Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_HCT1G66_3.pdf</description>
+<wire x1="0" y1="-1.29" x2="0" y2="-1.3" width="0.01" layer="21"/>
+<wire x1="1.42" y1="0.8" x2="1.42" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.42" y1="-0.8" x2="-1.42" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-1.42" y1="-0.8" x2="-1.42" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.42" y1="0.8" x2="1.42" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="0.65" x2="1.28" y2="0.65" width="0.075" layer="21"/>
+<wire x1="1.28" y1="0.65" x2="1.28" y2="-0.66" width="0.075" layer="21"/>
+<wire x1="1.28" y1="-0.66" x2="-1.27" y2="-0.66" width="0.075" layer="21"/>
+<wire x1="-1.27" y1="-0.66" x2="-1.27" y2="0.65" width="0.075" layer="21"/>
+<wire x1="-1.75" y1="2.25" x2="1.75" y2="2.25" width="0.254" layer="39"/>
+<wire x1="1.75" y1="2.25" x2="1.75" y2="-2.25" width="0.254" layer="39"/>
+<wire x1="1.75" y1="-2.25" x2="-1.75" y2="-2.25" width="0.254" layer="39"/>
+<wire x1="-1.75" y1="-2.25" x2="-1.75" y2="2.25" width="0.254" layer="39"/>
+<smd name="1" x="-0.95" y="-1.29" dx="0.69" dy="0.99" layer="1"/>
+<smd name="2" x="0" y="-1.29" dx="0.69" dy="0.99" layer="1"/>
+<smd name="3" x="0.95" y="-1.29" dx="0.69" dy="0.99" layer="1"/>
+<smd name="4" x="0.95" y="1.3" dx="0.69" dy="0.99" layer="1"/>
+<smd name="5" x="-0.95" y="1.3" dx="0.69" dy="0.99" layer="1"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.11" y1="0.68" x2="-0.78" y2="1.43" layer="51"/>
+<rectangle x1="0.79" y1="0.67" x2="1.12" y2="1.42" layer="51"/>
+<rectangle x1="-1.11" y1="-1.42" x2="-0.78" y2="-0.67" layer="51"/>
+<rectangle x1="-0.16" y1="-1.42" x2="0.17" y2="-0.67" layer="51"/>
+<rectangle x1="0.79" y1="-1.42" x2="1.12" y2="-0.67" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS6040X">
+<description>&lt;b&gt;TPS6040x and TPS6040x-Q1 Unregulated 60-mA Charge Pump Voltage Inverter&lt;/b&gt;</description>
+<wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<pin name="OUT" x="-15.24" y="7.62" length="middle"/>
+<pin name="IN" x="-15.24" y="0" length="middle"/>
+<pin name="C1-" x="-15.24" y="-7.62" length="middle"/>
+<pin name="GND" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="C1+" x="15.24" y="7.62" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS6040*" prefix="U">
+<description>&lt;b&gt;Texas Instruments TPS4060x&lt;/b&gt;
+&lt;p&gt;
+&lt;li&gt;
+&lt;ul&gt;• Inverts Input Supply Voltage&lt;/ul&gt;
+&lt;ul&gt;• Up to 60-mA Output Current&lt;/ul&gt;
+&lt;ul&gt;• Only Three Small 1-μF Ceramic Capacitors Needed&lt;/ul&gt;
+&lt;ul&gt;• Input Voltage Range From 1.6 V to 5.5 V&lt;/ul&gt;
+&lt;ul&gt;• PowerSave-Mode for Improved Efficiency at Low- Output Currents (TPS60400)&lt;/ul&gt;
+&lt;ul&gt;• Device Quiescent Current Typical 65 μA&lt;/ul&gt;
+&lt;ul&gt;• Integrated Active Schottky-Diode for Start-up Into Load&lt;/ul&gt;
+&lt;ul&gt;• Small 5-Pin SOT-23 Package&lt;/ul&gt;
+&lt;ul&gt;• Evaluation Module Available TPS60400EVM-178&lt;/ul&gt; 
+&lt;/li&gt;
+&lt;p&gt;&lt;a href=http://www.ti.com/lit/ds/symlink/tps60400.pdf&gt;Datasheet&lt;/a&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS6040X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="C1+" pad="5"/>
+<connect gate="G$1" pin="C1-" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="0DVBR">
+<attribute name="DIST" value="FARNELL"/>
+<attribute name="DPN" value="" constant="no"/>
+<attribute name="MOQ" value="3000" constant="no"/>
+<attribute name="SMD_MARKING" value="PFKI"/>
+</technology>
+<technology name="0DVBT">
+<attribute name="DIST" value="FARNELL"/>
+<attribute name="DPN" value="8457751"/>
+<attribute name="MOQ" value="250" constant="no"/>
+<attribute name="SMD_MARKING" value="PFKI"/>
+</technology>
+<technology name="1DBVT">
+<attribute name="DIST" value="FARNELL"/>
+<attribute name="DPN" value="8457760"/>
+<attribute name="MOQ" value="250" constant="no"/>
+<attribute name="SMD_MARKING" value="PFLI"/>
+</technology>
+<technology name="1DVBR">
+<attribute name="DIST" value="FARNELL"/>
+<attribute name="DPN" value="" constant="no"/>
+<attribute name="MOQ" value="3000" constant="no"/>
+<attribute name="SMD_MARKING" value="PFLI"/>
+</technology>
+<technology name="2DVBR">
+<attribute name="DIST" value="FARNELL"/>
+<attribute name="DPN" value="" constant="no"/>
+<attribute name="MOQ" value="3000" constant="no"/>
+<attribute name="SMD_MARKING" value="PFMI"/>
+</technology>
+<technology name="2DVBT">
+<attribute name="DIST" value="FARNELL"/>
+<attribute name="DPN" value="8457778"/>
+<attribute name="MOQ" value="250" constant="no"/>
+<attribute name="SMD_MARKING" value="PFMI"/>
+</technology>
+<technology name="3DVBR">
+<attribute name="DIST" value="FARNELL"/>
+<attribute name="DPN" value="" constant="no"/>
+<attribute name="MOQ" value="3000" constant="no"/>
+<attribute name="SMD_MARKING" value="PFNI"/>
+</technology>
+<technology name="3DVBT">
+<attribute name="DIST" value="FARNELL"/>
+<attribute name="DPN" value="8457786"/>
+<attribute name="MOQ" value="250" constant="no"/>
+<attribute name="SMD_MARKING" value="PFNI"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -7852,73 +8004,6 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </deviceset>
 </devicesets>
 </library>
-<library name="dword1511-pmic-dcdc">
-<description>DC-DC controllers and converters</description>
-<packages>
-<package name="SOT-23-6">
-<wire x1="1.27" y1="0.4294" x2="1.27" y2="-0.4294" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="-0.4294" x2="-1.27" y2="0.4294" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
-<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
-<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
-<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
-<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
-<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
-<smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="2" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="5" x="0" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
-<text x="-2.159" y="-2.159" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
-<text x="2.7305" y="-2.2225" size="0.8128" layer="27" font="vector" rot="R90">&gt;VALUE</text>
-<circle x="-1.651" y="-1.016" radius="0.254" width="0" layer="21"/>
-<rectangle x1="-0.25" y1="0.85" x2="0.25" y2="1.5" layer="51"/>
-<smd name="6" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LM2776">
-<pin name="OUT" x="10.16" y="0" visible="pin" length="short" direction="out" rot="R180"/>
-<pin name="GND" x="10.16" y="-2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="IN" x="-10.16" y="0" visible="pin" length="short" direction="pwr"/>
-<pin name="EN" x="-10.16" y="-2.54" visible="pin" length="short" direction="in"/>
-<pin name="CP" x="-10.16" y="2.54" visible="pin" length="short"/>
-<pin name="CN" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
-<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<text x="-7.366" y="5.588" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.27" y="5.588" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LM2776" prefix="U">
-<description>Switched capacitor inverter</description>
-<gates>
-<gate name="G$1" symbol="LM2776" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-23-6">
-<connects>
-<connect gate="G$1" pin="CN" pad="6"/>
-<connect gate="G$1" pin="CP" pad="5"/>
-<connect gate="G$1" pin="EN" pad="4"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7947,12 +8032,16 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <part name="R1" library="atx_power_control" deviceset="RESISTOR" device="0805-RES" value="5K1"/>
 <part name="R2" library="atx_power_control" deviceset="RESISTOR" device="0805-RES" value="5K1"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="U1" library="TPS6040x" deviceset="TPS6040*" device="" technology="0DVBR"/>
+<part name="U3" library="TPS6040x" deviceset="TPS6040*" device="" technology="0DVBR"/>
 <part name="C1" library="clock" deviceset="CAP" device="0805" value="100nF"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C2" library="clock" deviceset="CAP" device="0805" value="1uF"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C3" library="clock" deviceset="CAP" device="0805" value="1uF"/>
-<part name="C4" library="clock" deviceset="CAP" device="0805" value="2.2uF"/>
+<part name="C4" library="clock" deviceset="CAP" device="0805" value="1uF"/>
 <part name="C5" library="clock" deviceset="CAP" device="0805" value="2.2uF"/>
+<part name="P-1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-5V" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -7965,9 +8054,6 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <part name="R3" library="atx_power_control" deviceset="RESISTOR" device="0805-RES" value="5K1"/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="U2" library="dword1511-pmic-dcdc" deviceset="LM2776" device=""/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7996,7 +8082,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <instance part="P+2" gate="1" x="-10.16" y="170.18" smashed="yes">
 <attribute name="VALUE" x="-12.7" y="165.1" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$5" gate="G$1" x="375.92" y="162.56" smashed="yes"/>
+<instance part="U$5" gate="G$1" x="401.32" y="175.26" smashed="yes"/>
 <instance part="GND6" gate="1" x="53.34" y="185.42" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="55.88" y="182.88" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -8015,27 +8101,36 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <instance part="P+3" gate="1" x="154.94" y="218.44" smashed="yes">
 <attribute name="VALUE" x="152.4" y="213.36" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U1" gate="G$1" x="312.42" y="160.02" smashed="yes"/>
+<instance part="U3" gate="G$1" x="248.92" y="160.02" smashed="yes"/>
 <instance part="C1" gate="G$1" x="147.32" y="175.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="145.796" y="172.339" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="145.796" y="177.419" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND2" gate="1" x="304.8" y="157.48" smashed="yes">
-<attribute name="VALUE" x="302.26" y="154.94" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="203.2" y="137.16" smashed="yes">
+<attribute name="VALUE" x="200.66" y="134.62" size="1.778" layer="96"/>
 </instance>
-<instance part="P+1" gate="1" x="254" y="165.1" smashed="yes">
-<attribute name="VALUE" x="251.46" y="160.02" size="1.778" layer="96" rot="R90"/>
+<instance part="C2" gate="G$1" x="220.98" y="144.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="219.456" y="141.859" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="219.456" y="146.939" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C3" gate="G$1" x="287.02" y="177.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="291.084" y="175.641" size="1.778" layer="95"/>
-<attribute name="VALUE" x="283.464" y="175.641" size="1.778" layer="96"/>
+<instance part="P+1" gate="1" x="203.2" y="190.5" smashed="yes">
+<attribute name="VALUE" x="200.66" y="185.42" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C4" gate="G$1" x="317.5" y="157.48" smashed="yes">
-<attribute name="NAME" x="319.659" y="161.544" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="319.659" y="153.924" size="1.778" layer="96" rot="R90"/>
+<instance part="C3" gate="G$1" x="246.38" y="177.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="250.444" y="175.641" size="1.778" layer="95"/>
+<attribute name="VALUE" x="242.824" y="175.641" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="259.08" y="157.48" smashed="yes">
-<attribute name="NAME" x="265.176" y="159.639" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="267.716" y="154.559" size="1.778" layer="96" rot="R180"/>
+<instance part="C4" gate="G$1" x="309.88" y="177.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="313.944" y="175.641" size="1.778" layer="95"/>
+<attribute name="VALUE" x="306.324" y="175.641" size="1.778" layer="96"/>
+</instance>
+<instance part="C5" gate="G$1" x="347.98" y="147.32" smashed="yes">
+<attribute name="NAME" x="354.076" y="149.479" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="356.616" y="144.399" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P-1" gate="1" x="373.38" y="165.1" smashed="yes">
+<attribute name="VALUE" x="370.84" y="162.56" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+4" gate="1" x="147.32" y="182.88" smashed="yes">
 <attribute name="VALUE" x="144.78" y="177.8" size="1.778" layer="96" rot="R90"/>
@@ -8054,12 +8149,12 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <attribute name="NAME" x="168.656" y="175.895" size="1.778" layer="95"/>
 <attribute name="VALUE" x="168.656" y="171.069" size="1.778" layer="96"/>
 </instance>
-<instance part="C8" gate="G$1" x="355.6" y="160.02" smashed="yes" rot="R180">
-<attribute name="NAME" x="354.076" y="157.099" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="354.076" y="162.179" size="1.778" layer="96" rot="R180"/>
+<instance part="C8" gate="G$1" x="383.54" y="172.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="382.016" y="169.799" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="382.016" y="174.879" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND4" gate="1" x="355.6" y="147.32" smashed="yes">
-<attribute name="VALUE" x="353.06" y="144.78" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="383.54" y="165.1" smashed="yes">
+<attribute name="VALUE" x="381" y="162.56" size="1.778" layer="96"/>
 </instance>
 <instance part="J4" gate="J1" x="91.44" y="208.28" smashed="yes">
 <attribute name="VALUE" x="88.9" y="195.834" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
@@ -8078,16 +8173,6 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </instance>
 <instance part="P+6" gate="1" x="256.54" y="220.98" smashed="yes">
 <attribute name="VALUE" x="254" y="215.9" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="U2" gate="G$1" x="289.56" y="162.56" smashed="yes">
-<attribute name="NAME" x="282.194" y="168.148" size="1.778" layer="95"/>
-<attribute name="VALUE" x="288.29" y="168.148" size="1.778" layer="96"/>
-</instance>
-<instance part="GND5" gate="1" x="259.08" y="152.4" smashed="yes">
-<attribute name="VALUE" x="256.54" y="149.86" size="1.778" layer="96"/>
-</instance>
-<instance part="GND8" gate="1" x="317.5" y="152.4" smashed="yes">
-<attribute name="VALUE" x="314.96" y="149.86" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8131,6 +8216,24 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <junction x="106.68" y="200.66"/>
 </segment>
 <segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="203.2" y1="139.7" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="220.98" y1="139.7" x2="266.7" y2="139.7" width="0.1524" layer="91"/>
+<junction x="220.98" y="139.7"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
+<wire x1="266.7" y1="139.7" x2="327.66" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="139.7" x2="347.98" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="152.4" x2="266.7" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="152.4" x2="266.7" y2="139.7" width="0.1524" layer="91"/>
+<junction x="266.7" y="139.7"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<wire x1="327.66" y1="152.4" x2="327.66" y2="139.7" width="0.1524" layer="91"/>
+<junction x="327.66" y="139.7"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="347.98" y1="144.78" x2="347.98" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="147.32" y1="170.18" x2="147.32" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -8146,25 +8249,11 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="355.6" y1="154.94" x2="355.6" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="281.94" y1="218.44" x2="287.02" y2="218.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C5" gate="G$1" pin="2"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="GND"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="299.72" y1="160.02" x2="304.8" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C4" gate="G$1" pin="2"/>
-<pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -8197,6 +8286,21 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <junction x="165.1" y="213.36"/>
 </segment>
 <segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="U3" gate="G$1" pin="IN"/>
+<wire x1="220.98" y1="147.32" x2="220.98" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="160.02" x2="233.68" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="187.96" x2="287.02" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="187.96" x2="287.02" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="IN"/>
+<wire x1="287.02" y1="160.02" x2="297.18" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="160.02" x2="220.98" y2="187.96" width="0.1524" layer="91"/>
+<junction x="220.98" y="160.02"/>
+<junction x="220.98" y="187.96"/>
+<wire x1="220.98" y1="187.96" x2="203.2" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
+</segment>
+<segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
 <wire x1="147.32" y1="177.8" x2="147.32" y2="180.34" width="0.1524" layer="91"/>
@@ -8218,19 +8322,6 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <pinref part="LED3" gate="G$1" pin="A"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
 <wire x1="264.16" y1="218.44" x2="256.54" y2="218.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P+1" gate="1" pin="+5V"/>
-<pinref part="U2" gate="G$1" pin="IN"/>
-<wire x1="254" y1="162.56" x2="259.08" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="162.56" x2="276.86" y2="162.56" width="0.1524" layer="91"/>
-<junction x="259.08" y="162.56"/>
-<pinref part="U2" gate="G$1" pin="EN"/>
-<wire x1="276.86" y1="162.56" x2="279.4" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="160.02" x2="276.86" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="160.02" x2="276.86" y2="162.56" width="0.1524" layer="91"/>
-<junction x="276.86" y="162.56"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -8259,6 +8350,68 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <wire x1="132.08" y1="215.9" x2="132.08" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="177.8" x2="231.14" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="177.8" x2="231.14" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="C1-"/>
+<wire x1="231.14" y1="152.4" x2="233.68" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="251.46" y1="177.8" x2="266.7" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="177.8" x2="266.7" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="C1+"/>
+<wire x1="266.7" y1="167.64" x2="264.16" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="C1-"/>
+<wire x1="297.18" y1="152.4" x2="294.64" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="152.4" x2="294.64" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="294.64" y1="177.8" x2="307.34" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="314.96" y1="177.8" x2="332.74" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="177.8" x2="332.74" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="C1+"/>
+<wire x1="332.74" y1="167.64" x2="327.66" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="-5V" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="OUT"/>
+<wire x1="233.68" y1="167.64" x2="226.06" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="167.64" x2="226.06" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="182.88" x2="279.4" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="182.88" x2="347.98" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="182.88" x2="347.98" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="OUT"/>
+<wire x1="347.98" y1="175.26" x2="347.98" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="167.64" x2="279.4" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="167.64" x2="279.4" y2="182.88" width="0.1524" layer="91"/>
+<junction x="279.4" y="182.88"/>
+<pinref part="P-1" gate="1" pin="-5V"/>
+<wire x1="347.98" y1="175.26" x2="373.38" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="175.26" x2="373.38" y2="167.64" width="0.1524" layer="91"/>
+<junction x="347.98" y="175.26"/>
+<pinref part="U$5" gate="G$1" pin="P$1"/>
+<wire x1="373.38" y1="175.26" x2="383.54" y2="175.26" width="0.1524" layer="91"/>
+<junction x="373.38" y="175.26"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="383.54" y1="175.26" x2="391.16" y2="175.26" width="0.1524" layer="91"/>
+<junction x="383.54" y="175.26"/>
+</segment>
+</net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -8270,36 +8423,6 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="CP"/>
-<wire x1="279.4" y1="165.1" x2="276.86" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="165.1" x2="276.86" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="276.86" y1="177.8" x2="284.48" y2="177.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="U2" gate="G$1" pin="CN"/>
-<wire x1="292.1" y1="177.8" x2="299.72" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="177.8" x2="299.72" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="OUT"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="299.72" y1="162.56" x2="317.5" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="162.56" x2="355.6" y2="162.56" width="0.1524" layer="91"/>
-<junction x="317.5" y="162.56"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-<pinref part="U$5" gate="G$1" pin="P$1"/>
-<wire x1="355.6" y1="162.56" x2="365.76" y2="162.56" width="0.1524" layer="91"/>
-<junction x="355.6" y="162.56"/>
 </segment>
 </net>
 </nets>
