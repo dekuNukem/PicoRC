@@ -200,7 +200,7 @@
 <text x="26.02" y="3.504" size="1.6764" layer="26" distance="35" rot="MR0" align="center">Instructions: picoRC.com</text>
 <text x="37.573" y="35.795" size="1.778" layer="25" align="center">5</text>
 <text x="26.003" y="9.567" size="1.9304" layer="26" distance="35" rot="MR0" align="center">Macintosh SE PicoPSU Adaptor</text>
-<text x="26.051" y="6.886" size="1.4224" layer="26" distance="30" rot="MR0" align="center">PD2 dekuNukem Dec 2022</text>
+<text x="26.051" y="6.886" size="1.4224" layer="26" distance="30" rot="MR0" align="center">PD2 dekuNukem APR 2023</text>
 <text x="30.702" y="24.807" size="1.9304" layer="26" distance="35" rot="MR0" align="center">FUSE
 5A MAX</text>
 <text x="49.064" y="28.607" size="1.27" layer="25" distance="35" rot="R90" align="center">PWR
@@ -209,7 +209,6 @@ SW</text>
 TOWARDS
 EDGE</text>
 <text x="48.444" y="3.632" size="1.778" layer="26" rot="MR0" align="center">GND</text>
-<text x="54.769" y="48.472" size="2.1844" layer="25" distance="35" align="center">+</text>
 <text x="38.081" y="29.826" size="1.778" layer="25" align="center">12</text>
 <text x="32.544" y="29.676" size="2.1844" layer="25" distance="35" align="center">+</text>
 <text x="32.417" y="33.867" size="2.1844" layer="25" distance="35" align="center">+</text>
