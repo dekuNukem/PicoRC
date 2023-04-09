@@ -8,7 +8,7 @@ This adaptor lets you use **Pico ATX PSU** in Macintosh 128K / 512K / Plus compu
 
 It plugs into the motherboard and bypasses the unreliable internal PSU all together.
 
-![Alt text](photos/title.jpg)
+![Alt text](photos/mac_plus/title.jpg)
 
 ## Features
 
@@ -52,7 +52,7 @@ For more general-purpose diagnostics and retrofitting, check out the [full-fat A
 
 PicoPSU are tiny ATX power supplies for small PCs, but perfect for retro computers as well.
 
-![Alt text](photos/pico.jpg)
+![Alt text](photos/mac_plus/pico.jpg)
 
 * [Official website](https://www.mini-box.com/DC-DC) and [distributors](https://www.mini-box.com/site/resellers.html). Even the cheapest 80W one should be plenty.
 
@@ -102,17 +102,17 @@ If this is your first time, a few tips:
 
 Parts are slightly different for Mac Plus and Mac 128K/512K, make sure to follow the correct one!
 
-![Alt text](photos/macplus_parts.png)
+![Alt text](photos/mac_plus/macplus_parts.png)
 
-![Alt text](photos/macog_parts.png)
+![Alt text](photos/mac_plus/macog_parts.png)
 
 Observe the assembly notes and reference photos:
 
-![Alt text](photos/assnote.png)
+![Alt text](photos/mac_plus/assnote.png)
 
-![Alt text](photos/macplus_ref.png)
+![Alt text](photos/mac_plus/macplus_ref.png)
 
-![Alt text](photos/macog_ref.png)
+![Alt text](photos/mac_plus/macog_ref.png)
 
 Insert component, hold it in place with masking tape or sticky putty. Flip it over and solder **a single pin** first, then make sure the part is **straight in all directions**.
 
@@ -140,7 +140,7 @@ Make sure it is **completely dry** before proceeding.
 
 ## Board Features
 
-![Alt text](photos/features.png)
+![Alt text](photos/mac_plus/features.png)
 
 ### Power Switch
 
@@ -176,7 +176,7 @@ You can wire a flip switch to it, or leave it jumpered so it turns on immediatel
 
 From the back, use a multimeter to **check for dead shorts** between each power pin and GND:
 
-![Alt text](photos/short.png)
+![Alt text](photos/mac_plus/short.png)
 
 If all good, plug in Pico ATX PSU, and then power jack.
 
@@ -200,7 +200,7 @@ Recommended steps:
 
 * Take photos of which goes in where, the lower two has a thinner thread.
 
-![Alt text](photos/back.png)
+![Alt text](photos/mac_plus/back.png)
 
 * Remove all the screws **apart from a single one inside the handle**.
 
@@ -208,7 +208,7 @@ Recommended steps:
 
 * Slowly **lift straight up** to remove the back cover.
 
-![Alt text](photos/backoff.gif)
+![Alt text](photos/mac_plus/backoff.gif)
 
 ⚠️ **DO NOT TOUCH ANY CRT COMPONENTS** if you don't know what you're doing!
 
@@ -220,29 +220,29 @@ Recommended steps:
 
 * Wiggle gently until loose, and carefully unplug.
 
-![Alt text](photos/11p.jpeg)
+![Alt text](photos/mac_plus/11p.jpeg)
 
 * Plug the Pico PSU and the power cable into the adaptor.
 
 * The missing wire should match the missing pin on the socket.
 
-![Alt text](photos/cable.jpeg)
+![Alt text](photos/mac_plus/cable.jpeg)
 
 * **[MAC PLUS]** Plug the adaptor back into the motherboard.
 
-![Alt text](photos/macplus_mb.jpeg)
+![Alt text](photos/mac_plus/macplus_mb.jpeg)
 
 * It should go in firmly, although not reach the bottom.
 
 * **Bend down and double check from both sides** that the pins are lined up and NOT off-by-one!
 
-![Alt text](photos/off1.png)
+![Alt text](photos/mac_plus/off1.png)
 
 * **[MAC 128K/512K]** Plug the extension cable into motherboard, then into bottom of the adaptor.
 
 * Again, make sure the **missing wire matches the missing pin** on the socket.
 
-![Alt text](photos/128k.jpeg)
+![Alt text](photos/mac_plus/128k.jpeg)
 
 *I don't have a Mac 128K so this will have to do*
 
@@ -256,7 +256,7 @@ If your Mac was working before, hopefully it still does!
 
 If the Mac is of unknown condition, now you'll find out!
 
-![Alt text](photos/working.jpeg)
+![Alt text](photos/mac_plus/working.jpeg)
 
 And if it doesn't work, [check out the troubleshooting guide](#troubleshooting). 
 
@@ -284,7 +284,7 @@ Non-destructive but a bit messy: Extend the power cable though the case:
 
 Cut the power cable in half:
 
-![Alt text](photos/half.jpeg)
+![Alt text](photos/mac_plus/half.jpeg)
 
 Now we're going to add some extra length.
 
@@ -292,19 +292,19 @@ You can solder it, but I highly recommend using lever connectors such as the one
 
 Strip the cables to the marked length, flip up, insert, flip down. Make sure the colors match.
 
-![Alt text](photos/strip.jpeg)
+![Alt text](photos/mac_plus/strip.jpeg)
 
-![Alt text](photos/extra.jpeg)
+![Alt text](photos/mac_plus/extra.jpeg)
 
 Now thread the cable through the square hole on the battery holder.
 
-![Alt text](photos/route.jpeg)
+![Alt text](photos/mac_plus/route.jpeg)
 
 Thread it though the same hole on the back case, now you can put it back on.
 
 Connect the other end in the same way, and **cover up the original 120/220V power port**! This way you or someone else won't accidentally plug in and blow it up.
 
-![Alt text](photos/back.jpeg)
+![Alt text](photos/mac_plus/back.jpeg)
 
 Now you just have to plug in the DC jack to turn it on.
 
@@ -322,7 +322,7 @@ With internal PSU bypassed and added cooling, may your Mac lives many more years
 
 Questions or comments? Ask in our [Discord](https://discord.gg/T9uuFudg7j), raise a [Github issue](https://github.com/dekuNukem/ATX4VC/issues), or email `dekunukem` `gmail.com`!
 
-![Alt text](photos/final.jpeg)
+![Alt text](photos/mac_plus/final.jpeg)
 
 ## Troubleshooting
 
@@ -334,7 +334,7 @@ If something else is wrong, you still need to fix it.
 
 * Check for shorts on power rails, you can measure it on the back of analog board after removing the paper insulation.
 
-![Alt text](photos/pinout.png)
+![Alt text](photos/mac_plus/pinout.png)
 
 * [This document](resources/plus_analog.pdf) is very helpful for finding faults on the analog board.
 
@@ -364,9 +364,9 @@ I highly recommend watching [Adrian's Digital Basement Macintosh Repair-a-thon](
 
 The **power connector** and CRT **deflection capacitors** are notorious for cracking, here are some examples on mine:
 
-![Alt text](photos/crack1.jpeg)
+![Alt text](photos/mac_plus/crack1.jpeg)
 
-![Alt text](photos/crack2.jpeg)
+![Alt text](photos/mac_plus/crack2.jpeg)
 
 It might be very difficult to see with naked eye, so use magnification!
 

@@ -6,11 +6,11 @@
 
 This adaptor lets you use **Pico ATX PSU** in Apple II, II Plus, IIe, and IIGS-in-IIe-case.
 
-![Alt text](photos_appleii/pcb.jpeg)
+![Alt text](photos/appleii/pcb.jpeg)
 
 It replaces the original bulky and unreliable PSU, and uses very common 12V power brick instead.
 
-![Alt text](photos_appleii/back.jpeg)
+![Alt text](photos/appleii/back.jpeg)
 
 ## Highlights
 
@@ -54,7 +54,7 @@ For more general-purpose diagnostics and retrofitting, check out the [full-fat A
 
 PicoPSU are tiny ATX power supplies for small PCs, but are perfect for retro computers as well.
 
-![Alt text](photos/pico.jpg)
+![Alt text](photos/mac_plus/pico.jpg)
 
 * [Official website](https://www.mini-box.com/DC-DC) and [distributors](https://www.mini-box.com/site/resellers.html). Even the cheapest 80W one should be plenty.
 
@@ -82,7 +82,7 @@ Remember that this solution is **only as good as your PicoPSU and 12V Brick**, s
 
 Observe the parts:
 
-![Alt text](photos_appleii/parts.png)
+![Alt text](photos/appleii/parts.png)
 
 ### Soldering Notes
 
@@ -112,7 +112,7 @@ You can either:
 
 * Or use a new 6-pin connector and cable
 
-![Alt text](photos_appleii/comp.png)
+![Alt text](photos/appleii/comp.png)
 
 First choice retains the original connector which has a perfect fit.
 
@@ -128,21 +128,21 @@ First, push the switch into the blanking plate.
 
 * Make sure the **openings are to the right side**, **hole is on top**, **switch pins points down**.
 
-![Alt text](photos_appleii/plate.jpeg)
+![Alt text](photos/appleii/plate.jpeg)
 
 Observe the following assembly notes and reference photos.
 
-![Alt text](photos_appleii/note.png)
+![Alt text](photos/appleii/note.png)
 
-![Alt text](photos_appleii/ass1.jpeg)
+![Alt text](photos/appleii/ass1.jpeg)
 
-![Alt text](photos_appleii/ass2.jpeg)
+![Alt text](photos/appleii/ass2.jpeg)
 
 If re-using the harness, make sure the wires are arranged **exactly the same way as the connector**.
 
 Two black wires on the bottom, all other colors in the same order.
 
-![Alt text](photos_appleii/cable.png)
+![Alt text](photos/appleii/cable.png)
 
 Start from shortest component to tallest. Insert component, hold in place with masking tape or sticky putty.
 
@@ -166,13 +166,13 @@ Make sure it is **completely dry** before proceeding.
 
 * There must be **no solder bridges**. If any, put on flux and melt it to remove.
 
-![Alt text](photos_appleii/bottom.jpeg)
+![Alt text](photos/appleii/bottom.jpeg)
 
 ## Board Features
 
 Install **two fuses** and the **jumper block** as shown below.
 
-![Alt text](photos_appleii/feature.png)
+![Alt text](photos/appleii/feature.png)
 
 ### PC Fan Header
 
@@ -198,11 +198,11 @@ Install **two fuses** and the **jumper block** as shown below.
 
 Use a multimeter to **check for dead shorts** between each power pin and GND:
 
-![Alt text](photos_appleii/voltage.png)
+![Alt text](photos/appleii/voltage.png)
 
 If re-using harness:
 
-![Alt text](photos_appleii/vcon.png)
+![Alt text](photos/appleii/vcon.png)
 
 If all good, plug in Pico ATX PSU, then 12V power, and flip the switch.
 
@@ -216,7 +216,7 @@ If using existing harness, make sure the voltage readings matches the photo exac
 
 * Pinch the connector from the side and unplug from motherboard
 
-![Alt text](photos_appleii/top.jpeg)
+![Alt text](photos/appleii/top.jpeg)
 
 * Use a soft towel, put the machine on its side.
 
@@ -224,11 +224,11 @@ If using existing harness, make sure the voltage readings matches the photo exac
 
 * Use your hand to support the PSU so it doesn't slam down.
 
-![Alt text](photos_appleii/side.jpeg)
+![Alt text](photos/appleii/side.jpeg)
 
 * Remove the PSU
 
-![Alt text](photos_appleii/empty.jpeg)
+![Alt text](photos/appleii/empty.jpeg)
 
 * Insert two screws into the mounting holes closest to the edge
 
@@ -236,25 +236,25 @@ If using existing harness, make sure the voltage readings matches the photo exac
 
 * Your screwdriver set might have a bit that fits the standoff, makes it much easier.
 
-![Alt text](photos_appleii/post.png)
+![Alt text](photos/appleii/post.png)
 
 * Plug PicoPSU into the adaptor
 
-![Alt text](photos_appleii/pico.jpeg)
+![Alt text](photos/appleii/pico.jpeg)
 
 * Undo the locking ring on the barrel jack, insert through the hole, reinstall the ring to fix it in place.
 
-![Alt text](photos_appleii/sw.jpeg)
+![Alt text](photos/appleii/sw.jpeg)
 
 * Install the whole assembly, secure with screws.
 
-![Alt text](photos_appleii/inside.jpeg)
+![Alt text](photos/appleii/inside.jpeg)
 
 * Connect the power cable
 
 * If using new cable, make sure the **LATCH FACES LEFT** on **BOTH ENDS**.
 
-![Alt text](photos_appleii/latch.png)
+![Alt text](photos/appleii/latch.png)
 
 That's pretty much it, we're done!
 
@@ -272,7 +272,7 @@ Put the cover back on, and you're done!
 
 With the new PSU and upgraded cooling, your Apple II should continue to provide entertainment for years to come!
 
-![Alt text](photos_appleii/money.jpeg)
+![Alt text](photos/appleii/money.jpeg)
 
 ## Questions or Comments?
 
