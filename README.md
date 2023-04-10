@@ -6,21 +6,19 @@
 
 PicoRC lets you use modern **Pico ATX PSU** in vintage computers.
 
-They are device-specific and lower cost compared to the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC).
+They are **device-specific** and **lower cost** compared to the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC).
 
 ![Alt text](photos/mac_plus/header.jpeg)
 
 ## Features
 
-* Low cost and easy assembly
-
 * **Non-destructive** and reversible
+
+* Low cost and easy assembly
 
 * **PC Fan headers** for added cooling
 
 * Universal voltage with **fused** outputs 
-
-* Replaces aging internal PSU that's hot, heavy, unreliable, and (slightly) explosive.
 
 For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https://github.com/dekuNukem/ATX4VC)!
 
