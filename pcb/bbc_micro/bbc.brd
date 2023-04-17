@@ -942,7 +942,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <vertex x="29.083" y="27.305"/>
 <vertex x="27.305" y="27.305"/>
 </polygon>
-<polygon width="0.1524" layer="1" thermals="no">
+<polygon width="0.1524" layer="1" isolate="0.3048" thermals="no">
 <vertex x="34.925" y="5.969"/>
 <vertex x="34.925" y="2.413"/>
 <vertex x="32.385" y="2.413"/>
@@ -995,17 +995,19 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="44.644" y1="13.395" x2="44.644" y2="11.432" width="1.27" layer="1"/>
 <wire x1="44.644" y1="8.636" x2="39.779" y2="8.636" width="1.27" layer="16"/>
 <wire x1="39.271" y1="8.128" x2="39.779" y2="8.636" width="1.27" layer="16"/>
-<wire x1="36.079" y1="3.556" x2="34.605" y2="5.03" width="0.3048" layer="1"/>
-<wire x1="34.605" y1="5.03" x2="34.605" y2="5.3039" width="0.3048" layer="1"/>
-<wire x1="34.605" y1="5.3039" x2="34.605" y2="7.9041" width="0.3048" layer="1"/>
-<wire x1="36.079" y1="3.567" x2="36.079" y2="3.556" width="0.3048" layer="1"/>
 <wire x1="42.037" y1="14.997" x2="43.042" y2="14.997" width="1.27" layer="1"/>
 <wire x1="43.042" y1="14.997" x2="44.644" y2="13.395" width="1.27" layer="1"/>
-<wire x1="39.271" y1="8.128" x2="37.465" y2="8.128" width="0.3048" layer="1"/>
-<wire x1="37.465" y1="8.128" x2="36.576" y2="7.239" width="0.3048" layer="1"/>
-<wire x1="36.576" y1="7.239" x2="36.576" y2="3.799" width="0.3048" layer="1"/>
-<wire x1="36.576" y1="3.799" x2="36.333" y2="3.556" width="0.3048" layer="1"/>
-<wire x1="36.333" y1="3.556" x2="36.079" y2="3.556" width="0.3048" layer="1"/>
+<wire x1="39.271" y1="8.128" x2="37.211" y2="8.128" width="0.6096" layer="1"/>
+<wire x1="37.211" y1="8.128" x2="36.703" y2="7.62" width="0.6096" layer="1"/>
+<wire x1="36.703" y1="3.672" x2="36.587" y2="3.556" width="0.6096" layer="1"/>
+<wire x1="36.079" y1="3.556" x2="36.587" y2="3.556" width="0.6096" layer="1"/>
+<wire x1="36.703" y1="7.62" x2="36.703" y2="3.672" width="0.6096" layer="1"/>
+<wire x1="34.605" y1="5.3039" x2="34.605" y2="5.273" width="0.6096" layer="1"/>
+<wire x1="35.56" y1="4.318" x2="34.605" y2="5.273" width="0.6096" layer="1"/>
+<wire x1="35.56" y1="4.318" x2="35.56" y2="3.694" width="0.6096" layer="1"/>
+<wire x1="35.698" y1="3.556" x2="35.56" y2="3.694" width="0.6096" layer="1"/>
+<wire x1="35.698" y1="3.556" x2="36.079" y2="3.556" width="0.6096" layer="1"/>
+<wire x1="34.605" y1="5.3039" x2="34.605" y2="7.9041" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$31">
 <contactref element="R1" pad="1"/>
@@ -1046,14 +1048,14 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <signal name="N$2">
 <contactref element="U2" pad="5"/>
 <contactref element="C3" pad="2"/>
-<wire x1="33.655" y1="7.9041" x2="33.655" y2="9.26" width="0.3048" layer="1"/>
-<wire x1="33.655" y1="9.26" x2="34.047" y2="9.652" width="0.3048" layer="1"/>
+<wire x1="33.655" y1="7.9041" x2="33.655" y2="9.26" width="0.6096" layer="1"/>
+<wire x1="33.655" y1="9.26" x2="34.047" y2="9.652" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="C3" pad="1"/>
 <contactref element="U2" pad="6"/>
-<wire x1="32.705" y1="7.9041" x2="32.705" y2="9.194" width="0.3048" layer="1"/>
-<wire x1="32.705" y1="9.194" x2="32.247" y2="9.652" width="0.3048" layer="1"/>
+<wire x1="32.705" y1="7.9041" x2="32.705" y2="9.194" width="0.6096" layer="1"/>
+<wire x1="32.705" y1="9.194" x2="32.247" y2="9.652" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U2" pad="1"/>
@@ -1062,14 +1064,15 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="U$5" pad="P$1"/>
 <contactref element="U$5" pad="P$2"/>
 <wire x1="29.658" y1="14.666" x2="32.318" y2="14.666" width="0.3048" layer="1"/>
-<wire x1="32.705" y1="5.3039" x2="31.231" y2="3.8299" width="0.3048" layer="1"/>
-<wire x1="31.231" y1="3.8299" x2="31.231" y2="3.556" width="0.3048" layer="1"/>
-<wire x1="32.705" y1="5.3039" x2="30.607" y2="7.4019" width="0.3048" layer="1"/>
-<wire x1="30.607" y1="7.4019" x2="30.607" y2="9.525" width="0.3048" layer="1"/>
-<wire x1="30.607" y1="9.525" x2="29.58" y2="10.552" width="0.3048" layer="1"/>
-<wire x1="29.58" y1="10.552" x2="29.58" y2="11.811" width="0.3048" layer="1"/>
 <wire x1="29.658" y1="14.666" x2="29.658" y2="11.889" width="0.3048" layer="1"/>
 <wire x1="29.658" y1="11.889" x2="29.58" y2="11.811" width="0.3048" layer="1"/>
+<wire x1="31.231" y1="3.556" x2="31.231" y2="3.799" width="0.6096" layer="1"/>
+<wire x1="32.705" y1="5.273" x2="32.705" y2="5.3039" width="0.6096" layer="1"/>
+<wire x1="31.231" y1="3.799" x2="32.705" y2="5.273" width="0.6096" layer="1"/>
+<wire x1="32.705" y1="5.3039" x2="30.734" y2="7.2749" width="0.6096" layer="1"/>
+<wire x1="30.734" y1="7.2749" x2="30.734" y2="9.906" width="0.6096" layer="1"/>
+<wire x1="30.734" y1="9.906" x2="29.658" y2="10.982" width="0.6096" layer="1"/>
+<wire x1="29.658" y1="10.982" x2="29.658" y2="11.889" width="0.6096" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
