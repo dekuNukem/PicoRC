@@ -215,11 +215,12 @@ USB Power Adaptor</text>
 <rectangle x1="4.605" y1="28.99" x2="18.605" y2="30.99" layer="51"/>
 <text x="35.594" y="3.175" size="1.6764" layer="25" distance="35" rot="R270" align="center">Fan</text>
 <rectangle x1="-25" y1="7" x2="-2" y2="29" layer="51"/>
-<text x="45.881" y="14.0362" size="1.9304" layer="25" distance="35" align="center">+5V</text>
+<text x="45.881" y="14.5442" size="1.9304" layer="25" distance="35" align="center">+5V</text>
 <text x="30.652" y="17.7138" size="1.9304" layer="25" distance="35" rot="R180" align="center">-5V</text>
 <rectangle x1="60.071" y1="31.371" x2="65.405" y2="42.293" layer="41"/>
 <text x="21.971" y="3.365" size="2.54" layer="25" distance="35" align="center">picoRC.com</text>
 <rectangle x1="7.239" y1="0.889" x2="12.573" y2="4.572" layer="41"/>
+<rectangle x1="32.893" y1="6.096" x2="34.29" y2="7.112" layer="41"/>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
@@ -825,9 +826,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$4" library="a" package="M3_MOUNTING_HOLE_PACK" value="M3_MOUNTING_HOLE" x="26" y="7.5" smashed="yes"/>
 <element name="U$3" library="atx4vc" package="ROCK_SWITCH" value="ROCK_SW" x="13.93" y="7" smashed="yes"/>
 <element name="JP3" library="appleii" package="1X04" value="" x="39.271" y="6.858" smashed="yes" rot="R270"/>
-<element name="U$6" library="blade" package="2.8BLADE" value="BLADE28" x="45.974" y="10.924" smashed="yes"/>
-<element name="U$7" library="blade" package="2.8BLADE" value="BLADE28" x="45.974" y="6.987" smashed="yes"/>
-<element name="U$8" library="blade" package="2.8BLADE" value="BLADE28" x="45.974" y="2.923" smashed="yes"/>
+<element name="U$6" library="blade" package="2.8BLADE" value="BLADE28" x="45.974" y="11.432" smashed="yes"/>
+<element name="U$7" library="blade" package="2.8BLADE" value="BLADE28" x="45.974" y="7.495" smashed="yes"/>
+<element name="U$8" library="blade" package="2.8BLADE" value="BLADE28" x="45.974" y="3.431" smashed="yes"/>
 <element name="U$9" library="blade" package="2.8BLADE" value="BLADE28" x="45.974" y="26.894" smashed="yes"/>
 <element name="U$10" library="blade" package="2.8BLADE" value="BLADE28" x="45.974" y="22.83" smashed="yes"/>
 <element name="U$11" library="blade" package="2.8BLADE" value="BLADE28" x="45.974" y="18.766" smashed="yes"/>
@@ -841,14 +842,14 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="C1" library="clock" package="0805@1" value="100nF" x="42.037" y="14.097" smashed="yes" rot="R90">
 <attribute name="NAME" x="42.545" y="16.4465" size="0.8128" layer="25" rot="R180"/>
 </element>
-<element name="C3" library="clock" package="0805@1" value="1uF" x="35.306" y="6.604" smashed="yes" rot="R270">
-<attribute name="NAME" x="35.976" y="9.2425" size="0.8128" layer="25" rot="R180"/>
+<element name="C3" library="clock" package="0805@1" value="1uF" x="33.147" y="9.652" smashed="yes">
+<attribute name="NAME" x="34.763" y="9.2995" size="0.8128" layer="25"/>
 </element>
-<element name="C4" library="clock" package="0805@1" value="2.2uF" x="31.75" y="9.144" smashed="yes">
-<attribute name="NAME" x="34.325" y="9.5473" size="0.8128" layer="25" rot="R180"/>
+<element name="C4" library="clock" package="0805@1" value="2.2uF" x="32.131" y="3.556" smashed="yes">
+<attribute name="NAME" x="32.674" y="2.6893" size="0.8128" layer="25" rot="R180"/>
 </element>
-<element name="C5" library="clock" package="0805@1" value="2.2uF" x="31.75" y="3.683" smashed="yes">
-<attribute name="NAME" x="32.4296" y="2.5781" size="0.8128" layer="25" rot="R180"/>
+<element name="C5" library="clock" package="0805@1" value="2.2uF" x="35.179" y="3.556" smashed="yes" rot="R180">
+<attribute name="NAME" x="34.6264" y="1.8669" size="0.8128" layer="25"/>
 </element>
 <element name="C6" library="clock" package="0805@1" value="1uF" x="40.005" y="14.097" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.64" y="16.4465" size="0.8128" layer="25" rot="R180"/>
@@ -857,8 +858,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="NAME" x="34.671" y="20.447" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="41.656" y="21.971" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C8" library="clock" package="0805@1" value="100nF" x="31.75" y="11.049" smashed="yes" rot="R180">
-<attribute name="NAME" x="34.417" y="11.4173" size="0.8128" layer="25" rot="R180"/>
+<element name="C8" library="clock" package="0805@1" value="100nF" x="30.48" y="11.811" smashed="yes" rot="R180">
+<attribute name="NAME" x="33.147" y="12.1793" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="J4" library="SparkFun-Connectors" package="USB-C-16P" value="" x="32.496" y="23.273" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-14122" x="32.496" y="23.019" size="1.778" layer="27" rot="R180" display="off"/>
@@ -870,7 +871,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="R3" library="atx_power_control" package="0805" value="5K1" x="35.941" y="14.097" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.179" y="15.6845" size="0.8128" layer="25"/>
 </element>
-<element name="U2" library="dword1511-pmic-dcdc" package="SOT-23-6" value="LM2776" x="32.131" y="6.223" smashed="yes" rot="R270"/>
+<element name="U2" library="dword1511-pmic-dcdc" package="SOT-23-6" value="LM2776" x="33.655" y="6.604" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -941,6 +942,18 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <vertex x="29.083" y="27.305"/>
 <vertex x="27.305" y="27.305"/>
 </polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="34.925" y="5.969"/>
+<vertex x="34.925" y="2.413"/>
+<vertex x="32.385" y="2.413"/>
+<vertex x="32.385" y="5.969"/>
+</polygon>
+<wire x1="44.644" y1="18.766" x2="45.974" y2="17.436" width="0.3048" layer="1"/>
+<wire x1="45.974" y1="1.905" x2="45.72" y2="1.651" width="0.3048" layer="1"/>
+<wire x1="45.72" y1="1.651" x2="35.052" y2="1.651" width="0.3048" layer="1"/>
+<wire x1="34.279" y1="2.424" x2="34.279" y2="3.556" width="0.3048" layer="1"/>
+<wire x1="45.974" y1="17.436" x2="45.974" y2="1.905" width="0.3048" layer="1"/>
+<wire x1="35.052" y1="1.651" x2="34.279" y2="2.424" width="0.3048" layer="1"/>
 </signal>
 <signal name="+5V">
 <contactref element="U$6" pad="P$1"/>
@@ -967,29 +980,32 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="19.58" y1="12" x2="19.58" y2="14.754" width="1.27" layer="16"/>
 <wire x1="22.86" y1="18.034" x2="38.989" y2="18.034" width="1.27" layer="16"/>
 <wire x1="19.58" y1="14.754" x2="22.86" y2="18.034" width="1.27" layer="16"/>
-<wire x1="44.644" y1="10.924" x2="47.304" y2="10.924" width="1.27" layer="16"/>
-<wire x1="47.304" y1="10.924" x2="47.304" y2="6.987" width="1.27" layer="16"/>
-<wire x1="47.304" y1="6.987" x2="47.304" y2="2.923" width="1.27" layer="16"/>
-<wire x1="47.304" y1="2.923" x2="44.644" y2="2.923" width="1.27" layer="16"/>
-<wire x1="44.644" y1="10.924" x2="44.644" y2="8.128" width="1.27" layer="16"/>
-<wire x1="44.644" y1="8.128" x2="44.644" y2="6.987" width="1.016" layer="16"/>
-<wire x1="44.644" y1="6.987" x2="44.644" y2="2.923" width="1.27" layer="16"/>
-<wire x1="30.85" y1="3.683" x2="30.8309" y2="3.7021" width="0.3048" layer="1"/>
-<wire x1="30.8309" y1="3.7021" x2="30.8309" y2="5.273" width="0.3048" layer="1"/>
-<wire x1="30.8309" y1="5.273" x2="33.4311" y2="5.273" width="0.3048" layer="1"/>
-<wire x1="44.644" y1="2.923" x2="43.245" y2="1.524" width="0.3048" layer="1"/>
-<wire x1="30.85" y1="2.424" x2="30.85" y2="3.683" width="0.3048" layer="1"/>
-<wire x1="43.245" y1="1.524" x2="31.75" y2="1.524" width="0.3048" layer="1"/>
-<wire x1="31.75" y1="1.524" x2="30.85" y2="2.424" width="0.3048" layer="1"/>
+<wire x1="44.644" y1="11.432" x2="47.304" y2="11.432" width="1.27" layer="16"/>
+<wire x1="47.304" y1="11.432" x2="47.304" y2="7.495" width="1.27" layer="16"/>
+<wire x1="47.304" y1="7.495" x2="47.304" y2="3.431" width="1.27" layer="16"/>
+<wire x1="47.304" y1="3.431" x2="44.644" y2="3.431" width="1.27" layer="16"/>
+<wire x1="44.644" y1="11.432" x2="44.644" y2="8.636" width="1.27" layer="16"/>
+<wire x1="44.644" y1="8.636" x2="44.644" y2="7.495" width="1.016" layer="16"/>
+<wire x1="44.644" y1="7.495" x2="44.644" y2="3.431" width="1.27" layer="16"/>
 <wire x1="37.973" y1="15.147" x2="37.973" y2="14.997" width="1.27" layer="1"/>
 <wire x1="37.973" y1="14.997" x2="38.989" y2="14.997" width="1.27" layer="1"/>
 <wire x1="38.989" y1="14.997" x2="40.005" y2="14.997" width="1.27" layer="1"/>
 <wire x1="40.005" y1="14.997" x2="42.037" y2="14.997" width="1.27" layer="1"/>
 <wire x1="38.989" y1="18.034" x2="38.989" y2="14.997" width="1.27" layer="1"/>
-<wire x1="42.037" y1="14.997" x2="43.677" y2="14.997" width="1.27" layer="1"/>
-<wire x1="44.644" y1="14.03" x2="44.644" y2="10.924" width="1.27" layer="1"/>
-<wire x1="43.677" y1="14.997" x2="44.644" y2="14.03" width="1.27" layer="1"/>
-<wire x1="39.271" y1="8.128" x2="44.644" y2="8.128" width="1.27" layer="16"/>
+<wire x1="44.644" y1="13.395" x2="44.644" y2="11.432" width="1.27" layer="1"/>
+<wire x1="44.644" y1="8.636" x2="39.779" y2="8.636" width="1.27" layer="16"/>
+<wire x1="39.271" y1="8.128" x2="39.779" y2="8.636" width="1.27" layer="16"/>
+<wire x1="36.079" y1="3.556" x2="34.605" y2="5.03" width="0.3048" layer="1"/>
+<wire x1="34.605" y1="5.03" x2="34.605" y2="5.3039" width="0.3048" layer="1"/>
+<wire x1="34.605" y1="5.3039" x2="34.605" y2="7.9041" width="0.3048" layer="1"/>
+<wire x1="36.079" y1="3.567" x2="36.079" y2="3.556" width="0.3048" layer="1"/>
+<wire x1="42.037" y1="14.997" x2="43.042" y2="14.997" width="1.27" layer="1"/>
+<wire x1="43.042" y1="14.997" x2="44.644" y2="13.395" width="1.27" layer="1"/>
+<wire x1="39.271" y1="8.128" x2="37.465" y2="8.128" width="0.3048" layer="1"/>
+<wire x1="37.465" y1="8.128" x2="36.576" y2="7.239" width="0.3048" layer="1"/>
+<wire x1="36.576" y1="7.239" x2="36.576" y2="3.799" width="0.3048" layer="1"/>
+<wire x1="36.576" y1="3.799" x2="36.333" y2="3.556" width="0.3048" layer="1"/>
+<wire x1="36.333" y1="3.556" x2="36.079" y2="3.556" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$31">
 <contactref element="R1" pad="1"/>
@@ -1030,14 +1046,14 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <signal name="N$2">
 <contactref element="U2" pad="5"/>
 <contactref element="C3" pad="2"/>
-<wire x1="33.4311" y1="6.223" x2="34.787" y2="6.223" width="0.3048" layer="1"/>
-<wire x1="34.787" y1="6.223" x2="35.306" y2="5.704" width="0.3048" layer="1"/>
+<wire x1="33.655" y1="7.9041" x2="33.655" y2="9.26" width="0.3048" layer="1"/>
+<wire x1="33.655" y1="9.26" x2="34.047" y2="9.652" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="C3" pad="1"/>
 <contactref element="U2" pad="6"/>
-<wire x1="33.4311" y1="7.173" x2="34.975" y2="7.173" width="0.3048" layer="1"/>
-<wire x1="34.975" y1="7.173" x2="35.306" y2="7.504" width="0.3048" layer="1"/>
+<wire x1="32.705" y1="7.9041" x2="32.705" y2="9.194" width="0.3048" layer="1"/>
+<wire x1="32.705" y1="9.194" x2="32.247" y2="9.652" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U2" pad="1"/>
@@ -1045,12 +1061,15 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="C8" pad="2"/>
 <contactref element="U$5" pad="P$1"/>
 <contactref element="U$5" pad="P$2"/>
-<wire x1="30.8309" y1="7.173" x2="30.85" y2="7.1921" width="0.3048" layer="1"/>
-<wire x1="30.85" y1="7.1921" x2="30.85" y2="9.144" width="0.3048" layer="1"/>
-<wire x1="30.85" y1="9.144" x2="30.85" y2="11.049" width="0.3048" layer="1"/>
 <wire x1="29.658" y1="14.666" x2="32.318" y2="14.666" width="0.3048" layer="1"/>
-<wire x1="29.658" y1="14.666" x2="29.658" y2="12.241" width="0.3048" layer="1"/>
-<wire x1="29.658" y1="12.241" x2="30.85" y2="11.049" width="0.3048" layer="1"/>
+<wire x1="32.705" y1="5.3039" x2="31.231" y2="3.8299" width="0.3048" layer="1"/>
+<wire x1="31.231" y1="3.8299" x2="31.231" y2="3.556" width="0.3048" layer="1"/>
+<wire x1="32.705" y1="5.3039" x2="30.607" y2="7.4019" width="0.3048" layer="1"/>
+<wire x1="30.607" y1="7.4019" x2="30.607" y2="9.525" width="0.3048" layer="1"/>
+<wire x1="30.607" y1="9.525" x2="29.58" y2="10.552" width="0.3048" layer="1"/>
+<wire x1="29.58" y1="10.552" x2="29.58" y2="11.811" width="0.3048" layer="1"/>
+<wire x1="29.658" y1="14.666" x2="29.658" y2="11.889" width="0.3048" layer="1"/>
+<wire x1="29.658" y1="11.889" x2="29.58" y2="11.811" width="0.3048" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
