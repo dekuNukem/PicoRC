@@ -68,6 +68,8 @@ Remember that this solution is **only as good as your PicoPSU and 12V Brick**, s
 
 ## Kit Assembly
 
+**DON'T START YET!!!** Keep reading :)
+
 ### Required tools
 
 * Soldering Iron
@@ -92,9 +94,7 @@ If this is your first time, a few tips:
 
 * Make sure your soldering iron has **proper temperature control**, NOT the cheap ones with just a power switch! They get way too hot and will damage the PCB.
 
-* Use **leaded solder**, much easier to work with.
-
-* Set the temperature around 320C / 600F
+* Use **leaded solder**, much easier to work with. Temperature around 320C / 600F
 
 * Use plenty of flux, makes everything much easier. You can clean it off afterwards.
 
@@ -102,9 +102,9 @@ If this is your first time, a few tips:
 
 * Try your local makerspace or university lab too!
 
-### Wiring Harness
+* Start from shortest to tallest. Solder **a single pin** first, check if part is straight.
 
-You have a choice about motherboard power cable.
+### Wiring Harness
 
 You can either:
 
@@ -114,25 +114,39 @@ You can either:
 
 ![Alt text](photos/appleii/comp.png)
 
-First choice retains the original connector which has a perfect fit.
+First choice retains the original connector with perfect fit.
 
 Second choice keeps the old PSU intact, but new connector is slightly different.
 
 You can also [buy a new connector](https://www.digikey.co.uk/en/products/detail/te-connectivity-amp-connectors/1-640520-0/187722) and [contacts](https://www.digikey.co.uk/en/products/detail/te-connectivity-amp-connectors/641294-1/289717) here.
 
-Anyway, make a choice, both work just fine.
-
 ### Assembly
 
 First, push the switch into the blanking plate.
 
-* Make sure the **openings are to the right side**, **hole is on top**, **switch pins points down**.
+* Make sure the **openings are to the right**, **hole is on top**, **switch pins points down**.
 
 ![Alt text](photos/appleii/plate.jpeg)
 
-Observe the following assembly notes and reference photos.
+Put the switch assembly aside.
+
+Solder the main PCB **as shown below**, follow the notes:
 
 ![Alt text](photos/appleii/note.png)
+
+Offer up the switch assembly.
+
+Make sure the switch sits flat. Adjust the two PCB so they are **right angle**.
+
+![Alt text](photos/appleii/angle.png)
+
+Solder the switch in place.
+
+Also solder the two PCB together at the seam **on both sides**. It needs some heat, so use plenty of flux for a shiny and smooth finish.
+
+![Alt text](photos/appleii/swsolder.png)
+
+More reference photos:
 
 ![Alt text](photos/appleii/ass1.jpeg)
 
@@ -143,14 +157,6 @@ If re-using the harness, make sure the wires are arranged **exactly the same way
 Two black wires on the bottom, all other colors in the same order.
 
 ![Alt text](photos/appleii/cable.png)
-
-Start from shortest component to tallest. Insert component, hold in place with masking tape or sticky putty.
-
-Flip it over and solder **a single pin** first, then make sure the part is **straight in all directions**.
-
-If not, you can adjust it while melting that single pin. Once happy, solder the rest of the pins.
-
-Make sure the solder melts properly and wets both the pin and pad to prevent cold solder joints, especially on thicker power pins.
 
 ### Cleaning
 
