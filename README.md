@@ -44,6 +44,13 @@ For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https:
 
 * [Instructions](appleii.md)
 
+## Apple IIGS
+
+* [Purchase Link]
+
+* [Instructions](apple_iigs.md)
+
+
 ## Get in Touch
 
 Want more? Join our official [Discord Chatroom](https://discord.gg/T9uuFudg7j) for updates.

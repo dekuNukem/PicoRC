@@ -18,7 +18,7 @@ It plugs into the motherboard and bypasses the unreliable internal PSU all toget
 
 * **PC fan header** for added cooling
 
-* **Fused** positive rails
+* **Fused** rails
 
 * Power switch and battery-backup headers
 

@@ -18,7 +18,7 @@ It replaces the original bulky and unreliable PSU, and uses very common 12V powe
 
 * **PC fan header** for added cooling
 
-* **Fused** positive rails
+* **Fused** rails
 
 * Low cost, efficient and reliable.
 
