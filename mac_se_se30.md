@@ -68,6 +68,8 @@ Remember that this solution is **only as good as your PicoPSU and 12V Brick**, s
 
 ## Kit Assembly
 
+**DON'T START YET!!!** Keep reading :)
+
 ### Required tools
 
 * Soldering Iron
@@ -106,7 +108,7 @@ If this is your first time, a few tips:
 
 ### Assembly
 
-Observe the following assembly notes and reference photos.
+Solder the main PCB **as shown**, follow the notes and reference photos.
 
 The **black 5x2 power connector** is installed on the **bottom side**, make sure the **notch faces the edge**!
 

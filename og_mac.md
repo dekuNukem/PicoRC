@@ -14,19 +14,17 @@ It plugs into the motherboard and bypasses the unreliable internal PSU all toget
 
 * **Non-destructive** and reversible
 
-* Easy assembly and installation
-
 * **PC fan header** for added cooling
 
 * **Fused** rails
 
-* Power switch and battery-backup headers
+* Low cost, efficient and reliable.
 
 ## Get One / Other Stuff
 
 [Click me to get one!](https://www.tindie.com/products/28754/)
 
-Also available for Mac SE, Apple II, and more! [Check out the main page](./README.md) for details.
+Also available for Mac SE, Apple II/IIGS, Osborne 1, and more! [Check out the main page](./README.md) for details.
 
 For more general-purpose diagnostics and retrofitting, check out the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC)!
 
@@ -82,21 +80,21 @@ Remember that this solution is **only as good as your PicoPSU and 12V Brick**, s
 
 ### Soldering Notes
 
+**DON'T START YET!!!** Keep reading :)
+
 Nothing too tricky in this kit, all basic through-hole stuff.
 
 If this is your first time, a few tips:
 
 * Make sure your soldering iron has **proper temperature control**, NOT the cheap ones with just a power switch! They get way too hot and will damage the PCB.
 
-* Use **leaded solder**, much easier to work with.
+* Use **leaded solder**. Temperature around 320C / 600F
 
-* Set the temperature around 320C / 600F
-
-* Use plenty of flux, makes everything much easier. You can clean it off afterwards.
+* Use plenty of flux to make things easier. You can clean it off afterwards.
 
 * [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well, you can also watch others by searching `how to solder`.
 
-* Try your local makerspace or university lab!
+* Try your local makerspace or university lab too!
 
 ### Assembly
 
