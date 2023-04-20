@@ -84,9 +84,9 @@ Remember that this solution is **only as good as your PicoPSU and 12V Brick**, s
 
 Observe the parts:
 
-![Alt text](photos/macse/parts1.jpeg)
+![Alt text](photos/macse/parts1.png)
 
-![Alt text](photos/macse/parts2.jpeg)
+![Alt text](photos/macse/parts2.png)
 
 ### Soldering Notes
 
