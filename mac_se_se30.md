@@ -406,6 +406,8 @@ With the new PSU, a fresh maintenance, and upgraded cooling, your Mac should con
 
 ![Alt text](photos/macse/money.jpeg)
 
+What's with the wireless keyboard and mouse? [Check out USB4VC!](https://github.com/dekuNukem/USB4VC/blob/master/README.md)
+
 ## Troubleshooting
 
 This adaptor eliminates the PSU from the equation, but that's only part of the puzzle!

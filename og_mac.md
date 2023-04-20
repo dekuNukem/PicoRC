@@ -320,9 +320,11 @@ A few extra ideas:
 
 With internal PSU bypassed and added cooling, may your Mac lives many more years of trouble-free life!
 
-Questions or comments? Ask in our [Discord](https://discord.gg/T9uuFudg7j), raise a [Github issue](https://github.com/dekuNukem/ATX4VC/issues), or email `dekunukem` `gmail.com`!
-
 ![Alt text](photos/mac_plus/final.jpeg)
+
+What's with the wireless keyboard and mouse? [Check out USB4VC!](https://github.com/dekuNukem/USB4VC/blob/master/README.md)
+
+Questions or comments? Ask in our [Discord](https://discord.gg/T9uuFudg7j), raise a [Github issue](https://github.com/dekuNukem/ATX4VC/issues), or email `dekunukem` `gmail.com`!
 
 ## Troubleshooting
 
