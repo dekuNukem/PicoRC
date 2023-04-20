@@ -226,7 +226,7 @@ Pull them apart, insert the hollow tube from the back, then insert the plunger t
 
 ![Alt text](photos/iigs/both.jpeg)
 
-That's pretty much it, we're done!
+That's pretty much it!
 
 ### Adding a Fan
 
@@ -243,6 +243,8 @@ Put the cover back on, and you're done!
 With new PSU and upgraded cooling, your IIGS should continue to provide entertainment for years to come!
 
 ![Alt text](photos/iigs/money.jpeg)
+
+What's with the wireless keyboard and mouse? [Check out USB4VC!](https://github.com/dekuNukem/USB4VC/blob/master/README.md)
 
 ## Questions or Comments?
 
