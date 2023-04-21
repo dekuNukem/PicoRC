@@ -10,7 +10,7 @@ This adaptor lets you use **Pico ATX PSU** on Osborne 1 computer.
 
 It replaces the original PSU, and uses very common **12V power brick** instead.
 
-![Alt text](photos/osborne1/back.jpeg)
+![Alt text](photos/osborne1/done.jpeg)
 
 ## Highlights
 
@@ -26,7 +26,7 @@ It replaces the original PSU, and uses very common **12V power brick** instead.
 
 [Click me to get one!]
 
-Also available for **Mac 128K, Mac SE, Apple II/IIGS, Osborne 1, and more!** [Check out the main page](./README.md) for details.
+Also available for [**Mac 128K, Mac SE, Apple II/IIGS, Osborne 1, and more!**](./README.md)
 
 For more general-purpose diagnostics and retrofitting, check out the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC)!
 
@@ -226,28 +226,86 @@ The adaptor should also work with the early version as well, although you'll nee
 
 ![Alt text](photos/osborne1/hinge.jpeg)
 
-* Cut the ziptie holding some cables
+* Cut the ziptie
 
 ![Alt text](photos/osborne1/zip.jpeg)
 
+* With all the extra stuff removed, now it's a good time to see if your Osborne still works.
 
-### Adding a Fan
+* There should be two or three 4-Pin power connectors, with **RED**, **ORANGE**, and **YELLOW** wires. One pin is unpopulated.
 
-You can add a fan for additional cooling.
+![Alt text](photos/osborne1/pwr.jpeg)
+
+* Plug them into the adaptor, make sure to **match the colours** shown on the PCB.
+
+* Connect the barrel jack, flip on the switch, and see what happens!
+
+* From my experience, the RAM tends to go bad a lot, so start there if not working.
+
+* At this age, it's a good idea to do a teardown and clean anyway.
+
+* Blow out dust, lube the floppy, check for cracked solder joints on the CRT board, etc.
+
+--------
+
+* Anyway, after you're done, we can start putting it back together!
+
+* Install the adaptor as shown in the power panel holder.
+
+* Note the orientation!
+
+* Bend the cable so it goes towards inside.
+
+* Use the standoff to secure it from the other side.
+
+![Alt text](photos/osborne1/mount1.jpeg)
+
+![Alt text](photos/osborne1/mount2.jpeg)
+
+* Install the blanking plate on the inside. Secure with screws and standoffs as before.
+
+![Alt text](photos/osborne1/blank.jpeg)
+
+* Undo the locking ring on the barrel jack, insert through the hole, fasten it on the other side.
+
+![Alt text](photos/osborne1/lock.jpeg)
+
+* Plug in the power connectors again
+
+![Alt text](photos/osborne1/again.jpeg)
+
+---------
+
+**Adding a Fan**
+
+If you want to add a fan, time to do it now.
 
 Any regular PC fan should work, you can run it at 12V (full speed) or 5V (quieter).
 
+**Don't mount the fan too close to the CRT**, or the picture might wobble from the motor's magnetic field.
+
 Make sure the fan is secured, nothing touches the blade, and air flow direction is correct.
+
+--------
+
+* Insert the handle and power panel back in the case.
+
+* Note the orientation, and **don't forget the door**!
+
+![Alt text](photos/osborne1/door.jpeg)
+
+* Finally, plug in the green grounding strap.
+
+![Alt text](photos/osborne1/gnd.jpeg)
+
+* That's pretty much it! Now you just have to put it back together!
+
 
 ## Congratulations!
 
-Put the cover back on, and you're done!
-
-With new PSU and upgraded cooling, your IIGS should continue to provide entertainment for years to come!
+With the new PSU, maintenance, and upgraded cooling, hope your Osborne 1 continue to provide exhilarating CP/M entertainment for years to come!
 
 ![Alt text](photos/osborne1/money.jpeg)
-
-What's with the wireless keyboard and mouse? [Check out USB4VC!](https://github.com/dekuNukem/USB4VC/blob/master/README.md)
 
 ## Questions or Comments?
 

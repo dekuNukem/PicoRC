@@ -1,6 +1,6 @@
 # PicoPSU Adaptor for Apple IIGS
 
-Purchase Link | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+Purchase Link(https://www.tindie.com/products/30055/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
 
 ----
 
@@ -24,9 +24,9 @@ It replaces the original PSU, and uses very common **12V power brick** instead.
 
 ## Get One / Other Stuff
 
-[Click me to get one!]
+[Click me to get one!](https://www.tindie.com/products/30055/)
 
-Also available for **Mac 128K, Mac SE, Apple II, Osborne 1, and more!** [Check out the main page](./README.md) for details.
+Also available for [**Mac 128K, Mac SE, Apple II, Osborne 1, and more!**](./README.md)
 
 For more general-purpose diagnostics and retrofitting, check out the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC)!
 
