@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="20" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -205,7 +205,7 @@ dekuNukem
 APR 2023</text>
 <text x="8.001" y="5.207" size="2.1844" layer="25" distance="35" align="center">FUSE
 5A MAX</text>
-<hole x="35.032" y="24.683" drill="8.25"/>
+<hole x="35.052" y="25.146" drill="8.25"/>
 <wire x1="45" y1="10" x2="-5" y2="10" width="0.1524" layer="51"/>
 <wire x1="0" y1="87" x2="87" y2="87" width="0.1524" layer="51"/>
 <text x="5.734" y="42.332" size="1.778" layer="26" rot="MR270" align="center">YELO</text>
@@ -224,7 +224,7 @@ Positive</text>
 <text x="5.715" y="40.894" size="1.778" layer="25" rot="R270" align="center">5V</text>
 <text x="8.255" y="41.656" size="1.778" layer="25" rot="R270" align="center">GND</text>
 <text x="13.335" y="41.148" size="1.778" layer="25" rot="R270" align="center">NC</text>
-<text x="9.144" y="48.26" size="1.778" layer="25" rot="R270" align="center">12V</text>
+<text x="9.144" y="47.752" size="1.9304" layer="25" rot="R270" align="center">12V</text>
 <text x="5.207" y="75.716" size="2.1844" layer="25" rot="R180" align="center">+</text>
 <text x="5.842" y="67.334" size="2.1844" layer="25" rot="R180" align="center">+</text>
 <text x="34.436" y="13.443" size="1.9304" layer="26" rot="MR90" align="center">GND</text>
@@ -236,10 +236,10 @@ Positive</text>
 <wire x1="4.318" y1="22.352" x2="4.318" y2="38.862" width="0.3048" layer="21"/>
 <text x="5.334" y="57.15" size="2.1844" layer="25" distance="35" rot="R90" align="center">+</text>
 <polygon width="0.1524" layer="46">
-<vertex x="20.6248" y="19.3802"/>
-<vertex x="22.0726" y="19.3802"/>
-<vertex x="22.0726" y="11.3284"/>
-<vertex x="20.6248" y="11.3284"/>
+<vertex x="20.1168" y="19.8882"/>
+<vertex x="21.5646" y="19.8882"/>
+<vertex x="21.5646" y="11.3284"/>
+<vertex x="20.1168" y="11.3284"/>
 </polygon>
 </plain>
 <libraries>
@@ -756,7 +756,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="JP3" library="appleii" package="1X04" value="" x="9.525" y="14.351" smashed="yes" rot="MR180"/>
 <element name="U$1" library="a" package="M3_MOUNTING_HOLE_PACK" value="M3_MOUNTING_HOLE" x="25" y="92" smashed="yes"/>
 <element name="U$3" library="a" package="M3_MOUNTING_HOLE_PACK" value="M3_MOUNTING_HOLE" x="25" y="5" smashed="yes"/>
-<element name="U$4" library="atx4vc" package="ROCK_SWITCH_VERTICAL" value="ROCK_SWRSW_VERTICAL" x="21.384" y="21.083" smashed="yes" rot="R90"/>
+<element name="U$4" library="atx4vc" package="ROCK_SWITCH_VERTICAL" value="ROCK_SWRSW_VERTICAL" x="20.876" y="21.083" smashed="yes" rot="R90"/>
 <element name="JP1" library="appleii" package="1X04" value="" x="9.525" y="24.13" smashed="yes" rot="MR180"/>
 <element name="JP2" library="appleii" package="1X04" value="" x="9.525" y="30.48" smashed="yes" rot="MR180"/>
 <element name="U$5" library="a" package="M3_MOUNTING_HOLE_PACK" value="M3_MOUNTING_HOLE" x="25" y="2" smashed="yes"/>
@@ -793,6 +793,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="10.795" y="57.912" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C5B2.5" package3d_urn="urn:adsk.eagle:package:5426/1" value="" x="8.001" y="69.596" smashed="yes" rot="R90">
+<attribute name="NAME" x="5.969" y="69.596" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="10" x="8.001" y="69.596" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="10.795" y="67.564" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -832,10 +833,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="C2" pad="2"/>
 <contactref element="C1" pad="2"/>
 <polygon width="0.2032" layer="1" thermals="no">
-<vertex x="18.034" y="18.542"/>
-<vertex x="26.924" y="18.542"/>
-<vertex x="26.924" y="12.446"/>
-<vertex x="18.034" y="12.446"/>
+<vertex x="16.51" y="18.542"/>
+<vertex x="25.4" y="18.542"/>
+<vertex x="25.4" y="12.446"/>
+<vertex x="16.51" y="12.446"/>
 </polygon>
 </signal>
 <signal name="+5V">
@@ -938,11 +939,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="18.288" y1="52.705" x2="15.621" y2="50.038" width="0.254" layer="16"/>
 <wire x1="15.621" y1="50.038" x2="11.176" y2="50.038" width="0.254" layer="16"/>
 <wire x1="11.176" y1="50.038" x2="10.033" y2="48.895" width="0.254" layer="16"/>
-<wire x1="15.113" y1="28.954" x2="17.334" y2="26.733" width="0.254" layer="16"/>
+<wire x1="15.113" y1="28.446" x2="16.826" y2="26.733" width="0.254" layer="16"/>
 <wire x1="10.033" y1="48.895" x2="10.033" y2="45.339" width="0.254" layer="16"/>
 <wire x1="10.033" y1="45.339" x2="15.113" y2="40.259" width="0.254" layer="16"/>
-<wire x1="15.113" y1="40.259" x2="15.113" y2="28.954" width="0.254" layer="16"/>
-<wire x1="17.334" y1="26.733" x2="25.434" y2="26.733" width="0.254" layer="16"/>
+<wire x1="15.113" y1="40.259" x2="15.113" y2="28.446" width="0.254" layer="16"/>
+<wire x1="16.826" y1="26.733" x2="24.926" y2="26.733" width="0.254" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="LED1" pad="K"/>

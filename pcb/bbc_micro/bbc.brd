@@ -997,17 +997,15 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="39.271" y1="8.128" x2="39.779" y2="8.636" width="1.27" layer="16"/>
 <wire x1="42.037" y1="14.997" x2="43.042" y2="14.997" width="1.27" layer="1"/>
 <wire x1="43.042" y1="14.997" x2="44.644" y2="13.395" width="1.27" layer="1"/>
-<wire x1="39.271" y1="8.128" x2="37.211" y2="8.128" width="0.6096" layer="1"/>
-<wire x1="37.211" y1="8.128" x2="36.703" y2="7.62" width="0.6096" layer="1"/>
-<wire x1="36.703" y1="3.672" x2="36.587" y2="3.556" width="0.6096" layer="1"/>
-<wire x1="36.079" y1="3.556" x2="36.587" y2="3.556" width="0.6096" layer="1"/>
-<wire x1="36.703" y1="7.62" x2="36.703" y2="3.672" width="0.6096" layer="1"/>
-<wire x1="34.605" y1="5.3039" x2="34.605" y2="5.273" width="0.6096" layer="1"/>
-<wire x1="35.56" y1="4.318" x2="34.605" y2="5.273" width="0.6096" layer="1"/>
-<wire x1="35.56" y1="4.318" x2="35.56" y2="3.694" width="0.6096" layer="1"/>
-<wire x1="35.698" y1="3.556" x2="35.56" y2="3.694" width="0.6096" layer="1"/>
-<wire x1="35.698" y1="3.556" x2="36.079" y2="3.556" width="0.6096" layer="1"/>
-<wire x1="34.605" y1="5.3039" x2="34.605" y2="7.9041" width="0" layer="19" extent="1-1"/>
+<wire x1="39.271" y1="8.128" x2="38.1" y2="8.128" width="0.4064" layer="1"/>
+<wire x1="36.83" y1="6.858" x2="38.1" y2="8.128" width="0.4064" layer="1"/>
+<wire x1="34.605" y1="5.3039" x2="34.605" y2="5.03" width="0.4064" layer="1"/>
+<wire x1="34.605" y1="5.03" x2="36.079" y2="3.556" width="0.4064" layer="1"/>
+<wire x1="36.079" y1="3.556" x2="36.206" y2="3.683" width="0.4064" layer="1"/>
+<wire x1="36.206" y1="3.683" x2="36.576" y2="3.683" width="0.4064" layer="1"/>
+<wire x1="36.576" y1="3.683" x2="36.83" y2="3.937" width="0.4064" layer="1"/>
+<wire x1="36.83" y1="3.937" x2="36.83" y2="6.858" width="0.4064" layer="1"/>
+<wire x1="34.605" y1="5.3039" x2="34.605" y2="7.9041" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$31">
 <contactref element="R1" pad="1"/>
@@ -1048,13 +1046,13 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <signal name="N$2">
 <contactref element="U2" pad="5"/>
 <contactref element="C3" pad="2"/>
-<wire x1="33.655" y1="7.9041" x2="33.655" y2="9.26" width="0.6096" layer="1"/>
+<wire x1="33.655" y1="7.9041" x2="33.655" y2="9.26" width="0.508" layer="1"/>
 <wire x1="33.655" y1="9.26" x2="34.047" y2="9.652" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="C3" pad="1"/>
 <contactref element="U2" pad="6"/>
-<wire x1="32.705" y1="7.9041" x2="32.705" y2="9.194" width="0.6096" layer="1"/>
+<wire x1="32.705" y1="7.9041" x2="32.705" y2="9.194" width="0.508" layer="1"/>
 <wire x1="32.705" y1="9.194" x2="32.247" y2="9.652" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$4">
@@ -1066,13 +1064,15 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="29.658" y1="14.666" x2="32.318" y2="14.666" width="0.3048" layer="1"/>
 <wire x1="29.658" y1="14.666" x2="29.658" y2="11.889" width="0.3048" layer="1"/>
 <wire x1="29.658" y1="11.889" x2="29.58" y2="11.811" width="0.3048" layer="1"/>
-<wire x1="31.231" y1="3.556" x2="31.231" y2="3.799" width="0.6096" layer="1"/>
-<wire x1="32.705" y1="5.273" x2="32.705" y2="5.3039" width="0.6096" layer="1"/>
-<wire x1="31.231" y1="3.799" x2="32.705" y2="5.273" width="0.6096" layer="1"/>
-<wire x1="32.705" y1="5.3039" x2="30.734" y2="7.2749" width="0.6096" layer="1"/>
-<wire x1="30.734" y1="7.2749" x2="30.734" y2="9.906" width="0.6096" layer="1"/>
-<wire x1="30.734" y1="9.906" x2="29.658" y2="10.982" width="0.6096" layer="1"/>
-<wire x1="29.658" y1="10.982" x2="29.658" y2="11.889" width="0.6096" layer="1"/>
+<wire x1="32.705" y1="5.3039" x2="32.004" y2="4.6029" width="0.4064" layer="1"/>
+<wire x1="32.004" y1="4.6029" x2="32.004" y2="3.937" width="0.4064" layer="1"/>
+<wire x1="32.004" y1="3.937" x2="31.623" y2="3.556" width="0.4064" layer="1"/>
+<wire x1="31.623" y1="3.556" x2="31.231" y2="3.556" width="0.4064" layer="1"/>
+<wire x1="31.231" y1="3.556" x2="30.861" y2="3.556" width="0.4064" layer="1"/>
+<wire x1="30.48" y1="10.403" x2="29.58" y2="11.303" width="0.4064" layer="1"/>
+<wire x1="29.58" y1="11.303" x2="29.58" y2="11.811" width="0.4064" layer="1"/>
+<wire x1="30.861" y1="3.556" x2="30.48" y2="3.937" width="0.4064" layer="1"/>
+<wire x1="30.48" y1="3.937" x2="30.48" y2="10.403" width="0.4064" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
