@@ -1,4 +1,4 @@
-# PicoPSU Adaptor for Apple IIGS
+# PicoPSU Adaptor for Osborne 1
 
 Purchase Link | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
 
