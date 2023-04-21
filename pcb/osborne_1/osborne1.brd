@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="20" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -212,7 +212,7 @@ APR 2023</text>
 <text x="8.274" y="44.11" size="1.6764" layer="26" rot="MR270" align="center">ORANGE</text>
 <text x="10.814" y="42.078" size="1.6764" layer="26" rot="MR270" align="center">RED</text>
 <text x="13.354" y="41.189" size="1.6764" layer="26" rot="MR270" align="center">NC</text>
-<text x="13.697" y="19.031" size="1.6764" layer="25" align="center">12</text>
+<text x="13.354" y="19.031" size="1.6764" layer="25" rot="R90" align="center">12</text>
 <text x="13.824" y="85.579" size="1.9304" layer="25" align="center">5V</text>
 <text x="5.734" y="8.617" size="1.778" layer="26" rot="MR90" align="center">GND</text>
 <text x="8.3248" y="8.617" size="1.778" layer="26" rot="MR90" align="center">VCC</text>
@@ -227,7 +227,7 @@ Positive</text>
 <text x="9.144" y="47.752" size="1.9304" layer="25" rot="R270" align="center">12V</text>
 <text x="5.207" y="75.716" size="2.1844" layer="25" rot="R180" align="center">+</text>
 <text x="5.842" y="67.334" size="2.1844" layer="25" rot="R180" align="center">+</text>
-<text x="34.436" y="13.443" size="1.9304" layer="26" rot="MR90" align="center">GND</text>
+<text x="34.309" y="10.052" size="1.9304" layer="26" rot="MR0" align="center">GND</text>
 <text x="9.525" y="53.594" size="2.1844" layer="25" distance="35" rot="R90" align="center">+</text>
 <text x="3.537" y="19.031" size="1.6764" layer="25" align="center">5</text>
 <wire x1="4.318" y1="38.862" x2="14.732" y2="38.862" width="0.3048" layer="21"/>
@@ -241,6 +241,8 @@ Positive</text>
 <vertex x="21.5646" y="11.3284"/>
 <vertex x="20.1168" y="11.3284"/>
 </polygon>
+<text x="2.267" y="30.499" size="2.1844" layer="26" rot="MR270" align="center">OS1 POWER</text>
+<wire x1="15.367" y1="18.923" x2="0" y2="18.923" width="0.3048" layer="26"/>
 </plain>
 <libraries>
 <library name="atx_power_control">
@@ -793,7 +795,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="10.795" y="57.912" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C5B2.5" package3d_urn="urn:adsk.eagle:package:5426/1" value="" x="8.001" y="69.596" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.969" y="69.596" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="6.223" y="69.596" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="10" x="8.001" y="69.596" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="10.795" y="67.564" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
