@@ -64,15 +64,19 @@ Remember that this solution is **only as good as your PicoPSU and 12V Brick**, s
 
 * Multimeter
 
+* Pliers and flush cutter
+
 ### Parts
 
 Observe the parts:
 
 ![Alt text](photos/osborne1/parts.png)
 
-### Switch Preparation
+### Power Switch Preparation
 
-Bend the pins
+Use needle-nose pliers, bend the leg on the power switch straight, then cut them to equal length.
+
+![Alt text](photos/osborne1/sw.png)
 
 ### Soldering Notes
 
