@@ -140,13 +140,13 @@ Make sure it is **completely dry** before proceeding.
 
 * There must be **no solder bridges**. If any, put on flux and melt it to remove.
 
-![Alt text](photos/osborne1/bottom.jpeg)
-
 ## Board Features
 
 Install **two fuses** and the **jumper block** as shown below.
 
 ![Alt text](photos/osborne1/feature.png)
+
+![Alt text](photos/osborne1/bottom.png)
 
 ### PC Fan Header
 
@@ -204,6 +204,8 @@ The adaptor should also work with the early version as well, although you'll nee
 
 ![Alt text](photos/osborne1/backscrew.png)
 
+* Turn it around so the back is facing you
+
 * Lift off the handle plate
 
 * Lift off the power panel
@@ -214,9 +216,17 @@ The adaptor should also work with the early version as well, although you'll nee
 
 * On the back, unplug all the cables until the panel can be removed.
 
+* Use a pair of pliers and wiggle side to side
+
 ![Alt text](photos/osborne1/unplug.jpeg)
 
-* Remove the four screws
+* Once removed, put the screws back on the plate, along with plastic sheet and rubber cap.
+
+* Put it away for safekeeping along with all the other items removed. **Don't throw anything away!**
+
+![Alt text](photos/osborne1/oldplate.jpeg)
+
+* Remove four motherboard bracket screws
 
 ![Alt text](photos/osborne1/bird.jpeg)
 
@@ -234,17 +244,37 @@ The adaptor should also work with the early version as well, although you'll nee
 
 ![Alt text](photos/osborne1/zip.jpeg)
 
+* Flip over the PSU, unplug all the cables, and put it away.
+
+![Alt text](photos/osborne1/psu.jpeg)
+
+* Pop out the thermal fuse and remove the wiring harness
+
+![Alt text](photos/osborne1/temp.jpeg)
+
+![Alt text](photos/osborne1/harness.jpeg)
+
+* Put the PSU screws and sheet back on the standoff so you don't lose them.
+
+![Alt text](photos/osborne1/sheet.jpeg)
+
 * With all the extra stuff removed, now it's a good time to see if your Osborne still works.
 
 * There should be two or three 4-Pin power connectors, with **RED**, **ORANGE**, and **YELLOW** wires. One pin is unpopulated.
 
 ![Alt text](photos/osborne1/pwr.jpeg)
 
-* Plug them into the adaptor, make sure to **match the colours** shown on the PCB.
+* Plug them into the power connectors, make sure to **match the colours** shown on the PCB.
+
+![Alt text](photos/osborne1/test.jpeg)
 
 * Connect the barrel jack, flip on the switch, and see what happens!
 
-* From my experience, the RAM tends to go bad a lot, so start there if not working.
+![Alt text](photos/osborne1/works.jpg)
+
+* This one actually works! I'm surprised 😅!
+
+* The RAM tends to go bad a lot, so start there if not working.
 
 * At this age, it's a good idea to do a teardown and clean anyway.
 
@@ -258,7 +288,7 @@ The adaptor should also work with the early version as well, although you'll nee
 
 * Note the orientation!
 
-* Bend the cable so it goes towards inside.
+* Bend the cable so it goes inwards.
 
 * Use the standoff to secure it from the other side.
 
