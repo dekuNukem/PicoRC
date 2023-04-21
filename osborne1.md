@@ -172,7 +172,7 @@ If all good, plug in PicoPSU and connect the power button, turn it on.
 
 ## Installation
 
-Some disassembly is coming up, make sure to **take plenty of photos** along the way! 
+Some disassembly is needed, make sure to **take plenty of photos** along the way! 
 
 Snap one before removing a screw or unplugging a connector! It never hurts to have reference.
 
@@ -272,7 +272,7 @@ The adaptor should also work with the early version as well, although you'll nee
 
 ![Alt text](photos/osborne1/works.jpg)
 
-* This one actually works! I'm surprised 😅!
+* Amazingly, this one works! I'm surprised! 😅
 
 * The RAM tends to go bad a lot, so start there if not working.
 
