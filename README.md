@@ -50,6 +50,11 @@ For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https:
 
 * [Instructions](apple_iigs.md)
 
+## Osborne 1
+
+* [Purchase Link]
+
+* [Instructions](osborne1.md)
 
 ## Get in Touch
 
