@@ -46,7 +46,7 @@ For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https:
 
 ## Apple IIGS
 
-* [Purchase Link]
+* [Purchase Link](https://www.tindie.com/products/30055/)
 
 * [Instructions](apple_iigs.md)
 

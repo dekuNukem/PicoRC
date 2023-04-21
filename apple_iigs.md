@@ -1,6 +1,6 @@
 # PicoPSU Adaptor for Apple IIGS
 
-Purchase Link(https://www.tindie.com/products/30055/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+[Purchase Link](https://www.tindie.com/products/30055/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
 
 ----
 
@@ -32,7 +32,13 @@ For more general-purpose diagnostics and retrofitting, check out the [full-fat A
 
 ## Table of Contents
 
-[Under Construction!]
+- [Kit Assembly](#kit-assembly)
+
+- [Pre-flight Checks](#pre-flight-checks)
+
+- [Installation](#installation)
+
+- [Questions or Comments?](#questions-or-comments)
 
 ## Getting a Pico PSU
 
