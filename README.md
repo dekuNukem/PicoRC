@@ -52,7 +52,7 @@ For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https:
 
 ## Osborne 1
 
-* [Purchase Link]
+* [Purchase Link](https://www.tindie.com/products/30087/)
 
 * [Instructions](osborne1.md)
 

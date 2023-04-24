@@ -1,6 +1,6 @@
 # PicoPSU Adaptor for Osborne 1
 
-Purchase Link | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+[Purchase Link](https://www.tindie.com/products/30087/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
 
 ----
 
@@ -24,7 +24,7 @@ It replaces the original PSU, and uses very common **12V power brick** instead.
 
 ## Get One / Other Stuff
 
-[Click me to get one!]
+[Click me to get one!](https://www.tindie.com/products/30087/)
 
 Also available for [**Mac 128K, Mac SE, Apple II/IIGS, Osborne 1, and more!**](./README.md)
 
@@ -32,7 +32,17 @@ For more general-purpose diagnostics and retrofitting, check out the [full-fat A
 
 ## Table of Contents
 
-[Under Construction!]
+- [Getting a Pico PSU](#getting-a-pico-psu)
+
+- [Kit Assembly](#kit-assembly)
+
+- [Board Features](#board-features)
+
+- [Pre-flight Checks](#pre-flight-checks)
+
+- [Installation](#installation)
+
+- [Questions or Comments?](#questions-or-comments)
 
 ## Getting a Pico PSU
 
