@@ -376,27 +376,13 @@ Make sure the fan is secured, nothing touches the blade, and air flow direction 
 
 ### Blanking Plate
 
-The plates are secured with either **screws** or **nylon rivets**.
-
-#### Screws
-
-* Put a blanking plate over the mains plug hole, insert two screws.
-
-* Support the whole thing with your hand, and flip it over.
-
-* Install the other plate from inside, and secure it with standoffs.
-
-![Alt text](photos/macse/screws.png)
-
-#### Nylon Rivets
-
 * Pull the rivet apart
 
 * Insert the "hollow tube" into a blanking plate
 
-* Cover the mains plug hole from outside, then insert the other plate from inside
+* Cover the hole from outside, then the other from inside, make sure the tube goes through both.
 
-* Insert the "plunger" into the tube to fasten it together.
+* Insert the "plunger" to fasten it together.
 
 ![Alt text](photos/macse/rivet.png)
 

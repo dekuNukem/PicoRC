@@ -16,9 +16,9 @@ They are **device-specific** and **lower cost** compared to the [full-fat ATX4VC
 
 * Low cost and easy assembly
 
-* **PC Fan headers** for added cooling
+* **PC Fan header** for added cooling
 
-* Universal voltage with **fused** outputs 
+* Universal voltage with **fused** rails 
 
 For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https://github.com/dekuNukem/ATX4VC)!
 
