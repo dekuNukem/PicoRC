@@ -376,11 +376,11 @@ Make sure the fan is secured, nothing touches the blade, and air flow direction 
 
 ### Blanking Plate
 
-* Pull the rivet apart
+* Pull apart the nylon rivets
 
 * Insert the "hollow tube" into a blanking plate
 
-* Cover the hole from outside, then the other from inside, make sure the tube goes through both.
+* Cover the hole from outside, then the other plate from inside, make sure the tube goes through both.
 
 * Insert the "plunger" to fasten it together.
 
