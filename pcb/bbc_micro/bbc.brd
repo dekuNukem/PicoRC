@@ -2062,10 +2062,11 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="36.83" y1="3.81" x2="36.83" y2="6.858" width="0.4064" layer="1"/>
 <wire x1="34.605" y1="5.3039" x2="34.605" y2="7.9041" width="0.4064" layer="1"/>
 <contactref element="C2" pad="+"/>
-<wire x1="39.091" y1="17.272" x2="40.005" y2="18.186" width="1.27" layer="1"/>
+<wire x1="38.1" y1="18.186" x2="37.186" y2="17.272" width="1.27" layer="1"/>
+<wire x1="38.1" y1="18.186" x2="40.005" y2="18.186" width="1.27" layer="1"/>
 <wire x1="19.58" y1="12" x2="19.58" y2="13.524" width="1.27" layer="1"/>
 <wire x1="23.328" y1="17.272" x2="19.58" y2="13.524" width="1.27" layer="1"/>
-<wire x1="23.328" y1="17.272" x2="39.091" y2="17.272" width="1.27" layer="1"/>
+<wire x1="23.328" y1="17.272" x2="37.186" y2="17.272" width="1.27" layer="1"/>
 <wire x1="40.005" y1="14.997" x2="40.005" y2="18.186" width="1.27" layer="1"/>
 <wire x1="39.271" y1="8.128" x2="44.011" y2="8.128" width="1.778" layer="16"/>
 <wire x1="44.011" y1="8.128" x2="44.644" y2="7.495" width="1.778" layer="16"/>
