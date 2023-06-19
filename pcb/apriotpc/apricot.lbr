@@ -225,9 +225,24 @@ by exp-lbrs.ulp</description>
 <smd name="P$18" x="10.5" y="0" dx="2.5" dy="3.5" layer="1" thermals="no"/>
 <smd name="P$19" x="14.7" y="0" dx="2.5" dy="3.5" layer="1" thermals="no"/>
 <smd name="P$20" x="18.9" y="0" dx="2.5" dy="3.5" layer="1" thermals="no"/>
-<text x="0.1" y="4.2" size="2.54" layer="21" align="center">LATCH</text>
+<text x="0.1" y="4.2" size="2.54" layer="21" align="center">LATCH SIDE</text>
 <wire x1="-23.1" y1="4.2" x2="-23.1" y2="-8.4" width="0.1524" layer="21"/>
 <wire x1="23.1" y1="-8.4" x2="23.1" y2="4.2" width="0.1524" layer="21"/>
+</package>
+<package name="ROCKSW">
+<pad name="P$3" x="0" y="-4.7" drill="1.9" shape="long" thermals="no"/>
+<pad name="P$2" x="0" y="0" drill="1.9" shape="long" thermals="no"/>
+<pad name="P$1" x="0" y="4.7" drill="1.9" shape="long" thermals="no"/>
+<pad name="P$4" x="-12.7" y="2.5" drill="1.9" diameter="3.048" shape="square" thermals="no"/>
+<pad name="P$5" x="-12.7" y="-2.5" drill="1.9" diameter="3.048" shape="square" thermals="no"/>
+<wire x1="0" y1="6.55" x2="0" y2="-6.55" width="0.1524" layer="21"/>
+<wire x1="-20" y1="-3" x2="-20" y2="3" width="0.1524" layer="51"/>
+<wire x1="-20" y1="3" x2="-13" y2="3" width="0.1524" layer="51"/>
+<wire x1="-20" y1="-3" x2="-13" y2="-3" width="0.1524" layer="51"/>
+<wire x1="0" y1="6.6" x2="-13" y2="6.6" width="0.1524" layer="21"/>
+<wire x1="-13" y1="6.6" x2="-13" y2="3" width="0.1524" layer="21"/>
+<wire x1="-13" y1="-3" x2="-13" y2="-6.6" width="0.1524" layer="21"/>
+<wire x1="-13" y1="-6.6" x2="0" y2="-6.6" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -262,6 +277,17 @@ by exp-lbrs.ulp</description>
 <pin name="-5V" x="12.7" y="-10.16" length="middle" rot="R180"/>
 <pin name="5VSB" x="12.7" y="-15.24" length="middle" rot="R180"/>
 <pin name="GND" x="12.7" y="-20.32" length="middle" rot="R180"/>
+</symbol>
+<symbol name="ROCKSW">
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-17.78" x2="-5.08" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-17.78" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
+<pin name="1" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="2" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="3" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="PEG1" x="10.16" y="-10.16" length="middle" rot="R180"/>
+<pin name="PEG2" x="10.16" y="-15.24" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -313,6 +339,25 @@ by exp-lbrs.ulp</description>
 <connect gate="G$1" pin="GND" pad="P$3 P$5 P$7 P$13 P$15 P$16 P$17" route="any"/>
 <connect gate="G$1" pin="PS_ON" pad="P$14"/>
 <connect gate="G$1" pin="PWR_OK" pad="P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ROCKSW">
+<gates>
+<gate name="G$1" symbol="ROCKSW" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="ROCKSW">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="PEG1" pad="P$4"/>
+<connect gate="G$1" pin="PEG2" pad="P$5"/>
 </connects>
 <technologies>
 <technology name=""/>
