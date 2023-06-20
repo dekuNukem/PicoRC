@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -217,7 +217,7 @@ dekuNukem 2023</text>
 <rectangle x1="59.441" y1="38.576" x2="63.632" y2="43.529" layer="41"/>
 <rectangle x1="63.632" y1="38.576" x2="67.823" y2="43.529" layer="41"/>
 <rectangle x1="67.823" y1="38.576" x2="72.014" y2="43.529" layer="41"/>
-<text x="16.1986" y="19.7204" size="2.54" layer="25" distance="35" align="center">picoRC.com</text>
+<text x="15.6906" y="18.3234" size="2.54" layer="25" distance="35" align="center">picoRC.com</text>
 <text x="100.076" y="47.657" size="1.4224" layer="25" rot="R180" align="center">G</text>
 <text x="96.52" y="47.657" size="1.4224" layer="25" rot="R180" align="center">-12</text>
 <text x="92.837" y="47.657" size="1.4224" layer="25" rot="R180" align="center">-5</text>
@@ -862,7 +862,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$1" library="apricot" package="20P_EDGE" value="20PEDGE" x="51" y="41" smashed="yes"/>
 <element name="U$3" library="atx_power_control" package="FUSE_HOLDER_3IN1" value="CAR_FUSE_HOLDER3IN1" x="93.096" y="52.546" smashed="yes" rot="R180"/>
 <element name="C9" library="adafruit" package="E5-10,5" value="" x="87.254" y="27.4" smashed="yes">
-<attribute name="NAME" x="81.7438" y="24.77" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="81.783" y="27.5148" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="84.1298" y="24.1742" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C5B2.5" package3d_urn="urn:adsk.eagle:package:5426/1" value="" x="86.619" y="34.258" smashed="yes">
@@ -877,10 +877,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="92.207" y="22.6502" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="94.7978" y="24.1742" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C5B2.5" package3d_urn="urn:adsk.eagle:package:5426/1" value="" x="98.811" y="33.877" smashed="yes">
-<attribute name="NAME" x="95.382" y="35.655" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="10" x="92.207" y="27.654" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="96.779" y="31.083" size="1.27" layer="27" ratio="10"/>
+<element name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C5B2.5" package3d_urn="urn:adsk.eagle:package:5426/1" value="" x="98.811" y="34.258" smashed="yes">
+<attribute name="NAME" x="95.382" y="36.036" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="10" x="92.207" y="28.035" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="96.779" y="31.464" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C7" library="clock" package="0805@1" value="100nF" x="97.922" y="29.559" smashed="yes" rot="MR0">
 <attribute name="NAME" x="100.589" y="29.2415" size="0.8128" layer="26" rot="MR0"/>
@@ -942,6 +942,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="POPULARITY" value="3" x="79.5" y="30" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="79.5" y="30" size="1.778" layer="27" display="off"/>
 </element>
+<element name="U$7" library="apricot" package="M3_MOUNTING_HOLE_PACK" value="M3_MOUNTING_HOLE" x="80" y="22.75" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1055,6 +1056,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="1.8" y1="50.3" x2="3.5" y2="52" width="1.778" layer="16"/>
 <wire x1="1.8" y1="37.39" x2="1.8" y2="19.7" width="1.778" layer="16"/>
 <wire x1="1.8" y1="19.7" x2="3.5" y2="18" width="1.778" layer="16"/>
+<contactref element="U$7" pad="P$1"/>
+<contactref element="U$7" pad="P$2"/>
+<wire x1="79.5" y1="30" x2="79.5" y2="23.5" width="1.778" layer="16"/>
+<wire x1="79.5" y1="23.5" x2="80" y2="22.75" width="1.778" layer="16"/>
 </signal>
 <signal name="+5V">
 <contactref element="U$8" pad="A0"/>
@@ -1064,7 +1069,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="C4" pad="1"/>
 <contactref element="C7" pad="2"/>
 <contactref element="C5" pad="2"/>
-<wire x1="96.271" y1="33.877" x2="96.271" y2="28.289" width="2.54" layer="16"/>
+<wire x1="96.271" y1="34.258" x2="96.271" y2="28.289" width="2.54" layer="16"/>
 <wire x1="96.271" y1="28.289" x2="95.382" y2="27.4" width="2.54" layer="16"/>
 <wire x1="95.382" y1="27.4" x2="96.017" y2="26.765" width="2.54" layer="16"/>
 <wire x1="96.017" y1="26.765" x2="96.017" y2="21.939" width="2.54" layer="16"/>
@@ -1086,11 +1091,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="44.7" y1="48.228" x2="44.7" y2="41" width="2.54" layer="16"/>
 <wire x1="97.442" y1="19.083" x2="100.942" y2="19.083" width="2.54" layer="16"/>
 <wire x1="96.271" y1="34.639" x2="86.238" y2="44.672" width="2.54" layer="16"/>
-<wire x1="96.271" y1="34.639" x2="96.271" y2="33.877" width="2.54" layer="16"/>
+<wire x1="96.271" y1="34.639" x2="96.271" y2="34.258" width="2.54" layer="16"/>
 <wire x1="78.618" y1="48.228" x2="82.174" y2="44.672" width="2.54" layer="16"/>
 <wire x1="82.174" y1="44.672" x2="86.238" y2="44.672" width="2.54" layer="16"/>
-<wire x1="96.271" y1="33.877" x2="97.022" y2="33.126" width="0.508" layer="16"/>
-<wire x1="97.022" y1="33.126" x2="97.022" y2="31.337" width="0.508" layer="16"/>
+<wire x1="96.271" y1="34.258" x2="97.022" y2="33.507" width="0.508" layer="16"/>
+<wire x1="97.022" y1="33.507" x2="97.022" y2="31.337" width="0.508" layer="16"/>
 <wire x1="97.022" y1="31.337" x2="97.022" y2="29.559" width="0.508" layer="16"/>
 <wire x1="97.022" y1="29.559" x2="97.022" y2="29.04" width="0.508" layer="16"/>
 <wire x1="97.022" y1="29.04" x2="95.382" y2="27.4" width="0.508" layer="16"/>

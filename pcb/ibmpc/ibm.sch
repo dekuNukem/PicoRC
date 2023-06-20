@@ -15072,6 +15072,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-20" package3d_urn="urn:adsk.eagle:package:27950/1"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="U$7" library="apricot" deviceset="M3_MOUNTING_HOLE" device=""/>
+<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15253,6 +15255,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="P+5" gate="1" x="30.48" y="114.3" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="33.02" y="109.22" size="1.778" layer="96" rot="MR90"/>
 </instance>
+<instance part="U$7" gate="G$1" x="-35.56" y="139.7" smashed="yes"/>
+<instance part="GND14" gate="1" x="-7.62" y="134.62" smashed="yes">
+<attribute name="VALUE" x="-10.16" y="132.08" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15410,6 +15416,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="TP2" gate="G$1" pin="TP"/>
 <pinref part="GND13" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="-7.62" y1="144.78" x2="-7.62" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="P$1"/>
+<wire x1="-12.7" y1="144.78" x2="-7.62" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="P$2"/>
+<wire x1="-12.7" y1="137.16" x2="-7.62" y2="137.16" width="0.1524" layer="91"/>
+<junction x="-7.62" y="137.16"/>
 </segment>
 </net>
 <net name="N$6" class="0">
