@@ -15066,7 +15066,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R1" library="adafruit" deviceset="R-US_" device="0207/10"/>
+<part name="R1" library="adafruit" deviceset="R-US_" device="0207/10" value="470"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-20" package3d_urn="urn:adsk.eagle:package:27950/1"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-20" package3d_urn="urn:adsk.eagle:package:27950/1"/>
