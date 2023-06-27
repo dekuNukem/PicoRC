@@ -15064,7 +15064,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="5MM"/>
-<part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R1" library="adafruit" deviceset="R-US_" device="0207/10" value="470"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="PAD1-20" package3d_urn="urn:adsk.eagle:package:27950/1"/>
@@ -15226,9 +15225,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="LED1" gate="G$1" x="256.54" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="261.112" y="194.056" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="261.112" y="196.215" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="+3V4" gate="G$1" x="248.92" y="193.04" smashed="yes">
-<attribute name="VALUE" x="246.38" y="187.96" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R1" gate="G$1" x="271.78" y="190.5" smashed="yes">
 <attribute name="NAME" x="267.97" y="191.9986" size="1.778" layer="95"/>
@@ -15603,11 +15599,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <wire x1="114.3" y1="254" x2="132.08" y2="254" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="248.92" y1="190.5" x2="254" y2="190.5" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -15641,11 +15632,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="J2" gate="G$1" pin="PWR_OK"/>
 <wire x1="109.22" y1="160.02" x2="190.5" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="160.02" x2="190.5" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="160.02" x2="190.5" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="190.5" x2="190.5" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="203.2" x2="63.5" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="203.2" x2="63.5" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="PWR_OK"/>
 <wire x1="63.5" y1="228.6" x2="78.74" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="190.5" y1="190.5" x2="254" y2="190.5" width="0.1524" layer="91"/>
+<junction x="190.5" y="190.5"/>
 </segment>
 </net>
 <net name="N$5" class="0">
