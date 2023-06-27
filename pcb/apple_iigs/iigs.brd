@@ -458,38 +458,6 @@ by exp-lbrs.ulp</description>
 </package>
 </packages>
 </library>
-<library name="linear" urn="urn:adsk.eagle:library:262">
-<description>&lt;b&gt;Linear Devices&lt;/b&gt;&lt;p&gt;
-Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="TO92" urn="urn:adsk.eagle:footprint:16150/1" library_version="7">
-<description>&lt;b&gt;TO-92&lt;/b&gt;</description>
-<wire x1="-2.095" y1="-1.651" x2="-0.7869" y2="2.5484" width="0.1524" layer="21" curve="-111.097684"/>
-<wire x1="0.7869" y1="2.5484" x2="2.095" y2="-1.651" width="0.1524" layer="21" curve="-111.097684"/>
-<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.1524" layer="21"/>
-<wire x1="-2.254" y1="-0.254" x2="-0.286" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-2.655" y1="-0.254" x2="-2.254" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="-0.286" y1="-0.254" x2="0.286" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="2.254" y1="-0.254" x2="2.655" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="0.286" y1="-0.254" x2="2.254" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-0.7864" y1="2.5484" x2="0.7864" y2="2.5484" width="0.1524" layer="51" curve="-34.298964"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon"/>
-<pad name="3" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="2.413" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="2.921" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="TO92" urn="urn:adsk.eagle:package:16416/2" type="model" library_version="7">
-<description>TO-92</description>
-<packageinstances>
-<packageinstance name="TO92"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="clock">
 <description>Generated from &lt;b&gt;clock.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
@@ -519,6 +487,47 @@ chip</description>
 <text x="-1.651" y="0.9525" size="0.8128" layer="25">&gt;NAME</text>
 </package>
 </packages>
+</library>
+<library name="v-reg" urn="urn:adsk.eagle:library:409">
+<description>&lt;b&gt;Voltage Regulators&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="79XXS" urn="urn:adsk.eagle:footprint:30280/1" library_version="5">
+<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
+<wire x1="4.826" y1="-4.318" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="-4.318" x2="-4.826" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-4.064" x2="-4.826" y2="-4.318" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-1.143" x2="5.08" y2="-4.064" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-4.064" x2="-5.08" y2="-1.143" width="0.1524" layer="21"/>
+<circle x="-4.6228" y="-3.7084" radius="0.254" width="0" layer="21"/>
+<pad name="GND" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="IN" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="OUT" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="-3.81" size="1.27" layer="51" ratio="10">+</text>
+<text x="-0.635" y="-3.81" size="1.27" layer="51" ratio="10">I</text>
+<text x="1.905" y="-3.81" size="1.27" layer="51" ratio="10">O</text>
+<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="0" layer="21"/>
+<rectangle x1="-3.429" y1="-0.762" x2="-1.651" y2="0" layer="21"/>
+<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="0" layer="21"/>
+<rectangle x1="-0.889" y1="-0.762" x2="0.889" y2="0" layer="21"/>
+<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="0" layer="21"/>
+<rectangle x1="1.651" y1="-0.762" x2="3.429" y2="0" layer="21"/>
+<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="0" layer="21"/>
+<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
+<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
+<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="79XXS" urn="urn:adsk.eagle:package:30343/1" type="box" library_version="5">
+<description>VOLTAGE REGULATOR</description>
+<packageinstances>
+<packageinstance name="79XXS"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -729,10 +738,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="POPULARITY" value="92" x="36.957" y="15.572" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="40.132" y="11.762" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" package="TO92" package3d_urn="urn:adsk.eagle:package:16416/2" value="" x="21.463" y="37.465" smashed="yes">
-<attribute name="POPULARITY" value="0" x="21.463" y="37.465" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="24.384" y="36.195" size="1.27" layer="27" ratio="10"/>
-</element>
 <element name="C11" library="clock" package="C1210" value="47uF" x="40.132" y="21.971" smashed="yes" rot="R270">
 <attribute name="NAME" x="37.592" y="23.622" size="0.8128" layer="25" rot="R270"/>
 </element>
@@ -750,6 +755,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="C4" library="clock" package="0805@1" value="100nF" x="37.338" y="31.115" smashed="yes" rot="MR270">
 <attribute name="NAME" x="37.6555" y="33.782" size="0.8128" layer="26" rot="MR270"/>
+</element>
+<element name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="79XXS" package3d_urn="urn:adsk.eagle:package:30343/1" value="" x="21.971" y="40.259" smashed="yes">
+<attribute name="POPULARITY" value="3" x="21.971" y="41.275" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="16.891" y="32.639" size="1.27" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>
@@ -788,7 +797,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <vertex x="35.306" y="36.068"/>
 <vertex x="32.258" y="36.068"/>
 </polygon>
-<contactref element="IC2" pad="1"/>
 <contactref element="C15" pad="1"/>
 <contactref element="C13" pad="1"/>
 <contactref element="C11" pad="2"/>
@@ -805,10 +813,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="39.37" y1="32.269" x2="39.37" y2="32.015" width="0.8128" layer="16"/>
 <wire x1="39.37" y1="32.269" x2="38.492" y2="33.147" width="0.8128" layer="16"/>
 <polygon width="0.2032" layer="1" thermals="no">
-<vertex x="19.177" y="38.227"/>
-<vertex x="20.955" y="38.227"/>
-<vertex x="20.955" y="36.449"/>
-<vertex x="19.177" y="36.449"/>
+<vertex x="18.415" y="39.37"/>
+<vertex x="20.447" y="39.37"/>
+<vertex x="20.447" y="35.56"/>
+<vertex x="18.415" y="35.56"/>
 </polygon>
 <polygon width="0.2032" layer="1" thermals="no">
 <vertex x="44.323" y="24.003"/>
@@ -822,6 +830,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <vertex x="41.656" y="21.59"/>
 <vertex x="41.656" y="19.304"/>
 </polygon>
+<contactref element="IC1" pad="GND"/>
 </signal>
 <signal name="+5V">
 <contactref element="U$1" pad="A0"/>
@@ -861,14 +870,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="22.098" y1="19.431" x2="24.257" y2="21.59" width="0.508" layer="16"/>
 <wire x1="14.937" y1="17.604" x2="16.764" y2="19.431" width="0.508" layer="16"/>
 <wire x1="24.257" y1="21.59" x2="24.257" y2="33.528" width="0.508" layer="16"/>
-<wire x1="24.257" y1="33.528" x2="21.4422" y2="36.3428" width="0.508" layer="16"/>
 <wire x1="24.257" y1="33.528" x2="25.4" y2="34.671" width="0.508" layer="16"/>
 <wire x1="41.296" y1="34.671" x2="42.047" y2="33.92" width="0.508" layer="16"/>
 <wire x1="25.4" y1="34.671" x2="41.296" y2="34.671" width="0.508" layer="16"/>
 <wire x1="42.047" y1="33.92" x2="44.547" y2="33.92" width="0.508" layer="16"/>
-<contactref element="IC2" pad="2"/>
-<wire x1="21.4422" y1="36.3428" x2="21.4422" y2="39.3492" width="0.508" layer="16"/>
-<wire x1="21.4422" y1="39.3492" x2="21.463" y2="39.37" width="0.508" layer="16"/>
+<contactref element="IC1" pad="IN"/>
+<wire x1="21.971" y1="37.719" x2="21.971" y2="35.814" width="0.508" layer="16"/>
+<wire x1="21.971" y1="35.814" x2="24.257" y2="33.528" width="0.508" layer="16"/>
 </signal>
 <signal name="N$6">
 <contactref element="U$1" pad="B0"/>
@@ -957,9 +965,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="30.353" y1="35.687" x2="39.854" y2="35.687" width="0.508" layer="16"/>
 <wire x1="39.854" y1="35.687" x2="42.047" y2="37.88" width="0.508" layer="16"/>
 <wire x1="42.047" y1="37.88" x2="44.547" y2="37.88" width="0.508" layer="16"/>
-<contactref element="IC2" pad="3"/>
-<wire x1="22.733" y1="37.465" x2="28.558" y2="37.465" width="0.508" layer="16"/>
 <wire x1="28.558" y1="37.465" x2="28.702" y2="37.321" width="0.508" layer="16"/>
+<contactref element="IC1" pad="OUT"/>
+<wire x1="24.511" y1="37.719" x2="24.76499375" y2="37.465" width="0.508" layer="16"/>
+<wire x1="24.76499375" y1="37.465" x2="28.558" y2="37.465" width="0.508" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="JP4" pad="2"/>
