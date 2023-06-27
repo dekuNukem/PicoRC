@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -193,11 +193,12 @@
 <wire x1="77" y1="3.81" x2="80.81" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="80.81" y1="0" x2="120.19" y2="0" width="0" layer="20"/>
 <wire x1="120.19" y1="0" x2="124" y2="3.81" width="0" layer="20" curve="90"/>
-<wire x1="124" y1="3.81" x2="124" y2="52.19" width="0" layer="20"/>
-<wire x1="124" y1="52.19" x2="120.19" y2="56" width="0" layer="20" curve="90"/>
-<wire x1="120.19" y1="56" x2="3.81" y2="56" width="0" layer="20"/>
-<wire x1="3.81" y1="56" x2="0" y2="52.19" width="0" layer="20" curve="90"/>
-<wire x1="0" y1="52.19" x2="0" y2="17.81" width="0" layer="20"/>
+<wire x1="105" y1="57" x2="120.19" y2="57" width="0" layer="20"/>
+<wire x1="120.19" y1="57" x2="124" y2="53.19" width="0" layer="20" curve="-90"/>
+<wire x1="124" y1="53.19" x2="124" y2="3.81" width="0" layer="20"/>
+<wire x1="0" y1="17.81" x2="0" y2="53.19" width="0" layer="20"/>
+<wire x1="0" y1="53.19" x2="3.81" y2="57" width="0" layer="20" curve="-90"/>
+<wire x1="3.81" y1="57" x2="24" y2="57" width="0" layer="20"/>
 <wire x1="0" y1="17.81" x2="3.81" y2="14" width="0" layer="20" curve="90"/>
 <wire x1="3.81" y1="14" x2="21.19" y2="14" width="0" layer="20"/>
 <wire x1="21.19" y1="14" x2="25" y2="17.81" width="0" layer="20" curve="90"/>
@@ -217,7 +218,7 @@ dekuNukem 2023</text>
 <rectangle x1="59.441" y1="38.576" x2="63.632" y2="43.529" layer="41"/>
 <rectangle x1="63.632" y1="38.576" x2="67.823" y2="43.529" layer="41"/>
 <rectangle x1="67.823" y1="38.576" x2="72.014" y2="43.529" layer="41"/>
-<text x="15.6906" y="18.3234" size="2.54" layer="25" distance="35" align="center">picoRC.com</text>
+<text x="15.4366" y="17.0534" size="2.54" layer="25" distance="35" align="center">picoRC.com</text>
 <text x="99.06" y="42.672" size="1.016" layer="25" rot="R180" align="center">G</text>
 <text x="96.393" y="42.672" size="1.016" layer="25" rot="R180" align="center">-12</text>
 <text x="93.472" y="42.672" size="1.016" layer="25" rot="R180" align="center">-5</text>
@@ -226,9 +227,151 @@ dekuNukem 2023</text>
 <text x="99.187" y="0.921" size="1.6764" layer="25" rot="R180" align="center">5V</text>
 <text x="80.042" y="14.097" size="2.1844" layer="25" distance="35" align="center">FAN</text>
 <text x="103.016" y="41.453" size="2.54" layer="25" rot="R180" align="center">+</text>
-<text x="94.761" y="36.119" size="2.54" layer="25" rot="R180" align="center">+</text>
+<text x="94.761" y="36.5" size="2.54" layer="25" rot="R180" align="center">+</text>
 <text x="82.442" y="36.119" size="2.54" layer="25" rot="R180" align="center">+</text>
 <text x="29.737" y="54.534" size="2.54" layer="28" rot="R180" align="center">+</text>
+<wire x1="24" y1="48" x2="24" y2="72" width="0.254" layer="51"/>
+<wire x1="105" y1="105" x2="105" y2="0" width="0.254" layer="51"/>
+<wire x1="24" y1="57" x2="24" y2="63.35" width="0" layer="20"/>
+<wire x1="24" y1="63.35" x2="25.27" y2="64.62" width="0" layer="20" curve="-90"/>
+<wire x1="25.27" y1="64.62" x2="48.73" y2="64.62" width="0" layer="20"/>
+<wire x1="48.73" y1="64.62" x2="50" y2="63.35" width="0" layer="20" curve="-90"/>
+<wire x1="50" y1="63.35" x2="50" y2="57" width="0" layer="20"/>
+<wire x1="80.27" y1="64.62" x2="103.73" y2="64.62" width="0" layer="20"/>
+<wire x1="103.73" y1="64.62" x2="105" y2="63.35" width="0" layer="20" curve="-90"/>
+<wire x1="105" y1="63.35" x2="105" y2="57" width="0" layer="20"/>
+<wire x1="51" y1="48" x2="51" y2="72" width="0.254" layer="51"/>
+<wire x1="78" y1="48" x2="78" y2="72" width="0.254" layer="51"/>
+<wire x1="50" y1="57" x2="52" y2="57" width="0" layer="20"/>
+<wire x1="52" y1="57" x2="52" y2="63.35" width="0" layer="20"/>
+<wire x1="52" y1="63.35" x2="53.27" y2="64.62" width="0" layer="20" curve="-90"/>
+<wire x1="53.27" y1="64.62" x2="75.73" y2="64.62" width="0" layer="20"/>
+<wire x1="75.73" y1="64.62" x2="77" y2="63.35" width="0" layer="20" curve="-90"/>
+<wire x1="77" y1="63.35" x2="77" y2="57" width="0" layer="20"/>
+<wire x1="77" y1="57" x2="79" y2="57" width="0" layer="20"/>
+<wire x1="79" y1="57" x2="79" y2="63.35" width="0" layer="20"/>
+<wire x1="79" y1="63.35" x2="80.27" y2="64.62" width="0" layer="20" curve="-90"/>
+<hole x="24.384" y="57.023" drill="0.381"/>
+<hole x="25.019" y="57.023" drill="0.381"/>
+<hole x="25.654" y="57.023" drill="0.381"/>
+<hole x="26.289" y="57.023" drill="0.381"/>
+<hole x="26.924" y="57.023" drill="0.381"/>
+<hole x="27.559" y="57.023" drill="0.381"/>
+<hole x="28.194" y="57.023" drill="0.381"/>
+<hole x="28.829" y="57.023" drill="0.381"/>
+<hole x="29.464" y="57.023" drill="0.381"/>
+<hole x="30.099" y="57.023" drill="0.381"/>
+<hole x="30.734" y="57.023" drill="0.381"/>
+<hole x="31.369" y="57.023" drill="0.381"/>
+<hole x="32.004" y="57.023" drill="0.381"/>
+<hole x="32.639" y="57.023" drill="0.381"/>
+<hole x="33.274" y="57.023" drill="0.381"/>
+<hole x="33.909" y="57.023" drill="0.381"/>
+<hole x="34.544" y="57.023" drill="0.381"/>
+<hole x="35.179" y="57.023" drill="0.381"/>
+<hole x="35.814" y="57.023" drill="0.381"/>
+<hole x="36.449" y="57.023" drill="0.381"/>
+<hole x="37.084" y="57.023" drill="0.381"/>
+<hole x="37.719" y="57.023" drill="0.381"/>
+<hole x="38.354" y="57.023" drill="0.381"/>
+<hole x="38.989" y="57.023" drill="0.381"/>
+<hole x="39.624" y="57.023" drill="0.381"/>
+<hole x="40.259" y="57.023" drill="0.381"/>
+<hole x="40.894" y="57.023" drill="0.381"/>
+<hole x="41.529" y="57.023" drill="0.381"/>
+<hole x="42.164" y="57.023" drill="0.381"/>
+<hole x="42.799" y="57.023" drill="0.381"/>
+<hole x="43.434" y="57.023" drill="0.381"/>
+<hole x="44.069" y="57.023" drill="0.381"/>
+<hole x="44.704" y="57.023" drill="0.381"/>
+<hole x="45.339" y="57.023" drill="0.381"/>
+<hole x="45.974" y="57.023" drill="0.381"/>
+<hole x="46.609" y="57.023" drill="0.381"/>
+<hole x="47.244" y="57.023" drill="0.381"/>
+<hole x="47.879" y="57.023" drill="0.381"/>
+<hole x="48.514" y="57.023" drill="0.381"/>
+<hole x="49.149" y="57.023" drill="0.381"/>
+<hole x="49.784" y="57.023" drill="0.381"/>
+<hole x="52.451" y="57.023" drill="0.381"/>
+<hole x="53.086" y="57.023" drill="0.381"/>
+<hole x="53.721" y="57.023" drill="0.381"/>
+<hole x="54.356" y="57.023" drill="0.381"/>
+<hole x="54.991" y="57.023" drill="0.381"/>
+<hole x="55.626" y="57.023" drill="0.381"/>
+<hole x="56.261" y="57.023" drill="0.381"/>
+<hole x="56.896" y="57.023" drill="0.381"/>
+<hole x="57.531" y="57.023" drill="0.381"/>
+<hole x="58.166" y="57.023" drill="0.381"/>
+<hole x="58.801" y="57.023" drill="0.381"/>
+<hole x="59.436" y="57.023" drill="0.381"/>
+<hole x="60.071" y="57.023" drill="0.381"/>
+<hole x="60.706" y="57.023" drill="0.381"/>
+<hole x="61.341" y="57.023" drill="0.381"/>
+<hole x="61.976" y="57.023" drill="0.381"/>
+<hole x="62.611" y="57.023" drill="0.381"/>
+<hole x="63.246" y="57.023" drill="0.381"/>
+<hole x="63.881" y="57.023" drill="0.381"/>
+<hole x="64.516" y="57.023" drill="0.381"/>
+<hole x="65.151" y="57.023" drill="0.381"/>
+<hole x="65.786" y="57.023" drill="0.381"/>
+<hole x="66.421" y="57.023" drill="0.381"/>
+<hole x="67.056" y="57.023" drill="0.381"/>
+<hole x="67.691" y="57.023" drill="0.381"/>
+<hole x="68.326" y="57.023" drill="0.381"/>
+<hole x="68.961" y="57.023" drill="0.381"/>
+<hole x="69.596" y="57.023" drill="0.381"/>
+<hole x="70.231" y="57.023" drill="0.381"/>
+<hole x="70.866" y="57.023" drill="0.381"/>
+<hole x="71.501" y="57.023" drill="0.381"/>
+<hole x="72.136" y="57.023" drill="0.381"/>
+<hole x="72.771" y="57.023" drill="0.381"/>
+<hole x="73.406" y="57.023" drill="0.381"/>
+<hole x="74.041" y="57.023" drill="0.381"/>
+<hole x="74.676" y="57.023" drill="0.381"/>
+<hole x="75.311" y="57.023" drill="0.381"/>
+<hole x="75.946" y="57.023" drill="0.381"/>
+<hole x="76.581" y="57.023" drill="0.381"/>
+<hole x="79.248" y="57.023" drill="0.381"/>
+<hole x="79.883" y="57.023" drill="0.381"/>
+<hole x="80.518" y="57.023" drill="0.381"/>
+<hole x="81.153" y="57.023" drill="0.381"/>
+<hole x="81.788" y="57.023" drill="0.381"/>
+<hole x="82.423" y="57.023" drill="0.381"/>
+<hole x="83.058" y="57.023" drill="0.381"/>
+<hole x="83.693" y="57.023" drill="0.381"/>
+<hole x="84.328" y="57.023" drill="0.381"/>
+<hole x="84.963" y="57.023" drill="0.381"/>
+<hole x="85.598" y="57.023" drill="0.381"/>
+<hole x="86.233" y="57.023" drill="0.381"/>
+<hole x="86.868" y="57.023" drill="0.381"/>
+<hole x="87.503" y="57.023" drill="0.381"/>
+<hole x="88.138" y="57.023" drill="0.381"/>
+<hole x="88.773" y="57.023" drill="0.381"/>
+<hole x="89.408" y="57.023" drill="0.381"/>
+<hole x="90.043" y="57.023" drill="0.381"/>
+<hole x="90.678" y="57.023" drill="0.381"/>
+<hole x="91.313" y="57.023" drill="0.381"/>
+<hole x="91.948" y="57.023" drill="0.381"/>
+<hole x="92.583" y="57.023" drill="0.381"/>
+<hole x="93.218" y="57.023" drill="0.381"/>
+<hole x="93.853" y="57.023" drill="0.381"/>
+<hole x="94.488" y="57.023" drill="0.381"/>
+<hole x="95.123" y="57.023" drill="0.381"/>
+<hole x="95.758" y="57.023" drill="0.381"/>
+<hole x="96.393" y="57.023" drill="0.381"/>
+<hole x="97.028" y="57.023" drill="0.381"/>
+<hole x="97.663" y="57.023" drill="0.381"/>
+<hole x="98.298" y="57.023" drill="0.381"/>
+<hole x="98.933" y="57.023" drill="0.381"/>
+<hole x="99.568" y="57.023" drill="0.381"/>
+<hole x="100.203" y="57.023" drill="0.381"/>
+<hole x="100.838" y="57.023" drill="0.381"/>
+<hole x="101.473" y="57.023" drill="0.381"/>
+<hole x="102.108" y="57.023" drill="0.381"/>
+<hole x="102.743" y="57.023" drill="0.381"/>
+<hole x="103.378" y="57.023" drill="0.381"/>
+<hole x="104.013" y="57.023" drill="0.381"/>
+<hole x="104.648" y="57.023" drill="0.381"/>
 </plain>
 <libraries>
 <library name="atx_power_control">
@@ -926,13 +1069,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="POPULARITY" value="98" x="24.633" y="41.053" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="27.808" y="38.513" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="LED1" library="adafruit" package="LED5MM" value="" x="7.857" y="26.49" smashed="yes" rot="R270">
-<attribute name="NAME" x="2.3904" y="28.315" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="6.0536" y="23.2896" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="LED1" library="adafruit" package="LED5MM" value="" x="11" y="27" smashed="yes" rot="R270">
+<attribute name="NAME" x="5.5334" y="28.825" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="9.1966" y="23.7996" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="R1" library="adafruit" package="0207/10" value="470" x="18.365" y="26.744" smashed="yes">
-<attribute name="NAME" x="15.317" y="23.95" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="16.1044" y="26.109" size="1.27" layer="27" ratio="10"/>
+<element name="R1" library="adafruit" package="0207/10" value="470" x="17.095" y="21.664" smashed="yes">
+<attribute name="NAME" x="16.968" y="23.442" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="14.8344" y="21.029" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-20" package3d_urn="urn:adsk.eagle:package:27950/1" value="PTR1PAD1-20" x="79.5" y="37" smashed="yes">
 <attribute name="POPULARITY" value="3" x="79.5" y="37" size="1.778" layer="27" display="off"/>
@@ -951,8 +1094,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signals>
 <signal name="GND">
 <polygon width="0.1524" layer="1" isolate="0.508">
-<vertex x="196" y="59"/>
-<vertex x="-14" y="59"/>
+<vertex x="196" y="56"/>
+<vertex x="-14" y="56"/>
 <vertex x="-14" y="-10.995571875"/>
 <vertex x="196" y="-11.062"/>
 </polygon>
@@ -1231,10 +1374,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="25.654" y1="45.085" x2="23.622" y2="45.085" width="0.3048" layer="16"/>
 <wire x1="22.225" y1="43.688" x2="22.225" y2="34.29" width="0.3048" layer="16"/>
 <wire x1="22.225" y1="34.29" x2="19.177" y2="31.242" width="0.3048" layer="16"/>
-<wire x1="11.339" y1="31.242" x2="7.857" y2="27.76" width="0.3048" layer="16"/>
 <wire x1="23.622" y1="45.085" x2="22.225" y2="43.688" width="0.3048" layer="16"/>
-<wire x1="19.177" y1="31.242" x2="11.339" y2="31.242" width="0.3048" layer="16"/>
 <wire x1="86.046" y1="54.296" x2="86.046" y2="50.796" width="2.54" layer="16"/>
+<wire x1="13.972" y1="31.242" x2="11" y2="28.27" width="0.3048" layer="16"/>
+<wire x1="19.177" y1="31.242" x2="13.972" y2="31.242" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="J2" pad="14"/>
@@ -1363,8 +1506,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$12">
 <contactref element="LED1" pad="K"/>
 <contactref element="R1" pad="1"/>
-<wire x1="7.857" y1="25.22" x2="11.761" y2="25.22" width="0.3048" layer="16"/>
-<wire x1="11.761" y1="25.22" x2="13.285" y2="26.744" width="0.3048" layer="16"/>
+<wire x1="11" y1="25.73" x2="11" y2="22.679" width="0.3048" layer="16"/>
+<wire x1="11" y1="22.679" x2="12.015" y2="21.664" width="0.3048" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
