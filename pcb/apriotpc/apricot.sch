@@ -4985,8 +4985,27 @@ by exp-lbrs.ulp</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="adafruit">
+<library name="adafruit_changed">
 <packages>
+<package name="E3,5-8">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 3.5 mm, diameter 8 mm</description>
+<wire x1="-3.429" y1="1.143" x2="-2.667" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="0.762" x2="-3.048" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="4.064" width="0.1524" layer="21"/>
+<pad name="-" x="1.778" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<pad name="+" x="-1.778" y="0" drill="0.8128" diameter="1.6002"/>
+<text x="3.302" y="2.794" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
+</package>
 <package name="CT3216">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 chip
@@ -7888,25 +7907,6 @@ grid 3.5 mm, diameter 10 mm</description>
 <text x="-3.302" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
 </package>
-<package name="E3,5-8">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 3.5 mm, diameter 8 mm</description>
-<wire x1="-3.429" y1="1.143" x2="-2.667" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-3.048" y1="0.762" x2="-3.048" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
-<circle x="0" y="0" radius="4.064" width="0.1524" layer="21"/>
-<pad name="-" x="1.778" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="+" x="-1.778" y="0" drill="0.8128" diameter="1.6002"/>
-<text x="3.302" y="2.794" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
-</package>
 <package name="E30-10">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 30.48 mm, diameter 10 mm</description>
@@ -10431,15 +10431,18 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="U$3" library="apricot" deviceset="6MM_BLADE" device=""/>
 <part name="U$7" library="apricot" deviceset="6MM_BLADE" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C9" library="adafruit" deviceset="CPOL-US" device="E5-10.5"/>
-<part name="C4" library="adafruit" deviceset="CPOL-US" device="E5-10.5"/>
+<part name="C9" library="adafruit_changed" deviceset="CPOL-US" device="E3.5-8"/>
+<part name="C4" library="adafruit_changed" deviceset="CPOL-US" device="E3.5-8"/>
 <part name="C3" library="clock" deviceset="CAP" device="0805" value="100nF"/>
 <part name="C10" library="clock" deviceset="CAP" device="0805" value="100nF"/>
-<part name="C11" library="adafruit" deviceset="CPOL-US" device="E5-10.5"/>
+<part name="C11" library="adafruit_changed" deviceset="CPOL-US" device="E3.5-8"/>
 <part name="C7" library="clock" deviceset="CAP" device="0805" value="100nF"/>
 <part name="C12" library="clock" deviceset="CAP" device="0805" value="100nF"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C13" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" package3d_urn="urn:adsk.eagle:package:5426/1"/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10595,6 +10598,16 @@ diameter 5 mm, grid 2.54 mm</description>
 <instance part="GND15" gate="1" x="73.66" y="60.96" smashed="yes">
 <attribute name="VALUE" x="71.12" y="58.42" size="1.778" layer="96"/>
 </instance>
+<instance part="C13" gate="G$1" x="160.02" y="104.14" smashed="yes">
+<attribute name="NAME" x="161.544" y="104.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.544" y="99.441" size="1.778" layer="96"/>
+</instance>
+<instance part="GND16" gate="1" x="160.02" y="96.52" smashed="yes">
+<attribute name="VALUE" x="157.48" y="93.98" size="1.778" layer="96"/>
+</instance>
+<instance part="P+14" gate="1" x="160.02" y="116.84" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="162.56" y="111.76" size="1.778" layer="96" rot="MR90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10737,6 +10750,10 @@ diameter 5 mm, grid 2.54 mm</description>
 <wire x1="40.64" y1="137.16" x2="40.64" y2="139.7" width="0.1524" layer="91"/>
 <junction x="40.64" y="139.7"/>
 </segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
@@ -10872,6 +10889,11 @@ diameter 5 mm, grid 2.54 mm</description>
 <wire x1="33.02" y1="129.54" x2="15.24" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="129.54" x2="15.24" y2="127" width="0.1524" layer="91"/>
 <junction x="15.24" y="127"/>
+</segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="P+14" gate="1" pin="+12V"/>
+<wire x1="160.02" y1="114.3" x2="160.02" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
