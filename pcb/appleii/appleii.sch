@@ -7862,6 +7862,8 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="C4" library="adafruit_changed" deviceset="CPOL-US" device="E3.5-8"/>
 <part name="C5" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" package3d_urn="urn:adsk.eagle:package:5426/1"/>
 <part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="79XXS" device="" package3d_urn="urn:adsk.eagle:package:30343/1"/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" package3d_urn="urn:adsk.eagle:package:5426/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8012,13 +8014,20 @@ diameter 5 mm, grid 2.54 mm</description>
 <attribute name="NAME" x="6.096" y="178.435" size="1.778" layer="95"/>
 <attribute name="VALUE" x="6.096" y="173.609" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="167.64" y="193.04" smashed="yes">
-<attribute name="NAME" x="169.164" y="193.421" size="1.778" layer="95"/>
-<attribute name="VALUE" x="169.164" y="188.341" size="1.778" layer="96"/>
+<instance part="C5" gate="G$1" x="200.66" y="172.72" smashed="yes">
+<attribute name="NAME" x="202.184" y="173.101" size="1.778" layer="95"/>
+<attribute name="VALUE" x="202.184" y="168.021" size="1.778" layer="96"/>
 </instance>
 <instance part="IC1" gate="1" x="152.4" y="96.52" smashed="yes">
 <attribute name="NAME" x="154.94" y="105.41" size="1.778" layer="95"/>
 <attribute name="VALUE" x="154.94" y="102.87" size="1.778" layer="96"/>
+</instance>
+<instance part="GND10" gate="1" x="200.66" y="165.1" smashed="yes">
+<attribute name="VALUE" x="198.12" y="162.56" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="27.94" y="177.8" smashed="yes">
+<attribute name="NAME" x="29.464" y="178.181" size="1.778" layer="95"/>
+<attribute name="VALUE" x="29.464" y="173.101" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8164,6 +8173,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <junction x="12.7" y="172.72"/>
 <pinref part="C4" gate="G$1" pin="-"/>
 <wire x1="12.7" y1="172.72" x2="5.08" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="172.72" x2="20.32" y2="172.72" width="0.1524" layer="91"/>
+<junction x="20.32" y="172.72"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
@@ -8173,13 +8185,14 @@ diameter 5 mm, grid 2.54 mm</description>
 <pinref part="C1" gate="G$1" pin="-"/>
 <wire x1="144.78" y1="187.96" x2="149.86" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<junction x="149.86" y="187.96"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="187.96" x2="167.64" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="1" pin="GND"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="-12V" class="0">
@@ -8238,6 +8251,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <junction x="12.7" y="180.34"/>
 <pinref part="C4" gate="G$1" pin="+"/>
 <wire x1="12.7" y1="180.34" x2="5.08" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="180.34" x2="27.94" y2="180.34" width="0.1524" layer="91"/>
+<junction x="20.32" y="180.34"/>
 </segment>
 <segment>
 <pinref part="P+1" gate="1" pin="+5V"/>
@@ -8260,12 +8276,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <pinref part="J1" gate="G$1" pin="12V@0"/>
 <pinref part="J1" gate="G$1" pin="12V@1"/>
 <pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="144.78" y1="195.58" x2="167.64" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="139.954" y1="173.99" x2="139.954" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="139.954" y1="195.58" x2="144.78" y2="195.58" width="0.1524" layer="91"/>
 <junction x="139.954" y="173.99"/>
-<junction x="144.78" y="195.58"/>
-<pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -8281,6 +8294,10 @@ diameter 5 mm, grid 2.54 mm</description>
 <wire x1="193.04" y1="175.26" x2="193.04" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="177.8" x2="180.34" y2="177.8" width="0.1524" layer="91"/>
 <junction x="180.34" y="177.8"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="177.8" x2="200.66" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="177.8" x2="200.66" y2="175.26" width="0.1524" layer="91"/>
+<junction x="193.04" y="177.8"/>
 </segment>
 <segment>
 <pinref part="P+4" gate="1" pin="+12V"/>

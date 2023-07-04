@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -423,14 +423,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </elements>
 <signals>
 <signal name="GND">
-<polygon width="0.1524" layer="1" isolate="0.508">
+<polygon width="0.1524" layer="1" isolate="0.6096">
 <vertex x="71" y="48"/>
 <vertex x="-1" y="48"/>
 <vertex x="-1" y="-0.062"/>
 <vertex x="71" y="-0.062"/>
 </polygon>
 <contactref element="U$13" pad="P$1"/>
-<polygon width="0.1524" layer="16">
+<polygon width="0.1524" layer="16" isolate="0.6096">
 <vertex x="-1" y="48"/>
 <vertex x="-1" y="0"/>
 <vertex x="71" y="0"/>
@@ -441,6 +441,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="U$3" pad="P$1"/>
 <contactref element="U$4" pad="P$1"/>
 <contactref element="U$5" pad="P$1"/>
+<via x="14.224" y="13.462" extent="1-16" drill="0.6"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
