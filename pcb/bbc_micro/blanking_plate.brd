@@ -410,6 +410,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <elements>
 </elements>
 <signals>
+<signal name="GND">
+<polygon width="0" layer="1" isolate="0.6096">
+<vertex x="0" y="45"/>
+<vertex x="66" y="45"/>
+<vertex x="66" y="-0.5"/>
+<vertex x="0" y="-0.5"/>
+</polygon>
+<polygon width="0" layer="16" isolate="0.6096" thermals="no">
+<vertex x="0" y="45"/>
+<vertex x="66" y="45"/>
+<vertex x="66" y="-0.5"/>
+<vertex x="0" y="-0.5"/>
+</polygon>
+<via x="64" y="1.5" extent="1-16" drill="0.55"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
