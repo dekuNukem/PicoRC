@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
@@ -258,6 +258,9 @@ by exp-lbrs.ulp</description>
 <wire x1="2.75" y1="1.75" x2="2.75" y2="-1.75" width="0.1524" layer="21"/>
 <wire x1="2.75" y1="-1.75" x2="-2.75" y2="-1.75" width="0.1524" layer="21"/>
 </package>
+<package name="ISAPAD">
+<smd name="P$1" x="0" y="0" dx="1.524" dy="7.62" layer="1" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ATX24-1">
@@ -298,6 +301,13 @@ by exp-lbrs.ulp</description>
 <wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
 <pin name="P$1" x="-10.16" y="0" length="middle"/>
+</symbol>
+<symbol name="ISA">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
+<pin name="P$1" x="12.7" y="0" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -348,6 +358,21 @@ by exp-lbrs.ulp</description>
 <device name="" package="2.8BLADE">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1 P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ISA">
+<gates>
+<gate name="G$1" symbol="ISA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ISAPAD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
