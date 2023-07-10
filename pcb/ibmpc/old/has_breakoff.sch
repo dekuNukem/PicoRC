@@ -13968,12 +13968,6 @@ by exp-lbrs.ulp</description>
 <part name="P-2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-5V" device=""/>
 <part name="U$3" library="396_conn" deviceset="VH396_2P" device=""/>
 <part name="U$11" library="apricot" deviceset="M3_MOUNTING_HOLE" device=""/>
-<part name="U$13" library="blade" deviceset="ISA" device=""/>
-<part name="U$15" library="blade" deviceset="ISA" device=""/>
-<part name="U$16" library="blade" deviceset="ISA" device=""/>
-<part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
-<part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14120,9 +14114,9 @@ by exp-lbrs.ulp</description>
 <attribute name="VALUE" x="181.864" y="99.441" size="1.778" layer="96"/>
 </instance>
 <instance part="U$7" gate="G$1" x="121.92" y="218.44" smashed="yes"/>
-<instance part="U$9" gate="G$1" x="45.72" y="22.86" smashed="yes"/>
-<instance part="GND14" gate="1" x="68.58" y="20.32" smashed="yes">
-<attribute name="VALUE" x="66.04" y="17.78" size="1.778" layer="96"/>
+<instance part="U$9" gate="G$1" x="43.18" y="58.42" smashed="yes"/>
+<instance part="GND14" gate="1" x="66.04" y="55.88" smashed="yes">
+<attribute name="VALUE" x="63.5" y="53.34" size="1.778" layer="96"/>
 </instance>
 <instance part="U$10" gate="G$1" x="228.6" y="248.92" smashed="yes" rot="R180"/>
 <instance part="C11" gate="G$1" x="154.94" y="246.38" smashed="yes">
@@ -14140,18 +14134,6 @@ by exp-lbrs.ulp</description>
 </instance>
 <instance part="U$3" gate="G$1" x="45.72" y="111.76" smashed="yes"/>
 <instance part="U$11" gate="G$1" x="-35.56" y="205.74" smashed="yes"/>
-<instance part="U$13" gate="G$1" x="45.72" y="50.8" smashed="yes"/>
-<instance part="U$15" gate="G$1" x="45.72" y="78.74" smashed="yes"/>
-<instance part="U$16" gate="G$1" x="45.72" y="91.44" smashed="yes"/>
-<instance part="P+10" gate="1" x="68.58" y="53.34" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="71.12" y="48.26" size="1.778" layer="96" rot="MR90"/>
-</instance>
-<instance part="P+11" gate="1" x="68.58" y="93.98" smashed="yes">
-<attribute name="VALUE" x="66.04" y="88.9" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND16" gate="1" x="66.04" y="76.2" smashed="yes">
-<attribute name="VALUE" x="63.5" y="73.66" size="1.778" layer="96"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -14312,7 +14294,7 @@ by exp-lbrs.ulp</description>
 <segment>
 <pinref part="U$9" gate="G$1" pin="P$1"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="58.42" y1="22.86" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
@@ -14322,11 +14304,6 @@ by exp-lbrs.ulp</description>
 <pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="U$3" gate="G$1" pin="P$2"/>
 <wire x1="30.48" y1="109.22" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$15" gate="G$1" pin="P$1"/>
-<pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="58.42" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -14391,11 +14368,6 @@ by exp-lbrs.ulp</description>
 <pinref part="P+4" gate="1" pin="+5V"/>
 <pinref part="U$1" gate="G$1" pin="5V"/>
 <wire x1="139.7" y1="259.08" x2="114.3" y2="259.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$16" gate="G$1" pin="P$1"/>
-<pinref part="P+11" gate="1" pin="+5V"/>
-<wire x1="58.42" y1="91.44" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -14463,11 +14435,6 @@ by exp-lbrs.ulp</description>
 <pinref part="P+5" gate="1" pin="+12V"/>
 <pinref part="U$3" gate="G$1" pin="P$1"/>
 <wire x1="30.48" y1="111.76" x2="40.64" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$13" gate="G$1" pin="P$1"/>
-<pinref part="P+10" gate="1" pin="+12V"/>
-<wire x1="58.42" y1="50.8" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-12V" class="0">
