@@ -28,14 +28,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -205,9 +205,9 @@
 <wire x1="99" y1="39.19" x2="99" y2="21.81" width="0" layer="20"/>
 <text x="74.2856" y="4.8384" size="2.54" layer="25" distance="35" align="center">IBM PC PicoPSU Adaptor
 dekuNukem 2023</text>
-<text x="40.739" y="8.213" size="1.778" layer="25" rot="R90" align="center">GND</text>
-<text x="44.784" y="8.232" size="1.9304" layer="25" rot="R90" align="center">12V</text>
-<text x="110.554" y="25.504" size="2.54" layer="25" distance="35" rot="MR270" align="center">+</text>
+<text x="38.834" y="8.721" size="1.778" layer="25" rot="R90" align="center">GND</text>
+<text x="42.879" y="8.74" size="1.9304" layer="25" rot="R90" align="center">12V</text>
+<text x="111.316" y="25.377" size="2.54" layer="25" distance="35" rot="MR270" align="center">+</text>
 <text x="30.909" y="45.284" size="2.1844" layer="25" distance="35" rot="R270" align="center">FUSE 5A MAX</text>
 <wire x1="99" y1="21.81" x2="95.19" y2="18" width="0" layer="20" curve="-90"/>
 <wire x1="95.19" y1="18" x2="50.81" y2="18" width="0" layer="20"/>
@@ -224,9 +224,9 @@ dekuNukem 2023</text>
 <text x="36.878" y="56.079" size="1.6764" layer="25" align="center">12V</text>
 <text x="24.813" y="56.079" size="1.6764" layer="25" align="center">5V</text>
 <text x="43.958" y="42.903" size="2.1844" layer="25" distance="35" rot="R180" align="center">FAN</text>
-<text x="21.111" y="6.149" size="2.54" layer="25" align="center">+</text>
-<text x="29.493" y="26.723" size="2.54" layer="25" align="center">+</text>
-<text x="41.304" y="23.802" size="2.54" layer="25" align="center">+</text>
+<text x="20.984" y="7.8" size="2.54" layer="25" align="center">+</text>
+<text x="29.112" y="26.977" size="2.54" layer="25" align="center">+</text>
+<text x="41.304" y="24.564" size="2.54" layer="25" align="center">+</text>
 <wire x1="100" y1="9" x2="100" y2="-14" width="0.254" layer="51"/>
 <wire x1="19" y1="-48" x2="19" y2="57" width="0.254" layer="51"/>
 <wire x1="100" y1="0" x2="100" y2="-6.35" width="0" layer="20"/>
@@ -241,8 +241,8 @@ just cut out the outline</text>
 <vertex x="20.241" y="40.998"/>
 <vertex x="14.272" y="40.998"/>
 <vertex x="11.605" y="43.665"/>
-<vertex x="11.605" y="50.904"/>
-<vertex x="12.367" y="51.666"/>
+<vertex x="11.605" y="49.253"/>
+<vertex x="14.018" y="51.666"/>
 <vertex x="20.749" y="51.666"/>
 <vertex x="23.162" y="49.253"/>
 </polygon>
@@ -262,27 +262,28 @@ just cut out the outline</text>
 </polygon>
 <text x="82.376" y="-9.5326" size="2.54" layer="25" distance="35" rot="R180" align="center">7</text>
 <rectangle x1="89.451" y1="13.471" x2="93.642" y2="18.424" layer="41" rot="R180"/>
-<text x="21.111" y="2.085" size="2.54" layer="25" align="center">+</text>
-<text x="42.447" y="21.008" size="2.54" layer="25" align="center">+</text>
+<text x="20.984" y="3.863" size="2.54" layer="25" align="center">+</text>
+<text x="42.32" y="21.516" size="2.54" layer="25" align="center">+</text>
 <text x="34.7764" y="-19.9974" size="2.54" layer="25" distance="35" rot="R180" align="center">put a sticker on 7905 laying down footprint </text>
 <text x="107.3056" y="6.6164" size="1.9304" layer="26" distance="35" rot="MR0" align="center">ISA Bracket
 &lt;------</text>
 <text x="107.3056" y="6.6164" size="1.9304" layer="25" distance="35" align="center">ISA Bracket
 ------&gt;</text>
-<text x="28.477" y="18.722" size="2.54" layer="25" align="center">+</text>
-<text x="41.939" y="31.041" size="2.54" layer="25" align="center">+</text>
+<text x="28.096" y="19.23" size="2.54" layer="25" align="center">+</text>
+<text x="38.637" y="32.438" size="2.54" layer="25" align="center">+</text>
 <text x="105.692" y="39.412" size="1.9304" layer="25" rot="R270" align="center">PSW</text>
 <text x="77.296" y="-9.7866" size="2.54" layer="25" distance="35" rot="R180" align="center">9</text>
 <text x="21.416" y="-10.4216" size="2.54" layer="25" distance="35" rot="R180" align="center">31</text>
 <text x="26.496" y="-10.6756" size="2.54" layer="25" distance="35" rot="R180" align="center">29</text>
-<text x="21.3486" y="3.3486" size="1.27" layer="26" distance="35" rot="MR270" align="center">GND</text>
-<text x="26.4286" y="3.3486" size="1.27" layer="26" distance="35" rot="MR270" align="center">+5V</text>
-<text x="77.2286" y="3.4756" size="1.27" layer="26" distance="35" rot="MR270" align="center">+12V</text>
-<text x="82.3086" y="3.4756" size="1.27" layer="26" distance="35" rot="MR270" align="center">-12V</text>
-<text x="87.3886" y="3.0946" size="1.27" layer="26" distance="35" rot="MR270" align="center">-5V</text>
-<text x="97.584" y="2.009" size="1.27" layer="26" distance="35" rot="MR270" align="center">GND</text>
+<text x="21.3486" y="2.9676" size="1.27" layer="26" distance="35" rot="MR270" align="center">GND</text>
+<text x="26.5556" y="2.7136" size="1.27" layer="26" distance="35" rot="MR270" align="center">+5V</text>
+<text x="77.3556" y="3.0946" size="1.27" layer="26" distance="35" rot="MR270" align="center">+12V</text>
+<text x="82.4356" y="3.0946" size="1.27" layer="26" distance="35" rot="MR270" align="center">-12V</text>
+<text x="87.3886" y="2.5866" size="1.27" layer="26" distance="35" rot="MR270" align="center">-5V</text>
+<text x="97.584" y="2.644" size="1.27" layer="26" distance="35" rot="MR270" align="center">GND</text>
 <text x="9.548" y="2.239" size="1.4224" layer="26" rot="MR180" align="center">3V3 LOAD</text>
 <text x="111.268" y="34.648" size="1.27" layer="25" distance="35" rot="R180" align="center">470</text>
+<text x="27.588" y="32.438" size="2.54" layer="25" align="center">+</text>
 </plain>
 <libraries>
 <library name="atx_power_control">
@@ -984,7 +985,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$15" library="blade" package="ISAPAD" value="ISA" x="21.387" y="-3.706" smashed="yes" rot="MR180"/>
 <element name="U$16" library="blade" package="ISAPAD" value="ISA" x="26.467" y="-3.706" smashed="yes" rot="MR180"/>
 <element name="R2" library="adafruit_changed" package="0411/15" value="" x="9.525" y="2.159" smashed="yes" rot="MR0">
-<attribute name="NAME" x="10.16" y="4.699" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="10.668" y="4.699" size="1.27" layer="26" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="13.1064" y="1.524" size="1.27" layer="28" ratio="10" rot="MR0"/>
 </element>
 </elements>
@@ -1247,11 +1248,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="38.651" y1="30.362" x2="38.651" y2="24.774" width="2.54" layer="16"/>
 <wire x1="38.651" y1="24.774" x2="39.032" y2="24.393" width="2.54" layer="16"/>
 <contactref element="U$13" pad="P$1"/>
-<wire x1="42.795" y1="15.217" x2="42.795" y2="3.1" width="1.778" layer="1"/>
-<wire x1="42.795" y1="3.1" x2="42.72" y2="3.025" width="1.778" layer="1"/>
-<via x="42.72" y="3.025" extent="1-16" drill="0.85"/>
-<wire x1="42.72" y1="3.025" x2="44.244" y2="1.501" width="1.778" layer="16"/>
-<wire x1="44.244" y1="1.501" x2="76.756" y2="1.501" width="1.778" layer="16"/>
+<wire x1="42.795" y1="15.217" x2="42.795" y2="3.077" width="1.778" layer="1"/>
+<wire x1="42.795" y1="3.077" x2="42.847" y2="3.025" width="1.778" layer="1"/>
+<via x="42.847" y="3.025" extent="1-16" drill="0.85"/>
+<wire x1="42.847" y1="3.025" x2="44.371" y2="1.501" width="1.778" layer="16"/>
+<wire x1="44.371" y1="1.501" x2="76.756" y2="1.501" width="1.778" layer="16"/>
 <wire x1="77.267" y1="0.99" x2="77.267" y2="-3.706" width="1.524" layer="16"/>
 <wire x1="76.756" y1="1.501" x2="77.267" y2="0.99" width="1.778" layer="16"/>
 </signal>
@@ -1404,87 +1405,87 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="4,1,fea67aa8e48b1dcf"/>
-<approved hash="4,1,7cb2f8bc668c1db4"/>
-<approved hash="4,1,fad976d7e88b1d98"/>
-<approved hash="4,1,78e5f4eb6a8a1d8d"/>
-<approved hash="4,1,f6f072feec8b2c71"/>
-<approved hash="4,1,f32b6f25f08b2c4a"/>
-<approved hash="4,1,7137ed39728a2c3f"/>
-<approved hash="4,1,ef426b4cf48b3c23"/>
-<approved hash="4,1,751cf1126e882c66"/>
-<approved hash="4,16,78e5f4eb6a8a1d8d"/>
-<approved hash="4,16,7137ed39728a2c3f"/>
-<approved hash="4,16,809bfc95628bedda"/>
-<approved hash="4,16,fea67aa8e48b1dcf"/>
-<approved hash="4,16,7cb2f8bc668c1db4"/>
-<approved hash="4,16,fad976d7e88b1d98"/>
-<approved hash="4,16,f6f072feec8b2c71"/>
-<approved hash="4,16,751cf1126e882c66"/>
-<approved hash="4,16,f32b6f25f08b2c4a"/>
-<approved hash="4,16,ef426b4cf48b3c23"/>
-<approved hash="6,1,87ab9db09d84879f"/>
-<approved hash="6,1,09961b8d1b91098a"/>
-<approved hash="6,1,6d4f9dd5079e05ad"/>
-<approved hash="6,1,fc4eefd3ffb5b841"/>
-<approved hash="6,1,0de917f217c60ddd"/>
-<approved hash="6,1,341b0e000e14340f"/>
-<approved hash="6,1,e1b4e42ef8defd44"/>
-<approved hash="6,1,38720a690a7d3866"/>
-<approved hash="6,1,11e831e9a5e2d39e"/>
-<approved hash="6,1,b6078c1c8c60b67b"/>
-<approved hash="6,1,a4eab28a22cf7521"/>
-<approved hash="4,1,28722f9dc3f1c41e"/>
-<approved hash="4,1,375233bddfd1db3e"/>
-<approved hash="4,16,28722f9dc3f1c41e"/>
-<approved hash="4,16,bd60e1eb2d7ebf24"/>
-<approved hash="4,16,375233bddfd1db3e"/>
-<approved hash="4,16,be7d6808ad139d7f"/>
-<approved hash="6,1,085d331d7336318b"/>
-<approved hash="6,1,fb0de14fd3ebb5c2"/>
-<approved hash="6,1,2847a78832441a25"/>
-<approved hash="4,1,809bfc95628bedda"/>
-<approved hash="21,19,c1fbc3f9c3f9c1fb"/>
-<approved hash="4,1,6638e5d11af96a07"/>
-<approved hash="4,1,0cd11cfef092e0bd"/>
-<approved hash="4,16,6638e5d11af96a07"/>
-<approved hash="4,16,48d70844ae608829"/>
-<approved hash="4,16,f4d65845de61d828"/>
-<approved hash="4,16,b45719449e609829"/>
-<approved hash="4,16,0cd11cfef092e0bd"/>
-<approved hash="5,16,f0d7211054135923"/>
-<approved hash="5,16,bc47cb8413a2d464"/>
-<approved hash="4,16,ff49506d8e155be9"/>
-<approved hash="4,16,e3574f882d439993"/>
-<approved hash="4,16,253a3a9d3b4e3c7c"/>
-<approved hash="5,16,cbc7db061a211ce4"/>
-<approved hash="5,16,03c18403cda76b62"/>
-<approved hash="5,16,3cc47751bbc020b0"/>
-<approved hash="5,16,09da894c610037ed"/>
-<approved hash="6,1,b20e5eb4f8fe85a9"/>
-<approved hash="6,1,6da1bd0dfae2dd27"/>
-<approved hash="6,1,08ce335a0812866a"/>
-<approved hash="6,1,25cbac55ac7525eb"/>
-<approved hash="6,1,4efbc765cf4d46d3"/>
-<approved hash="6,1,b73229842fb4e0c4"/>
-<approved hash="6,1,6bdb5cd745d89fb8"/>
-<approved hash="6,1,11ce9e509e4811d6"/>
-<approved hash="6,1,7afef560fd7072ee"/>
-<approved hash="6,1,c74a4e0558f329cc"/>
-<approved hash="6,1,c5c90476589b75f8"/>
-<approved hash="4,16,64d8d8745e6fb026"/>
-<approved hash="4,16,e8d7b845fe61f828"/>
-<approved hash="4,16,04e8c8746e5f6816"/>
-<approved hash="6,1,b4f1d48ddf1fbf63"/>
-<approved hash="6,1,ae8a0be18d12b517"/>
-<approved hash="6,1,f550a7a2a19ff36d"/>
-<approved hash="6,1,31fbf4b96304ede8"/>
-<approved hash="6,1,9bea792a79c9aa4f"/>
-<approved hash="6,1,f7576d256d49f73b"/>
-<approved hash="6,1,fe49fe1e9dcc7875"/>
-<approved hash="6,1,bd84fcbe11920e57"/>
-<approved hash="6,1,9e25c7d7c6fb9f09"/>
-<approved hash="4,16,bb2450d447cb74ad"/>
+<approved hash="5,16,6c2a8d14a28d6dce"/>
+<approved hash="5,16,6c2a8dd6becc94ce"/>
+<approved hash="5,16,18b49ec8c28c940c"/>
+<approved hash="5,16,479c4fab4fa77797"/>
+<approved hash="5,16,b8813836843bac8b"/>
+<approved hash="5,16,729261a5cda6e297"/>
+<approved hash="4,1,422125d20f17992f"/>
+<approved hash="4,1,0cb9e035b2f0774b"/>
+<approved hash="4,1,8ead622130f0775e"/>
+<approved hash="4,1,0096fc1aaef07762"/>
+<approved hash="4,1,82fa7e762cf07709"/>
+<approved hash="4,1,04eff863aaf0771d"/>
+<approved hash="4,1,86d37a5f28f07720"/>
+<approved hash="4,1,18c4f448a6f07734"/>
+<approved hash="4,1,68514286ceeae43d"/>
+<approved hash="4,1,68a11ef6929ae4cd"/>
+<approved hash="4,1,cac234653809c6ae"/>
+<approved hash="4,1,b67f6af338f0778c"/>
+<approved hash="4,1,0860e4ecb6f07790"/>
+<approved hash="4,1,8a5466d834f077a7"/>
+<approved hash="4,16,422125d20f17992f"/>
+<approved hash="4,16,c41335bb96f8ee8a"/>
+<approved hash="4,16,9a851dacf2e59d8a"/>
+<approved hash="4,16,3ac715bb557fd299"/>
+<approved hash="4,16,45eb0ef7b6aa085c"/>
+<approved hash="4,16,68514286ceeae43d"/>
+<approved hash="4,16,bf5a49835ba65ff6"/>
+<approved hash="4,16,b67f6af338f0778c"/>
+<approved hash="4,16,0860e4ecb6f07790"/>
+<approved hash="4,16,8a5466d834f077a7"/>
+<approved hash="4,16,0cb9e035b2f0774b"/>
+<approved hash="4,16,8ead622130f0775e"/>
+<approved hash="4,16,0096fc1aaef07762"/>
+<approved hash="4,16,82fa7e762cf07709"/>
+<approved hash="4,16,04eff863aaf0771d"/>
+<approved hash="4,16,86d37a5f28f07720"/>
+<approved hash="4,16,18c4f448a6f07734"/>
+<approved hash="4,16,d40fd8c7f353fea0"/>
+<approved hash="4,16,740c68c4e350eea0"/>
+<approved hash="4,16,a80d28c5a35056a1"/>
+<approved hash="4,16,380de845a2518ea1"/>
+<approved hash="4,16,380ca8c4a350cea0"/>
+<approved hash="4,16,880d38c453515ea1"/>
+<approved hash="4,16,68a11ef6929ae4cd"/>
+<approved hash="4,16,969a1724d526cbb1"/>
+<approved hash="4,16,cac234653809c6ae"/>
+<approved hash="6,1,d8fad195698f2113"/>
+<approved hash="6,1,c223533f694c6bf6"/>
+<approved hash="6,1,848ddab2daa68499"/>
+<approved hash="6,1,b31eb980a4caae54"/>
+<approved hash="6,1,8525e66d579ae0be"/>
+<approved hash="6,1,9856de69de9d98a2"/>
+<approved hash="6,1,a2faf3a8dd2b8586"/>
+<approved hash="6,1,d880d8a27f4a7bc9"/>
+<approved hash="6,1,9000d63fd623901c"/>
+<approved hash="6,1,77bdf46c84162bad"/>
+<approved hash="6,1,123d540254361209"/>
+<approved hash="6,1,7e887f0e137e12f8"/>
+<approved hash="6,1,9429ca16ca1a9425"/>
+<approved hash="6,1,2c43a40a98d346e6"/>
+<approved hash="6,1,044124dfe1caee7f"/>
+<approved hash="6,1,b3037e28dfe9b845"/>
+<approved hash="6,1,d50000481da9ed8f"/>
+<approved hash="6,1,a11eab80a20aa894"/>
+<approved hash="6,1,0e0f89685d18ddff"/>
+<approved hash="6,1,4a77b766473ce5b7"/>
+<approved hash="6,1,55105b8e52415cdf"/>
+<approved hash="6,1,ae3903cb0328aeda"/>
+<approved hash="6,1,34c7345849ae8480"/>
+<approved hash="6,1,daf56a89541be467"/>
+<approved hash="6,1,c2e67ba5298570e3"/>
+<approved hash="6,1,d73185c387a6d554"/>
+<approved hash="6,1,7e06ff4b993f1503"/>
+<approved hash="6,1,5a21705370c95abb"/>
+<approved hash="6,1,65af7c596aa08aaf"/>
+<approved hash="6,1,a65a290164575900"/>
+<approved hash="6,1,029164ae64d202ed"/>
+<approved hash="6,1,4710498e54815a1f"/>
+<approved hash="6,1,8554c2be5182b747"/>
+<approved hash="21,19,f1fff3fdf3fdf1ff"/>
+<approved hash="6,1,a3a2384ed3cf67c8"/>
 </errors>
 </board>
 </drawing>
