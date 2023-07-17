@@ -86,17 +86,11 @@ Nothing too tricky in this kit, all basic through-hole stuff.
 
 If this is your first time, a few tips:
 
-* Make sure your soldering iron has **proper temperature control**, NOT the cheap ones with just a power switch! They get way too hot and will damage the PCB.
+* Make sure your soldering iron has **proper temperature control**. Try your local makerspace or university lab.
 
-* Use **leaded solder**. Temperature around 320C / 600F
+* Use **leaded solder** and plenty of flux, temperature around 320C / 600F.
 
-* Use plenty of flux to make things easier. You can clean it off afterwards.
-
-* [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well
-
-* Try your local makerspace or university lab too!
-
-* Start from shortest to tallest. Solder **a single pin** first, ensure the part is straight.
+* [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well.
 
 ### Assembly
 
@@ -168,7 +162,7 @@ I'm using a new-to-me and untested Apricot PC for this guide, excuse the dust!
 
 ![Alt text](photos/apricot_pc/sep.jpeg)
 
-* The back assembly should now be separated. Put it aside.
+* Separated the back assembly and put aside.
 
 ![Alt text](photos/apricot_pc/backremoved.jpeg)
 
@@ -198,13 +192,15 @@ I'm using a new-to-me and untested Apricot PC for this guide, excuse the dust!
 
 ![Alt text](photos/apricot_pc/plateback.jpeg)
 
-* Flip it back again.
+* Flip back again.
 
-* Insert two M2 6mm screws from the bottom, then tighten the standoffs from top.
+* Insert two screws from the bottom, then the washers, then the standoffs from top.
+
+* Use 5mm socket bit to tighten.
 
 ![Alt text](photos/apricot_pc/standoff.jpeg)
 
-* Install the circuit board, secure with two more M2 screws.
+* Install the adaptor, secure with two more screws.
 
 ![Alt text](photos/apricot_pc/installed.jpeg)
 
@@ -220,7 +216,7 @@ I'm using a new-to-me and untested Apricot PC for this guide, excuse the dust!
 
 ![Alt text](photos/apricot_pc/mesh.jpeg)
 
-* Put the PC aside for now, and bring out the back cover assembly.
+* Bring out the back cover assembly.
 
 * Cut off the zipties, and unplug all the blade terminal connectors.
 
