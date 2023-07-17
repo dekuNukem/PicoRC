@@ -86,25 +86,19 @@ Observe the parts:
 
 ![Alt text](photos/macse/parts1.png)
 
-![Alt text](photos/macse/parts2.png)
-
 ### Soldering Notes
 
 Nothing too tricky in this kit, all basic through-hole stuff.
 
 If this is your first time, a few tips:
 
-* Make sure your soldering iron has **proper temperature control**, NOT the cheap ones with just a power switch! They get way too hot and will damage the PCB.
+* Make sure your soldering iron has **proper temperature control**. Try your local makerspace or university lab.
 
-* Use **leaded solder**, much easier to work with.
+* Use **leaded solder** and plenty of flux, temperature around 320C / 600F.
 
-* Set the temperature around 320C / 600F
+* [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well.
 
-* Use plenty of flux, makes everything much easier. You can clean it off afterwards.
-
-* [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well, you can also watch others by searching `how to solder`.
-
-* Try your local makerspace or university lab too!
+* Start from shortest to tallest. Solder **a single pin** first, and make sure the part is straight.
 
 ### Assembly
 
@@ -118,13 +112,15 @@ Everything else is on top side:
 
 ![Alt text](photos/macse/note.png)
 
-Start from shortest component to tallest. Insert component, hold in place with masking tape or sticky putty.
+* Double check capacitor polarity!
 
-Flip it over and solder **a single pin** first, then make sure the part is **straight in all directions**.
+* Black electrolytic cap: White stripe is **NEGATIVE**.
 
-If not, you can adjust it while melting that single pin. Once happy, solder the rest of the pins.
+* Blue Tantalum cap: White stripe is **POSITIVE**.
 
-Make sure the solder melts properly and wets both the pin and pad to prevent cold solder joints, especially on thicker power pins.
+* Yellow ceramic cap: No polarity.
+
+![Alt text](photos/macse/ref.jpeg)
 
 ----
 
@@ -158,23 +154,9 @@ Make sure it is **completely dry** before proceeding.
 
 ## Board Features
 
-If not already done, install two fuses and the jumpers as shown below:
+Install two fuses as shown below:
 
 ![Alt text](photos/macse/feature.png)
-
-### Power Switch
-
-The pin header is connected to the ATX `PS_ON` pin.
-
-Shorting them together turns on the PSU.
-
-### PC Fan Header
-
-* Any standard 3 or 4-pin PC fan should work
-
-* Run it at 5V or 12V by changing the jumper
-
-* 12V is full speed, 5V is much quieter.
 
 ### Fuse
 
@@ -184,9 +166,15 @@ Shorting them together turns on the PSU.
 
 * **DO NOT BYPASS FUSES**
 
-### Filtering Cap (Optional)
+### Power Switch
 
-* You can add a filtering cap to +5V and +12V rails, note the polarity if using electrolytic caps.
+The pin header is connected to the ATX `PS_ON` pin.
+
+Shorting them together turns on the PSU.
+
+### PC Fan Header
+
+* Any standard 3 or 4-pin 12V PC fan should work
 
 ## Pre-flight Checks
 
@@ -238,7 +226,7 @@ Further disassembly is needed to remove the old PSU.
 
 ![Alt text](photos/macse/bracket.jpeg)
 
-* Unplug the neck board by **gently wiggle side-to-side** while **lifting straight up**
+* Unplug the neck board by **gently lifting straight up**
 
 ![Alt text](photos/macse/neck.jpeg)
 
@@ -296,27 +284,27 @@ Ideas include:
 
 * [Clean and lube the floppy drive](https://www.youtube.com/watch?v=0pGhwtyFG2I)
 
-* Check motherboard for corrosion and cap/battery leakage
+* Check motherboard for corrosion and leakage
 
 * [Re-cap the motherboard](https://www.youtube.com/watch?v=QArvemlZUJY) if not already done
 
 * [Check analog board](https://www.youtube.com/watch?v=zC0qi5dQsWs) for cracked solder joints
 
-* General cleaning / blow out the dust
+* General cleaning / blow out dust
 
 ### Install PicoPSU
 
 With maintenance done, time to install the new PSU!
 
-* Insert two 8mm screws into the top two PSU mounting holes, then install the standoffs to hold it in place.
+* Insert two screws into the mounting holes near the edge, then install the standoffs from the other side
 
-* Your screwdriver set might have a bit that fits the standoff, makes it much easier.
+* Use 5mm socket bit to tighten.
 
 ![Alt text](photos/macse/edge.png)
 
 * Plug PicoPSU into ATX connector
 
-* Use jumper cable to connect the header between two PCBs
+* Use jumper wire to connect the header between two PCBs
 
 ![Alt text](photos/macse/assy.jpeg)
 
@@ -354,7 +342,7 @@ Time to put everything back! Pretty much the opposite of disassembly!
 
 * Double check for short circuit if you want
 
-If everything checks out, take a breath and plug it in and switch on.
+If everything checks out, take a breath, plug it in and turn it on.
 
 If your Mac was working before, hopefully it still does!
 
@@ -368,7 +356,7 @@ And if it doesn't work, [check out the troubleshooting guide](#troubleshooting).
 
 There's already a fan inside Mac SE, but you can add another one or replace it.
 
-Any regular PC fan should work, you can run it at 12V (full speed) or 5V (quieter).
+Any regular PC fan should work.
 
 Make sure the fan is secured, nothing touches the blade, and air flow direction is correct.
 
@@ -416,7 +404,7 @@ I had this happen with a knock-off generic PicoPSU, changing to another one fixe
 
 ### Screen Wobbles
 
-* If it happens when floppy drive is active, try using a beefier power brick, or add decoupling capacitors.
+* If it happens when floppy drive is active, try using a beefier power brick, or add more decoupling capacitors.
 
 * If happens while idle, make sure the fan is not too close to the CRT.
 
