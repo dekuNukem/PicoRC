@@ -46,13 +46,13 @@ For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https:
 
 ## BBC Micro
 
-* [Purchase Link]
+* [Purchase Link](https://www.tindie.com/products/31079/)
 
 * [Instructions](bbc_micro.md)
 
 ## Apricot PC / PC XI / PC286
 
-* [Purchase Link]
+* [Purchase Link](https://www.tindie.com/products/31080/)
 
 * [Instructions](apricot_pc.md)
 

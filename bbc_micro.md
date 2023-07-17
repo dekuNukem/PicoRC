@@ -1,6 +1,6 @@
 # USB-C Power Adaptor for BBC Micro
 
-[Purchase Link] | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+[Purchase Link](https://www.tindie.com/products/31079/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
 
 ----
 
@@ -22,7 +22,7 @@ It replaces the original PSU, and uses common USB chargers instead.
 
 ## Get One / Other Stuff
 
-[Click me to get one!]
+[Click me to get one!](https://www.tindie.com/products/31079/)
 
 Also available for [**Mac 128K, SE, Apple II/IIGS, Osborne 1, Apricot PC, BBC Micro, and more!**](./README.md)
 
@@ -31,8 +31,6 @@ For more general-purpose diagnostics and retrofitting, check out the [full-fat A
 ## Table of Contents
 
 - [Kit Assembly](#kit-assembly)
-
-- [Board Features](#board-features)
 
 - [Pre-flight Checks](#pre-flight-checks)
 
