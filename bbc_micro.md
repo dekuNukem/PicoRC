@@ -72,7 +72,9 @@ Push the power switch into the blanking plate as shown.
 
 ![Alt text](photos/bbc_micro/hole.jpeg)
 
-Install the power switch on main PCB. Make sure the switch sits flat and at right angle.
+Offer up the switch assembly.
+
+Make sure the switch sits flat. Adjust the two PCB so they are at **right angle**.
 
 Once happy, solder the switch in place.
 

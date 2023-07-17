@@ -92,17 +92,13 @@ Nothing too tricky in this kit, all basic through-hole stuff.
 
 If this is your first time, a few tips:
 
-* Make sure your soldering iron has **proper temperature control**, NOT the cheap ones with just a power switch! They get way too hot and will damage the PCB.
+* Make sure your soldering iron has **proper temperature control**. Try your local makerspace or university lab.
 
-* Use **leaded solder**, much easier to work with. Temperature around 320C / 600F
+* Use **leaded solder** and plenty of flux, temperature around 320C / 600F.
 
-* Use plenty of flux, makes everything much easier. You can clean it off afterwards.
+* [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well.
 
-* [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well, you can also watch others by searching `how to solder`.
-
-* Try your local makerspace or university lab too!
-
-* Start from shortest to tallest. Solder **a single pin** first, check if part is straight.
+* Start from shortest to tallest. Solder **a single pin** first, and make sure the part is straight.
 
 ### Wiring Harness
 
@@ -122,17 +118,23 @@ You can also [buy a new connector](https://www.digikey.co.uk/en/products/detail/
 
 ### Assembly
 
-First, push the switch into the blanking plate.
-
-* Make sure the **openings are to the right**, **hole is on top**, **switch pins points down**.
+First, push the switch into the blanking plate as shown. Put it aside.
 
 ![Alt text](photos/appleii/plate.jpeg)
-
-Put the switch assembly aside.
 
 Solder the main PCB **as shown below**, follow the notes:
 
 ![Alt text](photos/appleii/note.png)
+
+* Double check capacitor polarity!
+
+* Black electrolytic caps: White stripe is **NEGATIVE**.
+
+* Blue Tantalum caps: White stripe is **POSITIVE**.
+
+* Yellow ceramic caps: No polarity.
+
+--------
 
 Offer up the switch assembly.
 
@@ -142,7 +144,7 @@ Make sure the switch sits flat. Adjust the two PCB so they are **right angle**.
 
 Solder the switch in place.
 
-Also solder the two PCB together at the seam **on both sides**. It needs some heat, so use plenty of flux for a shiny and smooth finish.
+Also solder the two PCB together at the seam **on both sides** for rigidity. Use plenty of solder and flux.
 
 ![Alt text](photos/appleii/swsolder.png)
 
@@ -176,29 +178,19 @@ Make sure it is **completely dry** before proceeding.
 
 ## Board Features
 
-Install **two fuses** and the **jumper block** as shown below.
+Install **two fuses** as shown below.
 
 ![Alt text](photos/appleii/feature.png)
 
 ### PC Fan Header
 
-* Any standard 3 or 4-pin PC fan should work
-
-* Run it at 5V or 12V by changing the jumper
-
-* 12V is full speed, 5V is much quieter.
+* Any standard PC fan should work
 
 ### Fuse
 
-* Use common car fuse RATED **5A OR LESS**
-
-* Regular, Mini, and low-profile Mini all will work. Simply push into the holder.
+* Use common automotive fuse RATED **5A OR LESS**
 
 * **DO NOT BYPASS FUSES**
-
-### Filtering Cap (Optional)
-
-* You can add a filtering cap to +5V and +12V rails, note the polarity if using electrolytic caps.
 
 ## Pre-flight Checks
 
@@ -238,9 +230,7 @@ If using existing harness, make sure the voltage readings matches the photo exac
 
 * Insert two screws into the mounting holes closest to the edge
 
-* Install and tighten standoffs on the other side
-
-* Your screwdriver set might have a bit that fits the standoff, makes it much easier.
+* Install and tighten standoffs on the other side, use 5mm socket bits.
 
 ![Alt text](photos/appleii/post.png)
 
@@ -248,7 +238,7 @@ If using existing harness, make sure the voltage readings matches the photo exac
 
 ![Alt text](photos/appleii/pico.jpeg)
 
-* Undo the locking ring on the barrel jack, insert through the hole, reinstall the ring to fix it in place.
+* Undo the locking ring, insert through the hole, reinstall the ring to fix it in place.
 
 ![Alt text](photos/appleii/sw.jpeg)
 
@@ -266,9 +256,7 @@ That's pretty much it, we're done!
 
 ### Adding a Fan
 
-You can add a fan for additional cooling.
-
-Any regular PC fan should work, you can run it at 12V (full speed) or 5V (quieter).
+You can add a fan for additional cooling. Any regular PC fan should work.
 
 Make sure the fan is secured, nothing touches the blade, and air flow direction is correct.
 
