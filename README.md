@@ -4,9 +4,7 @@
 
 ----
 
-PicoRC lets you use modern **Pico ATX PSU** in vintage computers.
-
-They are **device-specific** and **lower cost** compared to the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC).
+PicoRC is a line of adaptors that lets you use modern **Pico ATX PSU** in vintage computers.
 
 ![Alt text](photos/mac_plus/header.jpeg)
 
@@ -14,17 +12,13 @@ They are **device-specific** and **lower cost** compared to the [full-fat ATX4VC
 
 * **Non-destructive** and reversible
 
-* Low cost and easy assembly
+* Universal voltage with **fused** rails
 
 * **PC Fan header** for added cooling
-
-* Universal voltage with **fused** rails 
 
 For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https://github.com/dekuNukem/ATX4VC)!
 
 ----
-
-### Find your device below!
 
 ## Macintosh 128K / 512K / Plus
 
@@ -49,6 +43,18 @@ For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https:
 * [Purchase Link](https://www.tindie.com/products/30055/)
 
 * [Instructions](apple_iigs.md)
+
+## BBC Micro
+
+* [Purchase Link]
+
+* [Instructions](bbc_micro.md)
+
+## Apricot PC / PC XI / PC286
+
+* [Purchase Link]
+
+* [Instructions](apricot_pc.md)
 
 ## Osborne 1
 
