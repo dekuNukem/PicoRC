@@ -209,7 +209,7 @@
 dekuNukem 2023</text>
 <text x="83.608" y="45.184" size="2.54" layer="25" rot="R180" align="center">GND</text>
 <text x="34.218" y="71.93" size="2.1844" layer="25" distance="35" align="center">FUSE 7.5A MAX</text>
-<text x="53.0096" y="22.1244" size="3.175" layer="25" distance="35" align="center">picoRC.com</text>
+<text x="25.1966" y="11.2024" size="3.175" layer="25" distance="35" align="center">picoRC.com</text>
 <text x="38.529" y="26.012" size="1.4224" layer="25" align="center">GND</text>
 <text x="38.275" y="23.615" size="1.4224" layer="25" align="center">-12</text>
 <text x="37.894" y="21.059" size="1.4224" layer="25" align="center">-5</text>
