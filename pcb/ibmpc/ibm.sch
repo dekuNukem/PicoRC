@@ -371,146 +371,6 @@ by exp-lbrs.ulp</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="macse">
-<description>Generated from &lt;b&gt;macse.sch&lt;/b&gt;&lt;p&gt;
-by exp-lbrs.ulp</description>
-<packages>
-<package name="ATX24_RIGHT_ANGLE">
-<wire x1="-25.9" y1="3.4" x2="-25.9" y2="-9.14" width="0.254" layer="21"/>
-<wire x1="-25.9" y1="-9.14" x2="25.9" y2="-9.14" width="0.254" layer="21"/>
-<wire x1="25.9" y1="-9.14" x2="25.9" y2="3.4" width="0.254" layer="21"/>
-<wire x1="25.9" y1="3.4" x2="-25.9" y2="3.4" width="0.2032" layer="51"/>
-<wire x1="-25" y1="4" x2="-25" y2="12" width="0.127" layer="51"/>
-<wire x1="-25" y1="12" x2="25" y2="12" width="0.127" layer="51"/>
-<wire x1="25" y1="12" x2="25" y2="4" width="0.127" layer="51"/>
-<wire x1="25.9" y1="3.4" x2="24" y2="3.4" width="0.254" layer="21"/>
-<wire x1="-25.9" y1="3.4" x2="-24" y2="3.4" width="0.254" layer="21"/>
-<wire x1="-20" y1="3.4" x2="-22" y2="3.4" width="0.254" layer="21"/>
-<wire x1="-15.8" y1="3.4" x2="-17.8" y2="3.4" width="0.254" layer="21"/>
-<wire x1="-11.5" y1="3.4" x2="-13.5" y2="3.4" width="0.254" layer="21"/>
-<wire x1="-7.4" y1="3.4" x2="-9.4" y2="3.4" width="0.254" layer="21"/>
-<wire x1="-3.2" y1="3.4" x2="-5.2" y2="3.4" width="0.254" layer="21"/>
-<wire x1="1" y1="3.4" x2="-1" y2="3.4" width="0.254" layer="21"/>
-<wire x1="5.2" y1="3.4" x2="3.2" y2="3.4" width="0.254" layer="21"/>
-<wire x1="9.4" y1="3.4" x2="7.4" y2="3.4" width="0.254" layer="21"/>
-<wire x1="13.6" y1="3.4" x2="11.6" y2="3.4" width="0.254" layer="21"/>
-<wire x1="17.8" y1="3.4" x2="15.8" y2="3.4" width="0.254" layer="21"/>
-<wire x1="22" y1="3.4" x2="20" y2="3.4" width="0.254" layer="21"/>
-<wire x1="-1.7" y1="-9" x2="-1.7" y2="-6" width="0.254" layer="21"/>
-<wire x1="-1.7" y1="-6" x2="1.7" y2="-6" width="0.254" layer="21"/>
-<wire x1="1.7" y1="-6" x2="1.7" y2="-9" width="0.254" layer="21"/>
-<pad name="1" x="23.1" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="2" x="18.9" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="3" x="14.7" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="4" x="10.5" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="5" x="6.3" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="6" x="2.1" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="7" x="-2.1" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="8" x="-6.3" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="9" x="-10.5" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="10" x="-14.7" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="11" x="-18.9" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="12" x="-23.1" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="13" x="23.1" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="14" x="18.9" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="15" x="14.7" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="16" x="10.5" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="17" x="6.3" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="18" x="2.1" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="19" x="-2.1" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="20" x="-6.3" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="21" x="-10.5" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="22" x="-14.7" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="23" x="-18.9" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<pad name="24" x="-23.1" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
-<text x="-25.4" y="-11.43" size="1.27" layer="25">&gt;Name</text>
-<text x="20.32" y="-11.43" size="1.27" layer="27">&gt;Value</text>
-<hole x="-23.1" y="-2.54" drill="3"/>
-<hole x="23.1" y="-2.54" drill="3"/>
-<polygon width="0.254" layer="21">
-<vertex x="-1.7" y="-7"/>
-<vertex x="1.7" y="-7"/>
-<vertex x="1.7" y="-6"/>
-<vertex x="-1.7" y="-6"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="ATX24-1">
-<wire x1="-12.7" y1="-22.86" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
-<wire x1="10.16" y1="20.32" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
-<pin name="-12V" x="12.7" y="-7.62" length="short" rot="R180"/>
-<pin name="3.3V@0" x="12.7" y="17.78" length="short" rot="R180"/>
-<pin name="3.3V@1" x="12.7" y="15.24" length="short" rot="R180"/>
-<pin name="3.3V@2" x="12.7" y="12.7" length="short" rot="R180"/>
-<pin name="3.3V@3" x="12.7" y="10.16" length="short" rot="R180"/>
-<pin name="5V@0" x="-15.24" y="7.62" length="short"/>
-<pin name="5V@1" x="-15.24" y="10.16" length="short"/>
-<pin name="5V@2" x="-15.24" y="12.7" length="short"/>
-<pin name="5V@3" x="-15.24" y="15.24" length="short"/>
-<pin name="5V@4" x="-15.24" y="17.78" length="short"/>
-<pin name="5V_STDBY" x="-15.24" y="2.54" length="short"/>
-<pin name="12V@0" x="12.7" y="0" length="short" rot="R180"/>
-<pin name="12V@1" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="GND@0" x="-15.24" y="-20.32" length="short"/>
-<pin name="GND@1" x="-15.24" y="-17.78" length="short"/>
-<pin name="GND@2" x="-15.24" y="-15.24" length="short"/>
-<pin name="GND@3" x="-15.24" y="-12.7" length="short"/>
-<pin name="GND@4" x="-15.24" y="-10.16" length="short"/>
-<pin name="GND@5" x="-15.24" y="-7.62" length="short"/>
-<pin name="GND@6" x="-15.24" y="-5.08" length="short"/>
-<pin name="GND@7" x="-15.24" y="-2.54" length="short"/>
-<pin name="NC" x="12.7" y="-20.32" length="short" rot="R180"/>
-<pin name="PS_ON" x="12.7" y="-12.7" length="short" rot="R180"/>
-<pin name="PWR_OK" x="12.7" y="-15.24" length="short" rot="R180"/>
-<text x="-12.7" y="20.32" size="1.27" layer="95">&gt;Name</text>
-<text x="-12.7" y="-25.4" size="1.27" layer="96">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ATX24" prefix="J">
-<description>&lt;b&gt;ATX24 Pin Power Supply Connector&lt;/b&gt; This is a good connector for connecting a computer power supply to a PCB. It's massive, but provides many amps of power at 5V and 12V. SKU: PRT-09498</description>
-<gates>
-<gate name="G$1" symbol="ATX24-1" x="-12.7" y="-22.86"/>
-</gates>
-<devices>
-<device name="RH" package="ATX24_RIGHT_ANGLE">
-<connects>
-<connect gate="G$1" pin="-12V" pad="14"/>
-<connect gate="G$1" pin="12V@0" pad="10"/>
-<connect gate="G$1" pin="12V@1" pad="11"/>
-<connect gate="G$1" pin="3.3V@0" pad="1"/>
-<connect gate="G$1" pin="3.3V@1" pad="2"/>
-<connect gate="G$1" pin="3.3V@2" pad="12"/>
-<connect gate="G$1" pin="3.3V@3" pad="13"/>
-<connect gate="G$1" pin="5V@0" pad="4"/>
-<connect gate="G$1" pin="5V@1" pad="6"/>
-<connect gate="G$1" pin="5V@2" pad="21"/>
-<connect gate="G$1" pin="5V@3" pad="22"/>
-<connect gate="G$1" pin="5V@4" pad="23"/>
-<connect gate="G$1" pin="5V_STDBY" pad="9"/>
-<connect gate="G$1" pin="GND@0" pad="3"/>
-<connect gate="G$1" pin="GND@1" pad="5"/>
-<connect gate="G$1" pin="GND@2" pad="7"/>
-<connect gate="G$1" pin="GND@3" pad="15"/>
-<connect gate="G$1" pin="GND@4" pad="17"/>
-<connect gate="G$1" pin="GND@5" pad="18"/>
-<connect gate="G$1" pin="GND@6" pad="19"/>
-<connect gate="G$1" pin="GND@7" pad="24"/>
-<connect gate="G$1" pin="NC" pad="20"/>
-<connect gate="G$1" pin="PS_ON" pad="16"/>
-<connect gate="G$1" pin="PWR_OK" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="capacitor-wima" urn="urn:adsk.eagle:library:116">
 <description>&lt;b&gt;WIMA Capacitors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -15952,6 +15812,63 @@ by exp-lbrs.ulp</description>
 <wire x1="-4.8" y1="0" x2="-4.8" y2="-14.5" width="0.254" layer="21"/>
 <wire x1="4.8" y1="0" x2="4.8" y2="-14.5" width="0.254" layer="21"/>
 </package>
+<package name="ATX24_RIGHT_ANGLE">
+<wire x1="-25.9" y1="3.4" x2="-25.9" y2="-9.14" width="0.254" layer="21"/>
+<wire x1="-25.9" y1="-9.14" x2="25.9" y2="-9.14" width="0.254" layer="21"/>
+<wire x1="25.9" y1="-9.14" x2="25.9" y2="3.4" width="0.254" layer="21"/>
+<wire x1="25.9" y1="3.4" x2="-25.9" y2="3.4" width="0.2032" layer="51"/>
+<wire x1="-25" y1="4" x2="-25" y2="12" width="0.127" layer="51"/>
+<wire x1="-25" y1="12" x2="25" y2="12" width="0.127" layer="51"/>
+<wire x1="25" y1="12" x2="25" y2="4" width="0.127" layer="51"/>
+<wire x1="25.9" y1="3.4" x2="24" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-25.9" y1="3.4" x2="-24" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-20" y1="3.4" x2="-22" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-15.8" y1="3.4" x2="-17.8" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-11.5" y1="3.4" x2="-13.5" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-7.4" y1="3.4" x2="-9.4" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-3.2" y1="3.4" x2="-5.2" y2="3.4" width="0.254" layer="21"/>
+<wire x1="1" y1="3.4" x2="-1" y2="3.4" width="0.254" layer="21"/>
+<wire x1="5.2" y1="3.4" x2="3.2" y2="3.4" width="0.254" layer="21"/>
+<wire x1="9.4" y1="3.4" x2="7.4" y2="3.4" width="0.254" layer="21"/>
+<wire x1="13.6" y1="3.4" x2="11.6" y2="3.4" width="0.254" layer="21"/>
+<wire x1="17.8" y1="3.4" x2="15.8" y2="3.4" width="0.254" layer="21"/>
+<wire x1="22" y1="3.4" x2="20" y2="3.4" width="0.254" layer="21"/>
+<wire x1="-1.7" y1="-9" x2="-1.7" y2="-6" width="0.254" layer="21"/>
+<wire x1="-1.7" y1="-6" x2="1.7" y2="-6" width="0.254" layer="21"/>
+<wire x1="1.7" y1="-6" x2="1.7" y2="-9" width="0.254" layer="21"/>
+<pad name="1" x="23.1" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="2" x="18.9" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="3" x="14.7" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="4" x="10.5" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="5" x="6.3" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="6" x="2.1" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="7" x="-2.1" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="8" x="-6.3" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="9" x="-10.5" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="10" x="-14.7" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="11" x="-18.9" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="12" x="-23.1" y="4.76" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="13" x="23.1" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="14" x="18.9" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="15" x="14.7" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="16" x="10.5" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="17" x="6.3" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="18" x="2.1" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="19" x="-2.1" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="20" x="-6.3" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="21" x="-10.5" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="22" x="-14.7" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="23" x="-18.9" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<pad name="24" x="-23.1" y="10.26" drill="1.8" diameter="2.9" rot="R180" thermals="no"/>
+<text x="-25.4" y="-11.43" size="1.27" layer="25">&gt;Name</text>
+<text x="20.32" y="-11.43" size="1.27" layer="27">&gt;Value</text>
+<polygon width="0.254" layer="21">
+<vertex x="-1.7" y="-7"/>
+<vertex x="1.7" y="-7"/>
+<vertex x="1.7" y="-6"/>
+<vertex x="-1.7" y="-6"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="ISA">
@@ -15975,6 +15892,38 @@ by exp-lbrs.ulp</description>
 <wire x1="-5.08" y1="-7.62" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
 <pin name="P$1" x="-10.16" y="0" length="middle"/>
 <pin name="P$2" x="-10.16" y="-5.08" length="middle"/>
+</symbol>
+<symbol name="ATX24-1">
+<wire x1="-12.7" y1="-22.86" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<pin name="-12V" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="3.3V@0" x="12.7" y="17.78" length="short" rot="R180"/>
+<pin name="3.3V@1" x="12.7" y="15.24" length="short" rot="R180"/>
+<pin name="3.3V@2" x="12.7" y="12.7" length="short" rot="R180"/>
+<pin name="3.3V@3" x="12.7" y="10.16" length="short" rot="R180"/>
+<pin name="5V@0" x="-15.24" y="7.62" length="short"/>
+<pin name="5V@1" x="-15.24" y="10.16" length="short"/>
+<pin name="5V@2" x="-15.24" y="12.7" length="short"/>
+<pin name="5V@3" x="-15.24" y="15.24" length="short"/>
+<pin name="5V@4" x="-15.24" y="17.78" length="short"/>
+<pin name="5V_STDBY" x="-15.24" y="2.54" length="short"/>
+<pin name="12V@0" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="12V@1" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="GND@0" x="-15.24" y="-20.32" length="short"/>
+<pin name="GND@1" x="-15.24" y="-17.78" length="short"/>
+<pin name="GND@2" x="-15.24" y="-15.24" length="short"/>
+<pin name="GND@3" x="-15.24" y="-12.7" length="short"/>
+<pin name="GND@4" x="-15.24" y="-10.16" length="short"/>
+<pin name="GND@5" x="-15.24" y="-7.62" length="short"/>
+<pin name="GND@6" x="-15.24" y="-5.08" length="short"/>
+<pin name="GND@7" x="-15.24" y="-2.54" length="short"/>
+<pin name="NC" x="12.7" y="-20.32" length="short" rot="R180"/>
+<pin name="PS_ON" x="12.7" y="-12.7" length="short" rot="R180"/>
+<pin name="PWR_OK" x="12.7" y="-15.24" length="short" rot="R180"/>
+<text x="-12.7" y="20.32" size="1.27" layer="95">&gt;Name</text>
+<text x="-12.7" y="-25.4" size="1.27" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -16024,6 +15973,45 @@ by exp-lbrs.ulp</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="ATX24" prefix="J">
+<description>&lt;b&gt;ATX24 Pin Power Supply Connector&lt;/b&gt; This is a good connector for connecting a computer power supply to a PCB. It's massive, but provides many amps of power at 5V and 12V. SKU: PRT-09498</description>
+<gates>
+<gate name="G$1" symbol="ATX24-1" x="-12.7" y="-22.86"/>
+</gates>
+<devices>
+<device name="RH" package="ATX24_RIGHT_ANGLE">
+<connects>
+<connect gate="G$1" pin="-12V" pad="14"/>
+<connect gate="G$1" pin="12V@0" pad="10"/>
+<connect gate="G$1" pin="12V@1" pad="11"/>
+<connect gate="G$1" pin="3.3V@0" pad="1"/>
+<connect gate="G$1" pin="3.3V@1" pad="2"/>
+<connect gate="G$1" pin="3.3V@2" pad="12"/>
+<connect gate="G$1" pin="3.3V@3" pad="13"/>
+<connect gate="G$1" pin="5V@0" pad="4"/>
+<connect gate="G$1" pin="5V@1" pad="6"/>
+<connect gate="G$1" pin="5V@2" pad="21"/>
+<connect gate="G$1" pin="5V@3" pad="22"/>
+<connect gate="G$1" pin="5V@4" pad="23"/>
+<connect gate="G$1" pin="5V_STDBY" pad="9"/>
+<connect gate="G$1" pin="GND@0" pad="3"/>
+<connect gate="G$1" pin="GND@1" pad="5"/>
+<connect gate="G$1" pin="GND@2" pad="7"/>
+<connect gate="G$1" pin="GND@3" pad="15"/>
+<connect gate="G$1" pin="GND@4" pad="17"/>
+<connect gate="G$1" pin="GND@5" pad="18"/>
+<connect gate="G$1" pin="GND@6" pad="19"/>
+<connect gate="G$1" pin="GND@7" pad="24"/>
+<connect gate="G$1" pin="NC" pad="20"/>
+<connect gate="G$1" pin="PS_ON" pad="16"/>
+<connect gate="G$1" pin="PWR_OK" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -16041,7 +16029,7 @@ by exp-lbrs.ulp</description>
 <part name="U$8" library="atx_power_control" deviceset="CAR_FUSE_HOLDER" device="3IN1"/>
 <part name="U$2" library="atx_power_control" deviceset="CAR_FUSE_HOLDER" device="3IN1"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="J2" library="macse" deviceset="ATX24" device="RH"/>
+<part name="J2" library="blade" deviceset="ATX24" device="RH"/>
 <part name="C6" library="clock" deviceset="C-US" device="C1210" value="47uF"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
