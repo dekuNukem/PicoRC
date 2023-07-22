@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -31,7 +31,7 @@
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -47,9 +47,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -1271,11 +1271,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="89.5" y1="43.62" x2="92.642" y2="43.62" width="0.3048" layer="16"/>
 <wire x1="94.234" y1="45.212" x2="94.234" y2="51.435" width="0.3048" layer="16"/>
 <wire x1="92.642" y1="43.62" x2="94.234" y2="45.212" width="0.3048" layer="16"/>
-<wire x1="88.821" y1="64.446" x2="88.821" y2="63.452" width="0.3048" layer="16"/>
-<wire x1="88.821" y1="63.452" x2="90.424" y2="61.849" width="0.3048" layer="16"/>
-<wire x1="90.424" y1="61.849" x2="92.456" y2="61.849" width="0.3048" layer="16"/>
-<wire x1="94.234" y1="60.071" x2="94.234" y2="51.435" width="0.3048" layer="16"/>
-<wire x1="92.456" y1="61.849" x2="94.234" y2="60.071" width="0.3048" layer="16"/>
+<wire x1="88.821" y1="64.446" x2="88.821" y2="63.706" width="0.3048" layer="16"/>
+<wire x1="94.234" y1="58.293" x2="94.234" y2="51.435" width="0.3048" layer="16"/>
+<wire x1="88.821" y1="63.706" x2="94.234" y2="58.293" width="0.3048" layer="16"/>
 <wire x1="43.688" y1="52.451" x2="77.089" y2="52.451" width="0.3048" layer="16"/>
 <wire x1="77.089" y1="52.451" x2="78.105" y2="51.435" width="0.3048" layer="16"/>
 <wire x1="78.105" y1="51.435" x2="94.234" y2="51.435" width="0.3048" layer="16"/>
