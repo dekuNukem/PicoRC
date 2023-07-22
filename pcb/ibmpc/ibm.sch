@@ -16283,8 +16283,8 @@ by exp-lbrs.ulp</description>
 <instance part="P+6" gate="1" x="-7.62" y="93.98" smashed="yes">
 <attribute name="VALUE" x="-10.16" y="88.9" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND9" gate="1" x="248.92" y="170.18" smashed="yes">
-<attribute name="VALUE" x="246.38" y="167.64" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="251.46" y="177.8" smashed="yes">
+<attribute name="VALUE" x="248.92" y="175.26" size="1.778" layer="96"/>
 </instance>
 <instance part="C12" gate="G$1" x="101.6" y="68.58" smashed="yes">
 <attribute name="NAME" x="102.616" y="69.215" size="1.778" layer="95"/>
@@ -16482,11 +16482,6 @@ by exp-lbrs.ulp</description>
 <wire x1="289.56" y1="223.52" x2="299.72" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
-<wire x1="248.92" y1="172.72" x2="256.54" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C12" gate="G$1" pin="-"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
@@ -16499,6 +16494,11 @@ by exp-lbrs.ulp</description>
 <wire x1="134.62" y1="60.96" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <junction x="132.08" y="60.96"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="U$14" gate="G$1" pin="P$1"/>
+<wire x1="251.46" y1="180.34" x2="256.54" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -16696,11 +16696,11 @@ by exp-lbrs.ulp</description>
 <wire x1="190.5" y1="160.02" x2="190.5" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="190.5" y1="190.5" x2="246.38" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="U$14" gate="G$1" pin="P$1"/>
 <wire x1="246.38" y1="190.5" x2="254" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="180.34" x2="246.38" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="180.34" x2="246.38" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="172.72" x2="246.38" y2="190.5" width="0.1524" layer="91"/>
 <junction x="246.38" y="190.5"/>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<wire x1="246.38" y1="172.72" x2="256.54" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-5V" class="0">
