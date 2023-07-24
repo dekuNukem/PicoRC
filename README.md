@@ -1,10 +1,10 @@
 # PicoRC: PicoPSU on Retro Computers!
 
-[Purchase Link](https://www.tindie.com/stores/dekunukem/) | [Official Discord](https://discord.gg/HAuuh3pAmB)
+[Purchase Link](https://www.tindie.com/stores/dekunukem/items/) | [Official Discord](https://discord.gg/HAuuh3pAmB)
 
 ----
 
-PicoRC is a line of adaptors that lets you use modern **Pico ATX PSU** in vintage computers.
+PicoRC is a line of adaptors that lets you use **Pico ATX PSU** in vintage computers.
 
 ![Alt text](photos/mac_plus/header.jpeg)
 
@@ -18,49 +18,35 @@ PicoRC is a line of adaptors that lets you use modern **Pico ATX PSU** in vintag
 
 For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https://github.com/dekuNukem/ATX4VC)!
 
-----
+## Available For:
 
-## Macintosh 128K / 512K / Plus
+### Apple II / II Plus / IIe
 
-* [Purchase Link](https://www.tindie.com/products/28754/)
+[Purchase Link](https://www.tindie.com/products/29185/) | [Instructions](appleii.md)
 
-* [Instructions](og_mac.md)
+### Apple IIGS
 
-## Macintosh SE / SE30
+[Purchase Link](https://www.tindie.com/products/30055/) | [Instructions](apple_iigs.md)
 
-* [Purchase Link](https://www.tindie.com/products/29184/)
+### Macintosh 128K / 512K / Plus
 
-* [Instructions](mac_se_se30.md)
+[Purchase Link](https://www.tindie.com/products/28754/) | [Instructions](og_mac.md)
 
-## Apple II / II Plus / IIe / IIGS-in-IIe-Case
+### Macintosh SE & SE/30
 
-* [Purchase Link](https://www.tindie.com/products/29185/)
+[Purchase Link](https://www.tindie.com/products/29184/) | [Instructions](mac_se_se30.md)
 
-* [Instructions](appleii.md)
+### BBC Micro
 
-## Apple IIGS
+[Purchase Link](https://www.tindie.com/products/31079/) | [Instructions](bbc_micro.md)
 
-* [Purchase Link](https://www.tindie.com/products/30055/)
+### Apricot PC / PC XI / PC286
 
-* [Instructions](apple_iigs.md)
+[Purchase Link](https://www.tindie.com/products/31080/) | [Instructions](apricot_pc.md)
 
-## BBC Micro
+### Osborne 1
 
-* [Purchase Link](https://www.tindie.com/products/31079/)
-
-* [Instructions](bbc_micro.md)
-
-## Apricot PC / PC XI / PC286
-
-* [Purchase Link](https://www.tindie.com/products/31080/)
-
-* [Instructions](apricot_pc.md)
-
-## Osborne 1
-
-* [Purchase Link](https://www.tindie.com/products/30087/)
-
-* [Instructions](osborne1.md)
+[Purchase Link](https://www.tindie.com/products/30087/) | [Instructions](osborne1.md)
 
 ## Get in Touch
 
