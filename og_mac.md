@@ -16,7 +16,7 @@ It plugs into the motherboard and bypasses the unreliable internal PSU all toget
 
 * **PC fan header** for added cooling
 
-* **Fused** rails
+* Universal voltage with fused rails
 
 * Low cost, efficient and reliable.
 
@@ -24,7 +24,7 @@ It plugs into the motherboard and bypasses the unreliable internal PSU all toget
 
 [Click me to get one!](https://www.tindie.com/products/28754/)
 
-Also available for Mac SE, Apple II/IIGS, Osborne 1, and more! [Check out the main page](./README.md) for details.
+Also available for [Compact Macintosh, Apple IIGS, BBC Micro, Osborne 1, and more!](./README.md)
 
 For more general-purpose diagnostics and retrofitting, check out the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC)!
 
@@ -34,13 +34,7 @@ For more general-purpose diagnostics and retrofitting, check out the [full-fat A
 
 - [Kit Assembly](#kit-assembly)
 
-- [Board Features](#board-features)
-
-- [Pre-installation Checks](#pre-installation-checks)
-
 - [Installation](#installation)
-
-- [Power Routing](#power-routing)
 
 - [Troubleshooting](#troubleshooting)
 
@@ -54,7 +48,7 @@ PicoPSU are tiny ATX power supplies for small PCs, but perfect for retro compute
 
 * [Official website](https://www.mini-box.com/DC-DC) and [distributors](https://www.mini-box.com/site/resellers.html). Even the cheapest 80W one should be plenty.
 
-* You can also find generic ones on eBay/Amazon/Aliexpress by searching `Pico ATX`. They are *not that* cheap, so might as well support the official product.
+* Avoid generic clones. They over-rate and are of low quality.
 
 * A power brick with **12V DC** and **center positive** 5.5x2.5mm barrel jack is needed.
 
@@ -64,37 +58,21 @@ Remember that this solution is **only as good as your PicoPSU and 12V Brick**, s
 
 ## Kit Assembly
 
-### Already assembled?
-
-[Click me to jump to next section](#board-features) (Board Features).
-
-### Required tools
-
-* Soldering Iron
-
-* Solder
-
-* Flux
-
-* Multimeter
+**DON'T START YET!!!** Keep reading :)
 
 ### Soldering Notes
-
-**DON'T START YET!!!** Keep reading :)
 
 Nothing too tricky in this kit, all basic through-hole stuff.
 
 If this is your first time, a few tips:
 
-* Make sure your soldering iron has **proper temperature control**, NOT the cheap ones with just a power switch! They get way too hot and will damage the PCB.
+* Make sure your soldering iron has **proper temperature control**. Try your local makerspace or university lab.
 
-* Use **leaded solder**. Temperature around 320C / 600F
+* Use **leaded solder** and plenty of flux, temperature around 320C / 600F.
 
-* Use plenty of flux to make things easier. You can clean it off afterwards.
+* [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well.
 
-* [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well, you can also watch others by searching `how to solder`.
-
-* Try your local makerspace or university lab too!
+* Start from shortest to tallest. Solder **a single pin** first, and make sure the part is straight.
 
 ### Assembly
 

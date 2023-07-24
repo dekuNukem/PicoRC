@@ -16,9 +16,9 @@ It replaces the original bulky and unreliable PSU, and uses very common 12V powe
 
 * **Non-destructive** and reversible
 
-* **PC fan header** for added cooling
+* **PC fan header** for more cooling
 
-* **Fused** rails
+* Universal voltage with fused rails
 
 * Low cost, efficient and reliable.
 
@@ -32,21 +32,13 @@ For more general-purpose diagnostics and retrofitting, check out the [full-fat A
 
 ## Table of Contents
 
-- [Highlights](#highlights)
-
-- [Get One / Other Stuff](#get-one---other-stuff)
-
 - [Getting a Pico PSU](#getting-a-pico-psu)
 
 - [Kit Assembly](#kit-assembly)
 
-- [Board Features](#board-features)
-
 - [Pre-flight Checks](#pre-flight-checks)
 
 - [Installation](#installation)
-
-- [Troubleshooting](#troubleshooting)
 
 - [Questions or Comments?](#questions-or-comments)
 
@@ -58,7 +50,7 @@ PicoPSU are tiny ATX power supplies for small PCs, but are perfect for retro com
 
 * [Official website](https://www.mini-box.com/DC-DC) and [distributors](https://www.mini-box.com/site/resellers.html). Even the cheapest 80W one should be plenty.
 
-* You can also find generic ones on eBay/Amazon/Aliexpress by searching `Pico ATX`. They are *not that* cheap, so I strongly suggest supporting the high-quality official products.
+* Avoid generic clones. They over-rate and are of low quality.
 
 * A power brick with **12V DC** and **center positive** 5.5x2.5mm barrel jack is needed.
 
@@ -69,18 +61,6 @@ Remember that this solution is **only as good as your PicoPSU and 12V Brick**, s
 ## Kit Assembly
 
 **DON'T START YET!!!** Keep reading :)
-
-### Required tools
-
-* Soldering Iron
-
-* Solder
-
-* Flux
-
-* Multimeter
-
-### Parts
 
 Observe the parts:
 
@@ -174,7 +154,7 @@ Shorting them together turns on the PSU.
 
 ### PC Fan Header
 
-* Any standard 3 or 4-pin 12V PC fan should work
+* Any standard PC fan should work
 
 ## Pre-flight Checks
 

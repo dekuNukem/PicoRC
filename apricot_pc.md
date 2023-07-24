@@ -24,7 +24,7 @@ It replaces the original PSU, and uses very common **12V power brick** instead.
 
 [Click me to get one!](https://www.tindie.com/products/31080/)
 
-Also available for [**Mac 128K, Mac SE, Apple II/IIGS, Osborne 1, Apricot PC, and more!**](./README.md)
+Also available for [Compact Macintosh, Apple IIGS, BBC Micro, Osborne 1, and more!](./README.md)
 
 For more general-purpose diagnostics and retrofitting, check out the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC)!
 
@@ -48,7 +48,7 @@ PicoPSU are tiny ATX power supplies for small PCs, but are perfect for retro com
 
 * [Official website](https://www.mini-box.com/DC-DC) and [distributors](https://www.mini-box.com/site/resellers.html). Even the cheapest 80W one should be plenty.
 
-* Generic clones are also available on eBay/Amazon/Aliexpress. They are pretty crap, so I strongly suggest using the high-quality official products.
+* Avoid generic clones. They over-rate and are of low quality.
 
 * A power brick with **12V DC** and **center positive** 5.5x2.5mm barrel jack is needed.
 
@@ -59,20 +59,6 @@ Remember that this solution is **only as good as your PicoPSU and 12V Brick**, s
 ## Kit Assembly
 
 **DON'T START YET!!!** Keep reading :)
-
-### Required tools
-
-* Soldering Iron
-
-* Solder
-
-* Flux
-
-* Multimeter
-
-* Pliers and flush cutter
-
-### Parts
 
 Observe the parts:
 
@@ -160,7 +146,7 @@ I'm using a new-to-me and untested Apricot PC for this guide, excuse the dust!
 
 ![Alt text](photos/apricot_pc/sep.jpeg)
 
-* Separated the back assembly and put aside.
+* Separate the back assembly and put aside.
 
 ![Alt text](photos/apricot_pc/backremoved.jpeg)
 
