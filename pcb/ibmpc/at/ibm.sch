@@ -16093,6 +16093,8 @@ by exp-lbrs.ulp</description>
 <part name="R2" library="adafruit_changed" deviceset="R-US_" device="0411/15"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="/90" package3d_urn="urn:adsk.eagle:package:22404/2"/>
+<part name="U$3" library="blade" deviceset="ISA" device=""/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16266,6 +16268,10 @@ by exp-lbrs.ulp</description>
 <instance part="JP2" gate="A" x="-15.24" y="220.98" smashed="yes">
 <attribute name="NAME" x="-21.59" y="229.235" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-21.59" y="213.36" size="1.778" layer="96"/>
+</instance>
+<instance part="U$3" gate="G$1" x="45.72" y="106.68" smashed="yes"/>
+<instance part="P+5" gate="1" x="68.58" y="109.22" smashed="yes">
+<attribute name="VALUE" x="66.04" y="104.14" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -16497,6 +16503,11 @@ by exp-lbrs.ulp</description>
 <pinref part="U$16" gate="G$1" pin="P$1"/>
 <pinref part="P+11" gate="1" pin="+5V"/>
 <wire x1="58.42" y1="91.44" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<pinref part="P+5" gate="1" pin="+5V"/>
+<wire x1="58.42" y1="106.68" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
