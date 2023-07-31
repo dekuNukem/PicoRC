@@ -16095,6 +16095,7 @@ by exp-lbrs.ulp</description>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="/90" package3d_urn="urn:adsk.eagle:package:22404/2"/>
 <part name="U$3" library="blade" deviceset="ISA" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="U$11" library="apricot" deviceset="M3_MOUNTING_HOLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16273,6 +16274,7 @@ by exp-lbrs.ulp</description>
 <instance part="P+5" gate="1" x="68.58" y="109.22" smashed="yes">
 <attribute name="VALUE" x="66.04" y="104.14" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$11" gate="G$1" x="-30.48" y="142.24" smashed="yes"/>
 </instances>
 <busses>
 </busses>
