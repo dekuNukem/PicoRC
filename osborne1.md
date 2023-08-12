@@ -6,7 +6,7 @@
 
 This adaptor lets you use **Pico ATX PSU** on Osborne 1 computer.
 
-![Alt text](photos/osborne1/pcb.jpeg)
+![Alt text](photos/osborne1/pcb.jpg)
 
 It replaces the original PSU, and uses very common **12V power brick** instead.
 
@@ -64,7 +64,7 @@ Remember that this solution is **only as good as your PicoPSU and 12V Brick**, s
 
 Observe the parts:
 
-![Alt text](photos/osborne1/parts.png)
+![Alt text](photos/osborne1/part.png)
 
 ### Power Switch Preparation
 
@@ -106,13 +106,13 @@ Flip over, on **bottom side**, solder:
 
 * Grounding Blade
 
-![Alt text](photos/osborne1/bottom.png)
+![Alt text](photos/osborne1/underside.png)
 
 More reference photos:
 
-![Alt text](photos/osborne1/ref1.jpeg)
+![Alt text](photos/osborne1/ref1.jpg)
 
-![Alt text](photos/osborne1/ref2.jpeg)
+![Alt text](photos/osborne1/ref2.jpg)
 
 ### Cleaning
 
