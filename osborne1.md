@@ -16,7 +16,7 @@ It replaces the original PSU, and uses very common **12V power brick** instead.
 
 * **Non-destructive** and reversible
 
-* **PC fan header** for added cooling
+* **PC fan header** for more cooling
 
 * Universal voltage with fused rails
 
@@ -90,15 +90,15 @@ If this is your first time, a few tips:
 
 On **top side**, solder the following components **as shown below**:
 
-* Two fuse holders (push the metal contact all the way in)
+* Fuse holders
 
 * ATX connector
 
-* 3-Pin male header
+* Capacitors
 
 * Power Switch
 
-![Alt text](photos/osborne1/top.jpeg)
+![Alt text](photos/osborne1/top.png)
 
 Flip over, on **bottom side**, solder:
 
@@ -132,19 +132,9 @@ Make sure it is **completely dry** before proceeding.
 
 ## Board Features
 
-Install **two fuses** and the **jumper block** as shown below.
+Install **two 5A fuses** as shown.
 
 ![Alt text](photos/osborne1/feature.png)
-
-![Alt text](photos/osborne1/bottom.png)
-
-### PC Fan Header
-
-* Any standard 3 or 4-pin PC fan should work
-
-* Run it at 12V (full speed) or 5V (quieter) by changing the jumper
-
-### Fuse
 
 * Use common car fuse rated **5A OR LESS**
 
@@ -304,7 +294,7 @@ The adaptor should also work with the early version as well, although you'll nee
 
 If you want to add a fan, time to do it now.
 
-Any regular PC fan should work, you can run it at 12V (full speed) or 5V (quieter).
+Any standard PC fan should work.
 
 **Don't mount the fan too close to the CRT**, or the picture might wobble from the motor's magnetic field.
 
