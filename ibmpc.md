@@ -8,7 +8,7 @@
 
 This adaptor lets you use **Pico ATX PSU** on IBM PC, XT, AT, and compatible clones.
 
-![Alt text](photos/ibmpc/pcb.jpeg)
+![Alt text](photos/ibmpc/title.jpeg)
 
 This PSU-in-a-Card replaces the original PSU, and uses very common **12V power brick** instead.
 
@@ -52,9 +52,9 @@ PicoPSUs are tiny ATX power supplies for small PCs, but are perfect for retro co
 
 * [Official website](https://www.mini-box.com/DC-DC) and [distributors](https://www.mini-box.com/site/resellers.html).
 
-* The 120W variant should be plenty for PC or XT **without** spinning hard drives.
+* The **160W** one is recommended.
 
-* The 160W variant is recommended for later machines, or if using spinning hard drives.
+* The cheaper 80 or 120W should also work on PCs **without** spinning hard drives.
 
 * Avoid generic clones. They over-rate and are of low quality.
 
@@ -70,7 +70,7 @@ Remember that this solution is **only as good as your PicoPSU and 12V Brick**, s
 
 Observe the parts:
 
-![Alt text](photos/ibmpc/parts.png)
+![Alt text](photos/ibmpc/part.png)
 
 ### Soldering Notes
 
@@ -86,23 +86,9 @@ If this is your first time, a few tips:
 
 ### Assembly
 
-Use something flat and rigid (credit card, guitar picks, etc), widen the gaps on the 20P ATX connector slightly.
-
-![Alt text](photos/ibmpc/pick.jpeg)
-
-Install the 20P connector on the PCB.
-
-* Latch facing up (see photo)
-
-* Make sure everything is in a straight line, not curled.
-
-* Pins are within the pads
-
-![Alt text](photos/ibmpc/curl.png)
-
 Solder the components **as shown below**:
 
-![Alt text](photos/ibmpc/top.png)
+![Alt text](photos/ibmpc/topside.png)
 
 * Double check capacitor polarity!
 
@@ -111,8 +97,6 @@ Solder the components **as shown below**:
 * Blue Tantalum caps: White stripe is **POSITIVE**.
 
 * Yellow ceramic caps: No polarity.
-
-![Alt text](photos/ibmpc/ref1.jpeg)
 
 ### Cleaning
 
@@ -124,13 +108,13 @@ Make sure it is **completely dry** before proceeding.
 
 ### Inspection
 
-* Compare with the reference photos and notes above. Make sure everything is in correct orientation.
+* Compare with the photo and notes above. Make sure everything is in correct orientation.
 
 * Solder joints should be **shiny and smooth**. If you see spikes, put on more flux and melt it again.
 
 * There must be **no solder bridges**. If any, put on flux and melt it to remove.
 
-![Alt text](photos/ibmpc/bottom.jpeg)
+![Alt text](photos/ibmpc/bottomside.jpeg)
 
 ### Bracket
 
@@ -142,43 +126,47 @@ The shorter side should be touching the PCB.
 
 Then install the ISA bracket, secure with two more M3 screws.
 
-![Alt text](photos/ibmpc/bracket.jpeg)
+![Alt text](photos/ibmpc/brackets.jpeg)
 
 ## Pre-flight Checks
 
 Install two 5A fuses.
 
-![Alt text](photos/ibmpc/fuse.jpeg)
+![Alt text](photos/ibmpc/fuses.jpeg)
 
 Use a multimeter to **check for dead shorts** between each power rail and GND:
 
-![Alt text](photos/ibmpc/rails.png)
+![Alt text](photos/ibmpc/fingers.png)
 
-If all good, plug in PicoPSU, connect power, and flip the switch.
+If all good, plug in PicoPSU, and flip the switch.
 
-Down is off, up is on.
-
-![Alt text](photos/ibmpc/check.png)
+![Alt text](photos/ibmpc/test.png)
 
 The LED should light up. The LED is wired to the `POWER_GOOD` signal, so there might be a slight delay.
 
-Measure the voltage of power rails, make sure they are correct. 
+Measure the voltage of each rail, make sure they are correct. 
 
 ## Installation
 
-Undo the locking ring on the barrel jack
+Undo the locking ring on the barrel jack.
 
-Insert through the hole on the bracket
+Insert through the hole on the bracket.
 
 Tighten the ring from the other side. Use 10mm socket.
 
-![Alt text](photos/ibmpc/ring.jpeg)
+![Alt text](photos/ibmpc/jack.jpeg)
 
-Plug in the harness that came with the PicoPSU. (1)
+(1) Attach the harness that came with the PicoPSU.
 
-Plug in the ATX-to-AT cable, make sure the latch match. (2)
+(2) Insert the power cables into the terminal blades.
 
-![Alt text](photos/ibmpc/harness.jpeg)
+* Match the colours! (RED: 5V | ORANGE: PowerGood | BLACK: GND)
+
+* Ensure the connectors are **all the way in**.
+
+* Ensure the **insulating sleeves** are in place.
+
+![Alt text](photos/ibmpc/conn.png)
 
 Now we're ready to install!
 
