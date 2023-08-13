@@ -4,7 +4,7 @@
 
 ----
 
-# UNDER CONSTRUCTION !!!!!!!!!!!!!!!!!!234567890-=
+# UNDER CONSTRUCTION !!
 
 This adaptor lets you use **Pico ATX PSU** on IBM PC, XT, AT, and compatible clones.
 
@@ -71,6 +71,10 @@ Remember that this solution is **only as good as your PicoPSU and 12V Brick**, s
 Observe the parts:
 
 ![Alt text](photos/ibmpc/part.png)
+
+Optional IBM 5155 Kit:
+
+![Alt text](photos/ibmpc/5155kit.png)
 
 ### Soldering Notes
 
