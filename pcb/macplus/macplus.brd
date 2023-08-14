@@ -211,15 +211,15 @@
 <text x="20.209" y="25.4" size="1.27" layer="26" rot="MR180" align="center">GND</text>
 <text x="16.399" y="25.4" size="1.27" layer="26" rot="MR180" align="center">+12</text>
 <text x="12.081" y="25.4" size="1.27" layer="26" rot="MR180" align="center">BAT</text>
-<text x="0.905" y="12.7" size="1.27" layer="25" rot="R90" align="center">12</text>
+<text x="0.905" y="13.589" size="1.27" layer="25" rot="R90" align="center">12</text>
 <text x="47.895" y="25.527" size="1.778" layer="26" distance="30" rot="MR270" align="center">picoRC.com</text>
-<text x="53.61" y="6.4308" size="2.1844" layer="25" rot="R180" align="center">+</text>
+<text x="53.483" y="6.5578" size="1.27" layer="25" rot="R180" align="center">+</text>
 <text x="32.909" y="12.573" size="1.778" layer="26" distance="30" rot="MR270" align="center">USE 5A
 FUSE</text>
 <text x="10.9842" y="12.7" size="1.27" layer="25" rot="R270" align="center">PWR SW</text>
-<text x="6.1582" y="27.94" size="2.1844" layer="25" rot="MR0" align="center">+</text>
-<text x="0.905" y="10.16" size="1.27" layer="25" align="center">G</text>
-<text x="6.4122" y="17.399" size="2.1844" layer="25" rot="MR0" align="center">+</text>
+<text x="6.6662" y="27.94" size="2.1844" layer="25" rot="MR0" align="center">+</text>
+<text x="0.905" y="11.049" size="1.27" layer="25" align="center">G</text>
+<text x="6.5392" y="18.034" size="2.1844" layer="25" rot="MR0" align="center">+</text>
 </plain>
 <libraries>
 <library name="396_conn">
@@ -682,15 +682,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="POPULARITY" value="10" x="52.873" y="5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="50.079" y="7.032" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="JP1" library="appleii" package="1X04" value="" x="3.191" y="13.97" smashed="yes" rot="R90"/>
+<element name="JP1" library="appleii" package="1X04" value="" x="3.191" y="14.859" smashed="yes" rot="R90"/>
 <element name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C5B2.5" package3d_urn="urn:adsk.eagle:package:5426/1" value="" x="8.652" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.668" y="25.4" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="10" x="-0.111" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="11.446" y="18.288" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C3" library="adafruit_changed" package="E3,5-8" value="" x="3.064" y="23.876" smashed="yes" rot="R215">
-<attribute name="NAME" x="6.3576625" y="26.837728125" size="1.27" layer="25" ratio="10" rot="R305"/>
-<attribute name="VALUE" x="3.18831875" y="27.68396875" size="1.27" layer="27" ratio="10" rot="R215"/>
+<element name="C3" library="adafruit_changed" package="E3,5-8" value="" x="3.064" y="24.511" smashed="yes" rot="R215">
+<attribute name="NAME" x="1.9126625" y="21.884728125" size="1.27" layer="25" ratio="10" rot="R305"/>
+<attribute name="VALUE" x="3.18831875" y="28.31896875" size="1.27" layer="27" ratio="10" rot="R215"/>
 </element>
 <element name="C8" library="clock" package="C1210" value="47uF" x="23.638" y="12.192" smashed="yes" rot="MR90">
 <attribute name="NAME" x="25.543" y="14.986" size="0.8128" layer="26" rot="MR0"/>
@@ -876,6 +876,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="22.757" y1="11.673" x2="23.638" y2="10.792" width="0.8128" layer="16"/>
 <wire x1="23.638" y1="10.792" x2="23.646" y2="10.784" width="0.8128" layer="16"/>
 <wire x1="23.646" y1="10.784" x2="23.646" y2="6.288" width="0.8128" layer="16"/>
+<wire x1="36.246" y1="2.138" x2="34.193" y2="4.191" width="0.508" layer="1"/>
+<wire x1="25.743" y1="4.191" x2="23.646" y2="6.288" width="0.508" layer="1"/>
+<wire x1="34.193" y1="4.191" x2="25.743" y2="4.191" width="0.508" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="J1" pad="11"/>
@@ -918,14 +921,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="15.672" y1="30.603" x2="15.672" y2="28.103" width="1.778" layer="16"/>
 <wire x1="15.672" y1="28.103" x2="16.18" y2="27.595" width="1.778" layer="1"/>
 <wire x1="16.18" y1="27.595" x2="16.18" y2="21.987" width="1.778" layer="1"/>
-<wire x1="45.99" y1="25.654" x2="5.27863125" y2="25.654" width="1.778" layer="16"/>
-<wire x1="5.27863125" y1="25.654" x2="4.52045" y2="24.89581875" width="1.778" layer="16"/>
-<wire x1="4.52045" y1="24.89581875" x2="4.52045" y2="21.91155" width="1.778" layer="16"/>
+<wire x1="45.99" y1="25.654" x2="4.64363125" y2="25.654" width="1.778" layer="16"/>
+<wire x1="4.64363125" y1="25.654" x2="4.52045" y2="25.53081875" width="1.778" layer="16"/>
+<wire x1="4.52045" y1="25.53081875" x2="4.52045" y2="21.91155" width="1.778" layer="16"/>
 <wire x1="4.52045" y1="21.91155" x2="8.652" y2="17.78" width="1.778" layer="16"/>
 <wire x1="8.652" y1="17.78" x2="6.112" y2="15.24" width="0.8128" layer="16"/>
-<wire x1="5.223" y1="12.7" x2="3.191" y2="12.7" width="0.8128" layer="16"/>
+<wire x1="6.112" y1="13.589" x2="3.191" y2="13.589" width="0.8128" layer="16"/>
 <wire x1="6.112" y1="15.24" x2="6.112" y2="13.589" width="0.8128" layer="16"/>
-<wire x1="6.112" y1="13.589" x2="5.223" y2="12.7" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="J1" pad="16"/>
