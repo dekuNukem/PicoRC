@@ -122,9 +122,11 @@ Make sure it is **completely dry** before proceeding.
 
 ### Bracket
 
-Install the metal bracket on the PCB, secure with M3 screws from the bottom.
+Install the metal bracket.
 
 The shorter side should be touching the PCB.
+
+Secure with M3 screws from the bottom.
 
 ![Alt text](photos/ibmpc/short.png)
 
