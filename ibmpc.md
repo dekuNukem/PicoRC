@@ -8,7 +8,7 @@
 
 This adaptor lets you use **Pico ATX PSU** on IBM PC and clones. 
 
-From the original PC 5150 all the way to Pentium III era!
+From the original PC 5150 all the way to the Pentium III era!
 
 ![Alt text](photos/ibmpc/title.jpeg)
 
@@ -25,8 +25,6 @@ The PSU-in-a-Card replaces the original PSU, and uses very common **12V power br
 * **PC fan** header
 
 * Built-in power switch, also supports external switch.
-
-* Compatible with motherboards with ISA slots and AT-style power connector
 
 ## Get One / Other Stuff
 
@@ -166,9 +164,7 @@ Tighten the ring from the other side. Use 10mm socket.
 
 ![Alt text](photos/ibmpc/jack.jpeg)
 
-(1) Attach the harness that came with the PicoPSU.
-
-(2) Insert the power cables into the terminal blades.
+Insert the power cables into the terminal blades.
 
 * Match the colours! (RED: 5V | ORANGE: PowerGood | BLACK: GND)
 
@@ -282,7 +278,7 @@ In this case, you can open up the PSU and see if it is labelled there.
 
 ## Moment of Truth
 
-If testing an unknown PC, it is recommended to start minimal with just the motherboard and video card.
+If testing an unknown PC, it is recommended to start minimal with just the motherboard and video card. Remove all extra cards and disconnect the drives.
 
 Plug in and flip the switch!
 
@@ -290,13 +286,21 @@ Plug in and flip the switch!
 
 If it works, congrats! You can now add more parts back in.
 
+For drives, use the harness that came with the PicoPSU.
+
+![Alt text](photos/ibmpc/molex.png)
+
 Keep an eye on the temperature of the PicoPSU.
 
 Active ventilation might be needed if it gets too hot.
 
-Any standard 12V PC fan would work.
+Any standard 12V PC fan should work.
+
+![Alt text](photos/ibmpc/fan.jpeg)
 
 ## But I want to use the Big Red Switch™!
+
+## IBM 5155 Instructions
 
 ## Questions or Comments?
 
