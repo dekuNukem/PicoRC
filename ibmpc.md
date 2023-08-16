@@ -298,7 +298,39 @@ Any standard 12V PC fan should work.
 
 ![Alt text](photos/ibmpc/fan.jpeg)
 
-## But I want to use the Big Red Switch™!
+## External Power Switch
+
+A **PSW header** is available for external power switch.
+
+The PSU will turn on when the two pins are shorted together.
+
+![Alt text](photos/ibmpc/psw.jpeg)
+
+Normally you can simply connect a switch or latching button to it.
+
+However, if you want to use the Big Red Switch™, there are a few more steps.
+
+![Alt text](photos/ibmpc/red.jpg)
+
+Normally, the Big Red Switch™ is part of the old PSU, so you would need to take it apart.
+
+Inside, you'll most likely find a Double Pole Single Throw (DPST) switch, which switches two circuits at once.
+
+![Alt text](photos/ibmpc/oldpsu.jpeg)
+
+Note the colour of the wires.
+
+The **same colored** wire are **connected together** when the switch is on.
+
+![Alt text](photos/ibmpc/dpst.png)
+
+⚠️⚠️ **MAINS VOLTAGE flows through this switch!!!** ⚠️⚠️ 
+
+Make sure to first **unplug/cut/desolder** all wires going into the switch!
+
+Then you can connect one side of it to the PSW header, with test clip and jumper wires.
+
+![Alt text](photos/ibmpc/clip.jpeg)
 
 ## IBM 5155 Instructions
 
