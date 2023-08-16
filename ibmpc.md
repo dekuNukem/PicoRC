@@ -6,23 +6,27 @@
 
 # UNDER CONSTRUCTION !!
 
-This adaptor lets you use **Pico ATX PSU** on IBM PC, XT, AT, and compatible clones.
+This adaptor lets you use **Pico ATX PSU** on IBM PC and clones. 
+
+From the original PC 5150 all the way to Pentium III era!
 
 ![Alt text](photos/ibmpc/title.jpeg)
 
-This PSU-in-a-Card replaces the original PSU, and uses very common **12V power brick** instead.
+The PSU-in-a-Card replaces the original PSU, and uses very common **12V power brick** instead.
 
-![Alt text](photos/ibmpc/back.jpeg)
+![Alt text](photos/ibmpc/backplug.jpeg)
 
 ## Features
 
-* **Non-destructive** and reversible
+* **Non-destructive**
 
 * Onboard **-5V regulator**
 
 * **PC fan** header
 
 * Built-in power switch, also supports external switch.
+
+* Compatible with motherboards with ISA slots and AT-style power connector
 
 ## Get One / Other Stuff
 
@@ -176,7 +180,7 @@ Tighten the ring from the other side. Use 10mm socket.
 
 Now we're ready to install!
 
-I'll be using an IBM 5160 PC XT as an example.
+I'll be using an IBM PC XT as an example.
 
 **⚠️⚠️ IMPORTANT ⚠️⚠️**
 
@@ -192,15 +196,105 @@ Undo the screws in the back, and slide the cover forward to remove.
 
 Insert the card into a free ISA slot, secure with screw.
 
-Connect the AT power connector, make sure **BLACK TOUCHES BLACK**.
+![Alt text](photos/ibmpc/slot.jpeg)
 
-![Alt text](photos/ibmpc/black.jpeg)
+Insert a flat-blade screwdriver into the blade receptacle.
 
-That's pretty much it!
+Expand the gap slightly so it goes in easier.
+
+![Alt text](photos/ibmpc/expand.png)
+
+Now take a look at the AT-style connector.
+
+We just need to insert the cables into the appropriate pins.
+
+Other rails will be fed through the ISA bus.
+
+![Alt text](photos/ibmpc/rails.png)
+
+Let's start with the **RED** 5V cable.
+
+Any will do, but I suggest the rightmost pin, easier to remember.
+
+Push **straight down**, make sure **lobe side faces outwards**.
+
+Don't force if there is significant resistance, make the gap bigger and try again.
+
+On the other hand, it shouldn't be too loose either.
+
+![Alt text](photos/ibmpc/lobe.png)
+
+Repeat with the other two wires.
+
+**BLACK** GND wire can be any of the four pins in the middle.
+
+**ORANGE** PG wire is on the other edge.
+
+Make sure they are **all the way in**, and covered with **insulation sleeve**.
+
+![Alt text](photos/ibmpc/fff.png)
+
+Double check the connection:
+
+![Alt text](photos/ibmpc/ttt.png)
+
+---------
+
+Some PC uses **non-standard connectors**, in which case you'll need to figure it out yourself.
+
+* Check schematic if available.
+
+* 5V is almost always **RED**.
+
+* GND is almost always **BLACK**.
+
+* PG can be different, but AT convention is **ORANGE**.
+
+Let's take a look at a few examples.
+
+#### Dell 466/T
+
+The connector is in two rows, but everything else is the same. So just match the colors.
+
+![Alt text](photos/ibmpc/466t.jpeg)
+
+#### Hyundai/Novel PCTerminal (HPT-100)
+
+![Alt text](photos/ibmpc/pcterm.jpeg)
+
+It uses a different connector, but the pinout is mostly the same (RED 5V on the edge, BLACK GND in the middle, PG is unused).
+
+It also has square pins, in which case you can plug one of the lobes into it.
+
+![Alt text](photos/ibmpc/square.jpeg)
+
+#### Compaq Deskpro 286
+
+This one's a doozy, completely propitiatory connector and pinout.
+
+Most rails are labelled, but not the PG signal, couldn't find a schematic.
+
+In this case, you can open up the PSU and see if it is labelled there. 
+
+[Fortunately it was](photos/ibmpc/compaqpsu.jpeg), so here is the pinout for prosperity:
+
+![Alt text](photos/ibmpc/compaq.png)
+
+## Moment of Truth
+
+If testing an unknown PC, it is recommended to start minimal with just the motherboard and video card.
 
 Plug in and flip the switch!
 
-![Alt text](photos/ibmpc/back.jpeg)
+![Alt text](photos/ibmpc/flip.jpeg)
+
+If it works, congrats! You can now add more parts back in.
+
+Keep an eye on the temperature of the PicoPSU.
+
+Active ventilation might be needed if it gets too hot.
+
+Any standard 12V PC fan would work.
 
 ## But I want to use the Big Red Switch™!
 
