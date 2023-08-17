@@ -8,7 +8,7 @@
 
 This adaptor lets you use **Pico ATX PSU** on IBM PC and clones. 
 
-From the original PC 5150 all the way to the Pentium III era!
+From the original IBM 5150 all the way to the Pentium III era!
 
 ![Alt text](photos/ibmpc/title.jpeg)
 
@@ -24,7 +24,13 @@ The PSU-in-a-Card replaces the original PSU, and uses very common **12V power br
 
 * **PC fan** header
 
-* Built-in power switch, also supports external switch.
+* Built-in power switch. Also supports external switch.
+
+## Compatibility
+
+This adaptor works on **any** machine with an **ISA slot** and **AT-style** (or similar) power connector.
+
+Including IBM Portable Personal Computer 5155.
 
 ## Get One / Other Stuff
 
@@ -43,6 +49,10 @@ For more general-purpose diagnostics and retrofitting, check out the [full-fat A
 - [Pre-flight Checks](#pre-flight-checks)
 
 - [Installation](#installation)
+
+- [External Power Switch](#external-power-switch)
+
+- [IBM 5155 Instructions](#ibm-5155-instructions)
 
 - [Questions or Comments?](#questions-or-comments)
 
@@ -176,11 +186,11 @@ Insert the power cables into the terminal blades.
 
 Now we're ready to install!
 
+For **IBM 5155 Portable Personal Computer**, **read the whole guide first**!
+
 I'll be using an IBM PC XT as an example.
 
-**⚠️⚠️ IMPORTANT ⚠️⚠️**
-
-Insert the blanking plug into the power socket.
+**⚠️⚠️ Insert the blanking plug into the power socket. ⚠️⚠️**
 
 This prevents the old faulty/unknown PSU from being accidentally energized.
 
@@ -334,9 +344,9 @@ Then you can connect one side of it to the PSW header, with test clip and jumper
 
 ## IBM 5155 Instructions
 
-Below are instructions specifically for the IBM 5155 Portable Personal Computer.
+Below are instructions specific for the IBM 5155 Portable Personal Computer.
 
-⚠️⚠️ Make sure to **READ THE REST OF THIS MANUAL FIRST**! ⚠️⚠️ 
+⚠️⚠️ Make sure to **READ THE REST OF THIS GUIDE FIRST**! ⚠️⚠️ 
 
 ----------
 
@@ -364,7 +374,7 @@ Unplug the floppy cable and all power connectors to free up some space.
 
 Plug the adaptor into an ISA slot.
 
-The one closest to the CPU is recommended.
+The outmost one is recommended.
 
 ![Alt text](photos/ibmpc/inslot.jpeg)
 
@@ -374,7 +384,7 @@ Double check that the **purple wire faces left (12V)**.
 
 ![Alt text](photos/ibmpc/crtconn.jpeg)
 
-Put the machine on its face, unto the two screws for the cable cage.
+Put the machine on its face, undo the two screws for the cable cage.
 
 ![Alt text](photos/ibmpc/cablecage.jpeg)
 
@@ -390,15 +400,19 @@ Plug in the new power connector. **Make sure the color match!**
 
 Reinstall the cable cage.
 
-Plug in the main power cable as described in the main guide above.
+Plug in the main power cable as described [in the main guide above](#installation).
 
 ![Alt text](photos/ibmpc/5155.jpeg)
 
 That's pretty much it! As usual, it's recommended to start minimal with just the motherboard and video card.
 
-Tantalum capacitors can often short the +12V and -12V line, you can simply remove them. [More info here](https://minuszerodegrees.net/5150_5160/MDC/tantalum_short_plus_12volts.htm)
+Tantalum capacitors can often short on the +12V and -12V line, you can simply remove them. [More info here](https://minuszerodegrees.net/5150_5160/MDC/tantalum_short_plus_12volts.htm).
 
 Other than that, the 5160 motherboard seems pretty reliable in my experience.
+
+![Alt text](photos/ibmpc/working.jpeg)
+
+Of course, you can keep going and wire up the Big Red Switch™, but it's a bit fiddly. I might update the guide when I have time.
 
 ## Questions or Comments?
 
