@@ -1,14 +1,12 @@
 # PicoPSU Adaptor for IBM PC Compatibles
 
-[Purchase Link] | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+[Purchase Link](https://www.tindie.com/products/31437) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
 
 ----
 
-# UNDER CONSTRUCTION !!
-
 This adaptor lets you use **Pico ATX PSU** on IBM PC and clones. 
 
-From the original IBM 5150 all the way to the Pentium III era!
+From IBM 5150 all the way to Pentium III era!
 
 ![Alt text](photos/ibmpc/title.jpeg)
 
@@ -28,15 +26,15 @@ The PSU-in-a-Card replaces the original PSU, and uses very common **12V power br
 
 ## Compatibility
 
-This adaptor works on **any** machine with an **ISA slot** and **AT-style** (or similar) power connector.
+It works on **any** machine with an **ISA slot** and **AT-style** (or similar) power connector.
 
 Including IBM Portable Personal Computer 5155.
 
 ## Get One / Other Stuff
 
-[Click me to get one!]
+[Click me to get one!](https://www.tindie.com/products/31437)
 
-Also available for [**Mac 128K, Mac SE, Apple II/IIGS, Osborne 1, Apricot PC, BBC Micro, and more!**](./README.md)
+Also available for [**Compact Macintosh, Apple II/IIGS, Osborne 1, Apricot PC, BBC Micro, and more!**](./README.md)
 
 For more general-purpose diagnostics and retrofitting, check out the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC)!
 
@@ -238,7 +236,7 @@ Repeat with the other two wires.
 
 **BLACK** GND wire can be any of the four pins in the middle.
 
-**ORANGE** PG wire is on the other edge.
+**ORANGE** PG wire is on the other end.
 
 Make sure they are **all the way in**, and covered with **insulation sleeve**.
 
@@ -250,7 +248,7 @@ Double check the connection:
 
 ---------
 
-Some PC uses **non-standard connectors**, in which case you'll need to figure it out yourself.
+Some PCs use **non-standard connectors**, in which case you'll need to figure it out yourself.
 
 * Check schematic if available.
 
@@ -260,7 +258,7 @@ Some PC uses **non-standard connectors**, in which case you'll need to figure it
 
 * PG can be different, but AT convention is **ORANGE**.
 
-Let's take a look at a few examples.
+A few examples:
 
 #### Dell 466/T
 
@@ -274,7 +272,7 @@ The connector is in two rows, but everything else is the same. So just match the
 
 It uses a different connector, but the pinout is mostly the same (RED 5V on the edge, BLACK GND in the middle, PG is unused).
 
-It also has square pins, in which case you can plug one of the lobes into it.
+It also has square pins, in which case you can plug one lobe of the receptacle into it.
 
 ![Alt text](photos/ibmpc/square.jpeg)
 
@@ -314,7 +312,7 @@ Any standard 12V PC fan should work.
 
 ## External Power Switch
 
-A **PSW header** is available for external power switch.
+The **PSW header** is for external power switch.
 
 The PSU will turn on when the two pins are shorted together.
 
