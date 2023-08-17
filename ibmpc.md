@@ -88,6 +88,10 @@ Optional IBM 5155 Kit:
 
 ![Alt text](photos/ibmpc/5155kit.png)
 
+Optional External Power Switch Kit:
+
+![Alt text](photos/ibmpc/buttonkit.png)
+
 ### Soldering Notes
 
 Nothing too tricky in this kit, all basic through-hole stuff.
