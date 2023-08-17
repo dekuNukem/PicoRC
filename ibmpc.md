@@ -334,6 +334,72 @@ Then you can connect one side of it to the PSW header, with test clip and jumper
 
 ## IBM 5155 Instructions
 
+Below are instructions specifically for the IBM 5155 Portable Personal Computer.
+
+⚠️⚠️ Make sure to **READ THE REST OF THIS MANUAL FIRST**! ⚠️⚠️ 
+
+----------
+
+(1) Unlatch the keyboard.
+
+(2) Release, unplug, and remove the keyboard.
+
+![Alt text](photos/ibmpc/unlatch.png)
+
+Undo six screws on the face plate.
+
+![Alt text](photos/ibmpc/face.png)
+
+Slide the outer case backwards to remove.
+
+![Alt text](photos/ibmpc/outcase.jpeg)
+
+Undo three screws and remove the RF cage.
+
+![Alt text](photos/ibmpc/rf.png)
+
+Unplug the floppy cable and all power connectors to free up some space.
+
+![Alt text](photos/ibmpc/og.jpeg)
+
+Plug the adaptor into an ISA slot.
+
+The one closest to the CPU is recommended.
+
+![Alt text](photos/ibmpc/inslot.jpeg)
+
+Plug in the CRT power cable.
+
+Double check that the **purple wire faces left (12V)**.
+
+![Alt text](photos/ibmpc/crtconn.jpeg)
+
+Put the machine on its face, unto the two screws for the cable cage.
+
+![Alt text](photos/ibmpc/cablecage.jpeg)
+
+Feed the CRT power cable through the opening.
+
+![Alt text](photos/ibmpc/open.jpeg)
+
+Unplug the connector labelled P12, might be tight, be gentle and take your time.
+
+Plug in the new power connector. **Make sure the color match!**
+
+![Alt text](photos/ibmpc/p12.jpeg)
+
+Reinstall the cable cage.
+
+Plug in the main power cable as described in the main guide above.
+
+![Alt text](photos/ibmpc/5155.jpeg)
+
+That's pretty much it! As usual, it's recommended to start minimal with just the motherboard and video card.
+
+Tantalum capacitors can often short the +12V and -12V line, you can simply remove them. [More info here](https://minuszerodegrees.net/5150_5160/MDC/tantalum_short_plus_12volts.htm)
+
+Other than that, the 5160 motherboard seems pretty reliable in my experience.
+
 ## Questions or Comments?
 
 Feel free to ask in official [Discord Chatroom](https://discord.gg/T9uuFudg7j), raise a [Github issue](https://github.com/dekuNukem/PicoRC/issues), or email `dekunukem` `gmail.com`!
