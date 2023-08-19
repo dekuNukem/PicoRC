@@ -28,7 +28,7 @@ The PSU-in-a-Card replaces the original PSU, and uses very common **12V power br
 
 It works on **any** machine with an **ISA slot** and **AT-style** (or similar) power connector.
 
-Including IBM Portable Personal Computer 5155.
+Also works with **IBM 5155 Portable Personal Computer**, [click me to learn more!](./ibm5155.md)
 
 ## Get One / Other Stuff
 
@@ -43,8 +43,6 @@ For more general-purpose diagnostics and retrofitting, check out the [full-fat A
 - [Getting a Pico PSU](#getting-a-pico-psu)
 
 - [Kit Assembly](#kit-assembly)
-
-- [Pre-flight Checks](#pre-flight-checks)
 
 - [Installation](#installation)
 
@@ -79,10 +77,6 @@ Remember that this solution is **only as good as your PicoPSU and 12V Brick**, s
 Observe the parts:
 
 ![Alt text](photos/ibmpc/part.png)
-
-Optional IBM 5155 Kit:
-
-![Alt text](photos/ibmpc/5155kit.png)
 
 Optional External Power Switch Kit:
 
@@ -146,7 +140,7 @@ Then install the ISA bracket, secure with two more M3 screws.
 
 ![Alt text](photos/ibmpc/brackets.jpeg)
 
-## Pre-flight Checks
+Installation
 
 Install two 5A fuses.
 
@@ -164,7 +158,7 @@ The LED should light up. The LED is wired to the `POWER_GOOD` signal, so there m
 
 Measure the voltage of each rail, make sure they are correct. 
 
-## Installation
+---------
 
 Undo the locking ring on the barrel jack.
 
@@ -186,7 +180,7 @@ Insert the power cables into the terminal blades.
 
 Now we're ready to install!
 
-For **IBM 5155 Portable Personal Computer**, [click me](ibm5155.md)!
+**IBM 5155 Portable Personal Computer** [has its own instructions! Click me!](ibm5155.md)
 
 I'll be using an IBM PC XT as an example.
 
@@ -341,6 +335,8 @@ Make sure to first **unplug/cut/desolder** all wires going into the switch!
 Then you can connect one side of it to the PSW header, with test clip and jumper wires.
 
 ![Alt text](photos/ibmpc/clip.jpeg)
+
+Plug the other end into the PSW header, and now the Big Red Switch™ will control the power!
 
 ## Questions or Comments?
 

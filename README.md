@@ -22,7 +22,7 @@ For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https:
 
 ### IBM PC Compatible
 
-[Purchase Link](https://www.tindie.com/products/31437) | [Instructions](appleii.md)
+[Purchase Link](https://www.tindie.com/products/31437) | [Instructions](ibmpc.md)
 
 ### IBM Portable Personal Computer 5155
 
