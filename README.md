@@ -10,7 +10,7 @@ PicoRC is a line of adaptors that lets you use **Pico ATX PSU** in vintage compu
 
 ## Features
 
-* **Non-destructive** and reversible
+* **Non-destructive**
 
 * Universal voltage with **fused** rails
 
@@ -19,6 +19,14 @@ PicoRC is a line of adaptors that lets you use **Pico ATX PSU** in vintage compu
 For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https://github.com/dekuNukem/ATX4VC)!
 
 ## Available For:
+
+### IBM PC Compatible
+
+[Purchase Link](https://www.tindie.com/products/31437) | [Instructions](appleii.md)
+
+### IBM Portable Personal Computer 5155
+
+[Purchase Link](https://www.tindie.com/products/31437) | [Instructions](ibm5155.md)
 
 ### Apple II / II Plus / IIe
 
