@@ -332,7 +332,15 @@ The **same colored** wire are **connected together** when the switch is on.
 
 Make sure to first **unplug/cut/desolder** all wires going into the switch!
 
-Then you can connect one side of it to the PSW header, with test clip and jumper wires.
+--------
+
+To assemble the test clip, pull off the cap, insert the wire through the hole in the cap, solder the wire, and reinstall the cap.
+
+![Alt text](photos/ibmpc/clipass.jpeg)
+
+You can then hook up one side of the switch to the clips.
+
+Again, make sure **all the original wires to the Big Red Switch™ has been disconnected!**
 
 ![Alt text](photos/ibmpc/clip.jpeg)
 
