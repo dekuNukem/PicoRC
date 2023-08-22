@@ -330,7 +330,7 @@ The **same colored** wire are **connected together** when the switch is on.
 
 ⚠️⚠️ **MAINS VOLTAGE flows through this switch!!!** ⚠️⚠️ 
 
-Make sure to first **unplug/cut/desolder** all wires going into the switch!
+⚠️⚠️ Make sure to first **unplug/cut/desolder** ALL WIRES going into the switch! ⚠️⚠️ 
 
 --------
 
@@ -340,11 +340,31 @@ To assemble the test clip, pull off the cap, insert the wire through the hole in
 
 You can then hook up one side of the switch to the clips.
 
-Again, make sure **all the original wires to the Big Red Switch™ has been disconnected!**
+⚠️⚠️ Again, make sure **all original wires to the Big Red Switch™ has been disconnected!** ⚠️⚠️
 
 ![Alt text](photos/ibmpc/clip.jpeg)
 
-Plug the other end into the PSW header, and now the Big Red Switch™ will control the power!
+![Alt text](photos/ibmpc/clipped.jpeg)
+
+Tuck all the original wiring inside the case. We won't be using them anymore.
+
+Make sure they don't knock loose the test clips.
+
+Now the Big Red Switch™ wires should be the only thing that exits the case.
+
+![Alt text](photos/ibmpc/tuck.jpeg)
+
+It's also a good opportunity to replace the original cooling fan.
+
+Any good quality **PC fan** should work, usually 80mm but do double check.
+
+![Alt text](photos/ibmpc/pcfan.jpeg)
+
+Reinstall the deactivated old PSU, plug the fan header and power switch header into the adaptor.
+
+![Alt text](photos/ibmpc/newconn.jpeg)
+
+That's it! Now the Big Red Switch™ will control the power!
 
 ## Questions or Comments?
 
