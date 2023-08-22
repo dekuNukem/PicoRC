@@ -366,6 +366,10 @@ Reinstall the deactivated old PSU, plug the fan header and power switch header i
 
 That's it! Now the Big Red Switch™ will control the power!
 
+![Alt text](photos/ibmpc/xt.jpeg)
+
+What's with the wireless keyboard and mouse? [Check out USB4VC!](https://github.com/dekuNukem/USB4VC/blob/master/README.md)
+
 ## Questions or Comments?
 
 Feel free to ask in official [Discord Chatroom](https://discord.gg/T9uuFudg7j), raise a [Github issue](https://github.com/dekuNukem/PicoRC/issues), or email `dekunukem` `gmail.com`!
