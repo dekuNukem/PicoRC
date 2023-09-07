@@ -82,7 +82,7 @@ Parts are slightly different for Mac Plus and Mac 128K/512K, make sure to follow
 
 ![Alt text](photos/mac_plus/macog_parts.png)
 
-Observe the assembly notes and reference photos:
+Solder the components **as shown below**:
 
 ![Alt text](photos/mac_plus/assnote.png)
 
@@ -90,15 +90,19 @@ Observe the assembly notes and reference photos:
 
 ![Alt text](photos/mac_plus/macog_ref.png)
 
-Insert component, hold it in place with masking tape or sticky putty. Flip it over and solder **a single pin** first, then make sure the part is **straight in all directions**.
+* Double check capacitor polarity!
 
-If not, you can adjust it while melting that single pin. Once happy, solder the rest of the pins.
+* Black electrolytic caps: White stripe is **NEGATIVE**.
 
-It's a good idea to start from shortest component to tallest.
+* Blue Tantalum caps: White stripe is **POSITIVE**.
 
-Make sure the solder melts properly and wets both the pin and pad to prevent cold solder joints, especially on thicker power pins.
+* Yellow ceramic caps: No polarity.
 
-Push in the fuse and insert the jumpers as shown.
+### Cleaning
+
+This is optional, but I like to clean off the flux with 90%+ isopropyl alcohol. Submerge and scrub with a toothbrush.
+
+Make sure it is **completely dry** before proceeding.
 
 ### Inspection
 
@@ -108,29 +112,21 @@ Push in the fuse and insert the jumpers as shown.
 
 * There must be **no solder bridges**. If any, put on flux and melt it to remove.
 
-### Cleaning
-
-This is optional, but I like to clean off the flux with 90%+ isopropyl alcohol. Submerge and scrub with a toothbrush.
-
-Make sure it is **completely dry** before proceeding.
-
 ## Board Features
+
+Install the fuses.
 
 ![Alt text](photos/mac_plus/features.png)
 
 ### Power Switch
 
-The terminal block (and pin header) is connected to the ATX `PS_ON` pin.
+The PSW pin header is connected to the ATX `PS_ON` pin.
 
-You can wire a flip switch to it, or leave it jumpered so it turns on immediately when plugged in.
+You can wire a latching switch to it, or leave it jumpered so it turns on immediately when plugged in.
 
 ### PC Fan Header
 
 * Any standard 3 or 4-pin PC fan should work
-
-* Run it at 5V or 12V by changing the jumper
-
-* 12V is full speed, 5V is much quieter.
 
 ### Fuse
 
@@ -140,13 +136,9 @@ You can wire a flip switch to it, or leave it jumpered so it turns on immediatel
 
 * **DO NOT BYPASS FUSES**
 
-### +12V Filtering Cap (Optional)
-
-* You can add a filtering cap to +12V rail, note the polarity if using electrolytic caps.
-
 ### Battery Header (Optional)
 
-* You can connect a 4.5V battery to the header.
+* You can connect a backup battery to the header.
 
 ## Pre-installation Checks
 
