@@ -86,10 +86,6 @@ Solder the components **as shown below**:
 
 ![Alt text](photos/mac_plus/assnote.png)
 
-![Alt text](photos/mac_plus/macplus_ref.png)
-
-![Alt text](photos/mac_plus/macog_ref.png)
-
 * Double check capacitor polarity!
 
 * Black electrolytic caps: White stripe is **NEGATIVE**.
@@ -111,6 +107,10 @@ Make sure it is **completely dry** before proceeding.
 * Solder joints should be **shiny and smooth**. If you see spikes, put on more flux and melt it again.
 
 * There must be **no solder bridges**. If any, put on flux and melt it to remove.
+
+![Alt text](photos/mac_plus/macplus_ref.png)
+
+![Alt text](photos/mac_plus/macog_ref.png)
 
 ## Board Features
 
@@ -230,9 +230,7 @@ And if it doesn't work, [check out the troubleshooting guide](#troubleshooting).
 
 ### Big Mac Fan
 
-Those early Macs run really hot, so it's a good idea to put in a fan.
-
-Any PC fan should work, you can run it at 12V (full speed) or 5V (quieter).
+Those early Macs run really hot, so it's a good idea to put in a fan. Any PC fan should work.
 
 Vents on top of the case is a good location, maybe you can ziptie it there. Of course it's up to you!
 
@@ -246,11 +244,11 @@ Now it works, how are we going to mount the DC jack receptacle?
 
 I'll admit this is where things goes a bit downhill, as there doesn't appear to be a way that's **BOTH non-destructive AND elegant**.
 
-Neat but destructive: Just drill a hole, for petes sake **DON'T DO THIS!**
+Neat but destructive: Just drill a hole. **DO NOT DO THIS!**
 
-Non-destructive but a bit messy: Extend the power cable though the case:
+Non-destructive but a bit messy: Extend the power cable though the case.
 
-Cut the power cable in half:
+We are going the second route. Cut the power cable in half:
 
 ![Alt text](photos/mac_plus/half.jpeg)
 
@@ -316,7 +314,7 @@ I had this happen with a knock-off generic PicoPSU, changing to another one fixe
 
 ### Screen Wobbles
 
-* If it happens when floppy drive is active, try using a beefier power brick, or add decoupling capacitors.
+* If it happens when floppy drive is active, try using a beefier power brick, or add more decoupling capacitors.
 
 * If happens while idle, make sure the fan is not too close to the CRT.
 
@@ -340,7 +338,7 @@ The **power connector** and CRT **deflection capacitors** are notorious for crac
 
 It might be very difficult to see with naked eye, so use magnification!
 
-Flux + new solder should fix it right up, if you find one crack might as well do the whole row.
+Flux and new solder should fix it right up, if you find one crack might as well do the whole row.
 
 ## Questions or Comments?
 
