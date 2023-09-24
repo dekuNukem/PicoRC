@@ -925,9 +925,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="4.64363125" y1="25.654" x2="4.52045" y2="25.53081875" width="1.778" layer="16"/>
 <wire x1="4.52045" y1="25.53081875" x2="4.52045" y2="21.91155" width="1.778" layer="16"/>
 <wire x1="4.52045" y1="21.91155" x2="8.652" y2="17.78" width="1.778" layer="16"/>
-<wire x1="8.652" y1="17.78" x2="6.112" y2="15.24" width="0.8128" layer="16"/>
-<wire x1="6.112" y1="13.589" x2="3.191" y2="13.589" width="0.8128" layer="16"/>
-<wire x1="6.112" y1="15.24" x2="6.112" y2="13.589" width="0.8128" layer="16"/>
+<wire x1="4.461" y1="13.589" x2="3.191" y2="13.589" width="0.8128" layer="16"/>
+<wire x1="8.652" y1="17.78" x2="4.461" y2="13.589" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="J1" pad="16"/>
