@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -213,8 +213,8 @@
 <wire x1="33.7" y1="17.365" x2="34.335" y2="18" width="0" layer="20" curve="-90"/>
 <wire x1="34.335" y1="18" x2="45.065" y2="18" width="0" layer="20"/>
 <wire x1="45.065" y1="18" x2="45.7" y2="17.365" width="0" layer="20" curve="-90"/>
-<text x="21" y="10" size="1.9304" layer="26" rot="MR0" align="center">picoRC.com</text>
-<text x="21" y="31" size="2.1844" layer="26" rot="MR0" align="center">5V 3A</text>
+<text x="39.796" y="9.873" size="1.9304" layer="26" rot="MR0" align="center">picoRC.com</text>
+<text x="39.746" y="20.254" size="2.1844" layer="26" rot="MR0" align="center">5V 3A</text>
 </plain>
 <libraries>
 </libraries>
