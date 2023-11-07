@@ -72,6 +72,11 @@ Remember that this solution is **only as good as your PicoPSU and 12V Brick**, s
 
 ## Kit Assembly
 
+* 🚨🚨🚨🚨 This guide is for **IBM PC COMPATIBLES**, [CLICK ME FOR IBM 5155 PORTABLE PC](./ibm5155.md) 🚨🚨🚨🚨
+* 🚨🚨🚨🚨 This guide is for **IBM PC COMPATIBLES**, [CLICK ME FOR IBM 5155 PORTABLE PC](./ibm5155.md) 🚨🚨🚨🚨
+* 🚨🚨🚨🚨 This guide is for **IBM PC COMPATIBLES**, [CLICK ME FOR IBM 5155 PORTABLE PC](./ibm5155.md) 🚨🚨🚨🚨
+* 🚨🚨🚨🚨 This guide is for **IBM PC COMPATIBLES**, [CLICK ME FOR IBM 5155 PORTABLE PC](./ibm5155.md) 🚨🚨🚨🚨
+
 **DON'T START YET!!!** Keep reading :)
 
 Observe the parts:
@@ -180,7 +185,10 @@ Insert the power cables into the terminal blades.
 
 Now we're ready to install!
 
-**IBM 5155 Portable Personal Computer** [has its own instructions! Click me!](ibm5155.md)
+* 🚨🚨🚨🚨 This guide is for **IBM PC COMPATIBLES**, [CLICK ME FOR IBM 5155 PORTABLE PC](./ibm5155.md) 🚨🚨🚨🚨
+* 🚨🚨🚨🚨 This guide is for **IBM PC COMPATIBLES**, [CLICK ME FOR IBM 5155 PORTABLE PC](./ibm5155.md) 🚨🚨🚨🚨
+* 🚨🚨🚨🚨 This guide is for **IBM PC COMPATIBLES**, [CLICK ME FOR IBM 5155 PORTABLE PC](./ibm5155.md) 🚨🚨🚨🚨
+* 🚨🚨🚨🚨 This guide is for **IBM PC COMPATIBLES**, [CLICK ME FOR IBM 5155 PORTABLE PC](./ibm5155.md) 🚨🚨🚨🚨
 
 I'll be using an IBM PC XT as an example.
 
@@ -220,7 +228,7 @@ Push **straight down**, make sure **lobe side faces outwards**.
 
 Don't force if there is significant resistance, make the gap bigger and try again.
 
-On the other hand, it shouldn't be too loose either.
+Of course, it shouldn't be too loose either.
 
 ![Alt text](photos/ibmpc/lobe.png)
 
