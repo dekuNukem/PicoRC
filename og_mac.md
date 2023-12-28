@@ -164,15 +164,17 @@ Recommended steps:
 
 * Lay the Mac face down on a soft cloth
 
-* Loosen all the screws. Two at the bottom, one behind battery door, two in the handles.
+* Loosen all screws. Two at the bottom, one behind battery door, two in the handles.
+
+* Remove all screws **APART FROM a single one inside the handle**.
 
 * Take photos of which goes in where, the lower two has a thinner thread.
 
 ![Alt text](photos/mac_plus/back.png)
 
-* Remove all the screws **apart from a single one inside the handle**.
+* Put the screwdriver on that single loosened screw.
 
-* Put the screwdriver on that single loosened screw, grab the handle and try **gently** lifting up. The back cover should pop loose.
+* Push down on it while **gently** lifting up the back cover. It should pop loose.
 
 * Slowly **lift straight up** to remove the back cover.
 
@@ -184,7 +186,7 @@ Recommended steps:
 
 * Unplug the floppy and power cable from motherboard.
 
-* **DO NOT PULL STRAIGHT UP**, or you might break the CRT neck!
+* **DO NOT YANK STRAIGHT UP**, or you might break the CRT neck!
 
 * Wiggle gently until loose, and carefully unplug.
 
@@ -230,7 +232,9 @@ And if it doesn't work, [check out the troubleshooting guide](#troubleshooting).
 
 ### Big Mac Fan
 
-Those early Macs run really hot, so it's a good idea to put in a fan. Any PC fan should work.
+Early Macs run really hot, so it's a good idea to put in a fan.
+
+Any PC case fan should work.
 
 Vents on top of the case is a good location, maybe you can ziptie it there. Of course it's up to you!
 
@@ -248,7 +252,11 @@ Neat but destructive: Just drill a hole. **DO NOT DO THIS!**
 
 Non-destructive but a bit messy: Extend the power cable though the case.
 
-We are going the second route. Cut the power cable in half:
+I'll cover the second route.
+
+---
+
+Cut the power cable in half:
 
 ![Alt text](photos/mac_plus/half.jpeg)
 
@@ -268,19 +276,26 @@ Now thread the cable through the square hole on the battery holder.
 
 Thread it though the same hole on the back case, now you can put it back on.
 
-Connect the other end in the same way, and **cover up the original 120/220V power port**! This way you or someone else won't accidentally plug in and blow it up.
+Connect the other end in the same way.
 
 ![Alt text](photos/mac_plus/back.jpeg)
+
+**Insert the blanking plug** to prevent accidentally energizing the old PSU and blow everything up.
+
+![Alt text](photos/mac_plus/plug.jpeg)
+
 
 Now you just have to plug in the DC jack to turn it on.
 
 There is definitely room for improvements here, so if you come up with anything [let me know](#questions-or-comments) and I'll update it!
 
-A few extra ideas:
+A few ideas:
 
-* Desolder the original 120/220V power port and mount the jack there?
+* Just wire in an in-line switch.
 
-* Maybe wire the original power switch to the terminal block? Not sure if need to cut any traces.
+* Desolder the original IEC connector and mount the jack there?
+
+* Maybe wire the built-in power switch to the PSW header? Might need to cut traces.
 
 ## Enjoy!
 
