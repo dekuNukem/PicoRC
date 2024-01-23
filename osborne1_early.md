@@ -1,168 +1,12 @@
-# PicoPSU Adaptor for Osborne 1
-
-[Purchase Link](https://www.tindie.com/products/30087/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
-
-----
-
-This adaptor lets you use **Pico ATX PSU** on Osborne 1 computer.
-
-![Alt text](photos/osborne1/pcb.jpg)
-
-It replaces the original PSU, and uses very common **12V power brick** instead.
-
-Both **early** (side latch) and **late** (top latch) models are supported.
-
-![Alt text](photos/osborne1/done.jpeg)
-
-![Alt text](photos/osborne1_early/done.jpeg)
-
-## Highlights
-
-* **Non-destructive** and reversible
-
-* **PC fan header** for more cooling
-
-* Universal voltage with fused rails
-
-* Low cost, efficient and reliable.
-
-## Get One / Other Stuff
-
-[Click me to get one!](https://www.tindie.com/products/30087/)
-
-Also available for [Compact Macintosh, Apple IIGS, BBC Micro, Osborne 1, and more!](./README.md)
-
-For more general-purpose diagnostics and retrofitting, check out the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC)!
-
-## Table of Contents
-
-- [Getting a Pico PSU](#getting-a-pico-psu)
-
-- [Kit Assembly](#kit-assembly)
-
-- [Pre-flight Checks](#pre-flight-checks)
-
-- [Installation](#installation)
-
-- [Questions or Comments?](#questions-or-comments)
-
-## Getting a Pico PSU
-
-PicoPSU are tiny ATX power supplies for small PCs, but are perfect for retro computers as well.
-
-![Alt text](photos/mac_plus/pico.jpg)
-
-* [Official website](https://www.mini-box.com/DC-DC) and [distributors](https://www.mini-box.com/site/resellers.html). Even the cheapest 80W one should be plenty.
-
-* Avoid generic clones. They over-rate and are of low quality.
-
-* A power brick with **12V DC** and **center positive** 5.5x2.5mm barrel jack is needed.
-
-* They are very popular and you might already have one. Make sure it has enough wattage.
-
-Remember that this solution is **only as good as your PicoPSU and 12V Brick**, so don't skimp on them!
-
-## Kit Assembly
-
-**DON'T START YET!!!** Keep reading :)
-
-Observe the parts:
-
-![Alt text](photos/osborne1/part.png)
-
-### Power Switch Preparation
-
-Use needle-nose pliers, bend the leg on the power switch straight, then cut them to equal length.
-
-![Alt text](photos/osborne1/sw.png)
-
-### Soldering Notes
-
-Nothing too tricky in this kit, all basic through-hole stuff.
-
-If this is your first time, a few tips:
-
-* Make sure your soldering iron has **proper temperature control**. Try your local makerspace or university lab.
-
-* Use **leaded solder** and plenty of flux, temperature around 320C / 600F.
-
-* [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well.
-
-* Start from shortest to tallest. Solder **a single pin** first, and make sure the part is straight.
-
-### Assembly
-
-On **top side**, solder the following components **as shown below**:
-
-* Fuse holders
-
-* ATX connector
-
-* Capacitors
-
-* Power Switch
-
-![Alt text](photos/osborne1/top.png)
-
-Flip over, on **bottom side**, solder:
-
-* Four 4-Pin Connectors
-
-* Grounding Blade
-
-![Alt text](photos/osborne1/underside.png)
-
-More reference photos:
-
-![Alt text](photos/osborne1/ref1.jpg)
-
-![Alt text](photos/osborne1/ref2.jpg)
-
-### Cleaning
-
-This is optional, but I like to clean off the flux with 90%+ isopropyl alcohol.
-
-Submerge and scrub with a toothbrush.
-
-Make sure it is **completely dry** before proceeding.
-
-### Inspection
-
-* Compare with the reference photo and notes above. Make sure everything is in correct orientation.
-
-* Solder joints should be **shiny and smooth**. If you see spikes, put on more flux and melt it again.
-
-* There must be **no solder bridges**. If any, put on flux and melt it to remove.
-
-## Board Features
-
-Install **two 5A fuses** as shown.
-
-![Alt text](photos/osborne1/feature.png)
-
-* Use common car fuse rated **5A OR LESS**
-
-* **DO NOT BYPASS FUSES**
-
-## Pre-flight Checks
-
-Use a multimeter to **check for dead shorts** between each power pin and GND:
-
-![Alt text](photos/osborne1/voltage.png)
-
-If all good, plug in PicoPSU and connect the power button, turn it on.
-
-**Measure the voltage on each rail** and confirm they are within spec.
-
 ## Installation
 
-* 🚨🚨🚨🚨 This guide is for **LATE MODEL (TOP LATCH)**, [CLICK ME FOR EARLY MODEL (SIDE LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
+* 🚨🚨🚨🚨 This guide is for **EARLY MODEL (SIDE LATCH)**, [CLICK ME FOR LATE MODEL (TOP LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
 
-* 🚨🚨🚨🚨 This guide is for **LATE MODEL (TOP LATCH)**, [CLICK ME FOR EARLY MODEL (SIDE LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
+* 🚨🚨🚨🚨 This guide is for **EARLY MODEL (SIDE LATCH)**, [CLICK ME FOR LATE MODEL (TOP LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
 
-* 🚨🚨🚨🚨 This guide is for **LATE MODEL (TOP LATCH)**, [CLICK ME FOR EARLY MODEL (SIDE LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
+* 🚨🚨🚨🚨 This guide is for **EARLY MODEL (SIDE LATCH)**, [CLICK ME FOR LATE MODEL (TOP LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
 
-* 🚨🚨🚨🚨 This guide is for **LATE MODEL (TOP LATCH)**, [CLICK ME FOR EARLY MODEL (SIDE LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
+* 🚨🚨🚨🚨 This guide is for **EARLY MODEL (SIDE LATCH)**, [CLICK ME FOR LATE MODEL (TOP LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
 
 
 Some disassembly is needed, make sure to **take plenty of photos** along the way! 
@@ -171,7 +15,7 @@ Snap one before removing a screw or unplugging a connector! It never hurts to ha
 
 -------
 
-I'm using a new-to-me and untested Osborne 1 in this guide, excuse the dust!
+I'm using a new-to-me and untested Early Osborne 1 in this guide.
 
 The adaptor should also work with the early version as well, although you'll need to take the whole innards out.
 
