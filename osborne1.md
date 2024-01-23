@@ -150,20 +150,15 @@ Use a multimeter to **check for dead shorts** between each power pin and GND:
 
 ![Alt text](photos/osborne1/voltage.png)
 
-If all good, plug in PicoPSU and connect the power button, turn it on.
+If all good, plug in PicoPSU and turn it on.
 
 **Measure the voltage on each rail** and confirm they are within spec.
 
 ## Installation
 
-* 🚨🚨🚨🚨 This guide is for **LATE MODEL (TOP LATCH)**, [CLICK ME FOR EARLY MODEL (SIDE LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
+* 🚨🚨 This guide is for **LATE MODEL (TOP LATCH)**, [CLICK ME FOR EARLY MODEL (SIDE LATCH)](./osborne1_early.md) 🚨🚨
 
-* 🚨🚨🚨🚨 This guide is for **LATE MODEL (TOP LATCH)**, [CLICK ME FOR EARLY MODEL (SIDE LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
-
-* 🚨🚨🚨🚨 This guide is for **LATE MODEL (TOP LATCH)**, [CLICK ME FOR EARLY MODEL (SIDE LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
-
-* 🚨🚨🚨🚨 This guide is for **LATE MODEL (TOP LATCH)**, [CLICK ME FOR EARLY MODEL (SIDE LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
-
+* 🚨🚨 This guide is for **LATE MODEL (TOP LATCH)**, [CLICK ME FOR EARLY MODEL (SIDE LATCH)](./osborne1_early.md) 🚨🚨
 
 Some disassembly is needed, make sure to **take plenty of photos** along the way! 
 
@@ -172,8 +167,6 @@ Snap one before removing a screw or unplugging a connector! It never hurts to ha
 -------
 
 I'm using a new-to-me and untested Osborne 1 in this guide, excuse the dust!
-
-The adaptor should also work with the early version as well, although you'll need to take the whole innards out.
 
 * Put it on a soft towel, unlatch and unplug the keyboard.
 
@@ -193,7 +186,7 @@ The adaptor should also work with the early version as well, although you'll nee
 
 ![Alt text](photos/osborne1/bag.jpeg)
 
-* Flip it over, undo five screws and remove the back cover
+* Flip it over, undo five screws and remove the bottom cover
 
 ![Alt text](photos/osborne1/backscrew.png)
 
@@ -227,7 +220,7 @@ The adaptor should also work with the early version as well, although you'll nee
 
 * Now it's a good time for an inspection
 
-* This one has the "Screen-Pac" and dual-density floppy upgrade, neat!
+* This one has the "Screen-Pac" and double density floppy upgrade, neat!
 
 * Once done, undo the four screws on the PSU. (Two under the plastic sheet)
 
@@ -257,7 +250,9 @@ The adaptor should also work with the early version as well, although you'll nee
 
 ![Alt text](photos/osborne1/pwr.jpeg)
 
-* Plug them into the power connectors, make sure to **match the colours** shown on the PCB.
+* Plug them into the power connectors (NOT the FAN connector!)
+
+* Make sure to **match the colours** shown on the PCB.
 
 ![Alt text](photos/osborne1/test.jpeg)
 

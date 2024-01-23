@@ -1,35 +1,36 @@
+# Osborne 1 PicoRC Installation: Early Version (Side Latch)
+
+[Purchase Link](https://www.tindie.com/products/30087/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Main Page](osborne1.md)
+
+## Kit Assembly
+
+[See Main Article](osborne1.md)
+
 ## Installation
 
-* 🚨🚨🚨🚨 This guide is for **EARLY MODEL (SIDE LATCH)**, [CLICK ME FOR LATE MODEL (TOP LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
-
-* 🚨🚨🚨🚨 This guide is for **EARLY MODEL (SIDE LATCH)**, [CLICK ME FOR LATE MODEL (TOP LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
-
-* 🚨🚨🚨🚨 This guide is for **EARLY MODEL (SIDE LATCH)**, [CLICK ME FOR LATE MODEL (TOP LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
-
-* 🚨🚨🚨🚨 This guide is for **EARLY MODEL (SIDE LATCH)**, [CLICK ME FOR LATE MODEL (TOP LATCH)](./osborne1_early.md) 🚨🚨🚨🚨
-
+* 🚨🚨 This guide is for **EARLY MODEL (SIDE LATCH)**, [CLICK ME FOR LATE MODEL (TOP LATCH)](osborne1.md) 🚨🚨
 
 Some disassembly is needed, make sure to **take plenty of photos** along the way! 
 
-Snap one before removing a screw or unplugging a connector! It never hurts to have reference.
+Take a photo one before removing a screw or unplugging a connector! It never hurts to have reference.
 
 -------
 
-I'm using a new-to-me and untested Early Osborne 1 in this guide.
+I'll be using a new-to-me and untested early Osborne 1 for this guide, excuse the dust!
 
-The adaptor should also work with the early version as well, although you'll need to take the whole innards out.
+With Apple stickers! 😅
 
-* Put it on a soft towel, unlatch and unplug the keyboard.
+![Alt text](photos/osborne1_early/os1early.jpeg)
 
-* Remove Brightness and contrast knob.
+* Put it on a soft towel
 
-* Undo the tiny screw at the bottom, if doesn't exist, just pull it off.
+* At the back, remove 6 screws on the power panel
 
-![Alt text](photos/osborne1/knob.jpeg)
+![Alt text](photos/osborne1_early/psupanel.jpeg)
 
-* Undo the 6 face plate screws
+* Also two screws on the handle
 
-![Alt text](photos/osborne1/face.png)
+![Alt text](photos/osborne1_early/handle.jpeg)
 
 * Organise your screws! 
 
@@ -37,79 +38,115 @@ The adaptor should also work with the early version as well, although you'll nee
 
 ![Alt text](photos/osborne1/bag.jpeg)
 
-* Flip it over, undo five screws and remove the back cover
+* Unlatch and unplug the keyboard.
 
-![Alt text](photos/osborne1/backscrew.png)
+* Remove Brightness and contrast knob, use a small allen key.
 
-* Turn it around so the back is facing you
+![Alt text](photos/osborne1_early/knob.jpeg)
 
-* Lift off the handle plate
+* Undo the 7 face plate screws
 
-* Lift off the power panel
+![Alt text](photos/osborne1_early/face.jpeg)
 
-* Undo the four screws on the power panel
+* Remove the face plate
 
-![Alt text](photos/osborne1/powerpanel.png)
+* Remove the two side screws
 
-* On the back, unplug all the cables until the panel can be removed.
+![Alt text](photos/osborne1_early/noface.jpeg)
 
-* Use a pair of pliers and wiggle side to side
+* Take out the entire innards
 
-![Alt text](photos/osborne1/unplug.jpeg)
+![Alt text](photos/osborne1_early/insideout.jpeg)
 
-* Once removed, put the screws back on the plate, along with plastic sheet and rubber cap.
+* Flip it over and remove 4 screws holding the motherboard
 
-* Put it away for safekeeping along with all the other items removed. **Don't throw anything away!**
+![Alt text](photos/osborne1_early/flip.jpeg)
 
-![Alt text](photos/osborne1/oldplate.jpeg)
+* Rest the motherboard on the table.
 
-* Remove four motherboard bracket screws
+* **Take some photos** of all the connectors' orientation!
 
-![Alt text](photos/osborne1/bird.jpeg)
+* Unplug the motherboard if you want, makes things easier.
 
-* Hinge the motherboard toward you and rest it on the table
+![Alt text](photos/osborne1_early/showing.jpeg)
 
-* Now it's a good time for an inspection
+* Undo 4 screws on the old PSU
 
-* This one has the "Screen-Pac" and dual-density floppy upgrade, neat!
+![Alt text](photos/osborne1_early/oldpsuscrew.jpeg)
 
-* Once done, undo the four screws on the PSU. (Two under the plastic sheet)
+* Unplug all the cables on the old PSU
 
-![Alt text](photos/osborne1/hinge.jpeg)
+* Put it away for safekeeping along with all the other removed items. =
 
-* Cut the ziptie
+* **Don't throw anything away!**
 
-![Alt text](photos/osborne1/zip.jpeg)
+![Alt text](photos/osborne1_early/oldpsu.jpeg)
 
-* Flip over the PSU, unplug all the cables, and put it away.
+* Undo 4 screw holding the CRT, make sure it doesn't drop on the table.
 
-![Alt text](photos/osborne1/psu.jpeg)
+![Alt text](photos/osborne1_early/crtscrew.jpeg)
 
-* Pop out the thermal fuse and remove the wiring harness
+* Flip up the chassis, the CRT should remain in place.
 
-![Alt text](photos/osborne1/temp.jpeg)
+* Take a photo of connector, then unplug the CRT harness.
 
-![Alt text](photos/osborne1/harness.jpeg)
+![Alt text](photos/osborne1_early/crtcage.jpeg)
 
-* Put the PSU screws and sheet back on the standoff so you don't lose them.
+* Now we want to remove the old **power harness**
 
-![Alt text](photos/osborne1/sheet.jpeg)
+* It's a bit fiddly, but definitely doable.
 
-* With all the extra stuff removed, now it's a good time to see if your Osborne still works.
+* Unstick and unplug thermal fuse
 
-* There should be two or three 4-Pin power connectors, with **RED**, **ORANGE**, and **YELLOW** wires. One pin is unpopulated.
+![Alt text](photos/osborne1_early/fuse.jpeg)
+
+* Also unplug all the green grounding blades on the harness
+
+* Now you should be able to pull it through the CRT opening
+
+![Alt text](photos/osborne1_early/pull.jpeg)
+
+* Also unplug everything on the power panel
+
+![Alt text](photos/osborne1_early/panel.jpeg)
+
+* Now you should be able to remove the harness entirely
+
+![Alt text](photos/osborne1_early/harnessfull.jpeg)
+
+* Pop out the **two green wires** on the power connector by inserting a small flatblade screwdriver on the metal latch and gently pulling outwards
+
+![Alt text](photos/osborne1_early/popout.png)
+
+* Cut the zipties on the harness, and separate out the the only part we need.
+
+* Which is the Red/Yellow/Orange motherboard power cable
+
+![Alt text](photos/osborne1_early/mbpower.jpeg)
+
+* At this stage, it might be a good idea to give it a test!
+
+* There should be one (or more) 4-Pin power connectors, with **RED**, **ORANGE**, and **YELLOW** wires. One pin is unpopulated.
 
 ![Alt text](photos/osborne1/pwr.jpeg)
 
-* Plug them into the power connectors, make sure to **match the colours** shown on the PCB.
+* Plug it into the power connector on the adaptor.
+
+* Make sure to **match the colours** shown on the PCB.
 
 ![Alt text](photos/osborne1/test.jpeg)
 
-* Connect the barrel jack, flip on the switch, and see what happens!
+* Plug the other end to the motherboard
 
-![Alt text](photos/osborne1/works.jpg)
+* Refer to the photo you took earlier
 
-* Amazingly, this one works! I'm surprised! 😅
+* Also plug in the CRT
+
+* Turn it on and see what happens!
+
+![Alt text](photos/osborne1_early/testrun.jpeg)
+
+* Mine works! It even says "Osborne System One" instead of simply Osborne 1 like the later BIOS.
 
 * The RAM tends to go bad a lot, so start there if not working.
 
@@ -121,62 +158,21 @@ The adaptor should also work with the early version as well, although you'll nee
 
 * Anyway, after you're done, we can start putting it back together!
 
-* Install the adaptor as shown in the power panel holder.
+* Install the adapter and blanking plate in the power panel as shown.
 
-* Note the orientation!
+* Insert the screws from **INSIDE**, and tighten the nuts on the outside.
 
-* Bend the cable so it goes inwards.
+* Bend the cable inwards, insert the barrel jack through the hole and secure with locking ring.
 
-* Use the standoff to secure it from the other side.
+![Alt text](photos/osborne1_early/done_anno.jpeg)
 
-![Alt text](photos/osborne1/mount1.jpeg)
-
-![Alt text](photos/osborne1/mount2.jpeg)
-
-* Install the blanking plate on the inside. Secure with screws and standoffs as before.
-
-![Alt text](photos/osborne1/blank.jpeg)
-
-* Undo the locking ring on the barrel jack, insert through the hole, fasten it on the other side.
-
-![Alt text](photos/osborne1/lock.jpeg)
-
-* Plug in the power connectors again
-
-![Alt text](photos/osborne1/again.jpeg)
-
----------
-
-**Adding a Fan**
-
-If you want to add a fan, time to do it now.
-
-Any standard PC fan should work.
-
-**Don't mount the fan too close to the CRT**, or the picture might wobble from the motor's magnetic field.
-
-Make sure the fan is secured, nothing touches the blade, and air flow direction is correct.
-
---------
-
-* Insert the handle and power panel back in the case.
-
-* Note the orientation, and **don't forget the door**!
-
-![Alt text](photos/osborne1/door.jpeg)
-
-* Finally, plug in the green grounding strap.
-
-![Alt text](photos/osborne1/gnd.jpeg)
+* Hook up the motherboard power cable
 
 * That's pretty much it! Now you just have to put it back together!
 
+* Refer to the photos you took, make sure all connectors are plugged back in in the correct orientation.
 
-## Congratulations!
-
-With the new PSU, maintenance, and upgraded cooling, hope your Osborne 1 continue to provide exhilarating CP/M entertainment for years to come!
-
-![Alt text](photos/osborne1/money.jpeg)
+![Alt text](photos/osborne1_early/early_done.jpeg)
 
 ## Questions or Comments?
 
