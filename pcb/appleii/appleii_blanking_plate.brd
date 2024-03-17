@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -189,25 +189,25 @@
 </layers>
 <board>
 <plain>
-<wire x1="71" y1="1.27" x2="71" y2="46.73" width="0" layer="20"/>
-<wire x1="71" y1="46.73" x2="69.73" y2="48" width="0" layer="20" curve="90"/>
-<wire x1="69.73" y1="48" x2="0.27" y2="48" width="0" layer="20"/>
-<wire x1="0.27" y1="48" x2="-1" y2="46.73" width="0" layer="20" curve="90"/>
-<wire x1="-1" y1="46.73" x2="-1" y2="1.27" width="0" layer="20"/>
-<wire x1="-1" y1="1.27" x2="0.27" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="0.27" y1="0" x2="69.73" y2="0" width="0" layer="20"/>
-<wire x1="69.73" y1="0" x2="71" y2="1.27" width="0" layer="20" curve="90"/>
-<text x="54.5" y="28.247" size="1.9304" layer="25" distance="35" align="center">12V DC Center Positive</text>
-<text x="54.5" y="8" size="2.54" layer="25" distance="35" rot="R180" align="center">picoRC.com</text>
-<wire x1="63.492" y1="25" x2="45.308" y2="25" width="0" layer="20"/>
-<wire x1="45.308" y1="25" x2="44.8" y2="24.492" width="0" layer="20" curve="90"/>
-<wire x1="44.8" y1="24.492" x2="44.8" y2="12.508" width="0" layer="20"/>
-<wire x1="44.8" y1="12.508" x2="45.308" y2="12" width="0" layer="20" curve="90"/>
-<wire x1="45.308" y1="12" x2="63.492" y2="12" width="0" layer="20"/>
-<wire x1="63.492" y1="12" x2="64" y2="12.508" width="0" layer="20" curve="90"/>
-<wire x1="64" y1="12.508" x2="64" y2="24.492" width="0" layer="20"/>
-<wire x1="64" y1="24.492" x2="63.492" y2="25" width="0" layer="20" curve="90"/>
-<circle x="54.5" y="35" radius="4.1" width="0.0254" layer="20"/>
+<wire x1="75.714" y1="56" x2="2.286" y2="56" width="0" layer="20"/>
+<wire x1="2.286" y1="56" x2="0" y2="53.714" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="53.714" x2="0" y2="2.286" width="0" layer="20"/>
+<wire x1="0" y1="2.286" x2="2.286" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="2.286" y1="0" x2="75.714" y2="0" width="0" layer="20"/>
+<wire x1="75.714" y1="0" x2="78" y2="2.286" width="0" layer="20" curve="90"/>
+<wire x1="78" y1="2.286" x2="78" y2="53.714" width="0" layer="20"/>
+<wire x1="78" y1="53.714" x2="75.714" y2="56" width="0" layer="20" curve="90"/>
+<text x="58.5" y="28.247" size="1.9304" layer="25" distance="35" align="center">12V DC Center Positive</text>
+<text x="58.5" y="8" size="2.54" layer="25" distance="35" rot="R180" align="center">picoRC.com</text>
+<wire x1="67.492" y1="25" x2="49.308" y2="25" width="0" layer="20"/>
+<wire x1="49.308" y1="25" x2="48.8" y2="24.492" width="0" layer="20" curve="90"/>
+<wire x1="48.8" y1="24.492" x2="48.8" y2="12.508" width="0" layer="20"/>
+<wire x1="48.8" y1="12.508" x2="49.308" y2="12" width="0" layer="20" curve="90"/>
+<wire x1="49.308" y1="12" x2="67.492" y2="12" width="0" layer="20"/>
+<wire x1="67.492" y1="12" x2="68" y2="12.508" width="0" layer="20" curve="90"/>
+<wire x1="68" y1="12.508" x2="68" y2="24.492" width="0" layer="20"/>
+<wire x1="68" y1="24.492" x2="67.492" y2="25" width="0" layer="20" curve="90"/>
+<circle x="58.5" y="35" radius="4.1" width="0.0254" layer="20"/>
 </plain>
 <libraries>
 <library name="atx4vc">
@@ -414,34 +414,34 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </pass>
 </autorouter>
 <elements>
-<element name="U$13" library="atx4vc" package="EDGEPAD" value="EDGEPAD" x="68.564" y="13.462" smashed="yes" rot="MR90"/>
-<element name="U$1" library="atx4vc" package="EDGEPAD_20MM" value="EDGEPADEDGEPAD_20MM" x="9.906" y="13.462" smashed="yes" rot="MR270"/>
-<element name="U$2" library="atx4vc" package="EDGEPAD" value="EDGEPAD" x="66.548" y="13.462" smashed="yes" rot="MR270"/>
-<element name="U$3" library="atx4vc" package="EDGEPAD" value="EDGEPAD" x="68.564" y="10.668" smashed="yes" rot="MR270"/>
-<element name="U$4" library="atx4vc" package="EDGEPAD" value="EDGEPAD" x="66.548" y="10.668" smashed="yes" rot="MR270"/>
-<element name="U$5" library="atx4vc" package="EDGEPAD_20MM" value="EDGEPADEDGEPAD_20MM" x="9.906" y="10.668" smashed="yes" rot="MR270"/>
+<element name="U$13" library="atx4vc" package="EDGEPAD" value="EDGEPAD" x="75.564" y="13.462" smashed="yes" rot="MR90"/>
+<element name="U$1" library="atx4vc" package="EDGEPAD_20MM" value="EDGEPADEDGEPAD_20MM" x="12.906" y="13.462" smashed="yes" rot="MR270"/>
+<element name="U$2" library="atx4vc" package="EDGEPAD" value="EDGEPAD" x="70.802" y="13.462" smashed="yes" rot="MR270"/>
+<element name="U$3" library="atx4vc" package="EDGEPAD" value="EDGEPAD" x="75.564" y="10.668" smashed="yes" rot="MR270"/>
+<element name="U$4" library="atx4vc" package="EDGEPAD" value="EDGEPAD" x="70.802" y="10.668" smashed="yes" rot="MR270"/>
+<element name="U$5" library="atx4vc" package="EDGEPAD_20MM" value="EDGEPADEDGEPAD_20MM" x="12.906" y="10.668" smashed="yes" rot="MR270"/>
 </elements>
 <signals>
 <signal name="GND">
 <polygon width="0.1524" layer="1" isolate="0.6096">
-<vertex x="71" y="48"/>
-<vertex x="-1" y="48"/>
-<vertex x="-1" y="-0.062"/>
-<vertex x="71" y="-0.062"/>
+<vertex x="84" y="66"/>
+<vertex x="-9" y="66"/>
+<vertex x="-9" y="-9.062"/>
+<vertex x="84" y="-9.062"/>
 </polygon>
 <contactref element="U$13" pad="P$1"/>
 <polygon width="0.1524" layer="16" isolate="0.6096">
-<vertex x="-1" y="48"/>
-<vertex x="-1" y="0"/>
-<vertex x="71" y="0"/>
-<vertex x="71" y="48"/>
+<vertex x="-6" y="63"/>
+<vertex x="-6" y="-6"/>
+<vertex x="87" y="-6"/>
+<vertex x="87" y="63"/>
 </polygon>
 <contactref element="U$1" pad="P$1"/>
 <contactref element="U$2" pad="P$1"/>
 <contactref element="U$3" pad="P$1"/>
 <contactref element="U$4" pad="P$1"/>
 <contactref element="U$5" pad="P$1"/>
-<via x="14.224" y="13.462" extent="1-16" drill="0.6"/>
+<via x="1.668" y="1.572" extent="1-16" drill="0.6"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -451,6 +451,17 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="4,16,381d7cdf4f5f5935"/>
+<approved hash="4,16,585d1b573af2b975"/>
+<approved hash="19,16,52405971b5ebbec4"/>
+<approved hash="19,16,62ff6a3203970b72"/>
+<approved hash="19,16,ec7a1f7c39290187"/>
+<approved hash="19,16,7987654acfefcd0a"/>
+<approved hash="19,16,b5f20589b7eacc11"/>
+<approved hash="19,16,e7cdeb0305a60f40"/>
+<approved hash="19,16,36c83d94d122da4e"/>
+</errors>
 </board>
 </drawing>
 </eagle>
