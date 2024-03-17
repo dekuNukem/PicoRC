@@ -192,11 +192,11 @@ The PSU should turn on. **Measure the voltage on each rail** and confirm they ar
 
 ![Alt text](photos/appleii/inside.jpeg)
 
-* Connect the power cable
+* Have a look at the power connector and install accordingly.
 
-* If using new cable, make sure the **LATCH FACES LEFT** on **BOTH ENDS**.
+![Alt text](photos/appleii/horiz.png)
 
-![Alt text](photos/appleii/latch.png)
+![Alt text](photos/appleii/vert.png)
 
 That's pretty much it, we're done!
 
