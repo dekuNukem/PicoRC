@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -202,8 +202,6 @@ picoRC.com</text>
 <text x="10.541" y="43.815" size="1.778" layer="25" distance="35" rot="R270" align="center">Macintosh SE
 PicoPSU
 Power Switch</text>
-<text x="10.541" y="1.27" size="1.4224" layer="25" distance="30" align="center">PD2 dekuNukem
-APR 2023</text>
 <wire x1="14.7334" y1="56.8706" x2="20.3722" y2="-3.8862" width="0.1524" layer="51"/>
 <wire x1="9.44913125" y1="32.508409375" x2="44.948671875" y2="35.83150625" width="0.1524" layer="25"/>
 </plain>
