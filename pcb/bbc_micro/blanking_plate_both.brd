@@ -189,14 +189,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="-2.5" y1="54" x2="-2.5" y2="2" width="0" layer="20"/>
+<wire x1="70" y1="2" x2="70" y2="53.5" width="0" layer="20"/>
+<wire x1="70" y1="53.5" x2="68" y2="55.5" width="0" layer="20" curve="90"/>
+<wire x1="68" y1="55.5" x2="-0.5" y2="55.5" width="0" layer="20"/>
+<wire x1="-0.5" y1="55.5" x2="-2.5" y2="53.5" width="0" layer="20" curve="90"/>
+<wire x1="-2.5" y1="53.5" x2="-2.5" y2="2" width="0" layer="20"/>
 <wire x1="-2.5" y1="2" x2="-0.5" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="-0.5" y1="0" x2="68" y2="0" width="0" layer="20"/>
 <wire x1="68" y1="0" x2="70" y2="2" width="0" layer="20" curve="90"/>
-<wire x1="70" y1="2" x2="70" y2="54" width="0" layer="20"/>
-<wire x1="70" y1="54" x2="68" y2="56" width="0" layer="20" curve="90"/>
-<wire x1="68" y1="56" x2="-0.5" y2="56" width="0" layer="20"/>
-<wire x1="-0.5" y1="56" x2="-2.5" y2="54" width="0" layer="20" curve="90"/>
 <wire x1="30.7" y1="15.135" x2="30.7" y2="26.865" width="0" layer="20"/>
 <wire x1="30.7" y1="26.865" x2="30.065" y2="27.5" width="0" layer="20" curve="90"/>
 <wire x1="30.065" y1="27.5" x2="12.135" y2="27.5" width="0" layer="20"/>
