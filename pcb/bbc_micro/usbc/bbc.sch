@@ -14303,16 +14303,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="J1" gate="J1" pin="D+"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="160.02" x2="231.14" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="J1" gate="J1" pin="CC2"/>
+<wire x1="238.76" y1="157.48" x2="238.76" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="152.4" x2="218.44" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="J1" gate="J1" pin="D-"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="157.48" x2="238.76" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="J1" gate="J1" pin="CC1"/>
+<wire x1="231.14" y1="160.02" x2="231.14" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="154.94" x2="218.44" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

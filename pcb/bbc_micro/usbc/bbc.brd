@@ -23,22 +23,22 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -47,9 +47,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -226,14 +226,14 @@ REV 2</text>
 <text x="32.017" y="1.211" size="1.6764" layer="25" distance="35" align="center">+5</text>
 <text x="34.871" y="1.211" size="1.6764" layer="25" distance="35" align="center">G</text>
 <polygon width="0.2032" layer="41">
-<vertex x="6.604" y="9.652"/>
-<vertex x="9.017" y="9.652"/>
+<vertex x="6.985" y="9.398"/>
+<vertex x="9.271" y="9.398"/>
 <vertex x="10.16" y="8.509"/>
 <vertex x="10.16" y="6.731"/>
-<vertex x="9.398" y="5.969"/>
-<vertex x="6.35" y="5.969"/>
-<vertex x="5.461" y="6.858"/>
-<vertex x="5.461" y="8.509"/>
+<vertex x="9.525" y="6.096"/>
+<vertex x="6.858" y="6.096"/>
+<vertex x="6.223" y="6.731"/>
+<vertex x="6.223" y="8.636"/>
 </polygon>
 <text x="32.204" y="10.609" size="1.4224" layer="25" distance="35" align="center">G</text>
 <text x="34.811" y="10.736" size="1.4224" layer="25" distance="35" align="center">+5</text>
@@ -1957,7 +1957,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="CONN-14122" x="8" y="3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="8" y="-0.81" size="0.762" layer="27" align="center"/>
 </element>
-<element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_PASTE_NO-SILK" value="JUMPER-SMT_3_1-NC_PASTE_NO-SILK" x="8" y="7.611" smashed="yes"/>
+<element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_PASTE_NO-SILK" value="JUMPER-SMT_3_1-NC_PASTE_NO-SILK" x="7.883" y="7.619" smashed="yes" rot="R90"/>
 <element name="R4" library="atx_power_control" package="0805" value="10K" x="1.778" y="-0.254" smashed="yes" rot="R270">
 <attribute name="NAME" x="1.397" y="-2.7305" size="0.8128" layer="25"/>
 </element>
@@ -2134,8 +2134,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="31.096" y1="2.356" x2="30.279" y2="2.356" width="1.016" layer="1"/>
 <wire x1="31.096" y1="2.356" x2="32.3" y2="3.56" width="1.016" layer="1"/>
 <contactref element="JP1" pad="3"/>
-<wire x1="8.8128" y1="7.611" x2="11.769" y2="7.611" width="0.6096" layer="1"/>
-<wire x1="11.769" y1="7.611" x2="13.58" y2="5.8" width="0.6096" layer="1"/>
+<wire x1="7.883" y1="8.4318" x2="10.3132" y2="8.4318" width="0.6096" layer="1"/>
+<wire x1="12.945" y1="5.8" x2="13.58" y2="5.8" width="0.6096" layer="1"/>
+<wire x1="12.945" y1="5.8" x2="10.3132" y2="8.4318" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$31">
 <contactref element="R1" pad="1"/>
@@ -2160,8 +2161,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="21.051" y1="19.549" x2="7.183" y2="19.549" width="1.27" layer="1"/>
 <wire x1="7.183" y1="19.549" x2="2.88" y2="15.246" width="1.27" layer="1"/>
 <contactref element="JP1" pad="1"/>
-<wire x1="2.88" y1="5.8" x2="4.691" y2="7.611" width="0.6096" layer="1"/>
-<wire x1="4.691" y1="7.611" x2="7.1872" y2="7.611" width="0.6096" layer="1"/>
+<wire x1="2.88" y1="5.8" x2="3.8862" y2="6.8062" width="0.6096" layer="1"/>
+<wire x1="3.8862" y1="6.8062" x2="7.883" y2="6.8062" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R2" pad="1"/>
@@ -2210,13 +2211,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="JP1" pad="2"/>
 <contactref element="J1" pad="VBUS2"/>
 <contactref element="J1" pad="VBUS1"/>
-<wire x1="5.55" y1="3" x2="5.55" y2="4.026" width="0.508" layer="1"/>
-<wire x1="8" y1="6.476" x2="8" y2="6.477" width="0.508" layer="1"/>
-<wire x1="8" y1="6.477" x2="8" y2="6.604" width="0.508" layer="1"/>
-<wire x1="8" y1="6.604" x2="8" y2="7.611" width="0.6096" layer="1"/>
-<wire x1="5.55" y1="4.026" x2="8" y2="6.476" width="0.508" layer="1"/>
-<wire x1="10.45" y1="3" x2="10.45" y2="4.027" width="0.508" layer="1"/>
-<wire x1="10.45" y1="4.027" x2="8" y2="6.477" width="0.508" layer="1"/>
+<wire x1="5.55" y1="4.026" x2="5.55" y2="3" width="0.5588" layer="1"/>
+<wire x1="10.45" y1="4.027" x2="10.45" y2="3" width="0.5588" layer="1"/>
 <contactref element="R5" pad="1"/>
 <contactref element="R4" pad="1"/>
 <wire x1="5.55" y1="3" x2="5.55" y2="2.07" width="0.2032" layer="1"/>
@@ -2229,25 +2225,28 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="10.16" y1="2.032" x2="10.45" y2="2.322" width="0.2032" layer="1"/>
 <wire x1="10.45" y1="2.322" x2="10.45" y2="3" width="0.2032" layer="1"/>
 <wire x1="10.53" y1="0.646" x2="10.16" y2="1.016" width="0.2032" layer="1"/>
+<wire x1="7.883" y1="7.619" x2="9.018" y2="7.619" width="0.6096" layer="1"/>
+<wire x1="9.018" y1="7.619" x2="9.525" y2="7.112" width="0.6096" layer="1"/>
+<wire x1="9.525" y1="7.112" x2="9.525" y2="4.952" width="0.6096" layer="1"/>
+<wire x1="9.525" y1="4.952" x2="10.45" y2="4.027" width="0.6096" layer="1"/>
+<wire x1="9.525" y1="4.952" x2="6.476" y2="4.952" width="0.6096" layer="1"/>
+<wire x1="6.476" y1="4.952" x2="5.55" y2="4.026" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$8">
-<contactref element="J1" pad="A6" route="any" routetag="J1.D+"/>
-<contactref element="J1" pad="B6" route="any" routetag="J1.D+"/>
-<contactref element="R4" pad="2"/>
-<wire x1="1.778" y1="-1.154" x2="2.297" y2="-0.635" width="0.2032" layer="1"/>
-<wire x1="7.75" y1="1.527" x2="7.75" y2="3" width="0.2032" layer="1"/>
-<wire x1="2.297" y1="-0.635" x2="5.588" y2="-0.635" width="0.2032" layer="1"/>
-<wire x1="5.588" y1="-0.635" x2="7.75" y2="1.527" width="0.2032" layer="1"/>
+<contactref element="R5" pad="2"/>
+<contactref element="J1" pad="B5"/>
+<wire x1="14.224" y1="-1.154" x2="13.462" y2="-0.392" width="0.2032" layer="1"/>
+<wire x1="13.462" y1="-0.392" x2="10.552" y2="-0.392" width="0.2032" layer="1"/>
+<wire x1="9.75" y1="0.41" x2="9.75" y2="3" width="0.2032" layer="1"/>
+<wire x1="10.552" y1="-0.392" x2="9.75" y2="0.41" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$9">
-<contactref element="J1" pad="A7"/>
-<contactref element="J1" pad="B7"/>
-<contactref element="R5" pad="2"/>
-<wire x1="14.224" y1="-1.154" x2="13.705" y2="-0.635" width="0.2032" layer="1"/>
-<wire x1="8.25" y1="1.529" x2="8.25" y2="3" width="0.2032" layer="1"/>
-<wire x1="13.705" y1="-0.635" x2="10.414" y2="-0.635" width="0.2032" layer="1"/>
-<wire x1="10.414" y1="-0.635" x2="8.25" y2="1.529" width="0.2032" layer="1"/>
-<wire x1="8.25" y1="3" x2="7.25" y2="3" width="0" layer="19" extent="1-1"/>
+<contactref element="R4" pad="2"/>
+<contactref element="J1" pad="A5"/>
+<wire x1="6.75" y1="3" x2="6.75" y2="0.908" width="0.2032" layer="1"/>
+<wire x1="2.297" y1="-0.635" x2="1.778" y2="-1.154" width="0.2032" layer="1"/>
+<wire x1="6.75" y1="0.908" x2="5.207" y2="-0.635" width="0.2032" layer="1"/>
+<wire x1="5.207" y1="-0.635" x2="2.297" y2="-0.635" width="0.2032" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -2257,6 +2256,18 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="6,1,b2a8190e264faecc"/>
+<approved hash="6,1,00fefa619ea8bf40"/>
+<approved hash="6,1,9449dba7daa1954f"/>
+<approved hash="6,1,3d9dea6fea3c3dce"/>
+<approved hash="6,1,103a4b0891e40367"/>
+<approved hash="6,1,3d9dea6fea1c3dee"/>
+<approved hash="6,1,3dddea2fea7c3d8e"/>
+<approved hash="6,1,b572981a9c7c3798"/>
+<approved hash="6,1,8a737c5a3fd37d60"/>
+<approved hash="6,1,3f22a367cccb9c85"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
