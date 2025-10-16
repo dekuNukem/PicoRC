@@ -1046,6 +1046,14 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="-5.96" y1="-4.4" x2="5.92" y2="-4.4" width="0.1524" layer="21"/>
 <wire x1="5.92" y1="-4.4" x2="5.92" y2="3.3" width="0.1524" layer="21"/>
 </package>
+<package name="396_2P_LIVE">
+<pad name="P$1" x="-3.96" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<pad name="P$2" x="3.96" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<wire x1="-5.96" y1="-4.4" x2="-5.96" y2="3.3" width="0.1524" layer="21"/>
+<wire x1="-5.96" y1="3.3" x2="5.92" y2="3.3" width="0.508" layer="21"/>
+<wire x1="-5.96" y1="-4.4" x2="5.92" y2="-4.4" width="0.1524" layer="21"/>
+<wire x1="5.92" y1="-4.4" x2="5.92" y2="3.3" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="3POS_SLIDE_SWITCH_XC6206_SYM">
@@ -2011,6 +2019,22 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 <connect gate="G$1" pin="P$3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="396_2P_LIVE">
+<gates>
+<gate name="G$1" symbol="VH396_2P" x="-5.08" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="396_2P_LIVE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
