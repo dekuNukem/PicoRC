@@ -10925,8 +10925,6 @@ by exp-lbrs.ulp</description>
 <part name="U$3" library="blade" deviceset="28FLAG" device=""/>
 <part name="R2" library="adafruit_changed" deviceset="R-US_" device="0411/15"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="adafruit_changed" deviceset="R-US_" device="0411/15"/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11021,13 +11019,6 @@ by exp-lbrs.ulp</description>
 <instance part="GND3" gate="1" x="35.56" y="0" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="38.1" y="-2.54" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R1" gate="G$1" x="-15.24" y="-27.94" smashed="yes">
-<attribute name="NAME" x="-19.05" y="-26.4414" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-19.05" y="-31.242" size="1.778" layer="96"/>
-</instance>
-<instance part="GND5" gate="1" x="-25.4" y="-30.48" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="-22.86" y="-33.02" size="1.778" layer="96" rot="MR0"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -11106,22 +11097,12 @@ by exp-lbrs.ulp</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="-27.94" x2="-20.32" y2="-27.94" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="+12V" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="P$3"/>
 <pinref part="P+3" gate="1" pin="+12V"/>
-<wire x1="15.24" y1="-22.86" x2="0" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="0" y1="-22.86" x2="-5.08" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="-27.94" x2="0" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="0" y1="-27.94" x2="0" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="0" y="-22.86"/>
+<wire x1="15.24" y1="-22.86" x2="-5.08" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="2"/>
