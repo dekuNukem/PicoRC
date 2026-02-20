@@ -1,0 +1,102 @@
+(footprint "BAT_BU2450SM-JJ-G"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -13.485 -13.135 0)
+		(layer "F.SilkS")
+		(uuid "ec494508-5be4-4d1c-a529-618e182d7f98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BAT_BU2450SM-JJ-G"
+		(at -5.865 13.135 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "470d2221-5133-4911-83fb-fbd5c95c870f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7eee41d0-3450-4125-b456-3752904f87fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0736146-a917-4a6c-987f-2b80fc0d989f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 12.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "45e4d080-8650-4b49-9297-ce2daa62e8a3")
+	)
+	(fp_text user "+"
+		(at 16.5 4 0)
+		(layer "F.SilkS")
+		(uuid "2795dc7e-3405-4358-b36e-d5ec53a4c2f5")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at -17 4 0)
+		(layer "F.SilkS")
+		(uuid "978b80d9-80b9-44fd-8e8e-aa4c92b10059")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "N" smd rect
+		(at -16.685 0)
+		(size 3.62 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "49f97564-a050-434f-a675-f39b11a1db58")
+	)
+	(pad "P" smd rect
+		(at 16.685 0)
+		(size 3.62 4.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e3746cce-7a7b-4e97-934a-0163cdd317ab")
+	)
+	(embedded_fonts no)
+)
