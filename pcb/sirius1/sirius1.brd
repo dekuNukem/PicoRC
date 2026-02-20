@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -189,21 +189,12 @@
 </layers>
 <board>
 <plain>
-<wire x1="-23" y1="-9" x2="188" y2="-9" width="0" layer="20"/>
-<wire x1="188" y1="-9" x2="188" y2="120" width="0" layer="20"/>
-<wire x1="188" y1="120" x2="-23" y2="120" width="0" layer="20"/>
-<wire x1="-23" y1="120" x2="-23" y2="-9" width="0" layer="20"/>
-<text x="35.886" y="172.529" size="1.778" layer="25" rot="R90" align="center">YL</text>
-<text x="33.346" y="172.501" size="1.6764" layer="25" rot="R90" align="center">OG</text>
-<text x="30.806" y="172.533" size="1.6764" layer="25" rot="R90" align="center">RD</text>
-<text x="28.266" y="172.422" size="1.6764" layer="25" rot="R90" align="center">NC</text>
-<text x="112.804" y="179.808" size="2.54" layer="25" rot="R270" align="center">GND</text>
+<wire x1="-8" y1="-4" x2="148" y2="-4" width="0" layer="20"/>
+<wire x1="148" y1="-4" x2="148" y2="120" width="0" layer="20"/>
+<wire x1="148" y1="120" x2="-8" y2="120" width="0" layer="20"/>
+<wire x1="-8" y1="120" x2="-8" y2="-4" width="0" layer="20"/>
 <text x="98.164" y="175.858" size="2.54" layer="25" rot="R90" align="center">LIVE</text>
 <text x="80.18" y="177.89" size="2.54" layer="25" rot="R90" align="center">NEUTRAL</text>
-<text x="68.92" y="172.148" size="1.778" layer="25" rot="R90" align="center">YL</text>
-<text x="66.38" y="172.12" size="1.6764" layer="25" rot="R90" align="center">OG</text>
-<text x="63.84" y="172.152" size="1.6764" layer="25" rot="R90" align="center">RD</text>
-<text x="61.3" y="172.041" size="1.6764" layer="25" rot="R90" align="center">NC</text>
 <text x="92.996" y="144.362" size="3.81" layer="25" rot="SR270" align="center">5V
 5A</text>
 <text x="74.374" y="145.978" size="3.81" layer="25" rot="SR270" align="center">picoRC.com</text>
@@ -219,23 +210,7 @@ picoRC.com</text>
 <text x="55.676" y="160.402" size="5.08" layer="26" rot="MR270" align="center-left">+12V</text>
 <text x="45.676" y="160.402" size="5.08" layer="26" rot="MR270" align="center-left">GND</text>
 <text x="36.676" y="160.402" size="5.08" layer="26" rot="MR270" align="center-left">+5V</text>
-<text x="52.537" y="172.402" size="1.778" layer="25" rot="R90" align="center">YL</text>
-<text x="49.997" y="172.374" size="1.6764" layer="25" rot="R90" align="center">OG</text>
-<text x="47.457" y="172.406" size="1.6764" layer="25" rot="R90" align="center">RD</text>
-<text x="44.917" y="172.295" size="1.6764" layer="25" rot="R90" align="center">NC</text>
-<text x="32.344" y="178.502" size="1.4224" layer="26" distance="80" rot="MR270" align="center-right">NC
-RED
-ORANGE
-YELLOW</text>
-<text x="48.854" y="178.502" size="1.4224" layer="26" distance="80" rot="MR270" align="center-right">NC
-RED
-ORANGE
-YELLOW</text>
-<text x="65.364" y="178.502" size="1.4224" layer="26" distance="80" rot="MR270" align="center-right">NC
-RED
-ORANGE
-YELLOW</text>
-<text x="0.022" y="8.374" size="5.08" layer="25" rot="SR0" align="center">E</text>
+<text x="139.978" y="8.374" size="5.08" layer="25" rot="SR0" align="center">E</text>
 </plain>
 <libraries>
 <library name="atx_power_control">
@@ -385,6 +360,26 @@ by exp-lbrs.ulp</description>
 </package>
 <package name="M2.5_HOLE_PLATED">
 <pad name="P$1" x="0" y="0" drill="2.75" diameter="5" thermals="no"/>
+</package>
+</packages>
+</library>
+<library name="396_conn">
+<description>Generated from &lt;b&gt;pmm.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="396_SIRIUS1">
+<pad name="P$1" x="-13.86" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<pad name="P$2" x="-9.9" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<pad name="P$3" x="-5.94" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<pad name="P$4" x="-1.98" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<pad name="P$5" x="1.98" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<pad name="P$7" x="9.9" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<pad name="P$8" x="13.86" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<wire x1="15.84" y1="-4.15" x2="15.84" y2="-3.896" width="0.1524" layer="21"/>
+<wire x1="15.84" y1="-3.896" x2="15.84" y2="5.45" width="0.254" layer="21"/>
+<wire x1="15.84" y1="5.45" x2="-15.84" y2="5.45" width="0.254" layer="21"/>
+<wire x1="-15.84" y1="5.45" x2="-15.84" y2="-3.896" width="0.254" layer="21"/>
+<wire x1="15.84" y1="-3.896" x2="-15.84" y2="-3.896" width="1.016" layer="21"/>
 </package>
 </packages>
 </library>
@@ -595,17 +590,22 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="POPULARITY" value="10" x="144.58" y="133.87" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="142.548" y="130.076" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="JP4" library="appleii" package="1X04" value="" x="110.99" y="157.98" smashed="yes" rot="R270"/>
+<element name="JP4" library="appleii" package="1X04" value="" x="5.99" y="12.98" smashed="yes" rot="R270"/>
 <element name="U$14" library="blade" package="2.8FLAG" value="28FLAG" x="84.74" y="175.73" smashed="yes" rot="R90"/>
 <element name="U$3" library="blade" package="2.8FLAG" value="28FLAG" x="93.74" y="175.73" smashed="yes" rot="R90"/>
 <element name="R2" library="adafruit_changed" package="0411/15" value="" x="-35.688" y="139.456" smashed="yes" rot="R270">
 <attribute name="NAME" x="-31.799" y="135.376" size="1.4224" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="-36.323" y="143.0374" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="U$1" library="os1" package="M3_HOLE_PLATED" value="M3_HOLE_PLATEDM3" x="0" y="0" smashed="yes"/>
-<element name="U$2" library="os1" package="M2.5_HOLE_PLATED" value="M3_HOLE_PLATEDM2,5" x="140" y="0" smashed="yes"/>
-<element name="U$4" library="os1" package="M2.5_HOLE_PLATED" value="M3_HOLE_PLATEDM2,5" x="0" y="114" smashed="yes"/>
-<element name="U$5" library="os1" package="M2.5_HOLE_PLATED" value="M3_HOLE_PLATEDM2,5" x="140.5" y="114" smashed="yes"/>
+<element name="U$1" library="os1" package="M3_HOLE_PLATED" value="M3_HOLE_PLATEDM3" x="140" y="0" smashed="yes" rot="MR0"/>
+<element name="U$2" library="os1" package="M2.5_HOLE_PLATED" value="M3_HOLE_PLATEDM2,5" x="0" y="0" smashed="yes" rot="MR0"/>
+<element name="U$4" library="os1" package="M2.5_HOLE_PLATED" value="M3_HOLE_PLATEDM2,5" x="140" y="114" smashed="yes" rot="MR0"/>
+<element name="U$5" library="os1" package="M2.5_HOLE_PLATED" value="M3_HOLE_PLATEDM2,5" x="-0.5" y="114" smashed="yes" rot="MR0"/>
+<element name="C1" library="adafruit_changed" package="E3,5-8" value="" x="99" y="95" smashed="yes">
+<attribute name="NAME" x="102.302" y="97.794" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="96.714" y="91.952" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="U$6" library="396_conn" package="396_SIRIUS1" value="396_SIRIUS1" x="119" y="112" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -613,37 +613,43 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="C4" pad="2"/>
 <contactref element="C5" pad="-"/>
 <polygon width="0.254" layer="1" isolate="0.8128">
-<vertex x="-11.5" y="116"/>
-<vertex x="-11.5" y="-11"/>
-<vertex x="185" y="-11"/>
-<vertex x="185" y="116"/>
+<vertex x="-81.5" y="186"/>
+<vertex x="-81.5" y="-41"/>
+<vertex x="275" y="-41"/>
+<vertex x="275" y="186"/>
 </polygon>
 <contactref element="JP4" pad="1"/>
-<wire x1="147.12" y1="132.87" x2="167.44" y2="133.83" width="0" layer="19" extent="1-1"/>
-<wire x1="113.9327625" y1="155.217234375" x2="147.12" y2="132.87" width="0" layer="19" extent="1-1"/>
-<wire x1="110.99" y1="161.79" x2="113.9327625" y2="155.217234375" width="0" layer="19" extent="1-1"/>
+<contactref element="C1" pad="-"/>
+<contactref element="U$6" pad="P$4"/>
+<contactref element="U$6" pad="P$5"/>
+<wire x1="120.98" y1="112" x2="147.12" y2="132.87" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+12V">
 <contactref element="JP4" pad="2"/>
-<wire x1="31" y1="170.73" x2="30.92" y2="170.81" width="1.27" layer="16"/>
-<wire x1="67.2" y1="170.73" x2="69.99" y2="167.94" width="1.27" layer="16"/>
-<wire x1="31" y1="170.73" x2="67.2" y2="170.73" width="1.27" layer="16"/>
-<wire x1="69.99" y1="167.94" x2="69.99" y2="159.68" width="1.27" layer="16"/>
-<wire x1="69.99" y1="159.68" x2="81.72" y2="147.95" width="1.27" layer="16"/>
-<wire x1="81.72" y1="147.95" x2="97.468" y2="147.95" width="1.27" layer="16"/>
-<wire x1="97.468" y1="147.95" x2="108.768" y2="159.25" width="1.27" layer="16"/>
-<wire x1="108.768" y1="159.25" x2="110.99" y2="159.25" width="1.27" layer="16"/>
+<contactref element="U$6" pad="P$7"/>
+<contactref element="C1" pad="+"/>
+<contactref element="U$6" pad="P$1"/>
+<wire x1="105.14" y1="112" x2="128.9" y2="112" width="0" layer="19" extent="1-1"/>
+<wire x1="97.222" y1="95" x2="105.14" y2="112" width="0" layer="19" extent="1-1"/>
+<wire x1="5.99" y1="14.25" x2="97.222" y2="95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEUTRAL">
 <contactref element="U$14" pad="P$2"/>
 <contactref element="U$14" pad="P$1"/>
-<wire x1="84.74" y1="178.23" x2="84.74" y2="173.23" width="2.54" layer="16"/>
-<wire x1="84.74" y1="173.23" x2="84.74" y2="165.23" width="2.54" layer="16"/>
+<wire x1="84.74" y1="173.23" x2="84.74" y2="178.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LIVE">
 <contactref element="U$3" pad="P$2"/>
 <contactref element="U$3" pad="P$1"/>
-<wire x1="93.74" y1="178.23" x2="93.74" y2="173.23" width="2.54" layer="16"/>
+<wire x1="93.74" y1="173.23" x2="93.74" y2="178.23" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="+5V">
+<contactref element="U$6" pad="P$2"/>
+<contactref element="U$6" pad="P$3"/>
+<wire x1="109.1" y1="112" x2="113.06" y2="112" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="-12V">
+<contactref element="U$6" pad="P$8"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

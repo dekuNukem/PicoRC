@@ -219,6 +219,14 @@
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="-12V" urn="urn:adsk.eagle:symbol:26932/1" library_version="1">
+<wire x1="-1.27" y1="1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="0.635" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="-12V" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND" library_version="1">
@@ -251,6 +259,19 @@
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="-12V" urn="urn:adsk.eagle:component:26961/1" prefix="P-" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="-12V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -9548,6 +9569,60 @@ by exp-lbrs.ulp</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="396_conn">
+<description>Generated from &lt;b&gt;pmm.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="396_SIRIUS1">
+<pad name="P$1" x="-13.86" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<pad name="P$2" x="-9.9" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<pad name="P$3" x="-5.94" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<pad name="P$4" x="-1.98" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<pad name="P$5" x="1.98" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<pad name="P$7" x="9.9" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<pad name="P$8" x="13.86" y="0" drill="1.5" shape="long" rot="R90" thermals="no"/>
+<wire x1="15.84" y1="-4.15" x2="15.84" y2="-3.896" width="0.1524" layer="21"/>
+<wire x1="15.84" y1="-3.896" x2="15.84" y2="5.45" width="0.254" layer="21"/>
+<wire x1="15.84" y1="5.45" x2="-15.84" y2="5.45" width="0.254" layer="21"/>
+<wire x1="-15.84" y1="5.45" x2="-15.84" y2="-3.896" width="0.254" layer="21"/>
+<wire x1="15.84" y1="-3.896" x2="-15.84" y2="-3.896" width="1.016" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="396_SIRIUS1">
+<pin name="+12V2" x="-7.62" y="7.62" length="middle"/>
+<pin name="+5V1" x="-7.62" y="5.08" length="middle"/>
+<pin name="+5V2" x="-7.62" y="2.54" length="middle"/>
+<pin name="GND1" x="-7.62" y="0" length="middle"/>
+<pin name="GND2" x="-7.62" y="-2.54" length="middle"/>
+<pin name="+12V1" x="-7.62" y="-7.62" length="middle"/>
+<pin name="-12V" x="-7.62" y="-10.16" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="396_SIRIUS1">
+<gates>
+<gate name="G$1" symbol="396_SIRIUS1" x="7.62" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="396_SIRIUS1">
+<connects>
+<connect gate="G$1" pin="+12V1" pad="P$7"/>
+<connect gate="G$1" pin="+12V2" pad="P$1"/>
+<connect gate="G$1" pin="+5V1" pad="P$2"/>
+<connect gate="G$1" pin="+5V2" pad="P$3"/>
+<connect gate="G$1" pin="-12V" pad="P$8"/>
+<connect gate="G$1" pin="GND1" pad="P$4"/>
+<connect gate="G$1" pin="GND2" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9579,6 +9654,14 @@ by exp-lbrs.ulp</description>
 <part name="U$2" library="os1" deviceset="M3_HOLE_PLATED" device="M2,5"/>
 <part name="U$4" library="os1" deviceset="M3_HOLE_PLATED" device="M2,5"/>
 <part name="U$5" library="os1" deviceset="M3_HOLE_PLATED" device="M2,5"/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P-1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="C1" library="adafruit_changed" deviceset="CPOL-US" device="E3.5-8"/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$6" library="396_conn" deviceset="396_SIRIUS1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9636,6 +9719,29 @@ by exp-lbrs.ulp</description>
 <instance part="U$2" gate="G$1" x="43.18" y="101.6" smashed="yes"/>
 <instance part="U$4" gate="G$1" x="43.18" y="93.98" smashed="yes"/>
 <instance part="U$5" gate="G$1" x="43.18" y="86.36" smashed="yes"/>
+<instance part="P+1" gate="1" x="91.44" y="86.36" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="93.98" y="81.28" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="P+4" gate="1" x="63.5" y="60.96" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="63.5" y="63.5" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="P-1" gate="1" x="76.2" y="35.56" smashed="yes">
+<attribute name="VALUE" x="73.66" y="33.02" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND1" gate="1" x="111.76" y="48.26" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="114.3" y="45.72" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="P+5" gate="1" x="66.04" y="45.72" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="68.58" y="40.64" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="C1" gate="G$1" x="91.44" y="76.2" smashed="yes">
+<attribute name="NAME" x="92.456" y="76.835" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.456" y="72.009" size="1.778" layer="96"/>
+</instance>
+<instance part="GND2" gate="1" x="91.44" y="66.04" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="93.98" y="63.5" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="U$6" gate="G$1" x="96.52" y="50.8" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -9658,12 +9764,41 @@ by exp-lbrs.ulp</description>
 <pinref part="JP4" gate="A" pin="1_GND"/>
 <wire x1="160.02" y1="27.94" x2="172.72" y2="27.94" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="83.82" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="48.26" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="48.26" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="GND1"/>
+<pinref part="U$6" gate="G$1" pin="GND2"/>
+</segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="C1" gate="G$1" pin="-"/>
+<wire x1="91.44" y1="68.58" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+12V" class="0">
 <segment>
 <pinref part="P+10" gate="1" pin="+12V"/>
 <pinref part="JP4" gate="A" pin="2_VCC"/>
 <wire x1="172.72" y1="22.86" x2="200.66" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+5" gate="1" pin="+12V"/>
+<wire x1="88.9" y1="43.18" x2="66.04" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="+12V1"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="P+1" gate="1" pin="+12V"/>
+<wire x1="91.44" y1="83.82" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="81.28" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
+<junction x="91.44" y="81.28"/>
+<pinref part="U$6" gate="G$1" pin="+12V2"/>
+<wire x1="71.12" y1="81.28" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NEUTRAL" class="0">
@@ -9678,6 +9813,26 @@ by exp-lbrs.ulp</description>
 <label x="2.54" y="-43.18" size="1.778" layer="95" rot="MR0" xref="yes"/>
 <pinref part="U$3" gate="G$1" pin="P$1"/>
 <wire x1="43.18" y1="-43.18" x2="2.54" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="P+4" gate="1" pin="+5V"/>
+<wire x1="63.5" y1="58.42" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="53.34" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
+<junction x="63.5" y="55.88"/>
+<pinref part="U$6" gate="G$1" pin="+5V1"/>
+<pinref part="U$6" gate="G$1" pin="+5V2"/>
+</segment>
+</net>
+<net name="-12V" class="0">
+<segment>
+<pinref part="P-1" gate="1" pin="-12V"/>
+<wire x1="76.2" y1="38.1" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="-12V"/>
 </segment>
 </net>
 </nets>
