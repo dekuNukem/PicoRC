@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -356,6 +356,32 @@ SET LINE VOLTAGE!</text>
 </package>
 <package name="M3_HOLE_PLATED">
 <pad name="P$1" x="0" y="0" drill="3.5" diameter="6" thermals="no"/>
+</package>
+<package name="MEANWELL_RT65">
+<wire x1="0" y1="0" x2="129" y2="0" width="0.1524" layer="21"/>
+<wire x1="129" y1="0" x2="129" y2="98" width="0.1524" layer="21"/>
+<wire x1="129" y1="98" x2="0" y2="98" width="0.1524" layer="21"/>
+<wire x1="0" y1="98" x2="0" y2="0" width="0.1524" layer="21"/>
+<text x="-12" y="79" size="3.81" layer="21">LIVE</text>
+<text x="-12" y="71" size="3.81" layer="21">NEUTRAL</text>
+<text x="-12" y="63" size="3.81" layer="21">EARTH</text>
+<text x="-12" y="46" size="3.81" layer="21">-12V</text>
+<text x="-12" y="38" size="3.81" layer="21">+12V</text>
+<text x="-12" y="30" size="3.81" layer="21">GND</text>
+<text x="-13" y="21" size="3.81" layer="21">+5V</text>
+<text x="62" y="79" size="3.81" layer="21">MEANWELL
+RT-65B</text>
+<text x="4" y="89" size="3.81" layer="21">1</text>
+<text x="4" y="11" size="3.81" layer="21">8</text>
+<text x="-12" y="54" size="3.81" layer="21">NC</text>
+<hole x="4.5" y="5.5" drill="3.75"/>
+<pad name="P$3" x="-16.75" y="64.25" drill="1.75" shape="long" rot="R180"/>
+<pad name="P$5" x="-16.75" y="47.75" drill="1.75" shape="long" rot="R180"/>
+<pad name="P$6" x="-16.75" y="39.5" drill="1.75" shape="long" rot="R180"/>
+<pad name="P$7" x="-16.75" y="31.25" drill="1.75" shape="long" rot="R180"/>
+<pad name="P$8" x="-16.75" y="23" drill="1.75" shape="long" rot="R180"/>
+<pad name="P$1" x="78" y="34" drill="3.75" diameter="6" thermals="no"/>
+<pad name="P$2" x="78" y="67" drill="3.75" diameter="6" thermals="no"/>
 </package>
 </packages>
 <symbols>
