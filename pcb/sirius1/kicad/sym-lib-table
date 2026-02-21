@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "wch")(type "KiCad")(uri "${KIPRJMOD}/wch.kicad_sym")(options "")(descr ""))
-  (lib (name "mydt2_symb")(type "KiCad")(uri "${KIPRJMOD}/mydt2_symb.kicad_sym")(options "")(descr ""))
-)
