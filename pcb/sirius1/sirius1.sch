@@ -7524,8 +7524,8 @@ by exp-lbrs.ulp</description>
 <wire x1="15.84" y1="-3.896" x2="-15.84" y2="-3.896" width="1.016" layer="21"/>
 </package>
 <package name="INDUCTOR_PTH_8MM">
-<pad name="P$1" x="-4" y="0" drill="0.75" shape="long" rot="R90"/>
-<pad name="P$2" x="4" y="0" drill="0.75" shape="long" rot="R90"/>
+<pad name="P$1" x="-4" y="0" drill="1.5" shape="long" rot="R90"/>
+<pad name="P$2" x="4" y="0" drill="1.5" shape="long" rot="R90"/>
 <wire x1="-5" y1="10" x2="5" y2="10" width="0.1524" layer="21"/>
 <wire x1="5" y1="10" x2="5" y2="-10" width="0.1524" layer="21"/>
 <wire x1="5" y1="-10" x2="-5" y2="-10" width="0.1524" layer="21"/>
