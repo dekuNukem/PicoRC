@@ -7424,10 +7424,9 @@ by exp-lbrs.ulp</description>
 <text x="-12" y="21.25" size="3.81" layer="21">+5V</text>
 <text x="64" y="44.25" size="5.08" layer="21">MEANWELL
 RT-65B</text>
-<text x="4" y="89" size="3.81" layer="21">1</text>
-<text x="4" y="11" size="3.81" layer="21">8</text>
+<text x="5" y="79" size="3.81" layer="21">1</text>
+<text x="5" y="21" size="3.81" layer="21">8</text>
 <text x="-1.73" y="56" size="3.81" layer="21" align="center-right">NC</text>
-<hole x="4.5" y="5.5" drill="3.75"/>
 <pad name="EARTH" x="-16.75" y="64.25" drill="1.75" shape="long" rot="R180"/>
 <pad name="-12V" x="-16.75" y="47.75" drill="1.75" shape="long" rot="R180"/>
 <pad name="+12V" x="-16.75" y="39.5" drill="1.75" shape="long" rot="R180"/>
@@ -7435,6 +7434,7 @@ RT-65B</text>
 <pad name="+5V" x="-16.75" y="23" drill="1.75" shape="long" rot="R180"/>
 <pad name="GND3" x="78" y="34" drill="3.75" diameter="6" thermals="no"/>
 <pad name="GND2" x="78" y="67" drill="3.75" diameter="6" thermals="no"/>
+<pad name="GND1" x="4.5" y="93.5" drill="3.75" diameter="6" thermals="no"/>
 </package>
 </packages>
 <symbols>
@@ -7494,7 +7494,7 @@ RT-65B</text>
 <connect gate="G$1" pin="-12V" pad="-12V"/>
 <connect gate="G$1" pin="12V" pad="+12V"/>
 <connect gate="G$1" pin="5V" pad="+5V"/>
-<connect gate="G$1" pin="EARTH" pad="EARTH GND GND2"/>
+<connect gate="G$1" pin="EARTH" pad="EARTH GND GND1 GND2"/>
 <connect gate="G$1" pin="GND" pad="GND3"/>
 </connects>
 <technologies>
