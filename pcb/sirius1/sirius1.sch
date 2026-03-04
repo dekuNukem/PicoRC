@@ -19687,9 +19687,9 @@ chip</description>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="U$1" library="os1" deviceset="M3_HOLE_PLATED" device="M3"/>
-<part name="U$2" library="os1" deviceset="M3_HOLE_PLATED" device="M2,5"/>
-<part name="U$4" library="os1" deviceset="M3_HOLE_PLATED" device="M2,5"/>
-<part name="U$5" library="os1" deviceset="M3_HOLE_PLATED" device="M2,5"/>
+<part name="U$2" library="os1" deviceset="M3_HOLE_PLATED" device="M3" value="M3_HOLE_PLATEDM3"/>
+<part name="U$4" library="os1" deviceset="M3_HOLE_PLATED" device="M3" value="M3_HOLE_PLATEDM3"/>
+<part name="U$5" library="os1" deviceset="M3_HOLE_PLATED" device="M3" value="M3_HOLE_PLATEDM3"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P-1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="-12V" device=""/>
