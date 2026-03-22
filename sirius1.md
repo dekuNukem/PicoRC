@@ -15,7 +15,10 @@ A replacement PSU kit for **Sirius 1 / Victor 9000**
 	* Quieter & improved cooling with modern PC fan
 * Mean Well PSU with Fused Rails
 
+![Alt text](photos/sirius1/back.jpeg)
+
 ![Alt text](photos/sirius1/money.jpeg)
+
 
 ## Get One
 
@@ -40,7 +43,7 @@ Mean Well
 
 You should have the following:
 
-![Alt text](photos/sirius1/part.png)
+![Alt text](photos/sirius1/parts.png)
 
 ### Soldering Notes
 
@@ -50,43 +53,113 @@ If this is your first time, a few tips:
 
 * Make sure your soldering iron has **proper temperature control**. Try your local makerspace or university lab.
 
-* Use **leaded solder** and plenty of flux, temperature around 320C / 600F.
+* Use **leaded solder** and plenty of flux, temperature around 350C / 660F.
 
 * [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well.
 
 ### Assembly
 
-Solder the components **as shown below**:
+* Solder the components **as shown below**:
 
 ![Alt text](photos/sirius1/topside.png)
 
-* Double check capacitor polarity!
+* Double check polarity!
+	* Black electrolytic capacitor: White stripe is **NEGATIVE**.
+	* Blue Tantalum capacitor: White stripe is **POSITIVE**.
+	* Yellow ceramic capacitor: No polarity.
+	* Inductor / Choke: No polarity.
 
-* Black electrolytic caps: White stripe is **NEGATIVE**.
+-----
 
-* Blue Tantalum caps: White stripe is **POSITIVE**.
+* On the MeanWell PSU, install the ring terminal cable on the rails shown.
+	* Undo Screw
+	* Insert through ring (flat side down)
+	* Redo Screw
 
-* Yellow ceramic caps: No polarity.
+![Alt text](photos/sirius1/meanwell1.jpeg)
 
-### Cleaning
+* Fasten the MeanWell PSU to the PCB with M3 screws
 
-This is optional, but I like to clean off the flux with 90%+ isopropyl alcohol.
+![Alt text](photos/sirius1/fast.png)
 
-Submerge and scrub with a toothbrush.
+* Bent the wires
+* Insert strands through corresponding holes
+	* Make sure **all strands goes through**
+	* AND **no loose strands being caught on top side**
 
-Make sure it is **completely dry** before proceeding.
+![Alt text](photos/sirius1/bent.png)
 
 ### Inspection
 
-* Compare with the photo and notes above. Make sure everything is in correct orientation.
+* Compare with photos and notes above. Ensure everything has correct polarity.
 
 * Solder joints should be **shiny and smooth**. If you see spikes, put on more flux and melt it again.
 
 * There must be **no solder bridges**. If any, put on flux and melt it to remove.
 
-![Alt text](photos/sirius1/bottomside.jpeg)
+![Alt text](photos/sirius1/clean.jpeg)
 
-### Bracket
+### Installation
+
+* Remove 4 screws on the back
+
+![Alt text](photos/sirius1/backcase.png)
+
+* Unhinge the back cover **from top side**
+	* Might need a gentle tug due to velcro pads
+* Reach in and unplug the **reset button**
+
+![Alt text](photos/sirius1/velcro.png)
+
+* Remove top cover
+* Unplug the power connector
+* Remove 5 screws
+
+![Alt text](photos/sirius1/remove.png)
+
+* Rotate PSU away
+* Unplug both power connectors
+
+![Alt text](photos/sirius1/unplug.png)
+
+* Remove the PSU Completely
+* Insert the screws back in their holes for safekeeping
+	* Finger tight is fine
+* Put the computer away for now
+
+![Alt text](photos/sirius1/screwback.png)
+
+* Remove 7 screws on the PSU
+
+![Alt text](photos/sirius1/psuscrew1.jpeg)
+
+![Alt text](photos/sirius1/psuscrew2.jpeg)
+
+* Split the PSU in half
+* Unplug the connectors shown
+* Reinstall screws for safekeeping
+
+![Alt text](photos/sirius1/split.png)
+
+* On the fan connector:
+	* Press down on the metal tab with a **thin flathead screwdriver**
+	* AND **gently pull on the cable**
+	* It should release
+
+![Alt text](photos/sirius1/press.png)
+
+* Separate the two halves
+
+[Photo: PSU two halves separated]
+
+* Undo screws
+* Remove the circuit board
+
+[Photo: Looking into PSU with original PCU, no mains power wires, no fan wires, output harness unplugged]
+
+
+-------
+
 
 Install the metal bracket.
 
