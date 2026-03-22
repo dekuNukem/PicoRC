@@ -183,7 +183,7 @@ If this is your first time:
 * Flip over
 * Install **M3 Nuts** on bare holes
 * We're done with this half of the case!
-	* Feel free to put it away for now
+	* Put it away for now
 
 ![Alt text](photos/sirius1/bareback.png)
 
@@ -204,7 +204,7 @@ If this is your first time:
 * Next up: Power Connection
 	* ⚠️ **Involves mains voltage!**
 	* Ensure everything is unplugged
-	* Pay attention to the steps!
+	* Pay attention to the instructions!
 
 * Look at the connector that plugs into the old PSU
 	* It should have **two wires**.
@@ -236,7 +236,7 @@ If this is your first time:
 
 * On the home stretch now!
 * Plug the output harness into the PCB
-	* Match the **missing pins**
+	* Match the **missing pin**
 	* **Check BOTH ends** to ensure it's not off-by-one.
 * Insert fan cable through the grommet
 	* Plug into fan header
@@ -262,29 +262,26 @@ Good signs include:
 * Fan spins
 * Power light is on
 
-If so, congrats! Just a few final checks left!
+If so, congrats!
 
 ![Alt text](photos/sirius1/run.jpeg)
 
-* Before reinstalling, double check voltage. Use a multimeter.
-	* Black probe on metal case (Use a screw to jam it in)
+* Before reinstalling, double check voltage
+	* Use a multimeter
+	* Black probe on metal case (Use a screw to hold in place)
 	* Touch red probe on each metal contact 
 	* Make sure voltage rail matches
 		* ±5% is fine
 		* NC = Not connected, no wires.
-	* If values are completely wrong, make sure you didn't plug in the harness backwards or off-by-one.
+	* If values are completely wrong, make sure you didn't plug in the harness **backwards** or **off-by-one**.
 
 ![Alt text](photos/sirius1/volt.png)
 
 ## 💥 Exploding Caps Alert
 
-At this stage, you can *theoretically* button everything up and turn it on.
-
-However, beware that if you do, things might get slightly explody.
-
 There are a few **Tantalum Capacitors** on the **floppy controller PCB**.
 
-As they age, they often **fail short** and either explode, blow a fuse, or trip the PSU protection circuit.
+As they age, they often **fail short** and **explode** or **trip the protection** circuit.
 
 ![Alt text](photos/sirius1/caps.png)
 
@@ -322,13 +319,11 @@ Anyway, now you're aware, we can continue putting it back together.
 * If a cap explodes, cut it off.
 * If fuses blows or PSU goes into protection, check for shorted caps on 12V rail again.
 
-Apart from exploding caps, they seems to be very reliable!
+Hopefully it works!
 
-I have 3 and they all worked straightaway.
+While you're in there, might worth give the floppy drive a clean and blow out the dust.
 
-Anyway, while you're in there, might worth give the floppy drive a clean and blow out the dust.
-
-Enjoy!
+Reassemble fully and enjoy!
 
 ![Alt text](photos/sirius1/money.jpeg)
 
