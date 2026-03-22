@@ -150,6 +150,7 @@ If this is your first time:
 ![Alt text](photos/sirius1/press.png)
 
 * Separate the two halves
+* Leave the main harness inside for now
 
 [Photo: PSU two halves separated]
 
@@ -157,6 +158,179 @@ If this is your first time:
 * Remove the circuit board
 
 [Photo: Looking into PSU with original PCU, no mains power wires, no fan wires, output harness unplugged]
+
+* Observe the **four highlighted screw holes** inside the metal case
+* Some are **bare holes**, some have **threaded inserts**.
+	* Numbers can be different
+	* You may have 2 each, or 3 & 1.
+
+![Alt text](photos/sirius1/holes.png)
+
+* Install **M3 Screws and Standoffs** on the PCB
+	* **ONLY** on corners with **bare holes**
+
+![Alt text](photos/sirius1/standoff.png)
+
+![Alt text](photos/sirius1/bare.png)
+
+* Lower the PCB assembly into the case.
+* Ensure holes line up
+	* You can loosen screws slightly to adjust
+* Use original screws for threaded inserts
+
+![Alt text](photos/sirius1/incase.png)
+
+* Flip over
+* Install **M3 Nuts** on bare holes
+* We're done with this half of the case!
+	* Feel free to put it away for now
+
+![Alt text](photos/sirius1/bareback.png)
+
+* Take out the other half
+* Undo the four screws to remove the fan
+
+![Alt text](photos/sirius1/fanback.png)
+
+* Install the new PC Fan
+	* Fan should **blow air OUT of case**
+		* See arrow on the fan shroud for air direction
+	* Ensure the cable is on the corner shown
+	* You can use the original nuts & bolts
+	* But if the fan comes with self-tapping screws, you can use those too.
+
+![Alt text](photos/sirius1/fan.png)
+
+* Next up: Power Connection
+	* ⚠️ **Involves mains voltage!**
+	* Ensure everything is unplugged
+	* Pay attention to the steps!
+
+* Look at the connector that plugs into the old PSU
+	* It should have **two wires**.
+	* Brown is **LIVE**
+		* Comes out of **fuse holder**
+	* White is **Neutral**
+		* Comes out of the **power switch**
+	* **Remember where they go!**
+		* Take photos!
+
+![Alt text](photos/sirius1/conn.png)
+
+* Unplug the **LIVE** wire from the **Fuse Holder**
+	* Use a **pair of pliers**
+	* Grab the **NECK**
+	* Wiggle side-to-side and pull
+	* **DO NOT** pull on the wire itself!
+* Plug the new **BROWN** wire into the same terminal.
+	* All the way in
+	* Ensure the **protective cover is in place**
+
+![Alt text](photos/sirius1/post.png)
+
+* Unplug the old **white Neutral** wire
+* Plug in the new **blue Neutral** wire
+	* Same precautions
+
+![Alt text](photos/sirius1/blue.png)
+
+* On the home stretch now!
+* Plug the output harness into the PCB
+	* Match the **missing pins**
+	* **Check BOTH ends** to ensure it's not off-by-one.
+* Insert fan cable through the grommet
+	* Plug into fan header
+* Install mains wires to MeanWell PSU
+	* Neutral: Blue
+	* Live: Brown
+* Double check all terminal connections
+	* Should be tight
+	* No rattles
+
+![Alt text](photos/sirius1/final.png)
+
+* Time to put the two halves back together!
+	* Remove hand-tight temp screws
+	* Tuck wires, ensure nothing is pinched.
+	* Redo the screws
+
+Take a breath and turn it on!
+
+Good signs include:
+
+* Not blowing up
+* Fan spins
+* Power light is on
+
+If so, congrats! Just a few final checks left!
+
+![Alt text](photos/sirius1/run.jpeg)
+
+* Before reinstalling, double check voltage. Use a multimeter.
+	* Black probe on metal case (Use a screw to jam it in)
+	* Touch red probe on each metal contact 
+	* Make sure voltage rail matches
+		* ±5% is fine
+		* NC = Not connected, no wires.
+	* If values are completely wrong, make sure you didn't plug in the harness backwards or off-by-one.
+
+![Alt text](photos/sirius1/volt.png)
+
+## 💥 Exploding Caps Alert
+
+At this stage, you can *theoretically* button everything up and turn it on.
+
+However, beware that if you do, things might get slightly explody.
+
+There are a few **Tantalum Capacitors** on the **floppy controller PCB**.
+
+As they age, they often **fail short** and either explode, blow a fuse, or trip the PSU protection circuit.
+
+![Alt text](photos/sirius1/caps.png)
+
+How they look like:
+
+![Alt text](photos/sirius1/look.png)
+
+### Check for Shorted Caps
+
+* Multimeter, continuity mode, touch **both ends of the cap**.
+* If the meter shows a dead short (less than 10 ohm), then most likely the cap has shorted.
+	* You can just cut it off, no need to replace.
+* If no short, you can leave it or cut it.
+
+
+How they look like after the big oops:
+
+![Alt text](photos/sirius1/explode.png)
+
+Anyway, now you're aware, we can continue putting it back together.
+
+* Reconnect the power connectors
+	* Match missing pins
+
+![Alt text](photos/sirius1/backin.png)
+
+* Remove finger-tight temp screws
+* Reinstall PSU
+
+![Alt text](photos/sirius1/reass.png)
+
+### First Power-On
+
+* Use eye-protection
+* If a cap explodes, cut it off.
+* If fuses blows or PSU goes into protection, check for shorted caps on 12V rail again.
+
+Apart from exploding caps, they seems to be very reliable!
+
+I have 3 and they all worked straightaway.
+
+Anyway, while you're in there, might worth give the floppy drive a clean and blow out the dust.
+
+Enjoy!
+
+![Alt text](photos/sirius1/money.jpeg)
 
 
 ## Questions or Comments?
