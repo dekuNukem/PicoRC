@@ -4,7 +4,7 @@
 
 ----
 
-A replacement PSU kit for **Sirius 1 / Victor 9000**
+A replacement PSU kit for **Sirius 1 / Victor 9000** Computers
 
 ![Alt text](photos/sirius1/title.jpeg)
 
@@ -20,7 +20,6 @@ A replacement PSU kit for **Sirius 1 / Victor 9000**
 
 ![Alt text](photos/sirius1/money.jpeg)
 
-
 ## Get One
 
 * United Kingdom
@@ -34,9 +33,25 @@ For more general-purpose diagnostics and retrofitting, [check out ATX4VC](https:
 
 ## Shopping List
 
-Mean Well
+Apart from the kit itself, you also need to buy a **Mean Well PSU** and a **80mm PC Fan**.
 
-80mm PC Fan
+### Mean Well PSU
+
+This kit uses **Mean Well RT-65B** Chassis Mount PSU.
+
+It provides +5V, +12V, and -12V needed by the computer.
+
+Inexpensive and good quality at around 20USD/GBP.
+
+Buy from a reputable distributer such as DigiKey, Mouser, or RS components. (**NOT ebay or aliexpress**)
+
+**MAKE SURE IT IS THE "B" VARIANT!**
+
+### 80mm PC Fan
+
+Used to replace the fan
+
+Any 4-pin 80mm PC fan should work. 
 
 ## Kit Assembly
 
@@ -249,12 +264,12 @@ If this is your first time:
 
 ![Alt text](photos/sirius1/final.png)
 
-* Time to put the two halves back together!
+* Put the two halves back together
 	* Remove hand-tight temp screws
 	* Tuck wires, ensure nothing is pinched.
 	* Redo the screws
 
-Take a breath and turn it on!
+Take a breath and turn it on **by itself**!
 
 Good signs include:
 
@@ -296,8 +311,7 @@ How they look like:
 	* You can just cut it off, no need to replace.
 * If no short, you can leave it or cut it.
 
-
-How they look like after the big oops:
+How they look after the big woopsie:
 
 ![Alt text](photos/sirius1/explode.png)
 
@@ -321,12 +335,19 @@ Anyway, now you're aware, we can continue putting it back together.
 
 Hopefully it works!
 
-While you're in there, might worth give the floppy drive a clean and blow out the dust.
+While you're in there, might worth giving the floppy drive a service and clean out the dust.
+
+### Keep the Original Parts!
+
+* **DO NOT** throw anything away!
+* Put all the removed parts in a bag or box
+* Clearly **label and date** for future reference
+
+![Alt text](photos/sirius1/bag.jpeg)
 
 Reassemble fully and enjoy!
 
 ![Alt text](photos/sirius1/money.jpeg)
-
 
 ## Questions or Comments?
 
