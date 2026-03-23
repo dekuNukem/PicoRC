@@ -33,25 +33,28 @@ For more general-purpose diagnostics and retrofitting, [check out ATX4VC](https:
 
 ## Shopping List
 
-Apart from the kit itself, you also need to buy a **Mean Well PSU** and a **80mm PC Fan**.
+Apart from the kit itself, you need two more items:
+
+![Alt text](photos/sirius1/buy.png)
 
 ### Mean Well PSU
 
 This kit uses **Mean Well RT-65B** Chassis Mount PSU.
 
-It provides +5V, +12V, and -12V needed by the computer.
+⚠️ ⚠️ **MAKE SURE IT IS THE "B" VARIANT!** ⚠️ ⚠️
 
-Inexpensive and good quality at around 20USD/GBP.
+* Inexpensive and good quality
+* Around 20 USD / GBP
+* Buy from a reputable distributor, **NOT eBay or Aliexpress**!
+	* [Mouser](https://www.mouser.com)
+     * [DigiKey](https://www.digikey.com)
+     * [RS Components](https://www.rs-online.com), etc.
 
-Buy from a reputable distributer such as DigiKey, Mouser, or RS components. (**NOT ebay or aliexpress**)
+### PC Fan
 
-**MAKE SURE IT IS THE "B" VARIANT!**
-
-### 80mm PC Fan
-
-Used to replace the fan
-
-Any 4-pin 80mm PC fan should work. 
+* Replaces the mains-voltage fan.
+* Any **80mm 4-Pin PC fan** should work.
+* Search on your favorite online marketplace.
 
 ## Kit Assembly
 
@@ -67,7 +70,7 @@ Nothing too tricky in this kit, all basic through-hole stuff.
 
 If this is your first time:
 
-* Make sure your soldering iron has **proper temperature control**
+* Ensure your soldering iron has **proper temperature control**
 	* Try your local makerspace or university lab
 * Use **leaded solder** and plenty of flux
 	* Temperature around 350C / 660F.
@@ -102,6 +105,7 @@ If this is your first time:
 * Insert strands through corresponding holes
 	* Make sure **all strands goes through**
 	* And **no loose strands being caught on top side**
+* Solder in place
 
 ![Alt text](photos/sirius1/bent.png)
 
@@ -110,6 +114,7 @@ If this is your first time:
 * Compare with photos and notes above.
 	* Ensure everything has correct polarity.
 * Solder joints should be **shiny and smooth**.
+	* Trim off excess legs
 	* If you see spikes, put on more flux and melt it again.
 * There must be **no solder bridges**.
 
@@ -117,11 +122,21 @@ If this is your first time:
 
 ### Installation
 
+📷 Remember to **take plenty of photos** as you go! 📷
+
+📷 Take a photo before you **remove a screw** or **unplug anything** 📷
+
+🚯 **DO NOT** throw anything away! Keep the original parts, **date and label** clearly. 🚯
+
+------
+
+OK Let's start!
+
 * Remove 4 screws on the back
 
 ![Alt text](photos/sirius1/backcase.png)
 
-* Unhinge the back cover **from top side**
+* Unhinge the back cover **from top**
 	* Might need a gentle tug due to velcro pads
 * Reach in and unplug the **reset button**
 
@@ -138,7 +153,7 @@ If this is your first time:
 
 ![Alt text](photos/sirius1/unplug.png)
 
-* Remove the PSU Completely
+* Remove the PSU completely
 * Insert the screws back in their holes for safekeeping
 	* Finger tight is fine
 * Put the computer away for now
@@ -153,11 +168,10 @@ If this is your first time:
 
 * Split the PSU in half
 * Unplug the connectors shown
-* Reinstall screws for safekeeping
 
 ![Alt text](photos/sirius1/split.png)
 
-* On the fan connector:
+* De-pin the fan connector
 	* Press down on the metal tab with a **thin flathead screwdriver**
 	* AND **gently pull on the cable**
 	* It should release
@@ -165,14 +179,15 @@ If this is your first time:
 ![Alt text](photos/sirius1/press.png)
 
 * Separate the two halves
-* Leave the main harness inside for now
+* Reinstall screws for safekeeping
+* Leave the output harness inside
 
-[Photo: PSU two halves separated]
+![Alt text](photos/sirius1/halves.png)
 
-* Undo screws
+* Undo 4 screws
 * Remove the circuit board
 
-[Photo: Looking into PSU with original PCU, no mains power wires, no fan wires, output harness unplugged]
+![Alt text](photos/sirius1/undo.png)
 
 * Observe the **four highlighted screw holes** inside the metal case
 * Some are **bare holes**, some have **threaded inserts**.
@@ -200,7 +215,7 @@ If this is your first time:
 * We're done with this half of the case!
 	* Put it away for now
 
-![Alt text](photos/sirius1/bareback.png)
+![Alt text](photos/sirius1/nuts.png)
 
 * Take out the other half
 * Undo the four screws to remove the fan
@@ -253,9 +268,10 @@ If this is your first time:
 * Plug the output harness into the PCB
 	* Match the **missing pin**
 	* **Check BOTH ends** to ensure it's not off-by-one.
-* Insert fan cable through the grommet
+* Insert 4-pin fan cable
+	* Should fit through the grommet, barely.
 	* Plug into fan header
-* Install mains wires to MeanWell PSU
+* Install mains wires on MeanWell PSU
 	* Neutral: Blue
 	* Live: Brown
 * Double check all terminal connections
