@@ -52,7 +52,7 @@ For more **general-purpose** diagnostics and retrofitting, check out [ATX4VC](ht
 
 ### ACT Sirius 1 / Victor 9000
 
-[Purchase Link](https://www.tindie.com/products/) | [Instructions](sirius1.md)
+[Purchase Link](https://www.tindie.com/products/41802/) | [Instructions](sirius1.md)
 
 ### Apricot PC / PC XI / PC286
 

@@ -1,6 +1,6 @@
 # PicoRC PSU Kit for Sirius 1 / Victor 9000
 
-[Purchase Link](https://www.tindie.com/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+[Purchase Link](https://www.tindie.com/products/41802/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
 
 ----
 
@@ -25,7 +25,7 @@ A replacement PSU kit for **Sirius 1 / Victor 9000** Computers
 * United Kingdom
 	* [Kit]()
 	* [Fully Assembled]()
-* [USA / EU / Rest of World]()
+* [USA / EU / Rest of World](https://www.tindie.com/products/41802/)
 
 Also available for [**many other computers.**](./README.md)
 
