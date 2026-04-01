@@ -10,11 +10,11 @@ PicoRC is a line of replacement **Power-supply Units (PSU)** for vintage compute
 
 ## Features
 
-* **Non-destructive** and **Reversible**
+* **Non-destructive** and **reversible**
 * Universal voltage with **fused** rails
 * **PC Fan header** for added cooling
 
-For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https://github.com/dekuNukem/ATX4VC).
+For more **general-purpose** diagnostics and retrofitting, check out [ATX4VC](https://dekunukem.github.io/ATX4VC/).
 
 ## Available For:
 
@@ -64,7 +64,7 @@ For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https:
 
 ## Get in Touch
 
-Want more? Join our official [Discord Chatroom](https://discord.gg/T9uuFudg7j) for updates.
+Join our official [Discord Chatroom](https://discord.gg/T9uuFudg7j) for updates.
 
 Questions or comments? Ask in Discord, or raise a [Github issue](https://github.com/dekuNukem/ATX4VC/issues), or email `dekunukem` `gmail.com`!
 
