@@ -22,9 +22,7 @@ A replacement PSU kit for **Sirius 1 / Victor 9000** Computers
 
 ## Get One
 
-* United Kingdom
-	* [Kit]()
-	* [Fully Assembled]()
+* [United Kingdom](https://www.ebay.co.uk/itm/366320447428)
 * [USA / EU / Rest of World](https://www.tindie.com/products/41802/)
 
 Also available for [**many other computers.**](./README.md)
