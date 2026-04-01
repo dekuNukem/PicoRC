@@ -16,7 +16,7 @@ PicoRC is a line of adaptors that lets you use **Pico ATX PSU** in vintage compu
 
 * **PC Fan header** for added cooling
 
-For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https://github.com/dekuNukem/ATX4VC)!
+For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https://github.com/dekuNukem/ATX4VC).
 
 ## Available For:
 

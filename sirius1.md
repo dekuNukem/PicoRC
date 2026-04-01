@@ -47,8 +47,8 @@ This kit uses **Mean Well RT-65B** Chassis Mount PSU.
 * Around 20 USD / GBP
 * Buy from a reputable distributor, **NOT eBay or Aliexpress**!
 	* [Mouser](https://www.mouser.com)
-     * [DigiKey](https://www.digikey.com)
-     * [RS Components](https://www.rs-online.com), etc.
+    * [DigiKey](https://www.digikey.com)
+    * [RS Components](https://www.rs-online.com), etc.
 
 ### PC Fan
 
@@ -66,7 +66,7 @@ You should have the following:
 
 ### Soldering Notes
 
-Nothing too tricky in this kit, all basic through-hole stuff.
+Nothing too tricky in this kit, all basic through-hole parts.
 
 If this is your first time:
 
@@ -75,6 +75,8 @@ If this is your first time:
 * Use **leaded solder** and plenty of flux
 	* Temperature around 350C / 660F.
 * [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well
+	* Start from **shortest to tallest**.
+	* Solder **a single pin** first, ensure it is straight, adjust if necessary.
 
 ### Assembly
 

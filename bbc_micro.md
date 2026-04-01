@@ -15,27 +15,22 @@ It replaces the original PSU, and uses common USB chargers instead.
 ## Highlights
 
 * **Non-destructive** and reversible
-
 * Use USB charger or power bank
-
 * Low cost, efficient and reliable.
 
 ## Get One / Other Stuff
 
 [Click me to get one!](https://www.tindie.com/products/31079/)
 
-Also available for [**Mac 128K, SE, Apple II/IIGS, Osborne 1, Apricot PC, BBC Micro, and more!**](./README.md)
+Also available for [**Mac 128K, SE, Apple II/IIGS, Osborne 1, Apricot PC, BBC Micro, and more.**](./README.md)
 
-For more general-purpose diagnostics and retrofitting, check out the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC)!
+For more general-purpose diagnostics and retrofitting, check out the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC).
 
 ## Table of Contents
 
 - [Kit Assembly](#kit-assembly)
-
 - [Pre-flight Checks](#pre-flight-checks)
-
 - [Installation](#installation)
-
 - [Questions or Comments?](#questions-or-comments)
 
 ## Kit Assembly
@@ -48,16 +43,18 @@ Observe the parts:
 
 ### Soldering Notes
 
-Nothing too tricky in this kit, all basic through-hole stuff.
+Nothing too tricky in this kit, all basic through-hole parts.
 
-If this is your first time, a few tips:
+If this is your first time:
 
-* Make sure your soldering iron has **proper temperature control**. Try your local makerspace or university lab.
-
-* Use **leaded solder** and plenty of flux, temperature around 320C / 600F.
-
-* [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well.
-
+* Ensure your soldering iron has **proper temperature control**
+	* Try your local makerspace or university lab
+* Use **leaded solder** and plenty of flux
+	* Temperature around 350C / 660F.
+* [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well
+	* Start from **shortest to tallest**.
+	* Solder **a single pin** first, ensure it is straight, adjust if necessary.
+	
 ### Assembly
 
 Insert the terminal blades and soldering them in place.

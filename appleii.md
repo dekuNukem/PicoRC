@@ -15,46 +15,39 @@ It replaces the old PSU, and uses very common 12V power brick instead.
 ## Highlights
 
 * **Non-destructive** and reversible
-
 * **PC fan header**
-
 * Universal voltage with fused rails
-
 * Low cost, efficient and reliable.
 
 ## Get One / Other Stuff
 
 [Click me to get one!](https://www.tindie.com/products/29185/)
 
-Also available for [Compact Macintosh, Apple IIGS, BBC Micro, Osborne 1, and more!](./README.md)
+Also available for [Compact Macintosh, Apple IIGS, BBC Micro, Osborne 1, and more.](./README.md)
 
-For more general-purpose diagnostics and retrofitting, check out the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC)!
+For more general-purpose diagnostics and retrofitting, check out the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC).
 
 ## Table of Contents
 
 - [Getting a Pico PSU](#getting-a-pico-psu)
-
 - [Kit Assembly](#kit-assembly)
-
 - [Pre-flight Checks](#pre-flight-checks)
-
 - [Installation](#installation)
-
 - [Questions or Comments?](#questions-or-comments)
 
 ## Getting a Pico PSU
 
-PicoPSU are tiny ATX power supplies for small PCs, but are perfect for retro computers as well.
+PicoPSUs are tiny ATX power supplies for small PCs, but perfect for retro computers as well.
 
 ![Alt text](photos/mac_plus/pico.jpg)
 
-* [Official website](https://www.mini-box.com/DC-DC) and [distributors](https://www.mini-box.com/site/resellers.html). Even the cheapest 80W one should be plenty.
-
-* Avoid generic clones. They over-rate and are of low quality.
-
+* [Official website](https://www.mini-box.com/DC-DC) and [distributors](https://www.mini-box.com/site/resellers.html).
+    * The cheapest 80W one should be plenty.
+* Avoid **generic clones**
+    * They over-rate and are of low quality.
 * A power brick with **12V DC** and **center positive** 5.5x2.5mm barrel jack is needed.
-
-* They are very popular and you might already have one. Make sure it has enough wattage.
+    * They are very popular and you might already have one.
+    * Make sure it has enough wattage.
 
 Remember that this solution is **only as good as your PicoPSU and 12V Brick**, so don't skimp on them!
 
@@ -68,18 +61,18 @@ Observe the parts:
 
 ### Soldering Notes
 
-Nothing too tricky in this kit, all basic through-hole stuff.
+Nothing too tricky in this kit, all basic through-hole parts.
 
-If this is your first time, a few tips:
+If this is your first time:
 
-* Make sure your soldering iron has **proper temperature control**. Try your local makerspace or university lab.
-
-* Use **leaded solder** and plenty of flux, temperature around 320C / 600F.
-
-* [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well.
-
-* Start from shortest to tallest. Solder **a single pin** first, and make sure the part is straight.
-
+* Ensure your soldering iron has **proper temperature control**
+	* Try your local makerspace or university lab
+* Use **leaded solder** and plenty of flux
+	* Temperature around 350C / 660F.
+* [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well
+	* Start from **shortest to tallest**.
+	* Solder **a single pin** first, ensure it is straight, adjust if necessary.
+	
 ### Assembly
 
 First, push the switch into the blanking plate as shown. Put it aside.
