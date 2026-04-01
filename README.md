@@ -4,16 +4,14 @@
 
 ----
 
-PicoRC is a line of adaptors that lets you use **Pico ATX PSU** in vintage computers.
+PicoRC is a line of replacement **Power-supply Units (PSU)** for vintage computers.
 
 ![Alt text](photos/mac_plus/header.jpeg)
 
 ## Features
 
-* **Non-destructive**
-
+* **Non-destructive** and **Reversible**
 * Universal voltage with **fused** rails
-
 * **PC Fan header** for added cooling
 
 For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https://github.com/dekuNukem/ATX4VC).
@@ -51,6 +49,10 @@ For more general-purpose diagnostics and retrofitting, check out [ATX4VC](https:
 ### BBC Master
 
 [Purchase Link](https://www.tindie.com/products/31079/) | [Instructions](bbc_master.md)
+
+### ACT Sirius 1 / Victor 9000
+
+[Purchase Link](https://www.tindie.com/products/) | [Instructions](sirius1.md)
 
 ### Apricot PC / PC XI / PC286
 
