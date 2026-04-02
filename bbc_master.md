@@ -52,8 +52,6 @@ If this is your first time:
 * Use **leaded solder** and plenty of flux
 	* Temperature around 350C / 660F.
 * [This video](https://www.youtube.com/watch?v=AqvHogekDI4) covers the basics pretty well
-	* Start from **shortest to tallest**.
-	* Solder **a single pin** first, ensure it is straight, adjust if necessary.
 	
 ### Assembly
 
@@ -88,10 +86,9 @@ Make sure it is **completely dry** before proceeding.
 ### Inspection
 
 * Compare with the reference photos below.
-
-* Solder joints should be **shiny and smooth**. If you see spikes, put on more flux and melt it again.
-
-* There must be **no solder bridges**. If any, put on flux and melt it to remove.
+* Solder joints should be **shiny and smooth**.
+* There must be **no solder bridges**.
+	* If any, add flux and melt to remove.
 
 ![Alt text](photos/bbc_micro/bottom.jpeg)
 
@@ -110,9 +107,7 @@ If all good, plug in a USB cable, turn on, and check the voltages.
 Push the cables into the terminal blades.
 
 * Red is 5V
-
 * Black is GND
-
 * Blue is -5V
 
 ![Alt text](photos/bbc_micro/term.jpeg)

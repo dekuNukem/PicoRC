@@ -94,11 +94,10 @@ More reference photos:
 
 ### Cleaning
 
-This is optional, but I like to clean off the flux with 90%+ isopropyl alcohol.
-
-Submerge and scrub with a toothbrush.
-
-Make sure it is **completely dry** before proceeding.
+* Compare with reference photos above/below.
+* Solder joints should be **shiny and smooth**.
+* There must be **no solder bridges**.
+	* If any, add flux and melt to remove.
 
 ### Fuse
 

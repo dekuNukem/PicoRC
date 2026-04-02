@@ -94,11 +94,10 @@ Make sure it is **completely dry** before proceeding.
 
 ### Inspection
 
-* Compare with the reference photo and notes above. Make sure everything is in correct orientation.
-
-* Solder joints should be **shiny and smooth**. If you see spikes, put on more flux and melt it again.
-
-* There must be **no solder bridges**. If any, put on flux and melt it to remove.
+* Compare with reference photos above/below.
+* Solder joints should be **shiny and smooth**.
+* There must be **no solder bridges**.
+	* If any, add flux and melt to remove.
 
 ![Alt text](photos/iigs/bottom.jpeg)
 
