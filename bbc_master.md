@@ -112,51 +112,49 @@ Push the cables into the terminal blades.
 
 ![Alt text](photos/bbc_micro/term.jpeg)
 
-Place the Beeb on a soft towel. Remove the screws shown.
+* Place the Beeb on a soft towel.
+* Remove the screws shown.
 
 ![Alt text](photos/bbc_master/back.jpeg)
 
-* Remove the top cover.
-
+* Flip Over
+* Remove the top cover
 * Unplug 7 blade connectors on the motherboard
-
-	* Grab the neck of the connector, wiggle straight up.
-
-	* DO NOT pull on the cable itself!
-
-* Undo 2 screws shown
-
+	* Grab the **neck**, wiggle **straight up**.
+	* **DO NOT** pull on the cable itself!
+* Undo 2 screws shown below
 * Lift and slide PSU **to the left** to remove
 
 ![Alt text](photos/bbc_master/psu.jpg)
 
-Insert the screw from the bottom as shown.
-
-Then the washers, and the standoff. Tighten with a 5mm socket.
+* Insert the screw from the bottom
+* Then the washers, and the standoff
+* Tighten with a 5mm socket
 
 ![Alt text](photos/bbc_micro/hole.png)
 
-Install the adaptor, secure with the screw.
+* Install the adaptor
+* Secure with the screw.
 
 ![Alt text](photos/bbc_micro/mounted.jpeg)
 
 Connect the other end to the motherboard as shown.
 
-VCC is red, 0V is black, -5V is blue.
+* **VCC**: Red
+* **0V**: Black
+* **-5V**: Blue
 
 ![Alt text](photos/bbc_master/vcc.jpg)
 
 Feel free to turn on and try it out!
 
-* The charger / power bank should provide at least 3A current.
-
+* The USB power source should provide **at least 3A current**
 * Make sure the USB-C cable is high quality.
-
-* Otherwise instabilities might occur.
+	* Otherwise instabilities might occur.
 
 ![Alt text](photos/bbc_master/money.jpeg)
 
-If it works, tuck the wires neatly and reassemble. Enjoy!
+If it works, tuck the wires and reassemble. Enjoy!
 
 ## Questions or Comments?
 
