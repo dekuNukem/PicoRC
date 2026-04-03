@@ -7405,7 +7405,7 @@ by exp-lbrs.ulp</description>
 by exp-lbrs.ulp</description>
 <packages>
 <package name="M3_HOLE_PLATED">
-<pad name="P$1" x="0" y="0" drill="3.5" diameter="6" thermals="no"/>
+<pad name="P$1" x="0" y="0" drill="3.75" diameter="6" thermals="no"/>
 </package>
 <package name="M2.5_HOLE_PLATED">
 <pad name="P$1" x="0" y="0" drill="2.75" diameter="5" thermals="no"/>

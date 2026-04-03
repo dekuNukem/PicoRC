@@ -323,7 +323,7 @@ by exp-lbrs.ulp</description>
 by exp-lbrs.ulp</description>
 <packages>
 <package name="M3_HOLE_PLATED">
-<pad name="P$1" x="0" y="0" drill="3.5" diameter="6" thermals="no"/>
+<pad name="P$1" x="0" y="0" drill="3.75" diameter="6" thermals="no"/>
 </package>
 <package name="MEANWELL_RT65">
 <wire x1="0" y1="0" x2="129" y2="0" width="0.1524" layer="21"/>
