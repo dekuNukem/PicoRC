@@ -4,7 +4,7 @@
 
 ----
 
-This adaptor lets you power your BBC micro via USB-C.
+This adaptor lets you power your BBC Micro via **USB-C**.
 
 ![Alt text](photos/bbc_micro/title.jpeg)
 
@@ -112,45 +112,49 @@ Push the cables into the terminal blades.
 
 ![Alt text](photos/bbc_micro/term.jpeg)
 
-Place the Beeb on a soft towel. Remove the screws shown.
+* Place the Beeb on a soft towel
+* Remove the screws shown
 
 ![Alt text](photos/bbc_micro/back.png)
 
-Flip over, remove the two screws shown.
+* Flip over
+* Remove two more screws
 
 ![Alt text](photos/bbc_micro/ports.jpeg)
 
-Remove the top cover.
-
-Loosen the two nuts shown to free up the keyboard.
-
-Unplug and remove the power supply.
+* Remove the top cover
+* Loosen the two nuts to free up the keyboard
+* Unplug **7 blade connectors** on the motherboard
+	* Grab the **neck**, wiggle **straight up**.
+	* **DO NOT** pull on the cable itself!
+* Remove the power supply
 
 ![Alt text](photos/bbc_micro/kb.jpeg)
 
-Insert the screw from the bottom as shown.
-
-Then the washers, and the standoff. Tighten with a 5mm socket.
+* Insert screw from the bottom
+* Then washers, and the standoff. 
+* Tighten with a 5mm socket
 
 ![Alt text](photos/bbc_micro/hole.png)
 
-Install the adaptor, secure with the screw.
+* Install the adaptor
+* Secure with screw
 
 ![Alt text](photos/bbc_micro/mounted.jpeg)
 
-Connect the other end to the motherboard as shown.
+Connect the other end to the motherboard as shown
 
-VCC is red, 0V is black, -5V is blue.
+* **VCC**: Red
+* **0V**: Black
+* **-5V**: Blue
 
 ![Alt text](photos/bbc_micro/vcc.jpeg)
 
 Feel free to turn on and try it out!
 
-* The charger / power bank should provide at least 3A current.
-
-* Make sure the USB-C cable is high quality.
-
-* Otherwise instabilities might occur.
+* The USB power source should provide **at least 3A current**
+* Make sure the USB-C cable is high quality
+	* Otherwise instabilities might occur
 
 ![Alt text](photos/bbc_micro/money.jpeg)
 

@@ -4,7 +4,7 @@
 
 ----
 
-This adaptor lets you power your BBC Master via USB-C.
+This adaptor lets you power your **BBC Master** via **USB-C**.
 
 ![Alt text](photos/bbc_master/title.jpeg)
 
@@ -112,14 +112,14 @@ Push the cables into the terminal blades.
 
 ![Alt text](photos/bbc_micro/term.jpeg)
 
-* Place the Beeb on a soft towel.
-* Remove the screws shown.
+* Place Beeb on a soft towel
+* Remove the screws shown
 
 ![Alt text](photos/bbc_master/back.jpeg)
 
 * Flip Over
 * Remove the top cover
-* Unplug 7 blade connectors on the motherboard
+* Unplug **7 blade connectors** on the motherboard
 	* Grab the **neck**, wiggle **straight up**.
 	* **DO NOT** pull on the cable itself!
 * Undo 2 screws shown below
@@ -149,8 +149,8 @@ Connect the other end to the motherboard as shown.
 Feel free to turn on and try it out!
 
 * The USB power source should provide **at least 3A current**
-* Make sure the USB-C cable is high quality.
-	* Otherwise instabilities might occur.
+* Make sure the USB-C cable is high quality
+	* Otherwise instabilities might occur
 
 ![Alt text](photos/bbc_master/money.jpeg)
 
