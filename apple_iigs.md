@@ -86,7 +86,7 @@ More reference photos:
 
 ### Cleaning
 
-This is optional, but I like to clean off the flux with 90%+ isopropyl alcohol.
+Optional, but I like to clean off the flux with 90%+ isopropyl alcohol.
 
 Submerge and scrub with a toothbrush.
 
@@ -103,32 +103,28 @@ Make sure it is **completely dry** before proceeding.
 
 ### Power Button
 
-Slide heat shrink tubing over each jumper wire.
-
-Solder the wires to the button.
+* Insert heat shrink tube through both wires.
+* Solder the wires to the button.
 
 ![Alt text](photos/iigs/but1.jpeg)
 
-Slide the tubing up to cover the contacts. Use hot air to shrink.
+* Slide the tubing up to cover the contacts.
+* Use hot air to shrink.
 
 ![Alt text](photos/iigs/but2.jpeg)
 
-## Board Features
-
-Install **two fuses** and the **jumper block** as shown below.
+* Install **two fuses**
 
 ![Alt text](photos/iigs/feature.png)
 
-### PC Fan Header
+PC Fan Header:
 
-* Any standard 3 or 4-pin PC fan should work
+* Any standard 3 or 4-pin PC fan will work
 
-* Run it at 12V (full speed) or 5V (quieter) by changing the jumper
+Fuse:
 
-### Fuse
-
-* Use common car fuse rated **5A OR LESS**
-
+* Use common car fuse
+	* Rated **5A OR LESS**
 * **DO NOT BYPASS FUSES**
 
 ## Pre-flight Checks
@@ -147,57 +143,51 @@ If all good, plug in PicoPSU and connect the power button, turn it on.
 
 This is to prevent short circuit on nearby components.
 
-There should be four nylon rivets. Use the **two longer ones** for this.
+There should be four **nylon rivets**.
+
+Use the **two longer ones** for this.
 
 ![Alt text](photos/iigs/insulate.png)
 
-Pull them apart, insert the hollow tube from the back, then insert the plunger to fix it in place.
+* Pull them apart
+* Insert the hollow tube from bottom side
+* Insert the plunger to secure in place
 
 ![Alt text](photos/iigs/backplate.png)
 
 ## Installation
 
 * Remove top cover
-
 * Pull back the tab to release old PSU
-
 * Unplug cable
 
 ![Alt text](photos/iigs/top.jpeg)
 
 * Get the power jack plates, place one inside.
-
 * Pull apart the rivets like last time
-
 * Insert the hollow tube on the outside plate
-
 * Line up and make sure it goes through both plates
 
 ![Alt text](photos/iigs/jackplate.jpeg)
 
 * Support the other side with your hand
-
-* Insert the plunger to hold it in place.
+* Insert the plunger to hold it in place
 
 ![Alt text](photos/iigs/jackcover.jpeg)
 
 * Next up, power button.
-
 * Gather all the parts. Undo the locking ring.
 
 ![Alt text](photos/iigs/swparts.jpeg)
 
 * From outside, insert the button through the square plate.
-
 * From inside, install the rectangle plate, then tighten with the locking ring.
 
 ![Alt text](photos/iigs/swmount.png)
 
-* Then just plug the whole thing into the power connector!
-
+* Plug the assembly into the motherboard power connector
 * It should go in firmly, but NOT reach the bottom.
-
-* Plug in the power button.
+* Plug in the power button
 
 ![Alt text](photos/iigs/plug.jpeg)
 
@@ -213,17 +203,17 @@ That's pretty much it!
 
 ### Adding a Fan
 
-You can add a fan for additional cooling.
+You can add a fan for additional cooling. Any regular PC fan should work.
 
-Any regular PC fan should work, you can run it at 12V (full speed) or 5V (quieter).
+Ensure:
 
-Make sure the fan is secured, nothing touches the blade, and air flow direction is correct.
+* Fan is mounted securely
+* Nothing touches the blade
+* Air flow direction is correct
 
 ## Congratulations!
 
 Put the cover back on, and you're done!
-
-With new PSU and upgraded cooling, your IIGS should continue to provide entertainment for years to come!
 
 ![Alt text](photos/iigs/money.jpeg)
 
