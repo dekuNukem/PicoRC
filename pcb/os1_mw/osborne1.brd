@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -28,14 +28,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -197,17 +197,17 @@
 <wire x1="0" y1="5" x2="5" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="5" y1="0" x2="143" y2="0" width="0" layer="20"/>
 <wire x1="143" y1="0" x2="147" y2="6" width="0" layer="20" curve="90"/>
-<text x="133.799" y="76.854" size="1.778" layer="25" align="center">YL</text>
-<text x="133.771" y="79.394" size="1.6764" layer="25" align="center">OG</text>
-<text x="133.803" y="81.934" size="1.6764" layer="25" align="center">RD</text>
-<text x="133.692" y="84.474" size="1.6764" layer="25" align="center">NC</text>
+<text x="132.799" y="64.854" size="1.778" layer="25" align="center">YL</text>
+<text x="132.771" y="67.394" size="1.6764" layer="25" align="center">OG</text>
+<text x="132.803" y="69.934" size="1.6764" layer="25" align="center">RD</text>
+<text x="132.692" y="72.474" size="1.6764" layer="25" align="center">NC</text>
 <text x="133.578" y="97.436" size="2.54" layer="25" rot="R180" align="center">PE</text>
-<text x="113.5" y="20.5" size="3.81" layer="25" align="center-left">LIVE</text>
-<text x="113.5" y="30" size="3.81" layer="25" align="center-left">NEUTRAL</text>
-<text x="133.418" y="43.82" size="1.778" layer="25" align="center">YL</text>
-<text x="133.39" y="46.36" size="1.6764" layer="25" align="center">OG</text>
-<text x="133.422" y="48.9" size="1.6764" layer="25" align="center">RD</text>
-<text x="133.311" y="51.44" size="1.6764" layer="25" align="center">NC</text>
+<text x="113.5" y="20.5" size="3.81" layer="25" align="center-left">L</text>
+<text x="113.5" y="31" size="3.81" layer="25" align="center-left">N</text>
+<text x="133.918" y="31.82" size="1.778" layer="25" align="center">YL</text>
+<text x="133.89" y="34.36" size="1.6764" layer="25" align="center">OG</text>
+<text x="133.922" y="36.9" size="1.6764" layer="25" align="center">RD</text>
+<text x="133.811" y="39.44" size="1.6764" layer="25" align="center">NC</text>
 <text x="-16.936" y="29.328" size="3.81" layer="25" rot="SR270" align="center">picoRC.com</text>
 <text x="130.828" y="2.686" size="2.54" layer="25" rot="R180" align="center">PC FAN</text>
 <text x="41.672" y="34.064" size="5.08" layer="26" rot="MR0" align="center">Osborne 1
@@ -224,10 +224,10 @@ picoRC.com</text>
 <text x="121.672" y="59.064" size="5.08" layer="26" rot="MR0" align="center-left">+12V</text>
 <text x="121.672" y="69.064" size="5.08" layer="26" rot="MR0" align="center-left">GND</text>
 <text x="121.672" y="78.064" size="5.08" layer="26" rot="MR0" align="center-left">+5V</text>
-<text x="133.672" y="60.203" size="1.778" layer="25" align="center">YL</text>
-<text x="133.644" y="62.743" size="1.6764" layer="25" align="center">OG</text>
-<text x="133.676" y="65.283" size="1.6764" layer="25" align="center">RD</text>
-<text x="133.565" y="67.823" size="1.6764" layer="25" align="center">NC</text>
+<text x="132.672" y="48.203" size="1.778" layer="25" align="center">YL</text>
+<text x="132.644" y="50.743" size="1.6764" layer="25" align="center">OG</text>
+<text x="132.676" y="53.283" size="1.6764" layer="25" align="center">RD</text>
+<text x="132.565" y="55.823" size="1.6764" layer="25" align="center">NC</text>
 <text x="139.772" y="68.396" size="1.4224" layer="26" distance="80" rot="MR0" align="center-right">NC
 RED
 ORANGE
@@ -260,12 +260,14 @@ YELLOW</text>
 <polygon width="1.27" layer="41">
 <vertex x="132.75" y="31.5"/>
 <vertex x="145.25" y="31.5"/>
-<vertex x="145.25" y="13.5"/>
-<vertex x="132.75" y="13.5"/>
+<vertex x="145.25" y="12.5"/>
+<vertex x="132.75" y="12.5"/>
 </polygon>
-<rectangle x1="135" y1="19" x2="143" y2="21" layer="46"/>
+<rectangle x1="135" y1="18" x2="143" y2="20" layer="46"/>
 <rectangle x1="121" y1="24.5" x2="131" y2="26.5" layer="46"/>
 <text x="12.096" y="30.002" size="3.81" layer="26" rot="MR90" align="center">12V 3A</text>
+<text x="144.5" y="24" size="3.81" layer="25" align="center-left">N</text>
+<text x="144.5" y="14.5" size="3.81" layer="25" align="center-left">L</text>
 </plain>
 <libraries>
 <library name="os1">
@@ -761,7 +763,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="5.365" y="54.5814" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="U$3" library="os1" package="TERMINAL9500_MAINS" value="TERM_RD50_MAINS" x="126" y="78" smashed="yes" rot="R270"/>
-<element name="U$2" library="396_conn" package="396_2P_LIVE" value="396_2P_LIVE" x="139" y="20" smashed="yes" rot="R90"/>
+<element name="U$2" library="396_conn" package="396_2P_LIVE" value="396_2P_LIVE" x="139" y="19" smashed="yes" rot="R90"/>
 <element name="U$7" library="atx_power_control" package="FUSE_HOLDER_3IN1" value="CAR_FUSE_HOLDER3IN1" x="6" y="30" smashed="yes" rot="MR90"/>
 </elements>
 <signals>
@@ -870,15 +872,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$3">
 <contactref element="U$3" pad="P$6"/>
 <contactref element="U$2" pad="P$2"/>
-<wire x1="139" y1="23.96" x2="135.04" y2="23.96" width="1.27" layer="16"/>
-<wire x1="128.5" y1="30.5" x2="126" y2="30.5" width="1.27" layer="16"/>
-<wire x1="135.04" y1="23.96" x2="128.5" y2="30.5" width="1.27" layer="16"/>
+<wire x1="139" y1="22.96" x2="137.04" y2="22.96" width="1.27" layer="16"/>
+<wire x1="129.5" y1="30.5" x2="126" y2="30.5" width="1.27" layer="16"/>
+<wire x1="137.04" y1="22.96" x2="129.5" y2="30.5" width="1.27" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="U$2" pad="P$1"/>
 <contactref element="U$3" pad="P$7"/>
-<wire x1="139" y1="16.04" x2="134.46" y2="16.04" width="1.27" layer="16"/>
-<wire x1="134.46" y1="16.04" x2="129.5" y2="21" width="1.27" layer="16"/>
+<wire x1="139" y1="15.04" x2="135.46" y2="15.04" width="1.27" layer="16"/>
+<wire x1="135.46" y1="15.04" x2="129.5" y2="21" width="1.27" layer="16"/>
 <wire x1="129.5" y1="21" x2="126" y2="21" width="1.27" layer="16"/>
 </signal>
 </signals>
@@ -893,8 +895,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="6,1,f466980a9abaf6d6"/>
 <approved hash="6,1,8186edeaedba81d6"/>
 <approved hash="6,1,b8a6b8260075fb37"/>
-<approved hash="6,1,f342e970e89ef2ac"/>
-<approved hash="6,1,efc2f5f0fa3ee00c"/>
 <approved hash="6,1,8c63180f1a9b8ef7"/>
 <approved hash="6,1,f9836def6d9bf9f7"/>
 <approved hash="6,1,94f3009f0163950f"/>
@@ -903,6 +903,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="6,1,e01e8c7282e2ee8e"/>
 <approved hash="6,1,3a65555954783b44"/>
 <approved hash="6,1,3d8f52b366ec09d0"/>
+<approved hash="6,1,f5aaef98e0e6fad4"/>
+<approved hash="6,1,f38ae9b8ec36f604"/>
 </errors>
 </board>
 </drawing>
