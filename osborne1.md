@@ -4,7 +4,7 @@
 
 ----
 
-An replacement PSU kit for **Osborne 1**
+A replacement PSU kit for **Osborne 1**
 
 ![Alt text](photos/osborne1/os1mw_title.jpeg)
 
@@ -32,13 +32,13 @@ For more general-purpose diagnostics and retrofitting, check out the [full-fat A
 
 ## Additional Shopping
 
-Apart from the kit itself, you need to buy a **Mean Well** Chassis Mount PSU.
+Apart from the kit itself, you need to buy a **Mean Well** PSU.
 
 * Both **Mean Well RD-50A** and **RID-50A** works
 
 ⚠️ ⚠️ **MAKE SURE IT IS THE "A" VARIANT!** ⚠️ ⚠️
 
-* Around 15 USD / GBP
+* Around 20 USD / GBP
 * Buy from a reputable distributor, **NOT eBay or Aliexpress**!
 	* [Mouser](https://www.mouser.co.uk/ProductDetail/MEAN-WELL/RD-50A?qs=V9a8iPeg90x33CByXejgiw%3D%3D)
     * [DigiKey](https://www.digikey.com/en/products/detail/mean-well-usa-inc/RD-50A/7705984)
@@ -181,8 +181,8 @@ I'm using a new-to-me and untested Osborne 1 in this guide, excuse the dust!
 
 * Offer up the new PSU
 * Plug in AC connector
-	* Brown: Live
-	* Blue: Neutral
+	* Black / Brown: Live
+	* White / Blue: Neutral
 * Plug in Earthing Lug
 	* Green
 
@@ -214,7 +214,7 @@ If all goes well:
 ![Alt text](photos/osborne1/4p.png)
 
 * Reinstall the screws
-	* Secure the **insulation sheet** with the right two screws
+	* Secure the **insulation sheet** with the rightmost screws
 
 ![Alt text](photos/osborne1/plate.png)
 
@@ -244,6 +244,10 @@ Even if works, might as well do a little maintenance while you're in there!
 * Clean / lube floppy
 * Blow out dust
 * Inspect CRT board for cold solder joints, etc
+
+### Reassemble
+
+* Follow the instructions in reverse to reassemble
 
 ## Congratulations!
 
