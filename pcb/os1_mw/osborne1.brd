@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -208,10 +208,9 @@
 <text x="132.89" y="36.36" size="1.6764" layer="25" align="center">OG</text>
 <text x="132.922" y="38.9" size="1.6764" layer="25" align="center">RD</text>
 <text x="132.811" y="41.44" size="1.6764" layer="25" align="center">NC</text>
-<text x="-16.936" y="29.328" size="3.81" layer="25" rot="SR270" align="center">picoRC.com</text>
+<text x="7.194" y="26.788" size="3.81" layer="25" rot="SR270" align="center">picoRC.com</text>
 <text x="130.828" y="2.686" size="2.54" layer="25" rot="R180" align="center">PC FAN</text>
-<text x="41.672" y="34.064" size="5.08" layer="26" rot="MR0" align="center">Osborne 1
-picoRC.com</text>
+<text x="53.578" y="95.476" size="5.08" layer="26" rot="SMR180" align="center">Osborne 1  picoRC.com</text>
 <text x="13.096" y="73.002" size="3.81" layer="26" rot="MR90" align="center">5V 5A</text>
 <polygon width="1.27" layer="41">
 <vertex x="1.75" y="83.5"/>
@@ -228,15 +227,15 @@ picoRC.com</text>
 <text x="132.644" y="51.743" size="1.6764" layer="25" align="center">OG</text>
 <text x="132.676" y="54.283" size="1.6764" layer="25" align="center">RD</text>
 <text x="132.565" y="56.823" size="1.6764" layer="25" align="center">NC</text>
-<text x="139.772" y="68.396" size="1.4224" layer="26" distance="80" rot="MR0" align="center-right">NC
+<text x="137.994" y="68.523" size="1.4224" layer="26" distance="80" rot="MR0" align="center-right">NC
 RED
 ORANGE
 YELLOW</text>
-<text x="139.772" y="52.886" size="1.4224" layer="26" distance="80" rot="MR0" align="center-right">NC
+<text x="138.121" y="53.013" size="1.4224" layer="26" distance="80" rot="MR0" align="center-right">NC
 RED
 ORANGE
 YELLOW</text>
-<text x="139.772" y="37.376" size="1.4224" layer="26" distance="80" rot="MR0" align="center-right">NC
+<text x="138.248" y="37.503" size="1.4224" layer="26" distance="80" rot="MR0" align="center-right">NC
 RED
 ORANGE
 YELLOW</text>
