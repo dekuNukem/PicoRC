@@ -1,4 +1,4 @@
-# PicoPSU Adaptor for Osborne 1
+# PicoRC PSU Kit for Osborne 1
 
 [Purchase Link](https://www.tindie.com/products/30087/) | [Official Discord](https://discord.gg/HAuuh3pAmB)
 
