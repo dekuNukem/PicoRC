@@ -201,11 +201,12 @@ If all goes well:
 * Power LED should come on
 * **`+V1`** terminal should be **`+5V`**
 * **`+V2`** terminal should be **`+12V`**
-	* **MAINS VOLTAGE** present on the terminal block
+	* **⚡⚡ MAINS VOLTAGE** present on the terminal block
 	* Only attempt to measure if you know what you're doing
 
 ![Alt text](photos/osborne1/actest.png)
 
+* **TURN OFF POWER AND UNPLUG**
 * Flip over the PCB
 * Rest on the posts
 * Plug in the power connectors
@@ -227,7 +228,7 @@ If all goes well:
 Several things may happen:
 
 * It beeps and just works
-	* Possible but unlikely
+	* Possible but rare
 * It beeps but garbled screen
 	* Usually bad RAM
 * Nothing happens
@@ -238,6 +239,9 @@ Several things may happen:
 	* No voltage / Voltage jumping around
 		* Dead short somewhere, PSU in protection mode.
 		* Most likely tantalum cap on +12V / -12V
+* **⚠️TURN OFF AND UNPLUG⚠️** before start working on the computer!
+
+----------
 
 Even if works, might as well do a little maintenance while you're in there!
 

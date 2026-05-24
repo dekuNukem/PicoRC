@@ -107,7 +107,7 @@ That's pretty much it! Now we can have a quick test
 Several things may happen:
 
 * It beeps and just works
-	* Possible but unlikely
+	* Possible but rare
 * It beeps but garbled screen
 	* Usually bad RAM
 * Nothing happens
@@ -118,6 +118,7 @@ Several things may happen:
 	* No voltage / Voltage jumping around
 		* Dead short somewhere, PSU in protection mode.
 		* Most likely tantalum cap on +12V / -12V
+* **⚠️TURN OFF AND UNPLUG⚠️** before start working on the computer!
 
 Even if works, might as well do a little maintenance while you're in there!
 
