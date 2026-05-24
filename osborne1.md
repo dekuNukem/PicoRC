@@ -1,59 +1,48 @@
 # PicoPSU Adaptor for Osborne 1
 
-[Purchase Link](https://www.tindie.com/products/30087/) | [Official Discord](https://discord.gg/HAuuh3pAmB) | [Table of Contents](#table-of-contents)
+[Purchase Link](https://www.tindie.com/products/30087/) | [Official Discord](https://discord.gg/HAuuh3pAmB)
 
 ----
 
-This adaptor lets you use **Pico ATX PSU** on Osborne 1 computer.
+An replacement PSU kit for **Osborne 1**
 
-![Alt text](photos/osborne1/pcb.jpg)
+![Alt text](photos/osborne1/os1mw_title.jpeg)
 
-It replaces the original PSU, and uses very common **12V power brick** instead.
+* **Non-destructive** and **Reversible**
+	* Reuses Existing Hardware
+	* Original Appearance
+* Modern **PC Fan** Support
+	* Quieter & improved cooling
+* Mean Well PSU with Fused Rails
+	* Low-cost and reliable
 
-Both **early** (side latch) and **late** (top latch) models are supported.
+Supports BOTH **early** (side latch) and **late** (top latch) models.
 
-![Alt text](photos/osborne1/done.jpeg)
+![Alt text](photos/osborne1/installed.jpeg)
 
-![Alt text](photos/osborne1_early/done.jpeg)
-
-## Highlights
-
-* **Non-destructive** and reversible
-* **PC fan header** for more cooling
-* Universal voltage with fused rails
-* Low cost, efficient and reliable.
+![Alt text](photos/osborne1/money.jpeg)
 
 ## Get One / Other Stuff
 
-[Click me to get one!](https://www.tindie.com/products/30087/)
+[Click me to buy one!](https://www.tindie.com/products/30087/)
 
-Also available for [Compact Macintosh, Apple IIGS, BBC Micro, Osborne 1, and more.](./README.md)
+Also available for [**many other computers.**](./README.md)
 
 For more general-purpose diagnostics and retrofitting, check out the [full-fat ATX4VC](https://github.com/dekuNukem/ATX4VC).
 
-## Table of Contents
+## Additional Shopping
 
-- [Getting a Pico PSU](#getting-a-pico-psu)
-- [Kit Assembly](#kit-assembly)
-- [Pre-flight Checks](#pre-flight-checks)
-- [Installation](#installation)
-- [Questions or Comments?](#questions-or-comments)
+Apart from the kit itself, you need to buy a **Mean Well** Chassis Mount PSU.
 
-## Getting a Pico PSU
+* Both **Mean Well RD-50A** and **RID-50A** works
 
-PicoPSUs are tiny ATX power supplies for small PCs, but perfect for retro computers as well.
+⚠️ ⚠️ **MAKE SURE IT IS THE "A" VARIANT!** ⚠️ ⚠️
 
-![Alt text](photos/mac_plus/pico.jpg)
-
-* [Official website](https://www.mini-box.com/DC-DC) and [distributors](https://www.mini-box.com/site/resellers.html).
-    * The cheapest 80W one should be plenty.
-* Avoid **generic clones**
-    * They over-rate and are of low quality.
-* A power brick with **12V DC** and **center positive** 5.5x2.5mm barrel jack is needed.
-    * They are very popular and you might already have one.
-    * Make sure it has enough wattage.
-
-Remember that this solution is **only as good as your PicoPSU and 12V Brick**, so don't skimp on them!
+* Around 15 USD / GBP
+* Buy from a reputable distributor, **NOT eBay or Aliexpress**!
+	* [Mouser](https://www.mouser.co.uk/ProductDetail/MEAN-WELL/RD-50A?qs=V9a8iPeg90x33CByXejgiw%3D%3D)
+    * [DigiKey](https://www.digikey.com/en/products/detail/mean-well-usa-inc/RD-50A/7705984)
+    * [RS Components](https://uk.rs-online.com/web/p/switching-power-supplies/6447067), etc.
 
 ## Kit Assembly
 
@@ -61,13 +50,7 @@ Remember that this solution is **only as good as your PicoPSU and 12V Brick**, s
 
 Observe the parts:
 
-![Alt text](photos/osborne1/part.png)
-
-### Power Switch Preparation
-
-Use needle-nose pliers, bend the leg on the power switch straight, then cut them to equal length.
-
-![Alt text](photos/osborne1/sw.png)
+![Alt text](photos/osborne1/mw_parts.png)
 
 ### Soldering Notes
 
@@ -85,66 +68,54 @@ If this is your first time:
 	
 ### Assembly
 
-On **top side**, solder the following components **as shown below**:
+Solder the following components **on top side**:
 
-* Fuse holders
+![Alt text](photos/osborne1/mw_top.png)
 
-* ATX connector
+* Double check polarity!
+	* Black electrolytic capacitor: White stripe is **NEGATIVE**.
+	* Blue Tantalum capacitor: White stripe is **POSITIVE**.
+	* Yellow ceramic capacitor: No polarity.
 
-* Capacitors
+--------
 
-* Power Switch
+Flip over, on **bottom side**:
 
-![Alt text](photos/osborne1/top.png)
+* Solder the **fuse holders**
+* Install fuses
 
-Flip over, on **bottom side**, solder:
+![Alt text](photos/osborne1/fuse.png)
 
-* Four 4-Pin Connectors
+On Mean Well PSU:
 
-* Grounding Blade
+* Undo screws
+* Insert ring terminal
+* Redo screws
 
-![Alt text](photos/osborne1/underside.png)
+![Alt text](photos/osborne1/ring.jpeg)
 
-More reference photos:
+Attach the Mean Well PSU to the PCB with **two M3 screws**
 
-![Alt text](photos/osborne1/ref1.jpg)
+![Alt text](photos/osborne1/psu_screws.png)
 
-![Alt text](photos/osborne1/ref2.jpg)
+* Flip over
+* Twist the strands
+* Insert though corresponding holes
+* Ensure **NO LOOSE STRANDS** on the top side
 
-### Cleaning
+![Alt text](photos/osborne1/insert.png)
 
-This is optional, but I like to clean off the flux with 90%+ isopropyl alcohol.
+* Solder down the wires
+* Trim excess length
 
-Submerge and scrub with a toothbrush.
-
-Make sure it is **completely dry** before proceeding.
+![Alt text](photos/osborne1/joint.jpeg)
 
 ### Inspection
 
-* Compare with reference photos above/below.
-* Solder joints should be **shiny and smooth**.
-* There must be **no solder bridges**.
+* Compare with photos above
+* Solder joints should be **shiny and smooth**
+* There must be **no solder bridges**
 	* If any, add flux and melt to remove.
-
-## Board Features
-
-Install **two 5A fuses** as shown.
-
-![Alt text](photos/osborne1/feature.png)
-
-* Use common car fuse rated **5A OR LESS**
-
-* **DO NOT BYPASS FUSES**
-
-## Pre-flight Checks
-
-Use a multimeter to **check for dead shorts** between each power pin and GND:
-
-![Alt text](photos/osborne1/voltage.png)
-
-If all good, plug in PicoPSU and turn it on.
-
-**Measure the voltage on each rail** and confirm they are within spec.
 
 ## Installation
 
@@ -154,17 +125,16 @@ If all good, plug in PicoPSU and turn it on.
 
 Some disassembly is needed, make sure to **take plenty of photos** along the way! 
 
-Snap one before removing a screw or unplugging a connector! It never hurts to have reference.
+Take a photo before removing a screw or unplugging a connector! It never hurts to have reference.
 
 -------
 
 I'm using a new-to-me and untested Osborne 1 in this guide, excuse the dust!
 
-* Put it on a soft towel, unlatch and unplug the keyboard.
-
-* Remove Brightness and contrast knob.
-
-* Undo the tiny screw at the bottom, if doesn't exist, just pull it off.
+* Place on a soft towel, unlatch and unplug the keyboard.
+* Remove brightness and contrast knob
+	* If has grub screw, loosen first.
+	* Otherwise just pull it off
 
 ![Alt text](photos/osborne1/knob.jpeg)
 
@@ -173,151 +143,111 @@ I'm using a new-to-me and untested Osborne 1 in this guide, excuse the dust!
 ![Alt text](photos/osborne1/face.png)
 
 * Organise your screws! 
-
-* At each stage, put em in a bag with labels to avoid mix-ups.
+* At each stage, put them in a bag with labels to avoid mix-ups.
 
 ![Alt text](photos/osborne1/bag.jpeg)
 
-* Flip it over, undo five screws and remove the bottom cover
+* Flip over
+* Undo five screws
+* Remove the bottom cover
 
 ![Alt text](photos/osborne1/backscrew.png)
 
-* Turn it around so the back is facing you
-
+* Turn it around
 * Lift off the handle plate
+* Remove four screws shown
+	* Don't forget the **earthing lug** during reassembly
 
-* Lift off the power panel
+![Alt text](photos/osborne1/mb.png)
 
-* Undo the four screws on the power panel
+* Unplug any power cables from the right edge
+* Undo four screws (two under the insulation sheet)
 
-![Alt text](photos/osborne1/powerpanel.png)
+![Alt text](photos/osborne1/unplug.png)
 
-* On the back, unplug all the cables until the panel can be removed.
+* Flip over old PSU
+* Unplug the connectors shown
+	* Grab neck / body
+	* Wiggle & Pull **straight up**
+	* **DO NOT** pull on wire itself
 
-* Use a pair of pliers and wiggle side to side
+![Alt text](photos/osborne1/pull.png)
 
-![Alt text](photos/osborne1/unplug.jpeg)
+* Remove the old PSU
+* **Insulate** the two loose wires, ensure **NO EXPOSED METAL**.
+	* Electric tape, heat shrink, zip bags...
 
-* Once removed, put the screws back on the plate, along with plastic sheet and rubber cap.
+![Alt text](photos/osborne1/insulate.png)
 
-* Put it away for safekeeping along with all the other items removed. **Don't throw anything away!**
+* Offer up the new PSU
+* Plug in AC connector
+	* Brown: Live
+	* Blue: Neutral
+* Plug in Earthing Lug
+	* Green
 
-![Alt text](photos/osborne1/oldplate.jpeg)
+![Alt text](photos/osborne1/ac.png)
 
-* Remove four motherboard bracket screws
+At this stage we can have a quick test
 
-![Alt text](photos/osborne1/bird.jpeg)
+* Leave output **unconnected**
+* Make sure switch is OFF
+* Plug in cable
+* **DON'T TOUCH ANYTHING ELSE**
+* Flip switch ON
 
-* Hinge the motherboard toward you and rest it on the table
+If all goes well:
 
-* Now it's a good time for an inspection
+* Power LED should come on
+* **`+V1`** terminal should be **`+5V`**
+* **`+V2`** terminal should be **`+12V`**
+	* **MAINS VOLTAGE** present on the terminal block
+	* Only attempt to measure if you know what you're doing
 
-* This one has the "Screen-Pac" and double density floppy upgrade, neat!
+![Alt text](photos/osborne1/actest.png)
 
-* Once done, undo the four screws on the PSU. (Two under the plastic sheet)
+* Flip over the PCB
+* Rest on the posts
+* Plug in the power connectors
+	* **Ensure COLOURS MATCH**
 
-![Alt text](photos/osborne1/hinge.jpeg)
+![Alt text](photos/osborne1/4p.png)
 
-* Cut the ziptie
+* Reinstall the screws
+	* Secure the **insulation sheet** with the right two screws
 
-![Alt text](photos/osborne1/zip.jpeg)
+![Alt text](photos/osborne1/plate.png)
 
-* Flip over the PSU, unplug all the cables, and put it away.
+* That's pretty much it!
+* Re-secure the motherboard
+* Take a breath and turn it on
 
-![Alt text](photos/osborne1/psu.jpeg)
+### Next Steps
 
-* Pop out the thermal fuse and remove the wiring harness
+Several things may happen:
 
-![Alt text](photos/osborne1/temp.jpeg)
+* It beeps and just works
+	* Possible but unlikely
+* It beeps but garbled screen
+	* Usually bad RAM
+* Nothing happens
+	* Measure voltage at fuse holder
+	* Stable voltage
+		* Turn up brightness / contrast
+		* Still nothing? Fault on MB (likely RAM) / CRT board.
+	* No voltage / Voltage jumping around
+		* Dead short somewhere, PSU in protection mode.
+		* Most likely tantalum cap on +12V / -12V
 
-![Alt text](photos/osborne1/harness.jpeg)
+Even if works, might as well do a little maintenance while you're in there!
 
-* Put the PSU screws and sheet back on the standoff so you don't lose them.
-
-![Alt text](photos/osborne1/sheet.jpeg)
-
-* With all the extra stuff removed, now it's a good time to see if your Osborne still works.
-
-* There should be two or three 4-Pin power connectors, with **RED**, **ORANGE**, and **YELLOW** wires. One pin is unpopulated.
-
-![Alt text](photos/osborne1/pwr.jpeg)
-
-* Plug them into the power connectors (NOT the FAN connector!)
-
-* Make sure to **match the colours** shown on the PCB.
-
-![Alt text](photos/osborne1/test.jpeg)
-
-* Connect the barrel jack, flip on the switch, and see what happens!
-
-![Alt text](photos/osborne1/works.jpg)
-
-* Amazingly, this one works! I'm surprised! 😅
-
-* The RAM tends to go bad a lot, so start there if not working.
-
-* At this age, it's a good idea to do a teardown and clean anyway.
-
-* Blow out dust, lube the floppy, check for cracked solder joints on the CRT board, etc.
-
---------
-
-* Anyway, after you're done, we can start putting it back together!
-
-* Install the adaptor as shown in the power panel holder.
-
-* Note the orientation!
-
-* Bend the cable so it goes inwards.
-
-* Use the standoff to secure it from the other side.
-
-![Alt text](photos/osborne1/mount1.jpeg)
-
-![Alt text](photos/osborne1/mount2.jpeg)
-
-* Install the blanking plate on the inside. Secure with screws and standoffs as before.
-
-![Alt text](photos/osborne1/blank.jpeg)
-
-* Undo the locking ring on the barrel jack, insert through the hole, fasten it on the other side.
-
-![Alt text](photos/osborne1/lock.jpeg)
-
-* Plug in the power connectors again
-
-![Alt text](photos/osborne1/again.jpeg)
-
----------
-
-**Adding a Fan**
-
-If you want to add a fan, time to do it now.
-
-Any standard PC fan should work.
-
-**Don't mount the fan too close to the CRT**, or the picture might wobble from the motor's magnetic field.
-
-Make sure the fan is secured, nothing touches the blade, and air flow direction is correct.
-
---------
-
-* Insert the handle and power panel back in the case.
-
-* Note the orientation, and **don't forget the door**!
-
-![Alt text](photos/osborne1/door.jpeg)
-
-* Finally, plug in the green grounding strap.
-
-![Alt text](photos/osborne1/gnd.jpeg)
-
-* That's pretty much it! Now you just have to put it back together!
-
+* Clean / lube floppy
+* Blow out dust
+* Inspect CRT board for cold solder joints, etc
 
 ## Congratulations!
 
-With the new PSU, maintenance, and upgraded cooling, hope your Osborne 1 continue to provide exhilarating CP/M entertainment for years to come!
+Hopefully with the new PSU and maintenance, your Osborne 1 is now fully functional, enjoy!
 
 ![Alt text](photos/osborne1/money.jpeg)
 

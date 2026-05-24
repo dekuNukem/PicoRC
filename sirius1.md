@@ -44,9 +44,9 @@ This kit uses **Mean Well RT-65B** Chassis Mount PSU.
 * Inexpensive and good quality
 * Around 20 USD / GBP
 * Buy from a reputable distributor, **NOT eBay or Aliexpress**!
-	* [Mouser](https://www.mouser.com)
-    * [DigiKey](https://www.digikey.com)
-    * [RS Components](https://www.rs-online.com), etc.
+	* [Mouser](https://www.mouser.co.uk/ProductDetail/MEAN-WELL/RT-65B?qs=l0g2inPJSHND8ryGZwADcw%3D%3D)
+    * [DigiKey](https://www.digikey.co.uk/en/products/detail/mean-well-usa-inc/RT-65B/7706375)
+    * [RS Components](https://uk.rs-online.com/web/p/switching-power-supplies/0413645), etc.
 
 ### PC Fan
 
