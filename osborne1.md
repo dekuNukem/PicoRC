@@ -4,7 +4,7 @@
 
 ----
 
-A replacement PSU kit for **Osborne 1**
+A **Drop-in Replacement** Power Supply Unit for **Osborne 1**
 
 ![Alt text](photos/osborne1/os1mw_title.jpeg)
 
