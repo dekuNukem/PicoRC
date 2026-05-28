@@ -242,18 +242,6 @@ NC</text>
 <vertex x="10.25" y="40.5"/>
 <vertex x="1.75" y="40.5"/>
 </polygon>
-<polygon width="1.27" layer="41">
-<vertex x="119.75" y="34.5"/>
-<vertex x="132.25" y="34.5"/>
-<vertex x="132.25" y="14"/>
-<vertex x="119.75" y="14"/>
-</polygon>
-<polygon width="1.27" layer="41">
-<vertex x="132.75" y="31.5"/>
-<vertex x="145.25" y="31.5"/>
-<vertex x="145.25" y="12.5"/>
-<vertex x="132.75" y="12.5"/>
-</polygon>
 <text x="13.096" y="52.002" size="3.81" layer="26" rot="MR90" align="center">12V 3A</text>
 <text x="144.5" y="24" size="3.81" layer="25" align="center-left">N</text>
 <text x="144.5" y="14.5" size="3.81" layer="25" align="center-left">L</text>
@@ -310,6 +298,19 @@ NC</text>
 <wire x1="130.429" y1="14.224" x2="134.493" y2="10.16" width="0.508" layer="22"/>
 <wire x1="142.621" y1="10.795" x2="141.986" y2="10.16" width="0.508" layer="22"/>
 <wire x1="141.986" y1="10.16" x2="134.493" y2="10.16" width="0.508" layer="22"/>
+<polygon width="0.1524" layer="41">
+<vertex x="121.3358" y="37.3634"/>
+<vertex x="129.5146" y="37.3634"/>
+<vertex x="139.1666" y="27.7114"/>
+<vertex x="151.8412" y="27.7114"/>
+<vertex x="151.8412" y="13.6144"/>
+<vertex x="148.3868" y="10.16"/>
+<vertex x="134.5438" y="10.16"/>
+<vertex x="130.6322" y="14.0716"/>
+<vertex x="120.269" y="14.0716"/>
+<vertex x="117.0686" y="17.272"/>
+<vertex x="117.0686" y="33.0962"/>
+</polygon>
 </plain>
 <libraries>
 <library name="os1">
