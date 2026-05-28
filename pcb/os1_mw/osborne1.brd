@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -227,18 +227,10 @@
 <text x="132.644" y="51.743" size="1.6764" layer="25" align="center">OG</text>
 <text x="132.676" y="54.283" size="1.6764" layer="25" align="center">RD</text>
 <text x="132.565" y="56.823" size="1.6764" layer="25" align="center">NC</text>
-<text x="137.994" y="68.523" size="1.4224" layer="26" distance="80" rot="MR0" align="center-right">NC
-RED
+<text x="138.494" y="68.523" size="1.4224" layer="26" distance="80" rot="SMR180" align="center-left">YELLOW
 ORANGE
-YELLOW</text>
-<text x="138.121" y="53.013" size="1.4224" layer="26" distance="80" rot="MR0" align="center-right">NC
 RED
-ORANGE
-YELLOW</text>
-<text x="138.248" y="37.503" size="1.4224" layer="26" distance="80" rot="MR0" align="center-right">NC
-RED
-ORANGE
-YELLOW</text>
+NC</text>
 <text x="113.5" y="40" size="3.81" layer="25" align="center-left">PE</text>
 <text x="113.5" y="49.5" size="3.81" layer="25" align="center-left">GND</text>
 <text x="113.5" y="59" size="3.81" layer="25" align="center-left">+12</text>
@@ -275,15 +267,23 @@ YELLOW</text>
 <wire x1="122" y1="19" x2="123" y2="18" width="0.508" layer="22"/>
 <wire x1="123" y1="18" x2="128" y2="18" width="0.508" layer="22"/>
 <wire x1="128" y1="18" x2="135" y2="11" width="0.508" layer="22"/>
-<wire x1="135" y1="11" x2="142" y2="11" width="0.508" layer="22"/>
-<wire x1="142" y1="11" x2="143" y2="12" width="0.508" layer="22"/>
-<wire x1="143" y1="12" x2="143" y2="24" width="0.508" layer="22"/>
-<wire x1="143" y1="24" x2="141" y2="26" width="0.508" layer="22"/>
-<wire x1="141" y1="26" x2="139" y2="26" width="0.508" layer="22"/>
+<wire x1="135" y1="11" x2="142.5" y2="11" width="0.508" layer="22"/>
+<wire x1="142.5" y1="11" x2="143.5" y2="12" width="0.508" layer="22"/>
+<wire x1="143.5" y1="12" x2="143.5" y2="24" width="0.508" layer="22"/>
+<wire x1="143.5" y1="24" x2="141.5" y2="26" width="0.508" layer="22"/>
+<wire x1="141.5" y1="26" x2="139" y2="26" width="0.508" layer="22"/>
 <wire x1="139" y1="26" x2="132" y2="33" width="0.508" layer="22"/>
 <text x="119.5" y="88" size="2.54" layer="25" align="center-left">+</text>
 <text x="134.5" y="85" size="2.54" layer="25" align="center-left">+</text>
 <text x="134.5" y="82" size="2.54" layer="25" align="center-left">+</text>
+<text x="138.494" y="53.023" size="1.4224" layer="26" distance="80" rot="SMR180" align="center-left">YELLOW
+ORANGE
+RED
+NC</text>
+<text x="138.494" y="37.523" size="1.4224" layer="26" distance="80" rot="SMR180" align="center-left">YELLOW
+ORANGE
+RED
+NC</text>
 </plain>
 <libraries>
 <library name="os1">
@@ -787,20 +787,18 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="133.82" y1="69.82" x2="136.16" y2="69.82" width="1.27" layer="16"/>
 <wire x1="136.16" y1="54.31" x2="132.31" y2="54.31" width="1.27" layer="16"/>
 <wire x1="132.31" y1="54.31" x2="132" y2="54" width="1.27" layer="16"/>
-<wire x1="132" y1="36.64" x2="131.16" y2="35.8" width="1.27" layer="16"/>
-<wire x1="132" y1="54" x2="132" y2="38.64" width="1.27" layer="16"/>
-<wire x1="132" y1="38.64" x2="132" y2="36.64" width="1.27" layer="16"/>
-<wire x1="132" y1="38.64" x2="132.16" y2="38.8" width="1.27" layer="16"/>
-<wire x1="132.16" y1="38.8" x2="136.16" y2="38.8" width="1.27" layer="16"/>
 <contactref element="U$7" pad="A1"/>
 <contactref element="U$7" pad="A0"/>
 <wire x1="4.25" y1="44.95" x2="7.75" y2="44.95" width="2.54" layer="16"/>
-<wire x1="102.95" y1="22.95" x2="120.52" y2="5.38" width="1.27" layer="16"/>
-<wire x1="120.52" y1="5.38" x2="120.52" y2="3.75" width="1.27" layer="16"/>
-<wire x1="131.16" y1="35.8" x2="115.8" y2="35.8" width="1.27" layer="16"/>
-<wire x1="115.8" y1="35.8" x2="102.95" y2="22.95" width="1.27" layer="16"/>
-<wire x1="7.75" y1="44.95" x2="29.75" y2="22.95" width="2.54" layer="16"/>
-<wire x1="29.75" y1="22.95" x2="102.95" y2="22.95" width="2.54" layer="16"/>
+<wire x1="120.52" y1="3.75" x2="120.52" y2="7.92" width="1.27" layer="16"/>
+<wire x1="120.52" y1="7.92" x2="102.95" y2="25.49" width="1.27" layer="16"/>
+<wire x1="7.75" y1="44.95" x2="27.21" y2="25.49" width="2.54" layer="16"/>
+<wire x1="27.21" y1="25.49" x2="102.95" y2="25.49" width="2.54" layer="16"/>
+<wire x1="132" y1="54" x2="132" y2="44.831" width="1.27" layer="16"/>
+<wire x1="102.95" y1="25.49" x2="122.291" y2="44.831" width="1.27" layer="16"/>
+<wire x1="122.291" y1="44.831" x2="132" y2="44.831" width="1.27" layer="16"/>
+<wire x1="132" y1="44.831" x2="132" y2="38.8" width="1.27" layer="16"/>
+<wire x1="132" y1="38.8" x2="136.16" y2="38.8" width="1.27" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="U$9" pad="B1"/>
@@ -857,16 +855,16 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$3">
 <contactref element="U$3" pad="P$6"/>
 <contactref element="U$2" pad="P$2"/>
-<wire x1="139" y1="22.96" x2="137.04" y2="22.96" width="1.27" layer="16"/>
-<wire x1="129.5" y1="30.5" x2="126" y2="30.5" width="1.27" layer="16"/>
-<wire x1="137.04" y1="22.96" x2="129.5" y2="30.5" width="1.27" layer="16"/>
+<wire x1="139" y1="22.96" x2="136.151" y2="22.96" width="1.27" layer="16"/>
+<wire x1="128.611" y1="30.5" x2="126" y2="30.5" width="1.27" layer="16"/>
+<wire x1="136.151" y1="22.96" x2="128.611" y2="30.5" width="1.27" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="U$2" pad="P$1"/>
 <contactref element="U$3" pad="P$7"/>
-<wire x1="139" y1="15.04" x2="135.46" y2="15.04" width="1.27" layer="16"/>
-<wire x1="135.46" y1="15.04" x2="129.5" y2="21" width="1.27" layer="16"/>
-<wire x1="129.5" y1="21" x2="126" y2="21" width="1.27" layer="16"/>
+<wire x1="139" y1="15.04" x2="135.587" y2="15.04" width="1.27" layer="16"/>
+<wire x1="135.587" y1="15.04" x2="129.627" y2="21" width="1.27" layer="16"/>
+<wire x1="129.627" y1="21" x2="126" y2="21" width="1.27" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
