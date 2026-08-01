@@ -289,6 +289,10 @@ Plug in and flip the switch!
 
 If it works, congrats! You can now add more parts back in.
 
+* Install the yellow voltage & polarity sticker
+
+![Alt text](photos/ibmpc/sticker.jpeg)
+
 For drives, use the harness that came with the PicoPSU.
 
 ![Alt text](photos/ibmpc/molex.png)

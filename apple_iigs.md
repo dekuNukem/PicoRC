@@ -199,6 +199,10 @@ Use the **two longer ones** for this.
 
 ![Alt text](photos/iigs/both.jpeg)
 
+* Install the yellow voltage & polarity sticker
+
+![Alt text](photos/iigs/sticker.jpeg)
+
 That's pretty much it!
 
 ### Adding a Fan
